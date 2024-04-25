@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/components/http-axios/src/http-service/http-service.spec.ts">
+    <testCase name="http service functions get url" duration="4"/>
+    <testCase name="http service functions put url" duration="0"/>
+    <testCase name="http service functions post url" duration="1"/>
+    <testCase name="http service functions get url with inbound params should not encode params" duration="1"/>
+    <testCase name="http service functions get url with params object should encode params" duration="1"/>
+    <testCase name="http service functions get url with 400 status code" duration="2"/>
+    <testCase name="http service functions get url with timeout error" duration="1"/>
+    <testCase name="http service functions get url with general error" duration="1"/>
+    <testCase name="http service functions get url with http timeout disabled" duration="1"/>
+    <testCase name="http service functions get url with http timeout enabled" duration="0"/>
+    <testCase name="http service functions get url with http timeout enabled using default timeout" duration="1"/>
+  </file>
+</testExecutions>

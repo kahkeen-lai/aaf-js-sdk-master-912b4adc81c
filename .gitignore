@@ -1,0 +1,12 @@
+.DS_Store
+node_modules
+
+.env
+cache
+.jest
+packages/frameworks/xaaf-hadron-sdk/.jest/cache
+packages/frameworks/xaaf-web-sdk/.jest
+packages/frameworks/xaaf-web-sdk/dist
+
+externals-old
+*.log

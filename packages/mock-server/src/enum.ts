@@ -1,0 +1,21 @@
+export enum REST_STATUS {
+  OK = 200,
+  OK_CREATED = 201,
+  OK_DELETED = 204,
+  NOT_MODIFIED = 304,
+  BAD_REQUEST = 400,
+  UNAUTHORIZED = 401,
+  FORBIDDEN = 403,
+  NOT_FOUND = 404,
+  RATE_LIMIT_ERROR = 429,
+  UNPROCESSABLE_ENTITY = 422,
+  INTERNAL_SERVER_ERROR = 500
+}
+
+export enum HTTP_VERBS {
+  GET = 'get',
+  PUT = 'put',
+  POST = 'post',
+  DELETE = 'delete',
+  PATCH = 'patch'
+}

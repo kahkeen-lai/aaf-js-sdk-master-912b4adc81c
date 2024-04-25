@@ -1,0 +1,110 @@
+{
+  "experienceMediaType": "Video Screensaver Ad",
+  "commands": [
+    {
+      "commandName": "SHOW_VIDEO",
+      "data": {
+        "url": "https://d1zocn0wsme2cv.cloudfront.net/A060858086M0.mp4",
+        "transparent": true,
+        "videoRepeatCount": 1,
+        "videoOptions": [
+          "autoplay",
+          "muted"
+        ]
+      },
+      "report": {
+        "measurementBaseURL": "https://measurementdemo2.emuse-tech.com/default.xml?PageID=29&MeasurementPointID=84&Version=11&ContentSetID=7",
+        "providers": [
+          {
+            "name": "Emuse",
+            "events": [
+              {
+                "url": "https://measurementdemo2.emuse-tech.com/default.xml?PageID=29&MeasurementPointID=82&Version=11&Status=0&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=fVxL8dkHB10Exi1+/kjYhQ==",
+                "clientOutbound": [
+                  {
+                    "paramType": "clientFormattedTimeStamp",
+                    "paramName": "ClientTime"
+                  },
+                  {
+                    "paramType": "deviceId",
+                    "paramName": "DeviceID"
+                  }
+                ]
+              },
+              {
+                "url": "https://measurementdemo2.emuse-tech.com/default.xml?PageID=29&MeasurementPointID=83&Version=11&Status=0&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=fVxL8dkHB10Exi1+/kjYhQ==",
+                "clientOutbound": [
+                  {
+                    "paramType": "clientFormattedTimeStamp",
+                    "paramName": "ClientTime"
+                  },
+                  {
+                    "paramType": "deviceId",
+                    "paramName": "DeviceID"
+                  }
+                ]
+              },
+              {
+                "url": "https://measurementdemo2.emuse-tech.com/default.xml?PageID=29&MeasurementPointID=84&Version=11&ContentSetID=7&Status=0&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=fVxL8dkHB10Exi1+/kjYhQ==",
+                "clientOutbound": [
+                  {
+                    "paramType": "clientFormattedTimeStamp",
+                    "paramName": "ClientTime"
+                  },
+                  {
+                    "paramType": "deviceId",
+                    "paramName": "DeviceID"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ADR",
+            "events": [
+              {
+                "url": "https://adtp-vod-dev.cld.dtveng.com/slr-vast-proxy/BeaconProxy/a4fadde0-b448-11e9-a467-021f7c4e5d2e/1"
+              }
+            ]
+          }
+        ],
+        "adLifeCycle": [
+          {
+            "paramType": "projectId",
+            "paramName": 6028
+          },
+          {
+            "paramType": "projectBuildNumber",
+            "paramName": 1
+          }
+        ]
+      },
+      "executionTriggers": [
+        {
+          "trigger": "STATE_STARTING",
+          "data": {
+            "delay": 3000
+          }
+        }
+      ]
+    },
+    {
+      "commandName": "STOP_EXPERIENCE",
+      "data": {
+        "notifyToHost": true,
+        "reason": "self-dismiss"
+      },
+      "executionTriggers": [
+        {
+          "trigger": "STATE_STARTING",
+          "data": {
+            "delay": 7000
+          }
+        }
+      ]
+    }
+  ],
+  "exeAdUUID": "850f8aa7-cdc5-4fac-8262-e909887cb1af",
+  "experienceId": "77c3315b-89d9-4d30-a632-7ea254239e96",
+  "templateId": 2
+}

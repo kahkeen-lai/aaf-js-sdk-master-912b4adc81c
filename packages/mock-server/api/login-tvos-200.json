@@ -1,0 +1,54 @@
+{
+  "token": "MockTokenLoginRequest",
+  "refreshToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6IjVkNzc2ZTM0MTdiZmE0MDAxOTgyZjRmNCIsInRlbmFudE5hbWUiOiJkaXJlY3R2IiwiYXBwSWQiOiI1ZDc3NmUzNDgyZThhYjAwMTk4M2FjZDkiLCJzZGtWZXJzaW9uIjoidjEiLCJlbnZpcm9ubWVudCI6InRsdi1sYWwiLCJwbGF0Zm9ybU5hbWUiOiJhcHBsZXR2Iiwic2RrTmFtZSI6ImFwcGxldHYiLCJhcGlLZXlJYXQiOjE1NjgxMDgwODUsImlhdCI6MTU4MjYxNTY1NiwiZXhwIjoxNTgzMjIwNDU2LCJpc3MiOiJBVCZUIiwic3ViIjoicmVmcmVzaFRva2VuIn0.BbhyyGuS4vZHRZyzHqxdfDcozFUDSXRN12bwtIWBoUJQhws1_z_2zHlSZsuUQG1HWaJH_VBYbZGWk-hiRga_u_zWYJRQlYdidlYjBmkJKyvUlwU3CRDoPJhpYmMHhEYLLsNyaJc0RuDVLoj6siZQAfvDMnoM8lFVhQIpnhiw5DqKluZtbfbCI16B_i0mukUocgVyQWuJXEClLCOB_ANcc-7a0JrLjBLwj0SOthW3OAwip8S5grUQS83wi5Qf9PS10IrFVpW6aVdoSfwbxabeZ4pf1OpHSk3i-hCgrwMG42XlWlNwSTt_h8tEg0xD8dISVwDQE677u6Z3-xiQHwIFdA",
+  "configuration": {
+    "content_toggle_list": [{
+      "mode": "blacklist",
+      "channelName": [
+        "Boomerang",
+        "Cartoon Network",
+        "Discovery Familia",
+        "Discovery Family Channel",
+        "Disney Channel HD",
+        "Disney Junior HD",
+        "Disney XD HD",
+        "Nick Jr.",
+        "Nickelodeon East HD",
+        "Nicktoons"
+      ],
+      "contentType": []
+    }],
+    "_id": "5dcc1d254fd3690019576731",
+    "playerConfiguration": {
+      "_id": "5de5f8a15f21fa001bc233d4",
+      "minBuffer": 15000,
+      "maxBuffer": 50000,
+      "bufferForPlayback": 2500,
+      "bufferForPlaybackAfterRebuffer": 5000
+    },
+    "nr_url": "http://localhost:4202/v1/accounts/2523000/events",
+    "nr_rest_api_key": "NRII-fCgrdJzVwgbcAihqQfDDKd1uo57EdgC9",
+    "xaaba_url": "http://localhost:4202/xaaba/v1/opportunity",
+    "rollout_api_key": "5c7e4da00fe03576b7dc0b66",
+    "lazy_refresh_token_before_expiration_minutes": 5,
+    "http_timeout": 3000,
+    "xaaba_timeout": 3000,
+    "assets_timeout": 3000,
+    "player_timeout": 6000,
+    "buffer_timeout": 6000,
+    "reporting_timeout": 3000,
+    "pre_ad_start_xaaba_engage_time": 5000,
+    "reporting_bulk": 100,
+    "reporting_bulk_delay": 180000,
+    "access_token": {
+      "_id": "5dcc1d254fd3690019576732",
+      "expiration": "4h",
+      "issuer": "AT&T"
+    },
+    "refresh_token": {
+      "_id": "5dcc1d254fd3690019576733",
+      "expiration": "7d",
+      "issuer": "AT&T"
+    }
+  }
+}

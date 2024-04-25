@@ -1,0 +1,6 @@
+{
+    "message": "Authentication Error",
+    "name": "AuthenticationError",
+    "errorCode": "401-9000",
+    "data": "Authentication Error"
+}

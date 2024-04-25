@@ -1,0 +1,185 @@
+{
+  "experienceMediaType": "Full Height Sponsor Ad",
+  "commands": [
+    {
+      "id": 1,
+      "commandName": "ADSCRIPT_COMMAND",
+      "fireTriggers": [],
+      "data": {
+        "events": [
+          {
+            "action": "Loaded",
+            "name": "#setTemplate"
+          }
+        ],
+        "methods": {
+          "setTemplate": {
+            "input": [],
+            "flow": [
+              {
+                "$set": {
+                  "name": "@myTemplate",
+                  "value": {
+                    "$databind": {
+                      "templateName": "myShoesAnimation",
+                      "data": [{}]
+                    }
+                  }
+                }
+              },
+              {
+                "$fireTrigger": {
+                  "name": "SHOW_MY_TEMPLATE"
+                }
+              }
+            ]
+          }
+        },
+        "templates": {
+          "myShoesAnimation": {
+            "xaaf": {
+              "timeout": 5000
+            },
+            "type": "Animated.View",
+            "props": {
+              "style": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "opacity": 0.1,
+              "duration": 5000,
+              "toValue": 1
+            },
+            "children": [
+              {
+                "type": "View",
+                "props": {
+                  "style": {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "flex-end",
+                    "alignItems": "center",
+                    "height": "100%",
+                    "width": "100%"
+                  }
+                },
+                "children": [
+                  {
+                    "type": "View",
+                    "props": {
+                      "style": {
+                        "height": "82%",
+                        "width": "35%"
+                      }
+                    },
+                    "children": [
+                      {
+                        "type": "ImageBackground",
+                        "xaaf": {
+                          "events": [{ "action": "Loaded"}]
+                        },
+                        "props": {
+                          "testID": "e2e_dynamic_ImageBackground",
+                          "source": { "uri":"https://xaaf-web-sdk-mp4.s3.amazonaws.com/gradient.png" },
+                          "style": {
+                            "flex": 1
+                          }
+                        },
+                        "children": [
+                          {
+                            "type": "Image",
+                            "xaaf": {
+                              "events": [{ "action": "Loaded"}]
+                            },
+                            "props": {
+                              "testID": "e2e_dynamic_adImage",
+                              "source": { "uri":"https://xaaf-web-sdk-mp4.s3.amazonaws.com/adImage.png" },
+                              "style": {
+                                "width": "57%", "height": "26%", "alignSelf":"center", "resizeMode":"contain", "top":"17%"
+                              }
+                            }
+                          },
+                          {
+                            "type": "Text",
+                            "props": {
+                              "testID": "e2e_dynamic_Text",
+                              "style": {
+                                "width": "64%", "height": "11%", "fontSize": 20, "top": "30%", "fontFamily": "Stret",
+                                "fontWeight": "bold", "textAlign": "center", "alignSelf":"center", "color":"#ffffff"
+                              }
+                            },
+                            "children": ["THE WORLD’S LATEST STYLES."]
+                          },
+                          {
+                            "type": "Image",
+                            "xaaf": {
+                              "events": [{ "action": "Loaded"}]
+                            },
+                            "props": {
+                              "testID": "e2e_dynamic_sponsorImage",
+                              "source": { "uri":"https://xaaf-web-sdk-mp4.s3.amazonaws.com/sponser.png" },
+                              "style": {
+                                "width": "57%", "height": "11%", "alignSelf":"center", "resizeMode":"contain", "top":"30%"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "report": {
+        "measurementBaseURL": "https://httpstat.us/200",
+        "providers": [],
+        "adLifeCycle": [
+          {
+            "paramType": "projectId",
+            "paramName": 2
+          },
+          {
+            "paramType": "projectBuildNumber",
+            "paramName": 1
+          }
+        ]
+      },
+      "executionTriggers": [
+        {
+          "trigger": "STATE_STARTING"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "commandName": "SHOW_DYNAMIC_VIEW",
+      "data": "@myTemplate",
+      "fireTriggers": [],
+      "report": {
+        "measurementBaseURL": "https://httpstat.us/200",
+        "providers": [],
+        "adLifeCycle": [
+          {
+            "paramType": "projectId",
+            "paramName": 2
+          },
+          {
+            "paramType": "projectBuildNumber",
+            "paramName": 1
+          }
+        ]
+      },
+      "executionTriggers": [
+        {
+          "trigger": "SHOW_MY_TEMPLATE"
+        }
+      ]
+    }
+  ],
+  "exeAdUUID": "de2cce10-d74e-4e90-9c73-b7292f794e6f",
+  "experienceId": "7a2a3ffe-565d-4e02-b7fa-9115cdb1a1fa",
+  "templateId": 50
+}

@@ -1,0 +1,55 @@
+{
+    "token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6IjVkZDUyZGE1MjE0MDZlMDAxZGRhNDQ2NSIsInRlbmFudE5hbWUiOiJkaXJlY3R2IiwiYXBwSWQiOiI1ZGQ1MmRhNjIxNDA2ZTAwMWRkYTQ0NjciLCJzZGtWZXJzaW9uIjoidjEiLCJlbnZpcm9ubWVudCI6InRsdi1kZXYiLCJwbGF0Zm9ybU5hbWUiOiJ0dm9zIiwic2RrTmFtZSI6ImpzLXNkay15b3VpIiwicHJpdmlsZWdlVHlwZSI6InRlc3RlciIsImFwaUtleUlhdCI6MTU5NjAxNzcwMCwiaWF0IjoxNjAyMTM2OTA3LCJleHAiOjE2MDIxNTEzMDcsImlzcyI6IkFUJlQiLCJzdWIiOiJ0b2tlbiJ9.MSVu-WnOU_3gdSanLQAvrlLcp7S9me7wGnTa-oIbZU89_F6zK5ZH8DBIGLPY2lL-z2NsNHfb9Kq_M_euKj9ZJLCFHtKNOMsEdGx-n5QpKtIW6DTLFasBIoZYdcE6pyQKNj2sSOTcptqvurxJq57PnuCm6djaGc8gp8foedRFnnKp3Zk6aAjMQeSoiBZKq0wqlTUjtciKsabg-TvOvDer5HHYSKzOBG-6LjIla_W6PCgK-XCAUH1rmpt4uf31zZap5O7uLtdjJfsd-ysLplzsnrhNA3zhOErBF5krtbjN2mcQTAf0UI8WaCCp8f8AhM2gWBKqKr7bvzXbJSEs8LShVg",
+    "configuration": {
+        "content_toggle_list": [
+            {
+                "mode": "blacklist",
+                "channelName": [
+                    "Boomerang",
+                    "Cartoon Network",
+                    "Discovery Familia",
+                    "Discovery Family Channel",
+                    "Disney Channel HD",
+                    "Disney Junior HD",
+                    "Disney XD HD",
+                    "Nick Jr.",
+                    "Nickelodeon East HD",
+                    "Nicktoons"
+                ],
+                "contentType": []
+            }
+        ],
+        "_id": "5dd534c66cc2fe00189d0321",
+        "nr_url": "https://insights-collector.newrelic.com/v1/accounts/2388469/events",
+        "nr_rest_api_key": "MTlGQmu_JJr8hZEOuQ-Yf6NHdvVGrb6E",
+        "xaaba_url": "https://xaaf-be-dev.att.com/xaaba/v1/opportunity",
+        "rollout_api_key": "5c7e4da00fe03576b7dc0b66",
+        "lazy_refresh_token_before_expiration_minutes": 5,
+        "http_timeout": 3000,
+        "xaaba_timeout": 3000,
+        "assets_timeout": 3000,
+        "player_timeout": 6000,
+        "buffer_timeout": 6000,
+        "reporting_timeout": 3000,
+        "pre_ad_start_xaaba_engage_time": 5000,
+        "reporting_bulk": 100,
+        "reporting_bulk_delay": 180000,
+        "access_token": {
+            "_id": "5dd534c66cc2fe00189d0322",
+            "expiration": "120s",
+            "issuer": "AT&T"
+        },
+        "refresh_token": {
+            "_id": "5dd534c66cc2fe00189d0323",
+            "expiration": "90d",
+            "issuer": "AT&T"
+        },
+        "playerConfiguration": {
+            "_id": "5dda74bfae08e20019b98aa7",
+            "minBuffer": 15000,
+            "maxBuffer": 50000,
+            "bufferForPlayback": 2500,
+            "bufferForPlaybackAfterRebuffer": 5000
+        }
+    }
+}

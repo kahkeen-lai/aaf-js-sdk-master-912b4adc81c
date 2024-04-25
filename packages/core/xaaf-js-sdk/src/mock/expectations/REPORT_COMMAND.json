@@ -1,0 +1,244 @@
+{
+    "experienceId": "c2cc2565-71a5-40e5-a684-88332cdc1789",
+    "experienceMediaType": "Video Screensaver Ad",
+    "commands": [
+        {
+      "commandName": "REPORT_COMMAND",
+            "data": {
+                "url": "https://d1zocn0wsme2cv.cloudfront.net/A060416901F0.mp4",
+                "prerollAsset": "N/A",
+                "transparent": true,
+                "videoRepeatCount": 1,
+                "videoOptions": ["autoplay", "muted"]
+            },
+            "report": {
+                "providers": [
+                    {
+                        "name": "Emuse",
+                        "events": [
+                            {
+                                "url": "http://ravenprod_v13_m.emuse.ie/default.xml?PageID=253&MeasurementPointID=368&Version=11&Status=0&ExtSrc=vod&DeviceType=firetv",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "http://ravenprod_v13_m.emuse.ie/default.xml?PageID=253&MeasurementPointID=370&Version=11&Status=0&ExtSrc=vod&DeviceType=firetv",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "http://ravenprod_v13_m.emuse.ie/default.xml?PageID=253&MeasurementPointID=372&Version=11&ContentSetID=36&Status=0&ExtSrc=vod&DeviceType=firetv",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "adLifeCycle": [
+                    {
+                        "paramType": "projectId",
+                        "paramName": 6022
+                    },
+                    {
+                        "paramType": "projectBuildNumber",
+                        "paramName": 1
+                    }
+                ]
+            },
+            "playback_reports": [
+                {
+                    "positionSec": 2,
+                    "providers": [
+                        {
+                            "name": "Emuse",
+                            "events": [
+                                {
+                                    "url": "http://ravenprod_v13_m.emuse.ie/default.xml?PageID=253&MeasurementPointID=374&Version=11&ContentSetID=36&Status=0&Quartile=1&ExtSrc=vod&DeviceType=firetv",
+                                    "clientOutbound": [
+                                        {
+                                            "paramType": "clientFormattedTimeStamp",
+                                            "paramName": "ClientTime"
+                                        },
+                                        {
+                                            "paramType": "deviceId",
+                                            "paramName": "DeviceID"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "positionSec": 4,
+                    "providers": [
+                        {
+                            "name": "Emuse",
+                            "events": [
+                                {
+                                    "url": "http://ravenprod_v13_m.emuse.ie/default.xml?PageID=253&MeasurementPointID=374&Version=11&ContentSetID=36&Status=0&Quartile=2&ExtSrc=vod&DeviceType=firetv",
+                                    "clientOutbound": [
+                                        {
+                                            "paramType": "clientFormattedTimeStamp",
+                                            "paramName": "ClientTime"
+                                        },
+                                        {
+                                            "paramType": "deviceId",
+                                            "paramName": "DeviceID"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "positionSec": 6,
+                    "providers": [
+                        {
+                            "name": "Emuse",
+                            "events": [
+                                {
+                                    "url": "http://ravenprod_v13_m.emuse.ie/default.xml?PageID=253&MeasurementPointID=374&Version=11&ContentSetID=36&Status=0&Quartile=3&ExtSrc=vod&DeviceType=firetv",
+                                    "clientOutbound": [
+                                        {
+                                            "paramType": "clientFormattedTimeStamp",
+                                            "paramName": "ClientTime"
+                                        },
+                                        {
+                                            "paramType": "deviceId",
+                                            "paramName": "DeviceID"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "positionSec": 8,
+                    "providers": [
+                        {
+                            "name": "Emuse",
+                            "events": [
+                                {
+                                    "url": "http://ravenprod_v13_m.emuse.ie/default.xml?PageID=253&MeasurementPointID=374&Version=11&ContentSetID=36&Status=0&Quartile=4&ExtSrc=vod&DeviceType=firetv",
+                                    "clientOutbound": [
+                                        {
+                                            "paramType": "clientFormattedTimeStamp",
+                                            "paramName": "ClientTime"
+                                        },
+                                        {
+                                            "paramType": "deviceId",
+                                            "paramName": "DeviceID"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STARTED"
+                }
+            ]
+        },
+        {
+            "commandName": "REPORT_COMMAND",
+            "report": {
+                "providers": [
+                    {
+                        "name": "Emuse",
+                        "events": [
+                            {
+                                "url": "http://ravenprod_v13_m.emuse.ie/default.xml?PageID=253&MeasurementPointID=369&Version=11&ExtSrc=vod&DeviceType=firetv",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "timeFromStarted",
+                                        "paramName": "Duration"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "http://ravenprod_v13_m.emuse.ie/default.xml?PageID=253&MeasurementPointID=371&Version=11&ExtSrc=vod&DeviceType=firetv",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "timeFromStarted",
+                                        "paramName": "Duration"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "http://ravenprod_v13_m.emuse.ie/default.xml?PageID=253&MeasurementPointID=373&Version=11&ContentSetID=36&ExtSrc=vod&DeviceType=firetv",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "timeFromStarted",
+                                        "paramName": "Duration"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STOPPING",
+                    "conditions": ["STATE_PLAYING"]
+                }
+            ]
+        }
+    ],
+    "exeAdUUID": "BEc90760-2530-48cc-a415-d804542ae4f9",
+    "templateId": 8
+}

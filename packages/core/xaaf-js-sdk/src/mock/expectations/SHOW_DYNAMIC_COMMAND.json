@@ -1,0 +1,127 @@
+{
+    "_id": "5e43eb056fa96400087821e8",
+    "experienceId": "01cd3f17-f4c9-4a01-92b0-3e6110ad54f9",
+    "experienceMediaType": "Video Screensaver Ad",
+    "commands": [
+        {
+            "commandName": "SHOW_DYNAMIC_VIEW",
+            "data": {
+                "type": "Image",
+                "events": [
+                    {
+                        "name": "Loaded",
+                        "action": "Load"
+                    }
+                ],
+                "props": {
+                    "style": {
+                        "uri": "https://res.cloudinary.com/israelz/image/upload/v1584659758/sample.jpg",
+                        "transitionsEnabled": true,
+                        "transitionMap": {
+                            "initial": {
+                                "opacity": {
+                                    "to": 0,
+                                    "duration": 0.0,
+                                    "isImmutable": true,
+                                    "delay": 0,
+                                    "interpolation": 0
+                                }
+                            },
+                            "enter": {
+                                "opacity": {
+                                    "to": 1,
+                                    "duration": 3,
+                                    "isImmutable": true,
+                                    "delay": 0,
+                                    "interpolation": 0
+                                }
+                            },
+                            "exit": {
+                                "opacity": {
+                                    "to": 0,
+                                    "duration": 3,
+                                    "isImmutable": true,
+                                    "delay": 0,
+                                    "interpolation": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "report": {
+                "measurementBaseURL": "https://xaaf-metrics-test.att.com/Measurementl/default.xml?PageID=11&MeasurementPointID=32&Version=11&ContentSetID=1",
+                "providers": [
+                    {
+                        "name": "Emuse",
+                        "events": [
+                            {
+                                "url": "https://xaaf-metrics-test.att.com/Measurementl/default.xml?PageID=11&MeasurementPointID=30&Version=11&Status=0&ExtSrc=vod&DeviceType=tvos",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "https://xaaf-metrics-test.att.com/Measurementl/default.xml?PageID=11&MeasurementPointID=31&Version=11&Status=0&ExtSrc=vod&DeviceType=tvos",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "https://xaaf-metrics-test.att.com/Measurementl/default.xml?PageID=11&MeasurementPointID=32&Version=11&ContentSetID=1&Status=0&ExtSrc=vod&DeviceType=tvos",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ADR",
+                        "events": [
+                            {
+                                "url": "https://adtp-vod-dev.cld.dtveng.com/slr-vast-proxy/BeaconProxy/a4fadde0-b448-11e9-a467-021f7c4e5d2e/1"
+                            }
+                        ]
+                    }
+                ],
+                "adLifeCycle": [
+                    {
+                        "paramType": "projectId",
+                        "paramName": 7511
+                    },
+                    {
+                        "paramType": "projectBuildNumber",
+                        "paramName": 1
+                    }
+                ]
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STARTED"
+                }
+            ]
+        }
+    ],
+    "exeAdUUID": "BEc7bded-4c6f-413e-bc8d-60c250edd33c"
+}

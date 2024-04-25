@@ -1,0 +1,22 @@
+<!-- docs/_sidebar.md -->
+* [Introduction](/main.md)
+* Integration guides
+    * [Youi](youi/main.md)
+        * [Create Ad](youi/create-ad.md)
+        * [Init Ad](youi/init-ad.md)
+        * [Start Ad](youi/start-ad.md)
+        * [Stop Ad](youi/stop-ad.md)
+        * [Params](youi/parameters.md)
+        * [Tutorials](youi/examples/main.md)
+            * [Pause](youi/examples/pause/main.md)
+    * [Web](web/main.md)
+        * [Introduction](web/introduction.md)
+        * [Create Ad](web/create-ad.md)
+        * [Init Ad](web/init-ad.md)
+        * [Start Ad](web/start-ad.md)
+        * [Stop Ad](web/stop-ad.md)
+        * [Reporting Events](web/reporting-events.md)
+        * [Error Handling](web/error-handling.md)
+        * [Integration guide](web/integration-guide.md)
+        * [Demo Web Sample App](web/demo-web-sample-app.md)
+

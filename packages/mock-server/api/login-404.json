@@ -1,0 +1,10 @@
+{
+  "message": "Asset retrieved from ADR cannot be found on BE",
+  "name": "AdRouterError",
+  "errorCode": "404-1",
+  "data": {
+      "errors": [
+          "Asset retrieved from ADR cannot be found on BE"
+      ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+    "xaaf": {
+        "methods": {
+            "checkIsShoppable": {
+                "input": ["media_item_id"],
+                "flow": [
+                    {
+                        "$set": {
+                            "name": "@apiUrlWithParams",
+                            "value": "https://api.thetake.com/v1/products/listProducts?apiKey=ED4d9W7jWs6hBXWp2GHRU2RpyBfETG86aBfLrFbD&media=3892&userId=000000"
+                        }
+                    },
+                    {
+                        "$set": {
+                            "name": "@apiResponse",
+                            "value": {
+                                "$getData": {
+                                    "source": {
+                                        "$get": {
+                                            "name": "@apiUrlWithParams"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$condition": {
+                            "conditions": "({\"$get\":{\"name\":\"@apiResponse.length\"}} > 0)",
+                            "then": [
+                                {
+                                    "$set": {
+                                        "name": "@rendredData",
+                                        "value": {
+                                            "$databind": {
+                                                "templateName": "container",
+                                                "data": [{}]
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "else": [
+                                {
+                                    "$set": {
+                                        "name": "@apiUrlWithParams",
+                                        "value": "http://apirest/get-something?param=5"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "templates": {
+            "container": {
+                "type": "div",
+                "children": {
+                    "$databind": {
+                        "templateName": "product",
+                        "data": {
+                            "$get": {
+                                "name": "@apiResponse"
+                            }
+                        },
+                        "take": 5
+                    }
+                }
+            },
+            "product": {
+                "type": "img",
+                "xaaf": {
+                    "events": [
+                        {
+                            "action": "Clicked",
+                            "name": "#openUrl",
+                            "args": {
+                                "url": "@purchaseLink"
+                            }
+                        }
+                    ]
+                },
+                "props": {
+                    "title": "@productName",
+                    "style": {
+                        "float": "right",
+                        "width": "50px",
+                        "height": "50px",
+                        "margin": "20px"
+                    },
+                    "src": "@productImage.125pxLink"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "_id": "5e43eb056fa96400087821e8",
+    "experienceId": "01cd3f17-f4c9-4a01-92b0-3e6110ad54f9",
+    "experienceMediaType": "Video Screensaver Ad",
+    "commands": [
+        {
+            "id": 1,
+            "commandName": "SHOW_VIDEO",
+            "data": {
+                "url": "http://itvads.dtvcdn.com/itv_csads/A060485536F0.mp4",
+                "transparent": false,
+                "videoRepeatCount": 1,
+                "autoPlay": "false",
+                "muted": true,
+                "zOrder": "background",
+                "preload": true
+            },
+            "fireTriggers": [
+                {
+                    "mode": "PRE",
+                    "name": "command1_preFireTrigger1"
+                },
+                {
+                    "mode": "PRE",
+                    "name": "command1_preFireTrigger2"
+                },
+                {
+                    "mode": "POST",
+                    "name": "command1_postFireTrigger1"
+                },
+                {
+                    "mode": "POST",
+                    "name": "command1_postFireTrigger2"
+                },
+                {
+                    "mode": "COMPLETED",
+                    "name": "command1_completedFireTrigger1"
+                },
+                {
+                    "mode": "COMPLETED",
+                    "name": "command1_completedFireTrigger2"
+                }
+            ],
+            "executionTriggers": [
+                {
+                    "trigger": "executionTrigger"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "commandName": "SHOW_VIDEO",
+            "data": {
+                "url": "http://itvads.dtvcdn.com/itv_csads/A060485536F0.mp4",
+                "transparent": false,
+                "videoRepeatCount": 1,
+                "autoPlay": "false",
+                "muted": true,
+                "zOrder": "background",
+                "preload": true
+            },
+            "fireTriggers": [
+                {
+                    "mode": "PRE",
+                    "name": "command2_preFireTrigger1"
+                },
+                {
+                    "mode": "PRE",
+                    "name": "command2_preFireTrigger2"
+                },
+                {
+                    "mode": "POST",
+                    "name": "command2_postFireTrigger1"
+                },
+                {
+                    "mode": "POST",
+                    "name": "command2_postFireTrigger2"
+                },
+                {
+                    "mode": "COMPLETED",
+                    "name": "command2_completedFireTrigger1"
+                },
+                {
+                    "mode": "COMPLETED",
+                    "name": "command2_completedFireTrigger2"
+                }
+            ],
+            "executionTriggers": [
+                {
+                    "trigger": "executionTrigger"
+                }
+            ]
+        }
+    ],
+    "exeAdUUID": "BEc7bded-4c6f-413e-bc8d-60c250edd33c"
+}

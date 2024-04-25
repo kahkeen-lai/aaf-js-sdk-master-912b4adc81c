@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="jsjws : pure JavaScript implementation of JSON Web Signature" />
+    <title>JWT Verifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <script type="text/javascript" src="../ext/cj/cryptojs-312-core-fix.js"></script>
+    <script type="text/javascript" src="../ext/cj/sha256.js"></script>
+    <script type="text/javascript" src="../ext/prng4.js"></script>
+    <script type="text/javascript" src="../ext/rng.js"></script>
+    <script type="text/javascript" src="../ext/base64.js"></script>
+    <script type="text/javascript" src="../ext/jsbn.js"></script>
+    <script type="text/javascript" src="../ext/jsbn2.js"></script>
+    <script type="text/javascript" src="../ext/rsa.js"></script>
+    <script type="text/javascript" src="../ext/json-sans-eval.js"></script>
+    <script type="text/javascript" src="../src/asn1hex-1.1.js"></script>
+    <script type="text/javascript" src="../src/base64x-1.1.js"></script>
+    <script type="text/javascript" src="../src/crypto-1.1.js"></script>
+    <script type="text/javascript" src="../src/jws-3.3.js"></script>
+    <script type="text/javascript" src="../src/keyutil-1.0.js"></script>
+    <script type="text/javascript" src="../src/rsapem-1.1.js"></script>
+    <script type="text/javascript" src="../src/rsasign-1.2.js"></script>
+    <script type="text/javascript" src="../src/x509-1.1.js"></script>
+    <script  type="text/javascript">
+        function _doVerify() {
+            _doDecode();
+
+            var sJWT = document.form1.jwt1.value;
+            var key = document.form1.key1.value;
+
+            var isValid = false;
+            try {
+                isValid = KJUR.jws.JWS.verifyJWT(sJWT, key, { alg: ['RS256'] });
+            } catch (ex) {
+                alert("Error: " + ex);
+                isValid = false;
+            }
+
+            if (isValid) {
+                alert("JWT is Valid.");
+            } else {
+                alert("JWT is Invalid.");
+            }
+        }
+
+        function _doDecode() {
+            var sJWT = document.form1.jwt1.value;
+
+            var a = sJWT.split(".");
+            var uHeader = b64utos(a[0]);
+            var uClaim = b64utos(a[1]);
+
+            var pHeader = KJUR.jws.JWS.readSafeJSONString(uHeader);
+            var pClaim = KJUR.jws.JWS.readSafeJSONString(uClaim);
+
+            var sHeader = JSON.stringify(pHeader, null, "  ");
+            var sClaim = JSON.stringify(pClaim, null, "  ");
+
+            document.form1.im_head1.value = sHeader;
+            document.form1.im_payload1.value = sClaim;
+        }
+    </script>
+</head>
+<body>
+<div id="main_content_wrap" class="outer container">
+    <section id="main_content" class="inner">
+        <form name="form1">
+            <h1>JWT Verifier</h1>
+            <div class="form-group">
+                <label>
+                    Set JWT(JSON Web Token) to verify.
+                    <textarea class="form-control text-monospace" name="jwt1" cols="65" rows="8">eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6IjVlNmY0MmZlZmM4MTU5MDAxYmIyMTlmMCIsImFwcElkIjoiNWU2ZjQyZmZmYzgxNTkwMDFiYjIxOWYyIiwicGxhdGZvcm1OYW1lIjoiZmlyZXR2Iiwic2RrVmVyc2lvbiI6InYxIiwic2RrTmFtZSI6ImpzLXNkay15b3VpIiwiZW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0dHBzOi8veGFhZi1haW8udGx2LWRldm9wcy5jb20vYWR2ZXJ0aXNlLTU5ODgiLCJwcml2aWxlZ2VUeXBlIjoidGVzdGVyIiwiZW52aXJvbm1lbnQiOiJ0bHYtYWR2ZXJ0aXNlLTU5ODgiLCJpYXQiOjE1ODk4MDY5NTYsImlzcyI6IkFUJlQiLCJzdWIiOiJBcGlLZXkifQ.UayyxQDOJJRtB_udj1NDjjZvT8FEfdKu95BzLXRElmpxb8UL8nQCezGGUs12q91Wpp6B5pAQ3704gehLIgXZQztkLu084Gg4NWtkQjv8wqrlK3f5Yl5BslvepnnLnHEDjrSA6o0FYHSGnnHZ10irYG7TrtJ59cV1OYxgQk8dHpzEoe_CBv7rwHGvGjJr5WCYEYaGSGNUZMKNOUN63jpX-3HqXGeIMIY9XjmZaFIJ0S95bC2nQRfnQmZ5MRequn44f6PNYdCDwtsMRQ6kcJW1d_i7jCOtQoENnzxj-kVXnLXflJ0M0agYaGvL7IjSDA2LkKc0hataUAZ4JkN_aUB8Mg</textarea>
+                </label>
+                <label>
+                    Set PEM Certificate or Public Key.
+                    <textarea class="form-control text-monospace" name="key1" cols="65" rows="8">
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg7CylsYYd7bYxfJHqf3y
+sxi5vSBC62f7nZjIsgRtd8TkF9d03U/+heP7689DZX8YiuwlGkFygO9Zt2pOdzJg
+dmOOfh22kMk0qGgKNREVeSx/DiY3+epIRtmcApPlZTnL+H01KdsgfKUj4UJNCYv5
+/h8kOs8uB8HM4N5uaf5lTKCAl9rGOW9lfxvctaiM6Svcdfz+7cPH64Iczq/N/Gk0
+PNUUztLXCO9YPHVDUm21m90zEkbVMouhR8i2MlNYon0ma8QM5UwgFf+oIjCxoe5Z
+kzG64r8hQPKINJKca0ES2LB4fQjB7eiuflW3aeR8TknBKNVz0bMuJoFOQDc9maHr
+3QIDAQAB
+-----END PUBLIC KEY-----
+                    </textarea>
+                </label>
+                <p>
+                    KJUR.jws.JWS.verifyJWT method verifies 'alg', 'iss', 'sub', 'nbf', 'exp', 'iat', 'jti' and 'aud'
+                    fields and its signature.
+                    <br/>
+                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary" onClick="_doDecode()">Decode</button>
+                    <button type="button" class="btn btn-secondary" onClick="_doVerify()">Verify</button>
+                </div>
+            </div>
+            <h2>Parsed JWT</h2>
+            <label>
+                Header
+                <textarea class="form-control text-monospace" name="im_head1" cols="65" rows="5"></textarea>
+            </label>
+            <br/>
+            <label>
+                Payload
+                <textarea class="form-control text-monospace" name="im_payload1" cols="65" rows="11"></textarea>
+            </label>
+            <br/>
+        </form>
+    </section>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
+

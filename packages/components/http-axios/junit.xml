@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="11" failures="0" time="3.203">
+  <testsuite name="http service functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:14" time="2.621" tests="11">
+    <testcase classname="http service functions get url" name="http service functions get url" time="0.004">
+    </testcase>
+    <testcase classname="http service functions put url" name="http service functions put url" time="0">
+    </testcase>
+    <testcase classname="http service functions post url" name="http service functions post url" time="0.001">
+    </testcase>
+    <testcase classname="http service functions get url with inbound params should not encode params" name="http service functions get url with inbound params should not encode params" time="0.001">
+    </testcase>
+    <testcase classname="http service functions get url with params object should encode params" name="http service functions get url with params object should encode params" time="0.001">
+    </testcase>
+    <testcase classname="http service functions get url with 400 status code" name="http service functions get url with 400 status code" time="0.002">
+    </testcase>
+    <testcase classname="http service functions get url with timeout error" name="http service functions get url with timeout error" time="0.001">
+    </testcase>
+    <testcase classname="http service functions get url with general error" name="http service functions get url with general error" time="0.001">
+    </testcase>
+    <testcase classname="http service functions get url with http timeout disabled" name="http service functions get url with http timeout disabled" time="0.001">
+    </testcase>
+    <testcase classname="http service functions get url with http timeout enabled" name="http service functions get url with http timeout enabled" time="0">
+    </testcase>
+    <testcase classname="http service functions get url with http timeout enabled using default timeout" name="http service functions get url with http timeout enabled using default timeout" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

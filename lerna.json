@@ -1,0 +1,21 @@
+{
+  "ignoreChanges": [
+    "packages/demos/*",
+    "packages/mock-server/*"
+  ],
+  "packages": [
+    "./packages/core/*",
+    "./packages/components/*",
+    "./packages/e2e-tests/*",
+    "./packages/frameworks/*",
+    "./packages/xaaf-script/*",
+    "./packages/demos/*",
+    "./packages/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": false,
+  "bootstrap": {
+    "ignore": "mock-server,demo-web-angular,demo-vuew,demo-web-vanila,demo-native,demo-native-070"
+  }
+}

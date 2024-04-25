@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "noEmit": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": true,
+        "esModuleInterop": true,
+        "noImplicitAny": false,
+        "skipLibCheck": true,
+        "module": "ES2015",
+        "moduleResolution": "node",
+        "rootDir": "src",
+        "target": "es5",
+        "declaration": true,
+        "sourceMap": true,
+        "noStrictGenericChecks": true,
+        "downlevelIteration": true,
+        "lib": ["es2015", "es5", "scripthost"]
+    },
+    "typedocOptions": {
+        "exclude": "**/*+(index|.spec|.e2e).ts",
+        "module": "ES2015",
+        "excludePrivate": true,
+        "excludeExternals": true,
+        "excludeNotExported": true,
+        "includeVersion": true,
+        "stripInternal": true,
+        "target": "ES2015",
+        "includeDeclarations": false,
+        "mode": "file",
+        "name": "Xaaf - keyservice component",
+        "readme": "README.md",
+        "out": "../../../docs/internal/sdk/components/key-service",
+        "theme": "markdown"
+    },
+    "exclude": ["node_modules", "**/*.[Ss]pec.ts", "lib", "dist", "integration"]
+}

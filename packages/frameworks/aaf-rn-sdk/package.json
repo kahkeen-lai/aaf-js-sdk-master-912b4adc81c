@@ -1,0 +1,52 @@
+{
+    "name": "@xaaf/aaf-rn-sdk",
+    "version": "4.2.1",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "scripts": {
+        "build": "../../../node_modules/.bin/run-s compile bundle && node version-fix.js",
+        "bundle": "../../../node_modules/.bin/rimraf dist && ../../../node_modules/.bin/run-p bundle:*",
+        "bundle:dev": "../../../node_modules/.bin/rollup -c ../../../rollup/rollup.config.dev.js --name XaafYoui",
+        "bundle:prod": "../../../node_modules/.bin/rollup -c ../../../rollup/rollup.config.prod.js --name XaafYoui",
+        "test": "../../../node_modules/.bin/jest --coverage && yarn coverage",
+        "coverage": "../../../node_modules/.bin/cpr ./coverage/coverage-final.json ../../../coverage/coverage-aaf-rn-sdk.json -o",
+        "lint": "../../../node_modules/.bin/tsc --noEmit && ../../../node_modules/.bin/eslint \"*/**/*.{ts,tsx}\" ",
+        "lint:fix": "../../../node_modules/.bin/tsc --noEmit && ../../../node_modules/.bin/eslint \"*/**/*.{ts,tsx}\" --ext .ts --quiet --fix",
+        "prepush": "yarn lint",
+        "compile": "../../../node_modules/.bin/rimraf lib && tsc",
+        "compile:local": "echo compiling to destination folder ${COMPILE_TO_TARGET} && tsc -p tsconfig.json --outDir ${COMPILE_TO_TARGET}/youi-sdk/lib/",
+        "patch": "npm version patch -m \"[Version] updating to a new patch version %s\"",
+        "copy-coverage": "../../../node_modules/.bin/cpr \"coverage/$(ls coverage | grep Phantom)\" ../../../coverage/youi-sdk",
+        "compile:local:watch": "echo compiling to destination folder ${COMPILE_TO_TARGET} && tsc -p tsconfig.json --watch --outDir ${COMPILE_TO_TARGET}/youi-sdk/lib/",
+        "compile:local:win": "echo compiling to destination folder %COMPILE_TO_TARGET% && tsc -p tsconfig.json --outDir %COMPILE_TO_TARGET%/youi-sdk/lib/",
+        "compile:local:watch:win": "echo compiling to destination folder %COMPILE_TO_TARGET% && tsc -p tsconfig.json --watch --outDir %COMPILE_TO_TARGET%/youi-sdk/lib/",
+        "postpublish": "echo youi-sdk >> ../../published.txt",
+        "docs": "../../../node_modules/.bin/rimraf  ../../../docs/internal/sdk/platforms/youi && ../../../node_modules/.bin/typedoc && node ../../../docs/docs.js sdk/platforms/youi",
+        "watch": "../../../node_modules/.bin/tsc --watch"
+    },
+    "dependencies": {
+        "@react-native-async-storage/async-storage": "^1.17.11",
+        "@xaaf/common": "^4.1.2",
+        "@xaaf/http-axios": "^4.1.2",
+        "@xaaf/xaaf-js-sdk": "^4.1.2",
+        "react-native-device-info": "^10.3.0",
+        "tslib": "^2.3.1"
+    },
+    "peerDependencies": {
+        "react-native": "0.69.1"
+    },
+    "files": [
+        "lib/**/*",
+        "dist/**/*",
+        "package.json"
+    ],
+    "docs": {
+        "content": [
+            "README.md",
+            "coverage/tests.html",
+            "dist/bundle.treemap.stats.html",
+            "dist/bundle.sunburst.stats.html"
+        ]
+    },
+    "gitHead": "f8b4497f68ec390d1725164f7dcd33fc7999ffab"
+}

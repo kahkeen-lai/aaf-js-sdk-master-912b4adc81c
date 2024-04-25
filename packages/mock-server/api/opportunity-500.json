@@ -1,0 +1,10 @@
+{
+    "message": "Failure engaging ad router",
+    "name": "AdRouterError",
+    "errorCode": "500-1",
+    "data": {
+        "errors": [
+            "Failed to get experience data"
+        ]
+    }
+}

@@ -1,0 +1,166 @@
+{
+    "totalDuration": "30",
+    "experienceId": "27f0fffa-9c35-4bbf-a77e-9da3b4aa9fe1",
+    "experienceMediaType": "Image Screensaver Ad",
+    "commands": [
+        {
+            "commandName": "SHOW_IMAGE",
+            "data": {
+                "url": "https://xandrssads-sponsored.secure.footprint.net/XAAF/di/NFLST_roku/nflst_20.jpg",
+                "duration": "30"
+            },
+            "report": {
+                "providers": [
+                    {
+                        "name": "Emuse",
+                        "events": [
+                            {
+                                "url": "https://httpstat.us/200",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "https://httpstat.us/200",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ADR",
+                        "events": [
+                            {
+                                "url": "https://httpstat.us/201"
+                            },
+                            {
+                                "url": "https://httpstat.us/201"
+                            },
+                            {
+                                "url": "https://httpstat.us/201"
+                            },
+                            {
+                                "url": "https://httpstat.us/201"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "COMSCORE",
+                        "events": [
+                            {
+                                "url": "https://httpstat.us/201"
+                            },
+                            {
+                                "url": "https://httpstat.us/201"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "DATA_PLUS_MATH",
+                        "events": [
+                            {
+                                "url": "https://httpstat.us/201"
+                            },
+                            {
+                                "url": "https://httpstat.us/201"
+                            }
+                        ]
+                    }
+                ],
+                "adLifeCycle": [
+                    {
+                        "paramType": "projectId",
+                        "paramName": 112
+                    },
+                    {
+                        "paramType": "projectBuildNumber",
+                        "paramName": 1
+                    }
+                ],
+                "measurementBaseURL": "https://httpstat.us/200"
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STARTING"
+                }
+            ]
+        },
+        {
+            "commandName": "REPORT_COMMAND",
+            "report": {
+                "providers": [
+                    {
+                        "name": "Emuse",
+                        "events": [
+                            {
+                                "url": "https://httpstat.us/200",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "timeFromStarted",
+                                        "paramName": "Duration"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "https://httpstat.us/200",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "timeFromStarted",
+                                        "paramName": "Duration"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STOPPING",
+                    "conditions": [
+                        "STATE_PLAYING"
+                    ]
+                },
+                {
+                    "trigger": "STATE_ERROR",
+                    "conditions": [
+                        "STATE_PLAYING"
+                    ]
+                }
+            ]
+        }
+    ],
+    "exeAdUUID": "BEab1b66-4f49-4e05-aefd-3356b97b8cf4",
+    "templateId": 58
+}

@@ -1,0 +1,182 @@
+{
+    "experienceMediaType": "Baner Sponsor Ad",
+    "commands": [
+        {
+            "id": 1,
+            "commandName": "SHOW_DYNAMIC_VIEW",
+            "data": {
+                "xaaf": {
+                    "timeout": 5000
+                },
+                "type": "View",
+                "props": {
+                    "style": {
+                        "flex": 1,
+                        "flexDirection": "column",
+                        "justifyContent": "flex-end",
+                        "alignItems": "center",
+                        "height": "20%",
+                        "width": "100%"
+                    }
+                },
+                "children": [
+                    {
+                        "type": "View",
+                        "props": {
+                            "style": {
+                                "height": "20%",
+                                "width": "100%"
+                            }
+                        },
+                        "children": [
+                            {
+                                "type": "ImageBackground",
+                                "xaaf": {
+                                    "events": [
+                                        {
+                                            "action": "Loaded"
+                                        }
+                                    ]
+                                },
+                                "props": {
+                                    "testID": "e2e_dynamic_ImageBackground",
+                                    "source": {
+                                        "uri": "https://i.ibb.co/M2nqmcB/banner-landscape.png"
+                                    },
+                                    "style": {
+                                        "flex": 1
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "report": {
+                "measurementBaseURL": "https://httpstat.us/200",
+                "providers": [
+                    {
+                        "name": "Emuse",
+                        "events": [
+                            {
+                                "url": "https://httpstat.us/200",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "https://httpstat.us/200",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "https://httpstat.us/200",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ADR",
+                        "events": [
+                            {
+                                "url": {}
+                            }
+                        ]
+                    }
+                ],
+                "adLifeCycle": [
+                    {
+                        "paramType": "projectId",
+                        "paramName": 2
+                    },
+                    {
+                        "paramType": "projectBuildNumber",
+                        "paramName": 1
+                    }
+                ]
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STARTING"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "commandName": "SQUEEZE",
+            "data": {
+                "duration": 1000,
+                "backgroundColor": "#000000",
+                "videoScale": {
+                    "scale_x": 1.0,
+                    "scale_y": 0.8,
+                    "pivot_x": 0.0,
+                    "pivot_y": 0.0
+                },
+                "videoMargin": {
+                    "left": "0",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0"
+                },
+                "videoBorder": {
+                    "state": "SHOW",
+                    "mode": "PRE",
+                    "width": "2",
+                    "color": "#000"
+                }
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STARTED"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "commandName": "SQUEEZE",
+            "data": {
+                "duration": 1000,
+                "videoScale": {
+                    "scale_x": 1.0,
+                    "scale_y": 1.0,
+                    "pivot_x": 0.0,
+                    "pivot_y": 0.0
+                },
+                "videoMargin": {
+                    "left": "0",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0"
+                },
+                "videoBorder": {
+                    "state": "HIDE",
+                    "mode": "COMPLETED"
+                }
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STOPPING"
+                },
+                {
+                    "trigger": "STATE_ERROR"
+                }
+            ]
+        }
+    ],
+    "exeAdUUID": "de2cce10-d74e-4e90-9c73-b7292f794e6f",
+    "experienceId": "7a2a3ffe-565d-4e02-b7fa-9115cdb1a1fa",
+    "templateId": 50
+}

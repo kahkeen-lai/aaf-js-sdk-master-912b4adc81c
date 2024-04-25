@@ -1,0 +1,39 @@
+{
+  "xaaf": {
+    "events": [
+      {
+        "action": "onClick",
+        "name": "#loadProducts"
+      },
+      {
+        "action": "onLoad",
+        "name": "#checkIsShoppable"
+      }
+    ],
+    "methods": {
+      "checkIsShoppable": {
+        "input": [
+          "@media_item_id"
+        ],
+        "flow": [
+          {
+            "$set": {
+              "name": "@apiUrlWithParams",
+              "value": "http://apirest/get-something?param=5"
+            }
+          },
+          {
+            "$set": {
+              "name": "@newVariable",
+              "value": {
+                "$get": {
+                  "name": "@apiUrlWithParams"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

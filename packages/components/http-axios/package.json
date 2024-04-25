@@ -1,0 +1,47 @@
+{
+    "name": "@xaaf/http-axios",
+    "version": "4.1.2",
+    "module": "./dist/bundle.es.js",
+    "main": "./dist/bundle.cjs.js",
+    "types": "./dist/index.d.ts",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "yarn bundle",
+        "compile": "../../../node_modules/.bin/rimraf dist && tsc",
+        "bundle": "../../../node_modules/.bin/rimraf dist && ../../../node_modules/.bin/run-p bundle:*",
+        "bundle:dev": "../../../node_modules/.bin/rollup -c ../../../rollup/rollup.config.dev.js --name XaafHttpService",
+        "bundle:prod": "../../../node_modules/.bin/rollup -c ../../../rollup/rollup.config.prod.js --name XaafHttpService",
+        "test": "../../../node_modules/.bin/jest --coverage --silent && yarn coverage",
+        "coverage": "../../../node_modules/.bin/cpr ./coverage/coverage-final.json ../../../coverage/coverage-http-axios.json -o",
+        "lint": "../../../node_modules/.bin/tsc --noEmit && ../../../node_modules/.bin/eslint \"*/**/*.{ts,tsx}\" ",
+        "lint:fix": "../../../node_modules/.bin/tsc --noEmit && ../../../node_modules/.bin/eslint \"*/**/*.{ts,tsx}\" --ext .ts --quiet --fix",
+        "prepush": "yarn lint && yarn compile",
+        "patch": "npm version patch -m \"[Version] updating to a new patch version %s\"",
+        "postpublish": "echo http-plugin >> ../../published.txt",
+        "docs": "../../../node_modules/.bin/rimraf ../../../docs/internal/sdk/components/http-axios && ../../../node_modules/.bin/typedoc && node ../../../docs/docs.js sdk/components/http-axios",
+        "watch": "tsc --watch"
+    },
+    "dependencies": {
+        "axios": "^1.6.5",
+        "tslib": "^2.3.1"
+    },
+    "devDependencies": {
+        "@xaaf/common": "^4.1.2"
+    },
+    "peerDependencies": {
+        "@xaaf/common": "^3.0.1"
+    },
+    "files": [
+        "dist/**/*",
+        "README.md",
+        "package.json"
+    ],
+    "docs": {
+        "content": [
+            "README.md",
+            "dist/bundle.treemap.stats.html",
+            "coverage/tests.html"
+        ]
+    },
+    "gitHead": "f8b4497f68ec390d1725164f7dcd33fc7999ffab"
+}

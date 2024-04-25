@@ -1,0 +1,40 @@
+{
+    "name": "@xaaf/key-service",
+    "version": "4.1.2",
+    "main": "./dist/bundle.cjs.min.js",
+    "types": "./dist/index.d.ts",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "yarn bundle",
+        "test": "../../../node_modules/.bin/jest --coverage && yarn coverage",
+        "coverage": "../../../node_modules/.bin/cpr ./coverage/coverage-final.json ../../../coverage/coverage-key-service.json -o",
+        "bundle": "../../../node_modules/.bin/rimraf dist && ../../../node_modules/.bin/run-p bundle:*",
+        "bundle:dev": "../../../node_modules/.bin/rollup -c ../../../rollup/rollup.config.dev.js --name=XaafKeyService",
+        "bundle:prod": "../../../node_modules/.bin/rollup -c ../../../rollup/rollup.config.prod.js --name=XaafKeyService",
+        "lint": "../../../node_modules/.bin/tsc --noEmit && ../../../node_modules/.bin/eslint \"*/**/*.{ts,tsx}\" ",
+        "lint:fix": "../../../node_modules/.bin/tsc --noEmit && ../../../node_modules/.bin/eslint \"*/**/*.{ts,tsx}\" --ext .ts --quiet --fix",
+        "prepush": "yarn lint && yarn compile",
+        "compile": "../../../node_modules/.bin/rimraf dist && tsc",
+        "patch": "npm version patch -m \"[Version] updating to a new patch version %s\"",
+        "postpublish": "echo key-service >> ../../../published.txt",
+        "docs": "../../../node_modules/.bin/rimraf ../../../docs/internal/sdk/components/key-service && ../../../node_modules/.bin/typedoc && node ../../../docs/docs.js sdk/components/key-service",
+        "watch": "tsc --watch"
+    },
+    "dependencies": {
+        "@xaaf/jsrsasign": "^8.3.4",
+        "tslib": "^2.3.1"
+    },
+    "files": [
+        "dist/**/*",
+        "README.md",
+        "package.json"
+    ],
+    "docs": {
+        "content": [
+            "README.md",
+            "dist/bundle.treemap.stats.html",
+            "coverage/tests.html"
+        ]
+    },
+    "gitHead": "f8b4497f68ec390d1725164f7dcd33fc7999ffab"
+}

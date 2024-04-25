@@ -1,0 +1,39 @@
+{
+    "name": "@xaaf/common",
+    "version": "4.1.2",
+    "main": "./dist/bundle.cjs.min.js",
+    "types": "./dist/index.d.ts",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "yarn bundle",
+        "compile": "../../../node_modules/.bin/rimraf dist && tsc",
+        "bundle": "../../../node_modules/.bin/rimraf dist && ../../../node_modules/.bin/run-p bundle:*",
+        "bundle:dev": "../../../node_modules/.bin/rollup -c ../../../rollup/rollup.config.dev.js --name XaafCommon",
+        "bundle:prod": "../../../node_modules/.bin/rollup -c ../../../rollup/rollup.config.prod.js --name XaafCommon",
+        "lint": "../../../node_modules/.bin/tsc --noEmit && ../../../node_modules/.bin/eslint \"*/**/*.{ts,tsx}\" ",
+        "lint:fix": "../../../node_modules/.bin/tsc --noEmit && ../../../node_modules/.bin/eslint \"*/**/*.{ts,tsx}\" --ext .ts --quiet --fix",
+        "test": "../../../node_modules/.bin/jest --coverage && yarn coverage",
+        "coverage": "../../../node_modules/.bin/cpr ./coverage/coverage-final.json ../../../coverage/coverage-common.json -o",
+        "patch": "npm version patch -m \"[Version] updating to a new patch version %s\"",
+        "postpublish": "echo common >> ../../published.txt",
+        "docs": "../../../node_modules/.bin/rimraf ../../../docs/internal/sdk/core/common && ../../../node_modules/.bin/typedoc && node ../../../docs/docs.js sdk/core/common",
+        "watch": "tsc --watch",
+        "mutation:disabled": "stryker run"
+    },
+    "dependencies": {
+        "tslib": "^2.3.1"
+    },
+    "files": [
+        "dist/**/*",
+        "package.json"
+    ],
+    "docs": {
+        "content": [
+            "README.md",
+            "dist/bundle.treemap.stats.html",
+            "dist/bundle.sunburst.stats.html",
+            "coverage/tests.html"
+        ]
+    },
+    "gitHead": "f8b4497f68ec390d1725164f7dcd33fc7999ffab"
+}

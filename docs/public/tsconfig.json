@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "target": "es2015",
+    "declaration": true,
+    "sourceMap": true,
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noStrictGenericChecks": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "lib": ["dom", "es5", "scripthost", "es2015", "es2016"]
+  },
+  "typedocOptions": {
+    "external-modulemap": "../packages\/(@namespace\/[^\/]+)\/.*",
+    
+    "mode": "file",
+    "out": "docs/sdk"
+  },
+  "exclude": ["node_modules", "dist", "**/*.[Ss]pec.ts", "lib", "integration"]
+}

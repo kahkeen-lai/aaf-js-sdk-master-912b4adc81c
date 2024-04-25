@@ -1,0 +1,108 @@
+{
+    "_id": "5e43eb056fa96400087821e8",
+    "experienceId": "01cd3f17-f4c9-4a01-92b0-3e6110ad54f9",
+    "experienceMediaType": "Video Screensaver Ad",
+    "commands": [
+        {
+            "id": 1,
+            "commandName": "SHOW_VIDEO",
+            "data": {
+                "url": "http://itvads.dtvcdn.com/itv_csads/A060485536F0.mp4",
+                "transparent": false,
+                "videoRepeatCount": 1,
+                "autoPlay": "false",
+                "muted": true,
+                "zOrder": "background",
+                "preload": true
+            },
+            "fireActions": [
+                {
+                    "mode": "PRE",
+                    "name": "PRE_ACTION_1",
+                    "commandId": 2
+                },
+                {
+                    "mode": "PRE",
+                    "name": "PRE_ACTION_2",
+                    "commandId": 2
+                },
+                {
+                    "mode": "POST",
+                    "name": "POST_ACTION_1",
+                    "commandId": 2
+                },
+                {
+                    "mode": "POST",
+                    "name": "POST_ACTION_2",
+                    "commandId": 2
+                },
+                {
+                    "mode": "COMPLETED",
+                    "name": "COMPLETED_ACTION_1",
+                    "commandId": 2
+                },
+                {
+                    "mode": "COMPLETED",
+                    "name": "COMPLETED_ACTION_2",
+                    "commandId": 2
+                }
+            ],
+            "executionTriggers": [
+                {
+                    "trigger": "executionTrigger"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "commandName": "SHOW_VIDEO",
+            "data": {
+                "url": "http://itvads.dtvcdn.com/itv_csads/A060485536F0.mp4",
+                "transparent": false,
+                "videoRepeatCount": 1,
+                "autoPlay": "false",
+                "muted": true,
+                "zOrder": "background",
+                "preload": true
+            },
+            "fireActions": [
+                {
+                    "mode": "PRE",
+                    "name": "PRE_ACTION_1",
+                    "commandId": 1
+                },
+                {
+                    "mode": "PRE",
+                    "name": "PRE_ACTION_2",
+                    "commandId": 1
+                },
+                {
+                    "mode": "POST",
+                    "name": "POST_ACTION_1",
+                    "commandId": 1
+                },
+                {
+                    "mode": "POST",
+                    "name": "POST_ACTION_2",
+                    "commandId": 1
+                },
+                {
+                    "mode": "COMPLETED",
+                    "name": "COMPLETED_ACTION_1",
+                    "commandId": 1
+                },
+                {
+                    "mode": "COMPLETED",
+                    "name": "COMPLETED_ACTION_2",
+                    "commandId": 1
+                }
+            ],
+            "executionTriggers": [
+                {
+                    "trigger": "executionTrigger"
+                }
+            ]
+        }
+    ],
+    "exeAdUUID": "BEc7bded-4c6f-413e-bc8d-60c250edd33c"
+}

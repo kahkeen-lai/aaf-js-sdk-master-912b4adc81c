@@ -1,0 +1,105 @@
+{
+  "experienceMediaType": "Full Height Sponsor Ad",
+  "commands": [
+    {
+      "id": 1,
+      "commandName": "ADSCRIPT_COMMAND",
+      "fireTriggers": [],
+      "data": {
+        "events": [
+          {
+            "action": "Loaded",
+            "name": "#setTemplate"
+          }
+        ],
+        "methods": {
+          "setTemplate": {
+            "input": [],
+            "flow": [
+              {
+                "$set": {
+                  "name": "@selected_url",
+                  "value": "https://xandrssads-sponsored.akamaized.net/xaaf_csads/A060633628F0.mp4"
+                }
+              },
+              {
+                "$set": {
+                  "name": "@videoData",
+                  "value": {
+                    "$databind": {
+                      "templateName": "videoTemplate",
+                      "data": [{}]
+                    }
+                  }
+                }
+              },
+              {
+                "$fireTrigger": {
+                  "name": "SHOW_VIDEO_SCREEN"
+                }
+              }
+            ]
+          }
+        },
+        "templates": {
+          "videoTemplate": {
+            "url": { "$get": { "name": "@selected_url" }},
+            "transparent": true,
+            "videoRepeatCount": 1,
+            "videoOptions": [
+              "autoplay",
+              "muted"
+            ]
+          }
+        }
+      },
+      "report": {
+        "measurementBaseURL": "https://httpstat.us/200",
+        "providers": [],
+        "adLifeCycle": [
+          {
+            "paramType": "projectId",
+            "paramName": 2
+          },
+          {
+            "paramType": "projectBuildNumber",
+            "paramName": 1
+          }
+        ]
+      },
+      "executionTriggers": [
+        {
+          "trigger": "STATE_STARTING"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "commandName": "SHOW_VIDEO",
+      "data": "@videoData",
+      "fireTriggers": [],
+      "report": {
+        "measurementBaseURL": "https://httpstat.us/200",
+        "providers": [],
+        "adLifeCycle": [
+          {
+            "paramType": "projectId",
+            "paramName": 2
+          },
+          {
+            "paramType": "projectBuildNumber",
+            "paramName": 1
+          }
+        ]
+      },
+      "executionTriggers": [
+        {
+          "trigger": "SHOW_VIDEO_SCREEN"
+        }
+      ]
+    }
+  ],
+  "exeAdUUID": "de2cce10-d74e-4e90-9c73-b7292f794e6f",
+  "experienceId": "7a2a3ffe-565d-4e02-b7fa-9115cdb1a1fa",
+  "templateId": 50
+}

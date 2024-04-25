@@ -1,0 +1,11 @@
+{
+    "tenantId": "5d34830b4c877100122aa699",
+    "appId": "5d34830b4c877100122aa69a",
+    "platformName": "firetv",
+    "sdkVersion": "v1",
+    "sdkName": "androidtv",
+    "environment": "tlv-test",
+    "iat": 1563722508,
+    "iss": "AT&T",
+    "sub": "ApiKey"
+}

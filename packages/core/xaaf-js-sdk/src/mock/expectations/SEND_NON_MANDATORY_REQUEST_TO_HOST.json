@@ -1,0 +1,24 @@
+{
+    "_id": "5d5a955e4db319b7a26dc845",
+    "experienceId": "7da0d244-1f4f-49ef-b024-7c4079b72c9b",
+    "experienceMediaType": "Video Screensaver Ad",
+    "commands": [
+        {
+            "commandName": "SEND_REQUEST_TO_HOST",
+            "data": {
+                "type": "recordContent",
+                "arguments": {
+                    "contentTmsId": 1234
+                },
+                "timeout_ms": 3000,
+                "mandatory": false
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STARTED"
+                }
+            ]
+        }
+    ],
+    "exeAdUUID": "4C19FD69-D0AC-4E56-BD19-0F0B0440B86F"
+}

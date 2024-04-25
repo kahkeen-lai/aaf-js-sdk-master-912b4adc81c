@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/components/key-service/src/key-service.spec.ts">
+    <testCase name="should validate JWT from DER" duration="212"/>
+    <testCase name="should validate JWT from base64 pK" duration="277"/>
+    <testCase name="should fail to validate JWT on incorrect signature" duration="202"/>
+    <testCase name="should fail to validate JWT on incorrect JWT" duration="195"/>
+    <testCase name="should throw on invalid JWT" duration="1"/>
+    <testCase name="should throw on invalid signature" duration="0"/>
+    <testCase name="should parse JWT with b64utos and readSafeJSONString" duration="1"/>
+    <testCase name="should parse JWT with parse" duration="1"/>
+    <testCase name="should parse base64 into DER" duration="2"/>
+    <testCase name="return false for api key validation when enviroment is empty" duration="1"/>
+    <testCase name="return true for valid api key with correct enviroment" duration="195"/>
+    <testCase name="return false for invalid api key" duration="2"/>
+    <testCase name="return false for api key validation when environment not empty and api key empty" duration="0"/>
+    <testCase name="decide method should parse JWT with parse" duration="0"/>
+  </file>
+</testExecutions>

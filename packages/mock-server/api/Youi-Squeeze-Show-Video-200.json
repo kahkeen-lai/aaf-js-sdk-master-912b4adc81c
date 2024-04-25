@@ -1,0 +1,163 @@
+{
+    "_id": "5dd51db9e3b6870008c4d7d8",
+    "experienceId": "f77bafc7-8a41-400b-acd8-002bcd6dacf4",
+    "experienceMediaType": "Squeeze commands",
+    "commands": [
+        {
+            "id": 1,
+            "commandName": "SHOW_VIDEO",
+            "data": {
+                "url": "https://d1zocn0wsme2cv.cloudfront.net/A060416901F0.mp4",
+                "transparent": true,
+                "videoRepeatCount": 1,
+                "videoOptions": [
+                    "autoplay",
+                    "muted"
+                ]
+            },
+            "report": {
+                "measurementBaseURL": "http://10.0.2.2:4202/Measurementl/default.xml?PageID=26&MeasurementPointID=75&Version=11&ContentSetID=7",
+                "providers": [
+                    {
+                        "name": "Emuse",
+                        "events": [
+                            {
+                                "url": "http://10.0.2.2:4202/Measurementl/default.xml?PageID=26&MeasurementPointID=73&Version=11&Status=0&ExtSrc=vod&DeviceType=firetv",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "http://10.0.2.2:4202/Measurementl/default.xml?PageID=26&MeasurementPointID=74&Version=11&Status=0&ExtSrc=vod&DeviceType=firetv",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "http://10.0.2.2:4202/Measurementl/default.xml?PageID=26&MeasurementPointID=75&Version=11&ContentSetID=7&Status=0&ExtSrc=vod&DeviceType=firetv",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ADR",
+                        "events": [
+                            {
+                                "url": "http://10.0.2.2:4202/slr-vast-proxy/BeaconProxy/a4fadde0-b448-11e9-a467-021f7c4e5d2e/1"
+                            }
+                        ]
+                    }
+                ],
+                "adLifeCycle": [
+                    {
+                        "paramType": "projectId",
+                        "paramName": 6025
+                    },
+                    {
+                        "paramType": "projectBuildNumber",
+                        "paramName": 2
+                    }
+                ]
+            },
+            "fireTriggers": [
+                {
+                    "mode": "COMPLETED",
+                    "name": "UNSQUEEZE"
+                }
+            ],
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STARTING"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "commandName": "SQUEEZE",
+            "data": {
+                "duration": 1000,
+                "videoScale": {
+                    "scale_x": 0.6,
+                    "scale_y": 0.6,
+                    "pivot_x": 0.0,
+                    "pivot_y": 0.0
+                },
+                "videoMargin": {
+                    "left": "0",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0"
+                },
+                "videoBorder": {
+                    "state": "SHOW",
+                    "mode": "PRE",
+                    "width": "2",
+                    "color": "#000"
+                }
+            },
+            "fireTriggers": [
+                {
+                    "mode": "COMPLETED",
+                    "name": "PLAY_VIDEO"
+                }
+            ],
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STARTED"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "commandName": "SQUEEZE",
+            "data": {
+                "duration": 1000,
+                "videoScale": {
+                    "scale_x": 1.0,
+                    "scale_y": 1.0,
+                    "pivot_x": 0.0,
+                    "pivot_y": 0.0
+                },
+                "videoMargin": {
+                    "left": "0",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0"
+                },
+                "videoBorder": {
+                    "state": "HIDE",
+                    "mode": "COMPLETED"
+                }
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STOPPING"
+                }
+            ]
+        }
+    ],
+    "exeAdUUID": "BE362ba4-ba37-4146-91de-be0e3e735977"
+}

@@ -1,0 +1,32 @@
+<!-- docs/_sidebar.md -->
+* [Introduction](/main.md)
+* [Installation](installation/main.md)
+  * [Web](installation/web.md)
+  * [you.i](installation/youi.md)
+* [Integration](integration/main.md)
+  * [you.i](integration/youi.md)
+  * [web](integration/web.md)
+* SDK
+  * Core
+    * [Common](sdk/core/common/README.md)
+    * [Xaaf-js-sdk](sdk/core/xaaf-js-sdk/README.md)
+  * [Components](sdk/components/main.md)
+    * [http-axios](sdk/components/http-axios/README.md)
+    * [key-service](sdk/components/key-service/README.md)
+    * [AdScript](sdk/components/xaaf-script/README.md)
+  * [platforms](sdk/platforms/main.md)
+    * [Web SDK](sdk/platforms/web/README.md)
+    * [Youi SDK](sdk/platforms/youi/README.md)
+    * [Hadron SDK](sdk/platforms/hadron/README.md)
+  * [testing](sdk/integration/README.md)  
+* [Design](design/main.md)
+  * [Dynamic view - events](design/dynamic-view/events.md)
+  * [Fire Triggers](design/fire-triggers/fire-triggers.md)
+  * [Squeeze](design/squeeze/squeeze.md)
+* [Standards](standards/main.md)
+  * [Style-guide](standards/style-guide/main.md)
+* Tools
+  * [AdStudio](tools/ad-studio/README.md)  
+* Tests
+  [PortalFE](additional-projects/README.md)  
+* [Examples](examples/index.md)

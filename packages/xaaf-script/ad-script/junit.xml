@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="10" failures="0" time="7.238">
+  <testsuite name="test workflow" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:19" time="4.442" tests="6">
+    <testcase classname="test workflow set" name="test workflow set" time="0.004">
+    </testcase>
+    <testcase classname="test workflow set-get" name="test workflow set-get" time="0.001">
+    </testcase>
+    <testcase classname="test workflow choose" name="test workflow choose" time="0.002">
+    </testcase>
+    <testcase classname="test workflow condition" name="test workflow condition" time="0.002">
+    </testcase>
+    <testcase classname="test workflow set-replace" name="test workflow set-replace" time="0.001">
+    </testcase>
+    <testcase classname="test workflow set-replace-getData" name="test workflow set-replace-getData" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="test fire-trigger function" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:19" time="4.015" tests="1">
+    <testcase classname="test fire-trigger function fire-trigger" name="test fire-trigger function fire-trigger" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="test child-expressions scenario" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:19" time="4.015" tests="1">
+    <testcase classname="test child-expressions scenario child expressions in node" name="test child-expressions scenario child expressions in node" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="test full scenario" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:19" time="4.027" tests="1">
+    <testcase classname="test full scenario full scenario" name="test full scenario full scenario" time="0.022">
+    </testcase>
+  </testsuite>
+  <testsuite name="test databind function" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:19" time="4.036" tests="1">
+    <testcase classname="test databind function databind" name="test databind function databind" time="0.005">
+    </testcase>
+  </testsuite>
+</testsuites>

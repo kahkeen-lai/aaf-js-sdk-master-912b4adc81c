@@ -1,0 +1,254 @@
+export default {
+  method: 'GET',
+  path: '/xaaba/v1/opportunity',
+  status: 200,
+  data: {
+    experienceMediaType: 'Video Screensaver Ad',
+    commands: [
+      {
+        id: 1,
+        commandName: 'SHOW_VIDEO',
+        data: {
+          url: 'http://itvads.dtvcdn.com/itv_csads/A060416901F0.mp4',
+          transparent: false,
+          videoRepeatCount: 3,
+          autoPlay: false,
+          duration: 90,
+          muted: true
+        },
+        report: {
+          measurementBaseURL:
+            'https://xaaf-metrics.att.com/Measurementl/default.xml?PageID=153&MeasurementPointID=296&Version=11&ContentSetID=25',
+          providers: [
+            {
+              name: 'Emuse',
+              events: [
+                {
+                  url:
+                    'https://xaaf-metrics.att.com/Measurementl/default.xml?PageID=153&MeasurementPointID=292&Version=11&Status=0&ExtSrc=vod&DeviceType=firetv&PartnerProfileID=testidpostman&OppType=screensaver',
+                  clientOutbound: [
+                    {
+                      paramType: 'clientFormattedTimeStamp',
+                      paramName: 'ClientTime'
+                    },
+                    {
+                      paramType: 'deviceId',
+                      paramName: 'DeviceID'
+                    }
+                  ]
+                },
+                {
+                  url:
+                    'https://xaaf-metrics.att.com/Measurementl/default.xml?PageID=153&MeasurementPointID=294&Version=11&Status=0&ExtSrc=vod&DeviceType=firetv&PartnerProfileID=testidpostman&OppType=screensaver',
+                  clientOutbound: [
+                    {
+                      paramType: 'clientFormattedTimeStamp',
+                      paramName: 'ClientTime'
+                    },
+                    {
+                      paramType: 'deviceId',
+                      paramName: 'DeviceID'
+                    }
+                  ]
+                },
+                {
+                  url:
+                    'https://xaaf-metrics.att.com/Measurementl/default.xml?PageID=153&MeasurementPointID=296&Version=11&ContentSetID=25&Status=0&ExtSrc=vod&DeviceType=firetv&PartnerProfileID=testidpostman&OppType=screensaver',
+                  clientOutbound: [
+                    {
+                      paramType: 'clientFormattedTimeStamp',
+                      paramName: 'ClientTime'
+                    },
+                    {
+                      paramType: 'deviceId',
+                      paramName: 'DeviceID'
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              name: 'ADR',
+              events: [
+                {
+                  url: 'https://dai-prime.att.com/slr-vast-proxy/BeaconProxy/681f2860-bf76-11ea-944b-02666e628d8a/1'
+                }
+              ]
+            }
+          ],
+          adLifeCycle: [
+            {
+              paramType: 'projectId',
+              paramName: 6151
+            },
+            {
+              paramType: 'projectBuildNumber',
+              paramName: 1
+            }
+          ]
+        },
+        playback_reports: [
+          {
+            positionSec: 23,
+            providers: [
+              {
+                name: 'Emuse',
+                events: [
+                  {
+                    url:
+                      'https://measurementdemo2.emuse-tech.com/default.xml?PageID=53&MeasurementPointID=107&Version=11&ContentSetID=37&Status=0&Quartile=1&ExtSrc=vod&DeviceType=firetv&PartnerProfileID=VendorID&OppType=screensaver',
+                    clientOutbound: [
+                      {
+                        paramType: 'clientFormattedTimeStamp',
+                        paramName: 'ClientTime'
+                      },
+                      {
+                        paramType: 'deviceId',
+                        paramName: 'DeviceID'
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            positionSec: 46,
+            providers: [
+              {
+                name: 'Emuse',
+                events: [
+                  {
+                    url:
+                      'https://measurementdemo2.emuse-tech.com/default.xml?PageID=53&MeasurementPointID=107&Version=11&ContentSetID=37&Status=0&Quartile=2&ExtSrc=vod&DeviceType=firetv&PartnerProfileID=VendorID&OppType=screensaver',
+                    clientOutbound: [
+                      {
+                        paramType: 'clientFormattedTimeStamp',
+                        paramName: 'ClientTime'
+                      },
+                      {
+                        paramType: 'deviceId',
+                        paramName: 'DeviceID'
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            positionSec: 69,
+            providers: [
+              {
+                name: 'Emuse',
+                events: [
+                  {
+                    url:
+                      'https://measurementdemo2.emuse-tech.com/default.xml?PageID=53&MeasurementPointID=107&Version=11&ContentSetID=37&Status=0&Quartile=3&ExtSrc=vod&DeviceType=firetv&PartnerProfileID=VendorID&OppType=screensaver',
+                    clientOutbound: [
+                      {
+                        paramType: 'clientFormattedTimeStamp',
+                        paramName: 'ClientTime'
+                      },
+                      {
+                        paramType: 'deviceId',
+                        paramName: 'DeviceID'
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            positionSec: 90,
+            providers: [
+              {
+                name: 'Emuse',
+                events: [
+                  {
+                    url:
+                      'https://measurementdemo2.emuse-tech.com/default.xml?PageID=53&MeasurementPointID=107&Version=11&ContentSetID=37&Status=0&Quartile=4&ExtSrc=vod&DeviceType=firetv&PartnerProfileID=VendorID&OppType=screensaver',
+                    clientOutbound: [
+                      {
+                        paramType: 'clientFormattedTimeStamp',
+                        paramName: 'ClientTime'
+                      },
+                      {
+                        paramType: 'deviceId',
+                        paramName: 'DeviceID'
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        executionTriggers: [
+          {
+            trigger: 'STATE_STARTED'
+          }
+        ]
+      },
+      {
+        id: 2,
+        commandName: 'REPORT_COMMAND',
+        report: {
+          providers: [
+            {
+              name: 'Emuse',
+              events: [
+                {
+                  url:
+                    'https://measurementdemo2.emuse-tech.com/default.xml?PageID=53&MeasurementPointID=102&Version=11&ExtSrc=vod&DeviceType=firetv&PartnerProfileID=VendorID&OppType=screensaver',
+                  clientOutbound: [
+                    {
+                      paramType: 'clientFormattedTimeStamp',
+                      paramName: 'ClientTime'
+                    },
+                    {
+                      paramType: 'timeFromStarted',
+                      paramName: 'Duration'
+                    },
+                    {
+                      paramType: 'deviceId',
+                      paramName: 'DeviceID'
+                    }
+                  ]
+                },
+                {
+                  url:
+                    'https://measurementdemo2.emuse-tech.com/default.xml?PageID=53&MeasurementPointID=104&Version=11&ExtSrc=vod&DeviceType=firetv&PartnerProfileID=VendorID&OppType=screensaver',
+                  clientOutbound: [
+                    {
+                      paramType: 'clientFormattedTimeStamp',
+                      paramName: 'ClientTime'
+                    },
+                    {
+                      paramType: 'timeFromStarted',
+                      paramName: 'Duration'
+                    },
+                    {
+                      paramType: 'deviceId',
+                      paramName: 'DeviceID'
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        executionTriggers: [
+          {
+            trigger: 'STATE_STOPPING',
+            conditions: ['STATE_PLAYING']
+          }
+        ]
+      }
+    ],
+    exeAdUUID: 'BE1d661a-de3c-4f84-ba12-520b0a5e5d55',
+    experienceId: 'c10f8cb5-2352-494f-aff8-e6ea0b0c5374',
+    templateId: 2
+  }
+};

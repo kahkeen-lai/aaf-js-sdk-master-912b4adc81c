@@ -1,0 +1,5 @@
+{
+  "info_log_prefixes": ["console.info", "this._loggerService.info", "_logger.info", "_loggerService.info", "logger.info", "DateHelper._logger.info", "ReportService._logger.info", "_this._loggerService.info", "this._logger.info"],
+  "debug_log_prefixes": ["console.debug", "this._loggerService.debug", "_logger.debug", "_loggerService.debug", "logger.debug", "DateHelper._logger.debug", "ReportService._logger.debug", "_this._loggerService.debug", "this._logger.debug"],
+  "verbose_log_prefixes": ["console.verbose", "this._loggerService.verbose", "_logger.verbose", "_loggerService.verbose", "logger.verbose", "DateHelper._logger.verbose", "ReportService._logger.verbose", "_this._loggerService.verbose", "this._logger.verbose"]
+}

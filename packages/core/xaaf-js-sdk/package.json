@@ -1,0 +1,57 @@
+{
+    "name": "@xaaf/xaaf-js-sdk",
+    "version": "4.1.2",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "author": {
+        "name": "xandr",
+        "email": "dev@xandr.com",
+        "url": "https://www.xandr.com/"
+    },
+    "license": "SEE LICENSE IN LICENSE",
+    "scripts": {
+        "build": "yarn compile",
+        "compile": "../../../node_modules/.bin/rimraf dist && tsc -p tsconfig.json",
+        "test": "../../../node_modules/.bin/jest --coverage && yarn coverage",
+        "analyze": "../../../node_modules/.bin/rollup -c ../../../rollup/rollup.config.analysys.js",
+        "coverage": "../../../node_modules/.bin/cpr ./coverage/coverage-final.json ../../../coverage/coverage-xaaf-js-sdk.json -o",
+        "lint": "../../../node_modules/.bin/tsc --noEmit && ../../../node_modules/.bin/eslint --max-warnings 0 \"*/**/*.{ts,tsx}\" ",
+        "lint:fix": "../../../node_modules/.bin/tsc --noEmit && ../../../node_modules/.bin/eslint \"*/**/*.{ts,tsx}\" --ext .ts --quiet --fix",
+        "prepush": "yarn lint",
+        "compile:local": "echo compiling to destination folder ${COMPILE_TO_TARGET} && tsc -p tsconfig.json --outDir ${COMPILE_TO_TARGET}/ad-sdk/lib/",
+        "patch": "npm version patch -m \"[Version] updating to a new patch version %s\"",
+        "compile:local:watch": "echo compiling to destination folder ${COMPILE_TO_TARGET} && tsc -p tsconfig.json --watch --outDir ${COMPILE_TO_TARGET}/ad-sdk/lib/",
+        "compile:local:win": "echo compiling to destination folder %COMPILE_TO_TARGET% && tsc -p tsconfig.json --outDir %COMPILE_TO_TARGET%/ad-sdk/lib/",
+        "compile:local:watch:win": "echo compiling to destination folder %COMPILE_TO_TARGET% && tsc -p tsconfig.json --watch --outDir %COMPILE_TO_TARGET%/ad-sdk/lib/",
+        "postpublish": "echo ad-sdk >> ../../published.txt",
+        "docs": "../../../node_modules/.bin/rimraf ../../../docs/internal/sdk/core/xaaf-js-sdk && ../../../node_modules/.bin/typedoc && node ../../../docs/docs.js sdk/core/xaaf-js-sdk",
+        "watch": "../../../node_modules/.bin/tsc --watch",
+        "mutation": "../../../node_modules/.bin/stryker run"
+    },
+    "dependencies": {
+        "@xaaf/ad-script": "^1.1.2",
+        "@xaaf/common": "^4.1.2",
+        "@xaaf/key-service": "^4.1.2",
+        "@xstate/fsm": "~1.3.0",
+        "serialize-error": "~7.0.1",
+        "tslib": "^2.3.1",
+        "uuid-random": "^1.3.0"
+    },
+    "devDependencies": {
+        "@xaaf/http-axios": "^4.1.2"
+    },
+    "files": [
+        "declarations/**/*",
+        "dist/**/*",
+        "package.json"
+    ],
+    "docs": {
+        "content": [
+            "README.md",
+            "dist/bundle.treemap.stats.html",
+            "dist/bundle.sunburst.stats.html",
+            "coverage/tests.html"
+        ]
+    },
+    "gitHead": "f8b4497f68ec390d1725164f7dcd33fc7999ffab"
+}

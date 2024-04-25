@@ -1,0 +1,12 @@
+// this tsconfig file is necessary for the correct functionality of eslint
+// do not remove or rename
+{
+  "extends": "./packages/core/xaaf-js-sdk/tsconfig.json",
+  "include": [
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+    "**/*.js",
+    "!**/dist/*.js",
+    "!**/lib/*.js"
+  ]
+}

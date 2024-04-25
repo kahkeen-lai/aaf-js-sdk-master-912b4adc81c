@@ -1,0 +1,2953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1708405833456" clover="3.2.0">
+  <project timestamp="1708405833456" name="All files">
+    <metrics statements="2743" coveredstatements="2476" conditionals="1323" coveredconditionals="1069" methods="650" coveredmethods="603" elements="4716" coveredelements="4148" complexity="0" loc="2743" ncloc="2743" packages="22" files="46" classes="46"/>
+    <package name="src">
+      <metrics statements="90" coveredstatements="88" conditionals="52" coveredconditionals="50" methods="19" coveredmethods="17"/>
+      <file name="xaaf-js-sdk.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/xaaf-js-sdk.ts">
+        <metrics statements="90" coveredstatements="88" conditionals="52" coveredconditionals="50" methods="19" coveredmethods="17"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="140" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="105" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="32" count="77" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="40" count="169" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="44" count="76" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="51" count="31" type="stmt"/>
+        <line num="52" count="28" type="stmt"/>
+        <line num="53" count="28" type="stmt"/>
+        <line num="54" count="28" type="cond" truecount="3" falsecount="1"/>
+        <line num="57" count="28" type="stmt"/>
+        <line num="58" count="44" type="stmt"/>
+        <line num="59" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="42" type="stmt"/>
+        <line num="62" count="16" type="stmt"/>
+        <line num="69" count="5" type="stmt"/>
+        <line num="72" count="5" type="stmt"/>
+        <line num="73" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="77" count="3" type="stmt"/>
+        <line num="82" count="20" type="stmt"/>
+        <line num="84" count="16" type="stmt"/>
+        <line num="89" count="3" type="stmt"/>
+        <line num="90" count="24" type="stmt"/>
+        <line num="91" count="24" type="cond" truecount="4" falsecount="0"/>
+        <line num="92" count="19" type="stmt"/>
+        <line num="93" count="19" type="stmt"/>
+        <line num="95" count="5" type="stmt"/>
+        <line num="96" count="5" type="stmt"/>
+        <line num="100" count="3" type="stmt"/>
+        <line num="101" count="28" type="stmt"/>
+        <line num="102" count="28" type="stmt"/>
+        <line num="112" count="28" type="stmt"/>
+        <line num="114" count="28" type="stmt"/>
+        <line num="117" count="3" type="stmt"/>
+        <line num="118" count="28" type="stmt"/>
+        <line num="119" count="28" type="stmt"/>
+        <line num="120" count="28" type="stmt"/>
+        <line num="123" count="3" type="stmt"/>
+        <line num="124" count="22" type="stmt"/>
+        <line num="127" count="22" type="cond" truecount="4" falsecount="0"/>
+        <line num="128" count="22" type="cond" truecount="8" falsecount="0"/>
+        <line num="129" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="133" count="3" type="stmt"/>
+        <line num="134" count="25" type="stmt"/>
+        <line num="135" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="136" count="3" type="stmt"/>
+        <line num="137" count="3" type="stmt"/>
+        <line num="141" count="3" type="stmt"/>
+        <line num="142" count="28" type="stmt"/>
+        <line num="143" count="28" type="stmt"/>
+        <line num="144" count="28" type="stmt"/>
+        <line num="145" count="25" type="stmt"/>
+        <line num="146" count="25" type="cond" truecount="4" falsecount="0"/>
+        <line num="147" count="22" type="stmt"/>
+        <line num="150" count="3" type="stmt"/>
+        <line num="151" count="8" type="stmt"/>
+        <line num="153" count="8" type="stmt"/>
+        <line num="159" count="8" type="stmt"/>
+        <line num="161" count="8" type="stmt"/>
+        <line num="162" count="8" type="stmt"/>
+        <line num="165" count="3" type="stmt"/>
+        <line num="166" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="169" count="3" type="stmt"/>
+        <line num="170" count="45" type="stmt"/>
+        <line num="171" count="45" type="stmt"/>
+        <line num="173" count="45" type="cond" truecount="2" falsecount="0"/>
+        <line num="175" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.executable-ad">
+      <metrics statements="537" coveredstatements="451" conditionals="321" coveredconditionals="237" methods="100" coveredmethods="91"/>
+      <file name="dummy-executable-ad.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/dummy-executable-ad.ts">
+        <metrics statements="30" coveredstatements="28" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="9"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="13" type="stmt"/>
+        <line num="10" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="49" count="4" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="53" count="4" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="59" count="4" type="stmt"/>
+      </file>
+      <file name="executable-ad.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/executable-ad.ts">
+        <metrics statements="507" coveredstatements="423" conditionals="319" coveredconditionals="235" methods="90" coveredmethods="82"/>
+        <line num="2" count="16" type="stmt"/>
+        <line num="3" count="16" type="stmt"/>
+        <line num="37" count="16" type="stmt"/>
+        <line num="42" count="16" type="stmt"/>
+        <line num="54" count="16" type="stmt"/>
+        <line num="55" count="16" type="stmt"/>
+        <line num="57" count="16" type="stmt"/>
+        <line num="65" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="66" count="16" type="stmt"/>
+        <line num="67" count="16" type="stmt"/>
+        <line num="72" count="16" type="stmt"/>
+        <line num="74" count="163" type="stmt"/>
+        <line num="75" count="163" type="stmt"/>
+        <line num="76" count="163" type="stmt"/>
+        <line num="77" count="163" type="stmt"/>
+        <line num="78" count="163" type="stmt"/>
+        <line num="83" count="16" type="stmt"/>
+        <line num="85" count="316" type="stmt"/>
+        <line num="88" count="16" type="stmt"/>
+        <line num="90" count="279" type="stmt"/>
+        <line num="93" count="163" type="stmt"/>
+        <line num="94" count="163" type="stmt"/>
+        <line num="95" count="163" type="stmt"/>
+        <line num="96" count="163" type="stmt"/>
+        <line num="97" count="163" type="stmt"/>
+        <line num="98" count="163" type="stmt"/>
+        <line num="99" count="163" type="stmt"/>
+        <line num="100" count="163" type="stmt"/>
+        <line num="102" count="163" type="stmt"/>
+        <line num="103" count="163" type="stmt"/>
+        <line num="109" count="163" type="stmt"/>
+        <line num="111" count="163" type="stmt"/>
+        <line num="112" count="163" type="stmt"/>
+        <line num="113" count="163" type="stmt"/>
+        <line num="114" count="163" type="stmt"/>
+        <line num="115" count="163" type="stmt"/>
+        <line num="116" count="163" type="stmt"/>
+        <line num="117" count="163" type="stmt"/>
+        <line num="118" count="163" type="stmt"/>
+        <line num="119" count="163" type="stmt"/>
+        <line num="121" count="16" type="stmt"/>
+        <line num="122" count="163" type="stmt"/>
+        <line num="123" count="163" type="cond" truecount="6" falsecount="0"/>
+        <line num="124" count="13" type="cond" truecount="3" falsecount="1"/>
+        <line num="126" count="150" type="cond" truecount="6" falsecount="0"/>
+        <line num="127" count="140" type="stmt"/>
+        <line num="130" count="163" type="stmt"/>
+        <line num="133" count="163" type="stmt"/>
+        <line num="134" count="163" type="stmt"/>
+        <line num="136" count="163" type="cond" truecount="10" falsecount="0"/>
+        <line num="137" count="163" type="stmt"/>
+        <line num="138" count="163" type="stmt"/>
+        <line num="140" count="163" type="stmt"/>
+        <line num="142" count="163" type="stmt"/>
+        <line num="144" count="163" type="cond" truecount="6" falsecount="0"/>
+        <line num="145" count="17" type="stmt"/>
+        <line num="148" count="163" type="stmt"/>
+        <line num="150" count="163" type="stmt"/>
+        <line num="152" count="163" type="stmt"/>
+        <line num="153" count="163" type="stmt"/>
+        <line num="154" count="349" type="cond" truecount="2" falsecount="0"/>
+        <line num="156" count="173" type="stmt"/>
+        <line num="157" count="173" type="stmt"/>
+        <line num="158" count="173" type="stmt"/>
+        <line num="159" count="173" type="stmt"/>
+        <line num="162" count="163" type="stmt"/>
+        <line num="165" count="16" type="stmt"/>
+        <line num="171" count="68" type="stmt"/>
+        <line num="172" count="68" type="stmt"/>
+        <line num="173" count="68" type="stmt"/>
+        <line num="174" count="68" type="stmt"/>
+        <line num="175" count="68" type="stmt"/>
+        <line num="176" count="119" type="stmt"/>
+        <line num="178" count="46" type="cond" truecount="1" falsecount="1"/>
+        <line num="179" count="0" type="stmt"/>
+        <line num="180" count="0" type="stmt"/>
+        <line num="183" count="87" type="cond" truecount="2" falsecount="0"/>
+        <line num="184" count="5" type="stmt"/>
+        <line num="185" count="10" type="stmt"/>
+        <line num="186" count="3" type="stmt"/>
+        <line num="189" count="41" type="cond" truecount="2" falsecount="0"/>
+        <line num="190" count="3" type="stmt"/>
+        <line num="191" count="3" type="stmt"/>
+        <line num="194" count="38" type="cond" truecount="1" falsecount="1"/>
+        <line num="195" count="0" type="stmt"/>
+        <line num="196" count="0" type="stmt"/>
+        <line num="199" count="38" type="stmt"/>
+        <line num="200" count="38" type="stmt"/>
+        <line num="201" count="38" type="stmt"/>
+        <line num="202" count="76" type="stmt"/>
+        <line num="203" count="38" type="stmt"/>
+        <line num="205" count="10" type="stmt"/>
+        <line num="206" count="10" type="stmt"/>
+        <line num="210" count="16" type="stmt"/>
+        <line num="211" count="40" type="cond" truecount="2" falsecount="0"/>
+        <line num="212" count="7" type="stmt"/>
+        <line num="214" count="33" type="stmt"/>
+        <line num="218" count="16" type="stmt"/>
+        <line num="219" count="74" type="stmt"/>
+        <line num="223" count="16" type="stmt"/>
+        <line num="224" count="23" type="stmt"/>
+        <line num="225" count="23" type="stmt"/>
+        <line num="226" count="23" type="stmt"/>
+        <line num="227" count="23" type="cond" truecount="1" falsecount="1"/>
+        <line num="228" count="0" type="stmt"/>
+        <line num="229" count="0" type="stmt"/>
+        <line num="231" count="23" type="stmt"/>
+        <line num="233" count="0" type="stmt"/>
+        <line num="236" count="0" type="stmt"/>
+        <line num="240" count="16" type="stmt"/>
+        <line num="241" count="16" type="stmt"/>
+        <line num="242" count="16" type="stmt"/>
+        <line num="245" count="16" type="stmt"/>
+        <line num="246" count="0" type="stmt"/>
+        <line num="247" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="248" count="0" type="stmt"/>
+        <line num="250" count="0" type="stmt"/>
+        <line num="254" count="16" type="stmt"/>
+        <line num="255" count="0" type="stmt"/>
+        <line num="256" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="257" count="0" type="stmt"/>
+        <line num="259" count="0" type="stmt"/>
+        <line num="263" count="44" type="stmt"/>
+        <line num="264" count="28" type="stmt"/>
+        <line num="265" count="30" type="stmt"/>
+        <line num="266" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="267" count="2" type="stmt"/>
+        <line num="272" count="2" type="stmt"/>
+        <line num="273" count="2" type="stmt"/>
+        <line num="276" count="2" type="stmt"/>
+        <line num="278" count="28" type="stmt"/>
+        <line num="283" count="16" type="stmt"/>
+        <line num="284" count="33" type="stmt"/>
+        <line num="288" count="33" type="cond" truecount="2" falsecount="0"/>
+        <line num="289" count="22" type="stmt"/>
+        <line num="292" count="22" type="stmt"/>
+        <line num="295" count="33" type="stmt"/>
+        <line num="296" count="33" type="stmt"/>
+        <line num="299" count="33" type="stmt"/>
+        <line num="300" count="33" type="stmt"/>
+        <line num="302" count="33" type="stmt"/>
+        <line num="305" count="33" type="stmt"/>
+        <line num="306" count="33" type="stmt"/>
+        <line num="309" count="16" type="stmt"/>
+        <line num="310" count="68" type="stmt"/>
+        <line num="316" count="16" type="stmt"/>
+        <line num="317" count="68" type="cond" truecount="1" falsecount="1"/>
+        <line num="318" count="0" type="stmt"/>
+        <line num="322" count="16" type="stmt"/>
+        <line num="323" count="68" type="stmt"/>
+        <line num="328" count="16" type="stmt"/>
+        <line num="329" count="38" type="stmt"/>
+        <line num="330" count="38" type="stmt"/>
+        <line num="333" count="16" type="stmt"/>
+        <line num="334" count="53" type="cond" truecount="5" falsecount="1"/>
+        <line num="335" count="53" type="stmt"/>
+        <line num="336" count="53" type="stmt"/>
+        <line num="339" count="16" type="stmt"/>
+        <line num="340" count="83" type="cond" truecount="2" falsecount="0"/>
+        <line num="341" count="53" type="stmt"/>
+        <line num="342" count="89" type="stmt"/>
+        <line num="343" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="344" count="5" type="stmt"/>
+        <line num="349" count="16" type="stmt"/>
+        <line num="350" count="38" type="cond" truecount="2" falsecount="0"/>
+        <line num="352" count="38" type="stmt"/>
+        <line num="353" count="38" type="cond" truecount="4" falsecount="0"/>
+        <line num="354" count="27" type="stmt"/>
+        <line num="358" count="16" type="stmt"/>
+        <line num="359" count="46" type="stmt"/>
+        <line num="362" count="16" type="stmt"/>
+        <line num="363" count="46" type="stmt"/>
+        <line num="366" count="16" type="stmt"/>
+        <line num="374" count="38" type="cond" truecount="1" falsecount="1"/>
+        <line num="375" count="38" type="stmt"/>
+        <line num="377" count="0" type="stmt"/>
+        <line num="380" count="0" type="stmt"/>
+        <line num="384" count="16" type="stmt"/>
+        <line num="386" count="40" type="stmt"/>
+        <line num="388" count="12" type="stmt"/>
+        <line num="392" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="393" count="9" type="stmt"/>
+        <line num="395" count="3" type="stmt"/>
+        <line num="400" count="16" type="stmt"/>
+        <line num="401" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="404" count="16" type="stmt"/>
+        <line num="405" count="8" type="cond" truecount="3" falsecount="1"/>
+        <line num="406" count="0" type="cond" truecount="0" falsecount="6"/>
+        <line num="407" count="0" type="stmt"/>
+        <line num="408" count="0" type="stmt"/>
+        <line num="409" count="0" type="stmt"/>
+        <line num="410" count="0" type="stmt"/>
+        <line num="411" count="0" type="stmt"/>
+        <line num="412" count="0" type="stmt"/>
+        <line num="422" count="0" type="stmt"/>
+        <line num="423" count="0" type="stmt"/>
+        <line num="424" count="0" type="stmt"/>
+        <line num="431" count="0" type="stmt"/>
+        <line num="432" count="0" type="stmt"/>
+        <line num="433" count="0" type="stmt"/>
+        <line num="434" count="0" type="stmt"/>
+        <line num="438" count="0" type="stmt"/>
+        <line num="446" count="0" type="stmt"/>
+        <line num="447" count="0" type="stmt"/>
+        <line num="448" count="0" type="stmt"/>
+        <line num="449" count="0" type="stmt"/>
+        <line num="455" count="0" type="stmt"/>
+        <line num="456" count="0" type="stmt"/>
+        <line num="457" count="0" type="stmt"/>
+        <line num="459" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="460" count="5" type="stmt"/>
+        <line num="471" count="5" type="stmt"/>
+        <line num="473" count="3" type="stmt"/>
+        <line num="488" count="16" type="stmt"/>
+        <line num="490" count="4" type="stmt"/>
+        <line num="492" count="4" type="stmt"/>
+        <line num="505" count="16" type="stmt"/>
+        <line num="506" count="35" type="stmt"/>
+        <line num="507" count="35" type="stmt"/>
+        <line num="508" count="33" type="cond" truecount="2" falsecount="1"/>
+        <line num="509" count="33" type="stmt"/>
+        <line num="511" count="33" type="stmt"/>
+        <line num="512" count="0" type="stmt"/>
+        <line num="513" count="0" type="stmt"/>
+        <line num="517" count="0" type="stmt"/>
+        <line num="518" count="0" type="stmt"/>
+        <line num="519" count="2" type="stmt"/>
+        <line num="520" count="2" type="stmt"/>
+        <line num="524" count="2" type="stmt"/>
+        <line num="525" count="4" type="stmt"/>
+        <line num="527" count="2" type="stmt"/>
+        <line num="528" count="2" type="stmt"/>
+        <line num="530" count="0" type="stmt"/>
+        <line num="534" count="16" type="stmt"/>
+        <line num="535" count="38" type="stmt"/>
+        <line num="536" count="38" type="stmt"/>
+        <line num="537" count="35" type="cond" truecount="2" falsecount="1"/>
+        <line num="538" count="70" type="stmt"/>
+        <line num="539" count="35" type="stmt"/>
+        <line num="540" count="0" type="stmt"/>
+        <line num="541" count="0" type="stmt"/>
+        <line num="544" count="0" type="stmt"/>
+        <line num="547" count="0" type="stmt"/>
+        <line num="548" count="0" type="stmt"/>
+        <line num="549" count="3" type="stmt"/>
+        <line num="550" count="3" type="stmt"/>
+        <line num="553" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="555" count="0" type="stmt"/>
+        <line num="556" count="0" type="stmt"/>
+        <line num="560" count="6" type="stmt"/>
+        <line num="561" count="3" type="stmt"/>
+        <line num="564" count="3" type="stmt"/>
+        <line num="569" count="16" type="stmt"/>
+        <line num="570" count="41" type="stmt"/>
+        <line num="573" count="16" type="stmt"/>
+        <line num="574" count="54" type="stmt"/>
+        <line num="579" count="54" type="stmt"/>
+        <line num="584" count="40" type="stmt"/>
+        <line num="585" count="40" type="stmt"/>
+        <line num="586" count="40" type="stmt"/>
+        <line num="587" count="40" type="stmt"/>
+        <line num="589" count="40" type="stmt"/>
+        <line num="591" count="40" type="stmt"/>
+        <line num="593" count="40" type="stmt"/>
+        <line num="596" count="77" type="stmt"/>
+        <line num="597" count="61" type="stmt"/>
+        <line num="598" count="125" type="stmt"/>
+        <line num="602" count="77" type="stmt"/>
+        <line num="603" count="61" type="stmt"/>
+        <line num="606" count="36" type="stmt"/>
+        <line num="610" count="77" type="stmt"/>
+        <line num="611" count="61" type="stmt"/>
+        <line num="614" count="3" type="stmt"/>
+        <line num="618" count="77" type="stmt"/>
+        <line num="619" count="61" type="cond" truecount="4" falsecount="2"/>
+        <line num="620" count="126" type="stmt"/>
+        <line num="624" count="77" type="stmt"/>
+        <line num="625" count="61" type="stmt"/>
+        <line num="627" count="125" type="stmt"/>
+        <line num="630" count="62" type="stmt"/>
+        <line num="631" count="62" type="cond" truecount="2" falsecount="0"/>
+        <line num="632" count="1" type="stmt"/>
+        <line num="634" count="1" type="stmt"/>
+        <line num="637" count="61" type="stmt"/>
+        <line num="638" count="61" type="stmt"/>
+        <line num="639" count="61" type="stmt"/>
+        <line num="640" count="61" type="stmt"/>
+        <line num="641" count="61" type="stmt"/>
+        <line num="643" count="61" type="stmt"/>
+        <line num="644" count="159" type="stmt"/>
+        <line num="647" count="159" type="stmt"/>
+        <line num="648" count="159" type="stmt"/>
+        <line num="651" count="61" type="stmt"/>
+        <line num="652" count="0" type="stmt"/>
+        <line num="653" count="0" type="stmt"/>
+        <line num="656" count="61" type="stmt"/>
+        <line num="657" count="61" type="stmt"/>
+        <line num="660" count="16" type="stmt"/>
+        <line num="661" count="40" type="stmt"/>
+        <line num="663" count="14" type="stmt"/>
+        <line num="664" count="14" type="stmt"/>
+        <line num="665" count="14" type="stmt"/>
+        <line num="666" count="14" type="stmt"/>
+        <line num="667" count="14" type="stmt"/>
+        <line num="670" count="3" type="stmt"/>
+        <line num="671" count="3" type="stmt"/>
+        <line num="672" count="3" type="stmt"/>
+        <line num="673" count="3" type="stmt"/>
+        <line num="675" count="14" type="cond" truecount="1" falsecount="1"/>
+        <line num="676" count="14" type="stmt"/>
+        <line num="681" count="14" type="stmt"/>
+        <line num="682" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="683" count="13" type="stmt"/>
+        <line num="685" count="1" type="stmt"/>
+        <line num="690" count="14" type="stmt"/>
+        <line num="692" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="693" count="1" type="stmt"/>
+        <line num="694" count="1" type="stmt"/>
+        <line num="695" count="1" type="stmt"/>
+        <line num="697" count="1" type="stmt"/>
+        <line num="699" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="700" count="0" type="stmt"/>
+        <line num="701" count="0" type="stmt"/>
+        <line num="702" count="0" type="stmt"/>
+        <line num="704" count="0" type="stmt"/>
+        <line num="706" count="2" type="stmt"/>
+        <line num="711" count="2" type="stmt"/>
+        <line num="712" count="2" type="stmt"/>
+        <line num="714" count="6" type="stmt"/>
+        <line num="719" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="720" count="2" type="stmt"/>
+        <line num="722" count="4" type="stmt"/>
+        <line num="724" count="6" type="stmt"/>
+        <line num="726" count="0" type="stmt"/>
+        <line num="730" count="16" type="stmt"/>
+        <line num="731" count="2" type="stmt"/>
+        <line num="732" count="2" type="stmt"/>
+        <line num="733" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="735" count="2" type="stmt"/>
+        <line num="739" count="16" type="stmt"/>
+        <line num="740" count="25" type="stmt"/>
+        <line num="741" count="25" type="stmt"/>
+        <line num="742" count="25" type="cond" truecount="1" falsecount="1"/>
+        <line num="743" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="745" count="25" type="stmt"/>
+        <line num="746" count="25" type="stmt"/>
+        <line num="748" count="0" type="stmt"/>
+        <line num="749" count="0" type="stmt"/>
+        <line num="753" count="16" type="stmt"/>
+        <line num="754" count="30" type="cond" truecount="3" falsecount="1"/>
+        <line num="757" count="16" type="stmt"/>
+        <line num="758" count="31" type="stmt"/>
+        <line num="761" count="16" type="stmt"/>
+        <line num="762" count="71" type="cond" truecount="3" falsecount="1"/>
+        <line num="763" count="27" type="stmt"/>
+        <line num="766" count="16" type="stmt"/>
+        <line num="769" count="12" type="cond" truecount="1" falsecount="1"/>
+        <line num="770" count="12" type="cond" truecount="1" falsecount="1"/>
+        <line num="772" count="12" type="stmt"/>
+        <line num="784" count="16" type="stmt"/>
+        <line num="785" count="33" type="stmt"/>
+        <line num="786" count="33" type="stmt"/>
+        <line num="789" count="16" type="stmt"/>
+        <line num="790" count="103" type="cond" truecount="2" falsecount="0"/>
+        <line num="791" count="49" type="stmt"/>
+        <line num="795" count="16" type="stmt"/>
+        <line num="796" count="0" type="stmt"/>
+        <line num="799" count="67" type="stmt"/>
+        <line num="800" count="67" type="stmt"/>
+        <line num="806" count="9" type="stmt"/>
+        <line num="811" count="67" type="stmt"/>
+        <line num="812" count="67" type="stmt"/>
+        <line num="818" count="2" type="stmt"/>
+        <line num="823" count="16" type="stmt"/>
+        <line num="830" count="135" type="stmt"/>
+        <line num="831" count="135" type="cond" truecount="2" falsecount="0"/>
+        <line num="832" count="135" type="cond" truecount="2" falsecount="0"/>
+        <line num="833" count="113" type="stmt"/>
+        <line num="836" count="113" type="stmt"/>
+        <line num="839" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="840" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="841" count="10" type="stmt"/>
+        <line num="844" count="10" type="stmt"/>
+        <line num="847" count="12" type="stmt"/>
+        <line num="850" count="16" type="stmt"/>
+        <line num="851" count="10" type="stmt"/>
+        <line num="852" count="10" type="stmt"/>
+        <line num="853" count="10" type="stmt"/>
+        <line num="857" count="16" type="stmt"/>
+        <line num="858" count="2" type="stmt"/>
+        <line num="859" count="2" type="stmt"/>
+        <line num="860" count="2" type="stmt"/>
+        <line num="864" count="16" type="stmt"/>
+        <line num="865" count="34" type="stmt"/>
+        <line num="866" count="34" type="stmt"/>
+        <line num="867" count="34" type="cond" truecount="2" falsecount="0"/>
+        <line num="868" count="5" type="stmt"/>
+        <line num="869" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="870" count="5" type="stmt"/>
+        <line num="871" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="872" count="1" type="stmt"/>
+        <line num="876" count="34" type="stmt"/>
+        <line num="879" count="16" type="stmt"/>
+        <line num="880" count="0" type="stmt"/>
+        <line num="881" count="0" type="stmt"/>
+        <line num="882" count="0" type="stmt"/>
+        <line num="883" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="884" count="0" type="stmt"/>
+        <line num="885" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="886" count="0" type="stmt"/>
+        <line num="887" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="888" count="0" type="stmt"/>
+        <line num="892" count="0" type="stmt"/>
+        <line num="895" count="16" type="stmt"/>
+        <line num="896" count="1" type="stmt"/>
+        <line num="899" count="16" type="stmt"/>
+        <line num="900" count="40" type="stmt"/>
+        <line num="901" count="40" type="stmt"/>
+        <line num="905" count="16" type="stmt"/>
+        <line num="906" count="173" type="stmt"/>
+        <line num="907" count="173" type="stmt"/>
+        <line num="908" count="173" type="cond" truecount="2" falsecount="0"/>
+        <line num="909" count="162" type="stmt"/>
+        <line num="911" count="11" type="stmt"/>
+        <line num="915" count="11" type="stmt"/>
+        <line num="919" count="16" type="stmt"/>
+        <line num="920" count="178" type="stmt"/>
+        <line num="922" count="29" type="stmt"/>
+        <line num="923" count="29" type="stmt"/>
+        <line num="926" count="29" type="stmt"/>
+        <line num="927" count="29" type="stmt"/>
+        <line num="930" count="10" type="stmt"/>
+        <line num="931" count="10" type="stmt"/>
+        <line num="934" count="11" type="stmt"/>
+        <line num="935" count="11" type="stmt"/>
+        <line num="936" count="11" type="stmt"/>
+        <line num="939" count="0" type="stmt"/>
+        <line num="940" count="0" type="stmt"/>
+        <line num="943" count="0" type="stmt"/>
+        <line num="944" count="0" type="stmt"/>
+        <line num="947" count="0" type="stmt"/>
+        <line num="948" count="0" type="stmt"/>
+        <line num="951" count="0" type="stmt"/>
+        <line num="952" count="0" type="stmt"/>
+        <line num="955" count="30" type="stmt"/>
+        <line num="956" count="30" type="stmt"/>
+        <line num="957" count="30" type="stmt"/>
+        <line num="960" count="31" type="stmt"/>
+        <line num="961" count="31" type="stmt"/>
+        <line num="962" count="31" type="stmt"/>
+        <line num="965" count="27" type="stmt"/>
+        <line num="969" count="27" type="stmt"/>
+        <line num="970" count="27" type="stmt"/>
+        <line num="973" count="27" type="stmt"/>
+        <line num="974" count="27" type="stmt"/>
+        <line num="975" count="27" type="stmt"/>
+        <line num="978" count="0" type="stmt"/>
+        <line num="979" count="0" type="stmt"/>
+        <line num="983" count="11" type="stmt"/>
+        <line num="988" count="16" type="stmt"/>
+        <line num="989" count="174" type="stmt"/>
+        <line num="991" count="29" type="stmt"/>
+        <line num="992" count="29" type="stmt"/>
+        <line num="993" count="29" type="stmt"/>
+        <line num="996" count="10" type="stmt"/>
+        <line num="997" count="10" type="stmt"/>
+        <line num="1000" count="10" type="stmt"/>
+        <line num="1001" count="10" type="stmt"/>
+        <line num="1004" count="8" type="stmt"/>
+        <line num="1005" count="8" type="stmt"/>
+        <line num="1008" count="30" type="stmt"/>
+        <line num="1012" count="30" type="stmt"/>
+        <line num="1015" count="31" type="stmt"/>
+        <line num="1019" count="31" type="stmt"/>
+        <line num="1022" count="27" type="stmt"/>
+        <line num="1025" count="27" type="cond" truecount="1" falsecount="1"/>
+        <line num="1026" count="27" type="stmt"/>
+        <line num="1027" count="27" type="stmt"/>
+        <line num="1031" count="29" type="stmt"/>
+        <line num="1036" count="16" type="stmt"/>
+        <line num="1037" count="61" type="stmt"/>
+        <line num="1040" count="16" type="stmt"/>
+        <line num="1041" count="185" type="cond" truecount="2" falsecount="0"/>
+        <line num="1042" count="47" type="stmt"/>
+        <line num="1044" count="138" type="cond" truecount="5" falsecount="1"/>
+        <line num="1047" count="16" type="stmt"/>
+        <line num="1048" count="1" type="stmt"/>
+        <line num="1054" count="1" type="stmt"/>
+        <line num="1060" count="29" type="stmt"/>
+        <line num="1061" count="29" type="stmt"/>
+        <line num="1063" count="29" type="stmt"/>
+        <line num="1064" count="29" type="cond" truecount="2" falsecount="0"/>
+        <line num="1065" count="27" type="stmt"/>
+        <line num="1066" count="27" type="cond" truecount="9" falsecount="1"/>
+        <line num="1067" count="16" type="stmt"/>
+        <line num="1068" count="32" type="cond" truecount="12" falsecount="4"/>
+        <line num="1073" count="29" type="cond" truecount="1" falsecount="1"/>
+        <line num="1074" count="29" type="stmt"/>
+        <line num="1078" count="16" type="stmt"/>
+        <line num="1079" count="29" type="cond" truecount="13" falsecount="3"/>
+        <line num="1082" count="16" type="stmt"/>
+        <line num="1083" count="29" type="cond" truecount="4" falsecount="0"/>
+        <line num="1086" count="16" type="stmt"/>
+        <line num="1087" count="39" type="stmt"/>
+        <line num="1104" count="16" type="stmt"/>
+        <line num="1105" count="38" type="stmt"/>
+        <line num="1107" count="16" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.executable-ad.attributes">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="attributes.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/attributes/attributes.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="16" type="stmt"/>
+        <line num="3" count="16" type="stmt"/>
+        <line num="4" count="16" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.executable-ad.commands">
+      <metrics statements="93" coveredstatements="90" conditionals="41" coveredconditionals="36" methods="27" coveredmethods="24"/>
+      <file name="command.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/commands/command.ts">
+        <metrics statements="93" coveredstatements="90" conditionals="41" coveredconditionals="36" methods="27" coveredmethods="24"/>
+        <line num="1" count="37" type="stmt"/>
+        <line num="2" count="37" type="stmt"/>
+        <line num="12" count="37" type="stmt"/>
+        <line num="13" count="37" type="stmt"/>
+        <line num="18" count="37" type="stmt"/>
+        <line num="21" count="321" type="stmt"/>
+        <line num="24" count="284" type="stmt"/>
+        <line num="25" count="284" type="stmt"/>
+        <line num="26" count="284" type="stmt"/>
+        <line num="27" count="284" type="stmt"/>
+        <line num="29" count="284" type="cond" truecount="4" falsecount="0"/>
+        <line num="30" count="284" type="stmt"/>
+        <line num="31" count="284" type="stmt"/>
+        <line num="32" count="284" type="stmt"/>
+        <line num="33" count="71" type="stmt"/>
+        <line num="35" count="284" type="stmt"/>
+        <line num="36" count="63" type="stmt"/>
+        <line num="49" count="37" type="stmt"/>
+        <line num="53" count="37" type="stmt"/>
+        <line num="57" count="113" type="stmt"/>
+        <line num="58" count="76" type="stmt"/>
+        <line num="59" count="76" type="cond" truecount="3" falsecount="1"/>
+        <line num="60" count="76" type="stmt"/>
+        <line num="61" count="76" type="stmt"/>
+        <line num="63" count="19" type="stmt"/>
+        <line num="66" count="19" type="stmt"/>
+        <line num="69" count="76" type="stmt"/>
+        <line num="73" count="37" type="stmt"/>
+        <line num="74" count="317" type="stmt"/>
+        <line num="77" count="37" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="82" count="37" type="stmt"/>
+        <line num="83" count="33" type="stmt"/>
+        <line num="84" count="33" type="stmt"/>
+        <line num="85" count="54" type="stmt"/>
+        <line num="86" count="108" type="stmt"/>
+        <line num="91" count="37" type="stmt"/>
+        <line num="92" count="48" type="stmt"/>
+        <line num="93" count="48" type="stmt"/>
+        <line num="95" count="48" type="cond" truecount="2" falsecount="0"/>
+        <line num="96" count="38" type="stmt"/>
+        <line num="97" count="19" type="cond" truecount="1" falsecount="1"/>
+        <line num="98" count="19" type="cond" truecount="1" falsecount="1"/>
+        <line num="99" count="19" type="stmt"/>
+        <line num="102" count="29" type="stmt"/>
+        <line num="105" count="48" type="cond" truecount="2" falsecount="0"/>
+        <line num="107" count="48" type="stmt"/>
+        <line num="108" count="38" type="stmt"/>
+        <line num="110" count="78" type="stmt"/>
+        <line num="114" count="37" type="stmt"/>
+        <line num="120" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="122" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="124" count="39" type="cond" truecount="2" falsecount="2"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="128" count="39" type="stmt"/>
+        <line num="130" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="131" count="35" type="stmt"/>
+        <line num="137" count="35" type="cond" truecount="2" falsecount="0"/>
+        <line num="138" count="35" type="stmt"/>
+        <line num="140" count="35" type="cond" truecount="2" falsecount="0"/>
+        <line num="141" count="6" type="stmt"/>
+        <line num="142" count="6" type="stmt"/>
+        <line num="144" count="29" type="stmt"/>
+        <line num="145" count="29" type="stmt"/>
+        <line num="150" count="35" type="stmt"/>
+        <line num="151" count="35" type="stmt"/>
+        <line num="154" count="35" type="stmt"/>
+        <line num="155" count="35" type="stmt"/>
+        <line num="158" count="70" type="cond" truecount="2" falsecount="0"/>
+        <line num="159" count="8" type="stmt"/>
+        <line num="160" count="8" type="stmt"/>
+        <line num="163" count="16" type="stmt"/>
+        <line num="167" count="37" type="stmt"/>
+        <line num="168" count="39" type="stmt"/>
+        <line num="173" count="57" type="stmt"/>
+        <line num="174" count="57" type="stmt"/>
+        <line num="175" count="57" type="stmt"/>
+        <line num="176" count="57" type="cond" truecount="2" falsecount="0"/>
+        <line num="177" count="30" type="stmt"/>
+        <line num="180" count="30" type="stmt"/>
+        <line num="183" count="57" type="stmt"/>
+        <line num="186" count="37" type="stmt"/>
+        <line num="191" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="192" count="2" type="stmt"/>
+        <line num="193" count="2" type="stmt"/>
+        <line num="194" count="2" type="stmt"/>
+        <line num="195" count="2" type="stmt"/>
+        <line num="197" count="2" type="stmt"/>
+        <line num="199" count="2" type="stmt"/>
+        <line num="200" count="2" type="stmt"/>
+        <line num="202" count="11" type="stmt"/>
+        <line num="204" count="37" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.executable-ad.elements">
+      <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
+      <file name="elements.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/elements/elements.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="6" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="36" type="stmt"/>
+        <line num="8" count="36" type="stmt"/>
+        <line num="9" count="36" type="stmt"/>
+        <line num="10" count="36" type="stmt"/>
+      </file>
+      <file name="squeeze.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/elements/squeeze.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="33" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="36" type="stmt"/>
+        <line num="35" count="36" type="stmt"/>
+        <line num="38" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="36" type="stmt"/>
+        <line num="40" count="36" type="stmt"/>
+      </file>
+      <file name="video.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/elements/video.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="46" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="36" type="stmt"/>
+        <line num="48" count="36" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.executable-ad.events.command-events">
+      <metrics statements="25" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="11"/>
+      <file name="command-event-creator.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/events/command-events/command-event-creator.ts">
+        <metrics statements="25" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="11"/>
+        <line num="1" count="37" type="stmt"/>
+        <line num="18" count="37" type="stmt"/>
+        <line num="19" count="37" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="23" count="37" type="stmt"/>
+        <line num="24" count="11" type="stmt"/>
+        <line num="27" count="37" type="stmt"/>
+        <line num="28" count="34" type="stmt"/>
+        <line num="34" count="37" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="41" count="37" type="stmt"/>
+        <line num="42" count="31" type="stmt"/>
+        <line num="48" count="37" type="stmt"/>
+        <line num="49" count="8" type="stmt"/>
+        <line num="55" count="37" type="stmt"/>
+        <line num="56" count="3" type="stmt"/>
+        <line num="62" count="37" type="stmt"/>
+        <line num="63" count="72" type="stmt"/>
+        <line num="69" count="37" type="stmt"/>
+        <line num="70" count="4" type="stmt"/>
+        <line num="76" count="37" type="stmt"/>
+        <line num="77" count="6" type="stmt"/>
+        <line num="84" count="37" type="stmt"/>
+        <line num="85" count="13" type="stmt"/>
+        <line num="87" count="37" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.executable-ad.opportunity">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="opportunity.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/opportunity/opportunity.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="6" count="14" type="stmt"/>
+        <line num="7" count="14" type="stmt"/>
+        <line num="8" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.executable-ad.structures">
+      <metrics statements="53" coveredstatements="53" conditionals="12" coveredconditionals="12" methods="13" coveredmethods="13"/>
+      <file name="commands-data-structures-creator.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/structures/commands-data-structures-creator.ts">
+        <metrics statements="53" coveredstatements="53" conditionals="12" coveredconditionals="12" methods="13" coveredmethods="13"/>
+        <line num="4" count="36" type="stmt"/>
+        <line num="6" count="36" type="stmt"/>
+        <line num="15" count="36" type="stmt"/>
+        <line num="16" count="297" type="stmt"/>
+        <line num="18" count="36" type="stmt"/>
+        <line num="19" count="296" type="stmt"/>
+        <line num="22" count="115" type="stmt"/>
+        <line num="23" count="79" type="stmt"/>
+        <line num="24" count="79" type="stmt"/>
+        <line num="25" count="79" type="stmt"/>
+        <line num="26" count="168" type="stmt"/>
+        <line num="27" count="169" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="169" type="stmt"/>
+        <line num="29" count="169" type="stmt"/>
+        <line num="33" count="78" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="40" count="133" type="stmt"/>
+        <line num="44" count="133" type="stmt"/>
+        <line num="45" count="133" type="stmt"/>
+        <line num="46" count="133" type="stmt"/>
+        <line num="47" count="264" type="stmt"/>
+        <line num="51" count="264" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="215" type="stmt"/>
+        <line num="55" count="215" type="stmt"/>
+        <line num="59" count="49" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="49" type="stmt"/>
+        <line num="62" count="78" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="78" type="stmt"/>
+        <line num="68" count="78" type="stmt"/>
+        <line num="72" count="78" type="stmt"/>
+        <line num="75" count="49" type="stmt"/>
+        <line num="78" count="131" type="stmt"/>
+        <line num="80" count="2" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+        <line num="85" count="36" type="stmt"/>
+        <line num="89" count="264" type="stmt"/>
+        <line num="91" count="133" type="stmt"/>
+        <line num="94" count="131" type="stmt"/>
+        <line num="99" count="36" type="stmt"/>
+        <line num="102" count="67" type="stmt"/>
+        <line num="105" count="36" type="stmt"/>
+        <line num="108" count="66" type="stmt"/>
+        <line num="114" count="36" type="stmt"/>
+        <line num="115" count="61" type="stmt"/>
+        <line num="117" count="159" type="stmt"/>
+        <line num="118" count="159" type="stmt"/>
+        <line num="119" count="159" type="stmt"/>
+        <line num="122" count="61" type="stmt"/>
+        <line num="125" count="36" type="stmt"/>
+        <line num="126" count="286" type="cond" truecount="2" falsecount="0"/>
+        <line num="128" count="36" type="stmt"/>
+        <line num="130" count="36" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.fsm">
+      <metrics statements="59" coveredstatements="59" conditionals="4" coveredconditionals="4" methods="11" coveredmethods="11"/>
+      <file name="fsm.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/fsm/fsm.ts">
+        <metrics statements="38" coveredstatements="38" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+        <line num="1" count="17" type="stmt"/>
+        <line num="3" count="17" type="stmt"/>
+        <line num="4" count="17" type="stmt"/>
+        <line num="6" count="17" type="stmt"/>
+        <line num="10" count="309" type="stmt"/>
+        <line num="17" count="309" type="stmt"/>
+        <line num="20" count="17" type="stmt"/>
+        <line num="21" count="309" type="stmt"/>
+        <line num="24" count="17" type="stmt"/>
+        <line num="25" count="58" type="stmt"/>
+        <line num="28" count="17" type="stmt"/>
+        <line num="29" count="1482" type="stmt"/>
+        <line num="32" count="17" type="stmt"/>
+        <line num="33" count="309" type="stmt"/>
+        <line num="36" count="17" type="stmt"/>
+        <line num="37" count="309" type="stmt"/>
+        <line num="43" count="309" type="stmt"/>
+        <line num="49" count="309" type="stmt"/>
+        <line num="55" count="309" type="stmt"/>
+        <line num="61" count="309" type="stmt"/>
+        <line num="67" count="309" type="stmt"/>
+        <line num="73" count="309" type="stmt"/>
+        <line num="79" count="309" type="stmt"/>
+        <line num="85" count="309" type="stmt"/>
+        <line num="91" count="309" type="stmt"/>
+        <line num="97" count="309" type="stmt"/>
+        <line num="103" count="309" type="stmt"/>
+        <line num="109" count="309" type="stmt"/>
+        <line num="115" count="309" type="stmt"/>
+        <line num="117" count="309" type="stmt"/>
+        <line num="147" count="309" type="stmt"/>
+        <line num="150" count="17" type="stmt"/>
+        <line num="151" count="4326" type="stmt"/>
+        <line num="153" count="4326" type="stmt"/>
+        <line num="154" count="11124" type="stmt"/>
+        <line num="160" count="4326" type="stmt"/>
+        <line num="164" count="4326" type="stmt"/>
+        <line num="166" count="17" type="stmt"/>
+      </file>
+      <file name="state.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/fsm/state.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="20" type="stmt"/>
+        <line num="3" count="20" type="stmt"/>
+        <line num="4" count="20" type="stmt"/>
+        <line num="5" count="20" type="stmt"/>
+        <line num="6" count="20" type="stmt"/>
+        <line num="7" count="20" type="stmt"/>
+        <line num="8" count="20" type="stmt"/>
+        <line num="9" count="20" type="stmt"/>
+        <line num="10" count="20" type="stmt"/>
+        <line num="11" count="20" type="stmt"/>
+        <line num="12" count="20" type="stmt"/>
+        <line num="13" count="20" type="stmt"/>
+        <line num="14" count="20" type="stmt"/>
+        <line num="15" count="20" type="stmt"/>
+      </file>
+      <file name="trigger.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/fsm/trigger.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="18" type="stmt"/>
+        <line num="3" count="18" type="stmt"/>
+        <line num="10" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="18" type="stmt"/>
+        <line num="12" count="18" type="stmt"/>
+        <line num="13" count="18" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.renderer">
+      <metrics statements="604" coveredstatements="511" conditionals="165" coveredconditionals="124" methods="135" coveredmethods="117"/>
+      <file name="adscript-command.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/adscript-command.ts">
+        <metrics statements="36" coveredstatements="29" conditionals="7" coveredconditionals="7" methods="9" coveredmethods="4"/>
+        <line num="1" count="37" type="stmt"/>
+        <line num="2" count="37" type="stmt"/>
+        <line num="3" count="37" type="stmt"/>
+        <line num="4" count="37" type="stmt"/>
+        <line num="6" count="37" type="stmt"/>
+        <line num="10" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="12" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="16" count="37" type="stmt"/>
+        <line num="20" count="37" type="stmt"/>
+        <line num="21" count="11" type="stmt"/>
+        <line num="23" count="11" type="stmt"/>
+        <line num="25" count="11" type="stmt"/>
+        <line num="27" count="11" type="stmt"/>
+        <line num="28" count="11" type="cond" truecount="5" falsecount="0"/>
+        <line num="29" count="10" type="stmt"/>
+        <line num="30" count="10" type="stmt"/>
+        <line num="31" count="10" type="stmt"/>
+        <line num="32" count="10" type="stmt"/>
+        <line num="37" count="37" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="37" type="stmt"/>
+        <line num="42" count="9" type="stmt"/>
+        <line num="43" count="9" type="stmt"/>
+        <line num="44" count="9" type="stmt"/>
+        <line num="45" count="18" type="stmt"/>
+        <line num="48" count="37" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="52" count="37" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="61" count="37" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="64" count="37" type="stmt"/>
+      </file>
+      <file name="empty-command.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/empty-command.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <line num="1" count="36" type="stmt"/>
+        <line num="3" count="36" type="stmt"/>
+        <line num="8" count="36" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="36" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="36" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="36" type="stmt"/>
+      </file>
+      <file name="host-request-command.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/host-request-command.ts">
+        <metrics statements="54" coveredstatements="44" conditionals="20" coveredconditionals="13" methods="14" coveredmethods="12"/>
+        <line num="1" count="36" type="stmt"/>
+        <line num="9" count="36" type="stmt"/>
+        <line num="10" count="36" type="stmt"/>
+        <line num="11" count="36" type="stmt"/>
+        <line num="13" count="36" type="stmt"/>
+        <line num="15" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="20" count="36" type="stmt"/>
+        <line num="24" count="36" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="26" count="7" type="stmt"/>
+        <line num="29" count="36" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="33" count="36" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="40" type="stmt"/>
+        <line num="43" count="4" type="stmt"/>
+        <line num="44" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="49" count="4" type="stmt"/>
+        <line num="50" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="51" count="4" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="57" count="4" type="stmt"/>
+        <line num="58" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="61" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="64" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="73" count="36" type="stmt"/>
+        <line num="74" count="6" type="stmt"/>
+        <line num="75" count="6" type="cond" truecount="5" falsecount="1"/>
+        <line num="78" count="36" type="stmt"/>
+        <line num="79" count="3" type="stmt"/>
+        <line num="82" count="36" type="stmt"/>
+        <line num="83" count="3" type="stmt"/>
+        <line num="84" count="3" type="stmt"/>
+        <line num="85" count="3" type="stmt"/>
+        <line num="88" count="36" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="97" count="36" type="stmt"/>
+        <line num="98" count="3" type="stmt"/>
+        <line num="100" count="36" type="stmt"/>
+      </file>
+      <file name="renderer.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/renderer.ts">
+        <metrics statements="29" coveredstatements="26" conditionals="9" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="1" count="36" type="stmt"/>
+        <line num="3" count="36" type="stmt"/>
+        <line num="4" count="36" type="stmt"/>
+        <line num="5" count="36" type="stmt"/>
+        <line num="6" count="36" type="stmt"/>
+        <line num="7" count="36" type="stmt"/>
+        <line num="8" count="36" type="stmt"/>
+        <line num="9" count="36" type="stmt"/>
+        <line num="10" count="36" type="stmt"/>
+        <line num="11" count="36" type="stmt"/>
+        <line num="12" count="36" type="stmt"/>
+        <line num="13" count="36" type="stmt"/>
+        <line num="14" count="36" type="stmt"/>
+        <line num="16" count="36" type="stmt"/>
+        <line num="17" count="302" type="stmt"/>
+        <line num="19" count="36" type="stmt"/>
+        <line num="20" count="152" type="stmt"/>
+        <line num="22" count="64" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="41" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="39" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="49" count="36" type="stmt"/>
+      </file>
+      <file name="report-command.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/report-command.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+        <line num="1" count="36" type="stmt"/>
+        <line num="7" count="36" type="stmt"/>
+        <line num="12" count="57" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="57" type="stmt"/>
+        <line num="14" count="57" type="stmt"/>
+        <line num="15" count="57" type="stmt"/>
+        <line num="18" count="36" type="stmt"/>
+        <line num="19" count="38" type="stmt"/>
+        <line num="22" count="36" type="stmt"/>
+        <line num="27" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="13" type="stmt"/>
+        <line num="29" count="26" type="stmt"/>
+        <line num="30" count="13" type="stmt"/>
+        <line num="31" count="13" type="stmt"/>
+        <line num="32" count="13" type="stmt"/>
+        <line num="36" count="36" type="stmt"/>
+        <line num="37" count="22" type="stmt"/>
+        <line num="39" count="36" type="stmt"/>
+      </file>
+      <file name="show-dynamic-view-command.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/show-dynamic-view-command.ts">
+        <metrics statements="65" coveredstatements="53" conditionals="8" coveredconditionals="5" methods="14" coveredmethods="13"/>
+        <line num="2" count="36" type="stmt"/>
+        <line num="4" count="36" type="stmt"/>
+        <line num="5" count="36" type="stmt"/>
+        <line num="7" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="36" type="stmt"/>
+        <line num="9" count="36" type="stmt"/>
+        <line num="10" count="36" type="stmt"/>
+        <line num="11" count="36" type="stmt"/>
+        <line num="12" count="36" type="stmt"/>
+        <line num="15" count="36" type="stmt"/>
+        <line num="16" count="36" type="stmt"/>
+        <line num="18" count="10" type="stmt"/>
+        <line num="20" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="23" count="36" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="30" count="36" type="stmt"/>
+        <line num="31" count="8" type="stmt"/>
+        <line num="32" count="8" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="39" count="36" type="stmt"/>
+        <line num="40" count="8" type="stmt"/>
+        <line num="41" count="8" type="stmt"/>
+        <line num="42" count="8" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="49" count="36" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="53" count="36" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="57" count="36" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="66" count="36" type="stmt"/>
+        <line num="70" count="8" type="stmt"/>
+        <line num="74" count="36" type="stmt"/>
+        <line num="75" count="6" type="stmt"/>
+        <line num="76" count="6" type="stmt"/>
+        <line num="77" count="6" type="stmt"/>
+        <line num="78" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="83" count="6" type="stmt"/>
+        <line num="84" count="4" type="stmt"/>
+        <line num="86" count="2" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
+        <line num="93" count="36" type="stmt"/>
+        <line num="94" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="101" count="6" type="stmt"/>
+        <line num="103" count="5" type="stmt"/>
+        <line num="106" count="36" type="stmt"/>
+        <line num="107" count="1" type="stmt"/>
+        <line num="110" count="36" type="stmt"/>
+        <line num="111" count="6" type="stmt"/>
+        <line num="114" count="6" type="stmt"/>
+        <line num="115" count="6" type="stmt"/>
+        <line num="117" count="36" type="stmt"/>
+      </file>
+      <file name="show-image-command.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/show-image-command.ts">
+        <metrics statements="65" coveredstatements="61" conditionals="10" coveredconditionals="8" methods="15" coveredmethods="15"/>
+        <line num="2" count="36" type="stmt"/>
+        <line num="12" count="36" type="stmt"/>
+        <line num="13" count="36" type="stmt"/>
+        <line num="14" count="36" type="stmt"/>
+        <line num="15" count="36" type="stmt"/>
+        <line num="17" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="36" type="stmt"/>
+        <line num="19" count="36" type="stmt"/>
+        <line num="20" count="36" type="stmt"/>
+        <line num="21" count="36" type="stmt"/>
+        <line num="22" count="36" type="stmt"/>
+        <line num="25" count="36" type="stmt"/>
+        <line num="26" count="15" type="stmt"/>
+        <line num="27" count="15" type="stmt"/>
+        <line num="28" count="15" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="43" count="15" type="cond" truecount="1" falsecount="1"/>
+        <line num="46" count="36" type="stmt"/>
+        <line num="47" count="17" type="stmt"/>
+        <line num="50" count="17" type="stmt"/>
+        <line num="51" count="17" type="stmt"/>
+        <line num="54" count="36" type="stmt"/>
+        <line num="58" count="14" type="stmt"/>
+        <line num="61" count="36" type="stmt"/>
+        <line num="62" count="11" type="stmt"/>
+        <line num="63" count="11" type="stmt"/>
+        <line num="64" count="11" type="stmt"/>
+        <line num="67" count="36" type="stmt"/>
+        <line num="68" count="11" type="stmt"/>
+        <line num="69" count="11" type="stmt"/>
+        <line num="72" count="36" type="stmt"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="76" count="2" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="89" count="36" type="stmt"/>
+        <line num="90" count="3" type="stmt"/>
+        <line num="91" count="3" type="stmt"/>
+        <line num="92" count="3" type="stmt"/>
+        <line num="93" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="94" count="1" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="102" count="36" type="stmt"/>
+        <line num="103" count="5" type="stmt"/>
+        <line num="106" count="36" type="stmt"/>
+        <line num="108" count="3" type="stmt"/>
+        <line num="109" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="110" count="1" type="stmt"/>
+        <line num="111" count="1" type="stmt"/>
+        <line num="112" count="1" type="stmt"/>
+        <line num="113" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="114" count="1" type="stmt"/>
+        <line num="115" count="2" type="stmt"/>
+        <line num="116" count="1" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="125" count="36" type="stmt"/>
+        <line num="126" count="1" type="stmt"/>
+        <line num="127" count="1" type="stmt"/>
+        <line num="129" count="36" type="stmt"/>
+      </file>
+      <file name="show-video-command.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/show-video-command.ts">
+        <metrics statements="229" coveredstatements="181" conditionals="87" coveredconditionals="64" methods="44" coveredmethods="40"/>
+        <line num="2" count="36" type="stmt"/>
+        <line num="14" count="36" type="stmt"/>
+        <line num="29" count="36" type="stmt"/>
+        <line num="31" count="36" type="stmt"/>
+        <line num="32" count="36" type="stmt"/>
+        <line num="40" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="36" type="stmt"/>
+        <line num="42" count="36" type="stmt"/>
+        <line num="50" count="36" type="stmt"/>
+        <line num="52" count="114" type="stmt"/>
+        <line num="55" count="114" type="stmt"/>
+        <line num="59" count="114" type="stmt"/>
+        <line num="60" count="114" type="stmt"/>
+        <line num="61" count="114" type="stmt"/>
+        <line num="67" count="114" type="stmt"/>
+        <line num="68" count="114" type="cond" truecount="1" falsecount="1"/>
+        <line num="69" count="114" type="stmt"/>
+        <line num="74" count="114" type="cond" truecount="8" falsecount="0"/>
+        <line num="75" count="114" type="cond" truecount="7" falsecount="1"/>
+        <line num="76" count="114" type="stmt"/>
+        <line num="79" count="36" type="stmt"/>
+        <line num="83" count="63" type="stmt"/>
+        <line num="87" count="36" type="stmt"/>
+        <line num="88" count="6" type="stmt"/>
+        <line num="89" count="6" type="stmt"/>
+        <line num="91" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="92" count="6" type="stmt"/>
+        <line num="93" count="6" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="100" count="36" type="stmt"/>
+        <line num="101" count="24" type="cond" truecount="1" falsecount="1"/>
+        <line num="102" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="103" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="104" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="105" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="111" count="24" type="stmt"/>
+        <line num="112" count="24" type="stmt"/>
+        <line num="113" count="22" type="stmt"/>
+        <line num="116" count="24" type="stmt"/>
+        <line num="125" count="36" type="stmt"/>
+        <line num="126" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="127" count="16" type="stmt"/>
+        <line num="128" count="16" type="stmt"/>
+        <line num="133" count="16" type="stmt"/>
+        <line num="134" count="15" type="stmt"/>
+        <line num="135" count="13" type="stmt"/>
+        <line num="136" count="13" type="stmt"/>
+        <line num="138" count="13" type="stmt"/>
+        <line num="146" count="36" type="stmt"/>
+        <line num="148" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="153" count="0" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="156" count="0" type="stmt"/>
+        <line num="160" count="4" type="stmt"/>
+        <line num="163" count="36" type="stmt"/>
+        <line num="164" count="1" type="stmt"/>
+        <line num="165" count="1" type="stmt"/>
+        <line num="166" count="1" type="stmt"/>
+        <line num="167" count="2" type="stmt"/>
+        <line num="170" count="36" type="stmt"/>
+        <line num="171" count="125" type="stmt"/>
+        <line num="175" count="125" type="stmt"/>
+        <line num="177" count="125" type="stmt"/>
+        <line num="178" count="125" type="stmt"/>
+        <line num="179" count="125" type="stmt"/>
+        <line num="182" count="36" type="stmt"/>
+        <line num="183" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="184" count="6" type="stmt"/>
+        <line num="185" count="6" type="stmt"/>
+        <line num="188" count="36" type="stmt"/>
+        <line num="189" count="1" type="stmt"/>
+        <line num="190" count="1" type="cond" truecount="4" falsecount="2"/>
+        <line num="191" count="1" type="stmt"/>
+        <line num="196" count="36" type="stmt"/>
+        <line num="197" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="198" count="1" type="stmt"/>
+        <line num="199" count="1" type="stmt"/>
+        <line num="201" count="1" type="stmt"/>
+        <line num="203" count="2" type="stmt"/>
+        <line num="204" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="205" count="0" type="stmt"/>
+        <line num="208" count="1" type="stmt"/>
+        <line num="209" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="210" count="1" type="stmt"/>
+        <line num="212" count="0" type="stmt"/>
+        <line num="218" count="36" type="stmt"/>
+        <line num="219" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="220" count="4" type="stmt"/>
+        <line num="221" count="4" type="stmt"/>
+        <line num="225" count="36" type="stmt"/>
+        <line num="228" count="4" type="stmt"/>
+        <line num="229" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="230" count="3" type="stmt"/>
+        <line num="231" count="2" type="stmt"/>
+        <line num="232" count="2" type="stmt"/>
+        <line num="236" count="4" type="stmt"/>
+        <line num="237" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="238" count="2" type="stmt"/>
+        <line num="239" count="2" type="stmt"/>
+        <line num="240" count="2" type="stmt"/>
+        <line num="246" count="36" type="stmt"/>
+        <line num="247" count="1" type="stmt"/>
+        <line num="250" count="1" type="stmt"/>
+        <line num="251" count="1" type="stmt"/>
+        <line num="252" count="2" type="stmt"/>
+        <line num="253" count="0" type="stmt"/>
+        <line num="254" count="0" type="stmt"/>
+        <line num="257" count="114" type="stmt"/>
+        <line num="258" count="114" type="cond" truecount="2" falsecount="0"/>
+        <line num="259" count="51" type="stmt"/>
+        <line num="260" count="204" type="stmt"/>
+        <line num="261" count="204" type="cond" truecount="1" falsecount="1"/>
+        <line num="262" count="204" type="stmt"/>
+        <line num="267" count="114" type="stmt"/>
+        <line num="270" count="36" type="stmt"/>
+        <line num="271" count="8" type="stmt"/>
+        <line num="273" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="274" count="8" type="stmt"/>
+        <line num="275" count="20" type="stmt"/>
+        <line num="279" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="280" count="16" type="stmt"/>
+        <line num="281" count="8" type="stmt"/>
+        <line num="283" count="0" type="stmt"/>
+        <line num="287" count="109" type="stmt"/>
+        <line num="288" count="109" type="stmt"/>
+        <line num="289" count="436" type="stmt"/>
+        <line num="290" count="436" type="stmt"/>
+        <line num="291" count="864" type="cond" truecount="4" falsecount="0"/>
+        <line num="292" count="16" type="stmt"/>
+        <line num="297" count="36" type="stmt"/>
+        <line num="298" count="3" type="stmt"/>
+        <line num="301" count="36" type="stmt"/>
+        <line num="302" count="3" type="stmt"/>
+        <line num="305" count="36" type="stmt"/>
+        <line num="306" count="0" type="stmt"/>
+        <line num="307" count="0" type="stmt"/>
+        <line num="308" count="0" type="stmt"/>
+        <line num="311" count="36" type="stmt"/>
+        <line num="312" count="1" type="stmt"/>
+        <line num="317" count="1" type="stmt"/>
+        <line num="318" count="1" type="stmt"/>
+        <line num="321" count="36" type="stmt"/>
+        <line num="322" count="0" type="stmt"/>
+        <line num="323" count="0" type="stmt"/>
+        <line num="324" count="0" type="stmt"/>
+        <line num="331" count="36" type="stmt"/>
+        <line num="332" count="2" type="stmt"/>
+        <line num="333" count="2" type="stmt"/>
+        <line num="335" count="2" type="stmt"/>
+        <line num="341" count="2" type="stmt"/>
+        <line num="343" count="1" type="stmt"/>
+        <line num="347" count="36" type="stmt"/>
+        <line num="348" count="5" type="stmt"/>
+        <line num="349" count="5" type="stmt"/>
+        <line num="350" count="5" type="stmt"/>
+        <line num="364" count="1" type="stmt"/>
+        <line num="368" count="36" type="stmt"/>
+        <line num="369" count="15" type="stmt"/>
+        <line num="370" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="371" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="372" count="9" type="stmt"/>
+        <line num="373" count="9" type="stmt"/>
+        <line num="376" count="5" type="stmt"/>
+        <line num="380" count="38" type="stmt"/>
+        <line num="381" count="2" type="stmt"/>
+        <line num="382" count="2" type="stmt"/>
+        <line num="383" count="2" type="stmt"/>
+        <line num="385" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="386" count="2" type="stmt"/>
+        <line num="387" count="2" type="stmt"/>
+        <line num="388" count="0" type="stmt"/>
+        <line num="390" count="2" type="stmt"/>
+        <line num="395" count="1" type="stmt"/>
+        <line num="399" count="36" type="stmt"/>
+        <line num="401" count="1" type="stmt"/>
+        <line num="402" count="2" type="stmt"/>
+        <line num="404" count="0" type="stmt"/>
+        <line num="408" count="36" type="stmt"/>
+        <line num="410" count="4" type="stmt"/>
+        <line num="411" count="4" type="stmt"/>
+        <line num="412" count="4" type="stmt"/>
+        <line num="413" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="414" count="6" type="stmt"/>
+        <line num="415" count="3" type="stmt"/>
+        <line num="418" count="0" type="stmt"/>
+        <line num="422" count="36" type="stmt"/>
+        <line num="423" count="109" type="stmt"/>
+        <line num="424" count="109" type="stmt"/>
+        <line num="425" count="109" type="stmt"/>
+        <line num="428" count="109" type="cond" truecount="1" falsecount="1"/>
+        <line num="429" count="109" type="stmt"/>
+        <line num="432" count="0" type="stmt"/>
+        <line num="436" count="36" type="stmt"/>
+        <line num="437" count="2" type="stmt"/>
+        <line num="438" count="2" type="stmt"/>
+        <line num="441" count="36" type="stmt"/>
+        <line num="443" count="2" type="stmt"/>
+        <line num="445" count="0" type="stmt"/>
+        <line num="449" count="36" type="stmt"/>
+        <line num="450" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="451" count="0" type="stmt"/>
+        <line num="452" count="0" type="stmt"/>
+        <line num="455" count="0" type="stmt"/>
+        <line num="456" count="0" type="stmt"/>
+        <line num="460" count="36" type="stmt"/>
+        <line num="461" count="0" type="stmt"/>
+        <line num="462" count="0" type="stmt"/>
+        <line num="463" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="464" count="0" type="stmt"/>
+        <line num="465" count="0" type="stmt"/>
+        <line num="466" count="0" type="stmt"/>
+        <line num="469" count="0" type="stmt"/>
+        <line num="471" count="0" type="stmt"/>
+        <line num="474" count="0" type="stmt"/>
+        <line num="475" count="0" type="stmt"/>
+        <line num="478" count="0" type="stmt"/>
+        <line num="479" count="0" type="stmt"/>
+        <line num="480" count="0" type="stmt"/>
+        <line num="483" count="0" type="stmt"/>
+        <line num="488" count="0" type="stmt"/>
+        <line num="489" count="0" type="stmt"/>
+        <line num="490" count="0" type="stmt"/>
+        <line num="494" count="0" type="stmt"/>
+        <line num="499" count="0" type="stmt"/>
+        <line num="500" count="0" type="stmt"/>
+        <line num="503" count="36" type="stmt"/>
+      </file>
+      <file name="squeeze-command.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/squeeze-command.ts">
+        <metrics statements="34" coveredstatements="32" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="8"/>
+        <line num="2" count="36" type="stmt"/>
+        <line num="5" count="36" type="stmt"/>
+        <line num="6" count="36" type="stmt"/>
+        <line num="8" count="36" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="23" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="27" count="36" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="40" count="36" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="47" count="36" type="stmt"/>
+        <line num="51" count="36" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="57" count="36" type="stmt"/>
+        <line num="62" count="36" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+        <line num="64" count="3" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="84" count="36" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="89" count="36" type="stmt"/>
+      </file>
+      <file name="stop-experience-command.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/stop-experience-command.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <line num="1" count="36" type="stmt"/>
+        <line num="6" count="36" type="stmt"/>
+        <line num="10" count="40" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="40" type="stmt"/>
+        <line num="12" count="40" type="stmt"/>
+        <line num="15" count="36" type="stmt"/>
+        <line num="16" count="38" type="stmt"/>
+        <line num="19" count="36" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="34" count="36" type="stmt"/>
+        <line num="35" count="22" type="stmt"/>
+        <line num="37" count="36" type="stmt"/>
+      </file>
+      <file name="xaaf-element-command.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/xaaf-element-command.ts">
+        <metrics statements="51" coveredstatements="44" conditionals="14" coveredconditionals="11" methods="10" coveredmethods="8"/>
+        <line num="1" count="36" type="stmt"/>
+        <line num="8" count="36" type="stmt"/>
+        <line num="12" count="36" type="stmt"/>
+        <line num="15" count="139" type="stmt"/>
+        <line num="17" count="23" type="stmt"/>
+        <line num="22" count="139" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="139" type="stmt"/>
+        <line num="26" count="36" type="stmt"/>
+        <line num="27" count="77" type="stmt"/>
+        <line num="28" count="77" type="stmt"/>
+        <line num="29" count="77" type="stmt"/>
+        <line num="31" count="51" type="stmt"/>
+        <line num="32" count="51" type="stmt"/>
+        <line num="41" count="36" type="stmt"/>
+        <line num="42" count="23" type="stmt"/>
+        <line num="43" count="23" type="stmt"/>
+        <line num="44" count="23" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="53" count="36" type="stmt"/>
+        <line num="54" count="11" type="stmt"/>
+        <line num="55" count="11" type="stmt"/>
+        <line num="56" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="4" type="stmt"/>
+        <line num="58" count="4" type="stmt"/>
+        <line num="59" count="4" type="stmt"/>
+        <line num="62" count="7" type="stmt"/>
+        <line num="63" count="6" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="72" count="36" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="86" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="87" count="3" type="stmt"/>
+        <line num="88" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="89" count="3" type="stmt"/>
+        <line num="91" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="92" count="3" type="stmt"/>
+        <line num="93" count="3" type="stmt"/>
+        <line num="95" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="96" count="3" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="103" count="36" type="stmt"/>
+        <line num="104" count="28" type="cond" truecount="2" falsecount="0"/>
+        <line num="105" count="3" type="stmt"/>
+        <line num="110" count="36" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services.config-service">
+      <metrics statements="135" coveredstatements="134" conditionals="222" coveredconditionals="198" methods="60" coveredmethods="59"/>
+      <file name="config-service.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/config-service/config-service.ts">
+        <metrics statements="135" coveredstatements="134" conditionals="222" coveredconditionals="198" methods="60" coveredmethods="59"/>
+        <line num="1" count="39" type="stmt"/>
+        <line num="2" count="39" type="stmt"/>
+        <line num="3" count="39" type="stmt"/>
+        <line num="12" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="39" type="stmt"/>
+        <line num="14" count="39" type="stmt"/>
+        <line num="17" count="39" type="stmt"/>
+        <line num="18" count="279" type="stmt"/>
+        <line num="21" count="279" type="stmt"/>
+        <line num="23" count="39" type="stmt"/>
+        <line num="24" count="1356" type="stmt"/>
+        <line num="27" count="39" type="stmt"/>
+        <line num="28" count="384" type="stmt"/>
+        <line num="34" count="39" type="stmt"/>
+        <line num="35" count="862" type="stmt"/>
+        <line num="38" count="39" type="stmt"/>
+        <line num="39" count="80" type="stmt"/>
+        <line num="42" count="39" type="stmt"/>
+        <line num="43" count="119" type="cond" truecount="3" falsecount="1"/>
+        <line num="47" count="39" type="stmt"/>
+        <line num="51" count="142" type="stmt"/>
+        <line num="52" count="142" type="stmt"/>
+        <line num="53" count="142" type="stmt"/>
+        <line num="56" count="142" type="cond" truecount="5" falsecount="1"/>
+        <line num="57" count="12" type="stmt"/>
+        <line num="62" count="142" type="cond" truecount="3" falsecount="1"/>
+        <line num="66" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="70" count="39" type="stmt"/>
+        <line num="71" count="55" type="cond" truecount="4" falsecount="0"/>
+        <line num="74" count="39" type="stmt"/>
+        <line num="75" count="26" type="cond" truecount="4" falsecount="0"/>
+        <line num="78" count="39" type="stmt"/>
+        <line num="79" count="42" type="cond" truecount="6" falsecount="2"/>
+        <line num="82" count="39" type="stmt"/>
+        <line num="83" count="2" type="cond" truecount="11" falsecount="1"/>
+        <line num="87" count="39" type="stmt"/>
+        <line num="88" count="57" type="cond" truecount="6" falsecount="2"/>
+        <line num="91" count="39" type="stmt"/>
+        <line num="92" count="732" type="cond" truecount="8" falsecount="0"/>
+        <line num="96" count="39" type="stmt"/>
+        <line num="97" count="66" type="cond" truecount="8" falsecount="0"/>
+        <line num="100" count="39" type="stmt"/>
+        <line num="101" count="47" type="cond" truecount="6" falsecount="2"/>
+        <line num="105" count="39" type="stmt"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="110" count="39" type="stmt"/>
+        <line num="111" count="38" type="cond" truecount="6" falsecount="2"/>
+        <line num="114" count="39" type="stmt"/>
+        <line num="115" count="26" type="cond" truecount="4" falsecount="0"/>
+        <line num="118" count="39" type="stmt"/>
+        <line num="119" count="1" type="cond" truecount="9" falsecount="3"/>
+        <line num="122" count="39" type="stmt"/>
+        <line num="123" count="1" type="cond" truecount="9" falsecount="3"/>
+        <line num="126" count="39" type="stmt"/>
+        <line num="127" count="47" type="cond" truecount="10" falsecount="0"/>
+        <line num="131" count="39" type="stmt"/>
+        <line num="132" count="3" type="stmt"/>
+        <line num="135" count="39" type="stmt"/>
+        <line num="136" count="361" type="stmt"/>
+        <line num="139" count="39" type="stmt"/>
+        <line num="140" count="361" type="stmt"/>
+        <line num="143" count="39" type="stmt"/>
+        <line num="144" count="361" type="stmt"/>
+        <line num="147" count="39" type="stmt"/>
+        <line num="148" count="361" type="stmt"/>
+        <line num="151" count="39" type="stmt"/>
+        <line num="152" count="361" type="stmt"/>
+        <line num="155" count="39" type="stmt"/>
+        <line num="156" count="361" type="stmt"/>
+        <line num="159" count="39" type="stmt"/>
+        <line num="160" count="14" type="stmt"/>
+        <line num="163" count="39" type="stmt"/>
+        <line num="164" count="1" type="stmt"/>
+        <line num="167" count="39" type="stmt"/>
+        <line num="168" count="1" type="stmt"/>
+        <line num="171" count="39" type="stmt"/>
+        <line num="172" count="1" type="stmt"/>
+        <line num="175" count="39" type="stmt"/>
+        <line num="176" count="1" type="stmt"/>
+        <line num="179" count="39" type="stmt"/>
+        <line num="180" count="361" type="stmt"/>
+        <line num="183" count="39" type="stmt"/>
+        <line num="184" count="1" type="stmt"/>
+        <line num="187" count="39" type="stmt"/>
+        <line num="188" count="361" type="stmt"/>
+        <line num="191" count="39" type="stmt"/>
+        <line num="192" count="361" type="stmt"/>
+        <line num="195" count="39" type="stmt"/>
+        <line num="196" count="361" type="stmt"/>
+        <line num="199" count="39" type="stmt"/>
+        <line num="200" count="360" type="stmt"/>
+        <line num="203" count="39" type="stmt"/>
+        <line num="204" count="361" type="stmt"/>
+        <line num="207" count="39" type="stmt"/>
+        <line num="208" count="361" type="stmt"/>
+        <line num="211" count="39" type="stmt"/>
+        <line num="212" count="360" type="stmt"/>
+        <line num="215" count="39" type="stmt"/>
+        <line num="216" count="334" type="stmt"/>
+        <line num="219" count="39" type="stmt"/>
+        <line num="220" count="362" type="stmt"/>
+        <line num="223" count="39" type="stmt"/>
+        <line num="224" count="28" type="stmt"/>
+        <line num="227" count="39" type="stmt"/>
+        <line num="228" count="27" type="stmt"/>
+        <line num="231" count="39" type="stmt"/>
+        <line num="232" count="0" type="stmt"/>
+        <line num="235" count="39" type="stmt"/>
+        <line num="236" count="44" type="stmt"/>
+        <line num="238" count="21" type="stmt"/>
+        <line num="240" count="13" type="stmt"/>
+        <line num="242" count="7" type="stmt"/>
+        <line num="244" count="3" type="stmt"/>
+        <line num="248" count="39" type="stmt"/>
+        <line num="249" count="105" type="cond" truecount="4" falsecount="0"/>
+        <line num="250" count="105" type="stmt"/>
+        <line num="256" count="39" type="stmt"/>
+        <line num="257" count="45" type="cond" truecount="4" falsecount="0"/>
+        <line num="258" count="45" type="stmt"/>
+        <line num="268" count="39" type="stmt"/>
+        <line num="269" count="53" type="stmt"/>
+        <line num="270" count="53" type="cond" truecount="9" falsecount="3"/>
+        <line num="273" count="39" type="stmt"/>
+        <line num="274" count="7" type="stmt"/>
+        <line num="278" count="5" type="stmt"/>
+        <line num="281" count="39" type="stmt"/>
+        <line num="282" count="7" type="stmt"/>
+        <line num="286" count="33" type="stmt"/>
+        <line num="289" count="39" type="stmt"/>
+        <line num="290" count="47" type="stmt"/>
+        <line num="294" count="54" type="stmt"/>
+        <line num="298" count="39" type="stmt"/>
+        <line num="300" count="3" type="cond" truecount="6" falsecount="2"/>
+        <line num="302" count="39" type="stmt"/>
+        <line num="303" count="39" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services.content-toggle-list-service">
+      <metrics statements="122" coveredstatements="102" conditionals="58" coveredconditionals="44" methods="13" coveredmethods="12"/>
+      <file name="content-toggle-list-service.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/content-toggle-list-service/content-toggle-list-service.ts">
+        <metrics statements="122" coveredstatements="102" conditionals="58" coveredconditionals="44" methods="13" coveredmethods="12"/>
+        <line num="3" count="38" type="stmt"/>
+        <line num="4" count="38" type="stmt"/>
+        <line num="5" count="38" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="38" type="stmt"/>
+        <line num="7" count="38" type="stmt"/>
+        <line num="8" count="38" type="stmt"/>
+        <line num="9" count="38" type="stmt"/>
+        <line num="10" count="38" type="stmt"/>
+        <line num="11" count="38" type="stmt"/>
+        <line num="12" count="38" type="stmt"/>
+        <line num="13" count="38" type="stmt"/>
+        <line num="14" count="38" type="stmt"/>
+        <line num="17" count="38" type="stmt"/>
+        <line num="18" count="38" type="stmt"/>
+        <line num="19" count="38" type="stmt"/>
+        <line num="21" count="38" type="stmt"/>
+        <line num="25" count="16" type="stmt"/>
+        <line num="28" count="38" type="stmt"/>
+        <line num="29" count="176" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="16" type="stmt"/>
+        <line num="32" count="176" type="stmt"/>
+        <line num="35" count="38" type="stmt"/>
+        <line num="36" count="47" type="stmt"/>
+        <line num="37" count="47" type="stmt"/>
+        <line num="38" count="47" type="cond" truecount="4" falsecount="0"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="45" count="45" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="42" type="stmt"/>
+        <line num="47" count="42" type="stmt"/>
+        <line num="48" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="58" count="38" type="stmt"/>
+        <line num="59" count="68" type="cond" truecount="4" falsecount="0"/>
+        <line num="60" count="40" type="stmt"/>
+        <line num="61" count="40" type="cond" truecount="2" falsecount="0"/>
+        <line num="62" count="9" type="stmt"/>
+        <line num="65" count="9" type="stmt"/>
+        <line num="67" count="31" type="stmt"/>
+        <line num="70" count="28" type="stmt"/>
+        <line num="74" count="59" type="stmt"/>
+        <line num="77" count="38" type="stmt"/>
+        <line num="78" count="38" type="cond" truecount="2" falsecount="0"/>
+        <line num="79" count="6" type="stmt"/>
+        <line num="81" count="32" type="stmt"/>
+        <line num="84" count="38" type="stmt"/>
+        <line num="85" count="41" type="cond" truecount="2" falsecount="0"/>
+        <line num="86" count="9" type="stmt"/>
+        <line num="88" count="32" type="stmt"/>
+        <line num="91" count="38" type="stmt"/>
+        <line num="92" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="93" count="35" type="stmt"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="98" count="38" type="stmt"/>
+        <line num="99" count="35" type="cond" truecount="2" falsecount="0"/>
+        <line num="100" count="34" type="stmt"/>
+        <line num="102" count="1" type="stmt"/>
+        <line num="105" count="38" type="stmt"/>
+        <line num="106" count="34" type="cond" truecount="2" falsecount="0"/>
+        <line num="107" count="32" type="stmt"/>
+        <line num="109" count="2" type="stmt"/>
+        <line num="113" count="38" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="118" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="120" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="121" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="123" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+        <line num="130" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="138" count="0" type="stmt"/>
+        <line num="141" count="0" type="stmt"/>
+        <line num="144" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="147" count="0" type="stmt"/>
+        <line num="151" count="0" type="stmt"/>
+        <line num="153" count="0" type="stmt"/>
+        <line num="156" count="0" type="stmt"/>
+        <line num="159" count="0" type="stmt"/>
+        <line num="162" count="38" type="stmt"/>
+        <line num="166" count="42" type="stmt"/>
+        <line num="168" count="42" type="stmt"/>
+        <line num="169" count="42" type="cond" truecount="4" falsecount="0"/>
+        <line num="170" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="171" count="1" type="stmt"/>
+        <line num="175" count="1" type="stmt"/>
+        <line num="178" count="1" type="stmt"/>
+        <line num="180" count="1" type="stmt"/>
+        <line num="185" count="41" type="cond" truecount="2" falsecount="0"/>
+        <line num="188" count="3" type="stmt"/>
+        <line num="192" count="3" type="stmt"/>
+        <line num="195" count="3" type="stmt"/>
+        <line num="197" count="38" type="stmt"/>
+        <line num="202" count="38" type="cond" truecount="2" falsecount="0"/>
+        <line num="205" count="2" type="stmt"/>
+        <line num="209" count="2" type="stmt"/>
+        <line num="212" count="2" type="stmt"/>
+        <line num="214" count="36" type="stmt"/>
+        <line num="219" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="222" count="1" type="stmt"/>
+        <line num="226" count="1" type="stmt"/>
+        <line num="229" count="1" type="stmt"/>
+        <line num="231" count="35" type="stmt"/>
+        <line num="236" count="35" type="cond" truecount="2" falsecount="0"/>
+        <line num="242" count="1" type="stmt"/>
+        <line num="246" count="1" type="stmt"/>
+        <line num="249" count="1" type="stmt"/>
+        <line num="251" count="34" type="stmt"/>
+        <line num="256" count="34" type="cond" truecount="2" falsecount="0"/>
+        <line num="259" count="2" type="stmt"/>
+        <line num="263" count="2" type="stmt"/>
+        <line num="266" count="2" type="stmt"/>
+        <line num="268" count="32" type="stmt"/>
+        <line num="273" count="32" type="stmt"/>
+        <line num="276" count="32" type="stmt"/>
+        <line num="278" count="38" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services.date-time-service">
+      <metrics statements="12" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="4"/>
+      <file name="date-time-service.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/date-time-service/date-time-service.ts">
+        <metrics statements="12" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="4"/>
+        <line num="1" count="38" type="stmt"/>
+        <line num="2" count="38" type="stmt"/>
+        <line num="3" count="38" type="stmt"/>
+        <line num="4" count="50" type="stmt"/>
+        <line num="5" count="50" type="stmt"/>
+        <line num="6" count="32" type="stmt"/>
+        <line num="11" count="38" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="18" count="38" type="stmt"/>
+        <line num="19" count="38" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services.feature-flags-proxy-delegate">
+      <metrics statements="55" coveredstatements="51" conditionals="14" coveredconditionals="10" methods="12" coveredmethods="11"/>
+      <file name="feature-flags-proxy-delegate.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/feature-flags-proxy-delegate/feature-flags-proxy-delegate.ts">
+        <metrics statements="55" coveredstatements="51" conditionals="14" coveredconditionals="10" methods="12" coveredmethods="11"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="13" type="stmt"/>
+        <line num="16" count="12" type="stmt"/>
+        <line num="17" count="12" type="stmt"/>
+        <line num="18" count="12" type="stmt"/>
+        <line num="21" count="12" type="stmt"/>
+        <line num="25" count="12" type="stmt"/>
+        <line num="26" count="12" type="stmt"/>
+        <line num="28" count="12" type="stmt"/>
+        <line num="30" count="12" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="4" type="cond" truecount="4" falsecount="2"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="35" count="4" type="cond" truecount="3" falsecount="1"/>
+        <line num="38" count="4" type="stmt"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="43" count="4" type="stmt"/>
+        <line num="46" count="15" type="stmt"/>
+        <line num="47" count="14" type="stmt"/>
+        <line num="48" count="14" type="stmt"/>
+        <line num="49" count="14" type="stmt"/>
+        <line num="50" count="14" type="stmt"/>
+        <line num="52" count="14" type="stmt"/>
+        <line num="53" count="14" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="75" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="76" count="4" type="stmt"/>
+        <line num="78" count="6" type="stmt"/>
+        <line num="82" count="6" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="86" count="18" type="stmt"/>
+        <line num="97" count="1" type="stmt"/>
+        <line num="98" count="6" type="stmt"/>
+        <line num="99" count="6" type="stmt"/>
+        <line num="102" count="6" type="stmt"/>
+        <line num="103" count="6" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="111" count="1" type="stmt"/>
+        <line num="113" count="14" type="stmt"/>
+        <line num="116" count="14" type="stmt"/>
+        <line num="117" count="14" type="cond" truecount="1" falsecount="1"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="120" count="14" type="stmt"/>
+        <line num="123" count="14" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="129" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services.feature-flags-service">
+      <metrics statements="59" coveredstatements="57" conditionals="8" coveredconditionals="7" methods="24" coveredmethods="23"/>
+      <file name="feature-flags-service.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/feature-flags-service/feature-flags-service.ts">
+        <metrics statements="45" coveredstatements="43" conditionals="6" coveredconditionals="5" methods="23" coveredmethods="22"/>
+        <line num="1" count="38" type="stmt"/>
+        <line num="2" count="38" type="stmt"/>
+        <line num="4" count="89" type="stmt"/>
+        <line num="5" count="38" type="stmt"/>
+        <line num="6" count="651" type="stmt"/>
+        <line num="9" count="38" type="stmt"/>
+        <line num="10" count="6013" type="stmt"/>
+        <line num="13" count="38" type="stmt"/>
+        <line num="14" count="33" type="stmt"/>
+        <line num="15" count="33" type="cond" truecount="3" falsecount="1"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="51" type="stmt"/>
+        <line num="23" count="51" type="stmt"/>
+        <line num="24" count="13" type="stmt"/>
+        <line num="31" count="51" type="stmt"/>
+        <line num="33" count="5922" type="stmt"/>
+        <line num="35" count="618" type="stmt"/>
+        <line num="36" count="6380" type="stmt"/>
+        <line num="37" count="580" type="stmt"/>
+        <line num="40" count="38" type="stmt"/>
+        <line num="41" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="38" type="stmt"/>
+        <line num="45" count="163" type="stmt"/>
+        <line num="48" count="38" type="stmt"/>
+        <line num="49" count="54" type="stmt"/>
+        <line num="52" count="38" type="stmt"/>
+        <line num="53" count="15" type="stmt"/>
+        <line num="56" count="38" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="60" count="38" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="64" count="38" type="stmt"/>
+        <line num="65" count="620" type="stmt"/>
+        <line num="68" count="38" type="stmt"/>
+        <line num="69" count="389" type="stmt"/>
+        <line num="72" count="38" type="stmt"/>
+        <line num="73" count="17" type="stmt"/>
+        <line num="76" count="38" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="80" count="38" type="stmt"/>
+        <line num="81" count="19" type="stmt"/>
+        <line num="84" count="38" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="87" count="38" type="stmt"/>
+        <line num="89" count="38" type="stmt"/>
+      </file>
+      <file name="flag-container.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/feature-flags-service/flag-container.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="38" type="stmt"/>
+        <line num="5" count="38" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="38" type="stmt"/>
+        <line num="7" count="38" type="stmt"/>
+        <line num="8" count="38" type="stmt"/>
+        <line num="9" count="38" type="stmt"/>
+        <line num="10" count="38" type="stmt"/>
+        <line num="11" count="38" type="stmt"/>
+        <line num="12" count="38" type="stmt"/>
+        <line num="13" count="38" type="stmt"/>
+        <line num="14" count="38" type="stmt"/>
+        <line num="15" count="38" type="stmt"/>
+        <line num="16" count="38" type="stmt"/>
+        <line num="19" count="38" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services.logger-service">
+      <metrics statements="194" coveredstatements="187" conditionals="91" coveredconditionals="85" methods="65" coveredmethods="62"/>
+      <file name="circular-log-container.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/logger-service/circular-log-container.ts">
+        <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="3" methods="6" coveredmethods="6"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="9" count="35" type="stmt"/>
+        <line num="10" count="35" type="stmt"/>
+        <line num="11" count="35" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="15" count="66" type="stmt"/>
+        <line num="16" count="66" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="66" type="stmt"/>
+        <line num="19" count="66" type="stmt"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="103" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="33" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="35" count="7" type="stmt"/>
+        <line num="36" count="327" type="stmt"/>
+        <line num="38" count="7" type="stmt"/>
+      </file>
+      <file name="console-logger.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/logger-service/console-logger.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
+        <line num="3" count="43" type="stmt"/>
+        <line num="4" count="43" type="stmt"/>
+        <line num="5" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="7" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="11" count="28" type="stmt"/>
+        <line num="15" count="43" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="19" count="43" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="23" count="43" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="27" count="43" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="31" count="43" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="34" count="43" type="stmt"/>
+      </file>
+      <file name="log-time-capsule.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/logger-service/log-time-capsule.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="7" count="392" type="stmt"/>
+        <line num="8" count="392" type="stmt"/>
+        <line num="9" count="392" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="13" count="356" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="17" count="356" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="356" type="stmt"/>
+        <line num="23" count="8" type="stmt"/>
+      </file>
+      <file name="logger-service.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/logger-service/logger-service.ts">
+        <metrics statements="49" coveredstatements="47" conditionals="22" coveredconditionals="20" methods="16" coveredmethods="15"/>
+        <line num="1" count="42" type="stmt"/>
+        <line num="3" count="42" type="stmt"/>
+        <line num="5" count="42" type="stmt"/>
+        <line num="7" count="42" type="stmt"/>
+        <line num="8" count="798" type="stmt"/>
+        <line num="11" count="42" type="stmt"/>
+        <line num="13" count="42" type="stmt"/>
+        <line num="14" count="42" type="stmt"/>
+        <line num="15" count="75" type="stmt"/>
+        <line num="16" count="75" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="41" type="stmt"/>
+        <line num="22" count="42" type="stmt"/>
+        <line num="23" count="35" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="28" type="stmt"/>
+        <line num="27" count="7" type="stmt"/>
+        <line num="28" count="7" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="45" count="42" type="stmt"/>
+        <line num="46" count="41" type="stmt"/>
+        <line num="49" count="42" type="stmt"/>
+        <line num="50" count="323" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="57" count="42" type="stmt"/>
+        <line num="58" count="1426" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="234" type="stmt"/>
+        <line num="60" count="238" type="stmt"/>
+        <line num="65" count="42" type="stmt"/>
+        <line num="66" count="784" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="108" type="stmt"/>
+        <line num="68" count="110" type="stmt"/>
+        <line num="73" count="42" type="stmt"/>
+        <line num="74" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="75" count="5" type="stmt"/>
+        <line num="76" count="5" type="stmt"/>
+        <line num="81" count="42" type="stmt"/>
+        <line num="82" count="150" type="cond" truecount="2" falsecount="0"/>
+        <line num="83" count="33" type="stmt"/>
+        <line num="84" count="33" type="stmt"/>
+        <line num="89" count="42" type="stmt"/>
+        <line num="90" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="94" count="42" type="stmt"/>
+        <line num="96" count="42" type="stmt"/>
+      </file>
+      <file name="new-relic-logger.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/logger-service/new-relic-logger.ts">
+        <metrics statements="76" coveredstatements="71" conditionals="46" coveredconditionals="43" methods="23" coveredmethods="21"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="23" count="34" type="stmt"/>
+        <line num="28" count="34" type="stmt"/>
+        <line num="29" count="34" type="stmt"/>
+        <line num="31" count="34" type="stmt"/>
+        <line num="32" count="34" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="36" count="386" type="stmt"/>
+        <line num="39" count="6" type="stmt"/>
+        <line num="40" count="221" type="cond" truecount="4" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="43" count="220" type="stmt"/>
+        <line num="45" count="178" type="cond" truecount="4" falsecount="0"/>
+        <line num="46" count="165" type="stmt"/>
+        <line num="50" count="42" type="stmt"/>
+        <line num="51" count="42" type="stmt"/>
+        <line num="55" count="6" type="stmt"/>
+        <line num="56" count="31" type="cond" truecount="4" falsecount="0"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="59" count="30" type="stmt"/>
+        <line num="61" count="22" type="cond" truecount="4" falsecount="0"/>
+        <line num="62" count="14" type="stmt"/>
+        <line num="66" count="8" type="stmt"/>
+        <line num="67" count="8" type="stmt"/>
+        <line num="71" count="6" type="stmt"/>
+        <line num="72" count="134" type="cond" truecount="4" falsecount="0"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="75" count="133" type="stmt"/>
+        <line num="77" count="115" type="cond" truecount="4" falsecount="0"/>
+        <line num="78" count="77" type="stmt"/>
+        <line num="82" count="18" type="stmt"/>
+        <line num="83" count="18" type="stmt"/>
+        <line num="87" count="6" type="stmt"/>
+        <line num="88" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="91" count="6" type="stmt"/>
+        <line num="92" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="93" count="1" type="stmt"/>
+        <line num="95" count="3" type="stmt"/>
+        <line num="97" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="108" count="6" type="stmt"/>
+        <line num="109" count="386" type="cond" truecount="2" falsecount="0"/>
+        <line num="110" count="325" type="cond" truecount="2" falsecount="0"/>
+        <line num="111" count="1" type="stmt"/>
+        <line num="113" count="325" type="stmt"/>
+        <line num="115" count="61" type="stmt"/>
+        <line num="119" count="6" type="stmt"/>
+        <line num="120" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="123" count="1" type="stmt"/>
+        <line num="124" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="125" count="1" type="stmt"/>
+        <line num="126" count="1" type="stmt"/>
+        <line num="127" count="30" type="stmt"/>
+        <line num="129" count="30" type="cond" truecount="3" falsecount="1"/>
+        <line num="130" count="30" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="135" count="0" type="stmt"/>
+        <line num="139" count="1" type="stmt"/>
+        <line num="143" count="6" type="stmt"/>
+        <line num="144" count="355" type="stmt"/>
+        <line num="168" count="6" type="stmt"/>
+        <line num="169" count="355" type="stmt"/>
+        <line num="170" count="355" type="stmt"/>
+        <line num="171" count="355" type="stmt"/>
+        <line num="183" count="6" type="stmt"/>
+      </file>
+      <file name="production-logger.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/logger-service/production-logger.ts">
+        <metrics statements="19" coveredstatements="19" conditionals="15" coveredconditionals="15" methods="8" coveredmethods="8"/>
+        <line num="4" count="41" type="stmt"/>
+        <line num="10" count="36" type="stmt"/>
+        <line num="11" count="36" type="stmt"/>
+        <line num="14" count="41" type="stmt"/>
+        <line num="15" count="28" type="stmt"/>
+        <line num="19" count="41" type="stmt"/>
+        <line num="23" count="41" type="stmt"/>
+        <line num="24" count="236" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="220" type="stmt"/>
+        <line num="29" count="41" type="stmt"/>
+        <line num="30" count="112" type="cond" truecount="4" falsecount="0"/>
+        <line num="31" count="105" type="stmt"/>
+        <line num="35" count="41" type="stmt"/>
+        <line num="36" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="41" count="41" type="stmt"/>
+        <line num="42" count="34" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="33" type="stmt"/>
+        <line num="50" count="41" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services.login-service">
+      <metrics statements="215" coveredstatements="187" conditionals="119" coveredconditionals="81" methods="38" coveredmethods="34"/>
+      <file name="login-service.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/login-service/login-service.ts">
+        <metrics statements="215" coveredstatements="187" conditionals="119" coveredconditionals="81" methods="38" coveredmethods="34"/>
+        <line num="1" count="37" type="stmt"/>
+        <line num="2" count="37" type="stmt"/>
+        <line num="18" count="37" type="stmt"/>
+        <line num="20" count="37" type="stmt"/>
+        <line num="21" count="37" type="stmt"/>
+        <line num="23" count="37" type="stmt"/>
+        <line num="25" count="37" type="stmt"/>
+        <line num="26" count="37" type="stmt"/>
+        <line num="30" count="37" type="stmt"/>
+        <line num="31" count="277" type="stmt"/>
+        <line num="32" count="277" type="stmt"/>
+        <line num="33" count="37" type="stmt"/>
+        <line num="34" count="579" type="stmt"/>
+        <line num="37" count="37" type="stmt"/>
+        <line num="38" count="210" type="stmt"/>
+        <line num="41" count="37" type="stmt"/>
+        <line num="42" count="57" type="stmt"/>
+        <line num="45" count="37" type="stmt"/>
+        <line num="46" count="181" type="stmt"/>
+        <line num="49" count="37" type="stmt"/>
+        <line num="50" count="88" type="stmt"/>
+        <line num="53" count="37" type="stmt"/>
+        <line num="54" count="47" type="stmt"/>
+        <line num="57" count="37" type="stmt"/>
+        <line num="58" count="29" type="stmt"/>
+        <line num="61" count="37" type="stmt"/>
+        <line num="62" count="180" type="stmt"/>
+        <line num="65" count="37" type="stmt"/>
+        <line num="66" count="181" type="cond" truecount="2" falsecount="0"/>
+        <line num="69" count="37" type="stmt"/>
+        <line num="74" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="76" count="30" type="stmt"/>
+        <line num="77" count="30" type="stmt"/>
+        <line num="78" count="30" type="stmt"/>
+        <line num="85" count="25" type="stmt"/>
+        <line num="86" count="25" type="stmt"/>
+        <line num="89" count="37" type="stmt"/>
+        <line num="94" count="41" type="cond" truecount="2" falsecount="0"/>
+        <line num="96" count="41" type="stmt"/>
+        <line num="98" count="50" type="cond" truecount="2" falsecount="0"/>
+        <line num="100" count="32" type="stmt"/>
+        <line num="104" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="105" count="26" type="stmt"/>
+        <line num="106" count="26" type="cond" truecount="4" falsecount="0"/>
+        <line num="107" count="3" type="stmt"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="121" count="38" type="stmt"/>
+        <line num="122" count="38" type="stmt"/>
+        <line num="123" count="38" type="stmt"/>
+        <line num="129" count="31" type="stmt"/>
+        <line num="130" count="29" type="stmt"/>
+        <line num="132" count="9" type="stmt"/>
+        <line num="135" count="9" type="stmt"/>
+        <line num="136" count="4" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="140" count="29" type="stmt"/>
+        <line num="141" count="58" type="stmt"/>
+        <line num="142" count="29" type="stmt"/>
+        <line num="145" count="37" type="stmt"/>
+        <line num="146" count="9" type="stmt"/>
+        <line num="147" count="9" type="stmt"/>
+        <line num="148" count="9" type="stmt"/>
+        <line num="149" count="9" type="stmt"/>
+        <line num="150" count="9" type="stmt"/>
+        <line num="155" count="4" type="stmt"/>
+        <line num="156" count="4" type="stmt"/>
+        <line num="157" count="4" type="stmt"/>
+        <line num="159" count="8" type="stmt"/>
+        <line num="169" count="4" type="stmt"/>
+        <line num="172" count="37" type="stmt"/>
+        <line num="173" count="9" type="stmt"/>
+        <line num="174" count="9" type="stmt"/>
+        <line num="175" count="9" type="stmt"/>
+        <line num="177" count="18" type="stmt"/>
+        <line num="179" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="180" count="6" type="stmt"/>
+        <line num="191" count="0" type="stmt"/>
+        <line num="203" count="3" type="stmt"/>
+        <line num="213" count="3" type="stmt"/>
+        <line num="217" count="37" type="stmt"/>
+        <line num="218" count="58" type="stmt"/>
+        <line num="230" count="37" type="stmt"/>
+        <line num="231" count="30" type="stmt"/>
+        <line num="234" count="37" type="stmt"/>
+        <line num="235" count="29" type="stmt"/>
+        <line num="236" count="29" type="stmt"/>
+        <line num="237" count="26" type="stmt"/>
+        <line num="240" count="37" type="stmt"/>
+        <line num="241" count="33" type="stmt"/>
+        <line num="242" count="33" type="stmt"/>
+        <line num="243" count="33" type="stmt"/>
+        <line num="244" count="33" type="stmt"/>
+        <line num="247" count="37" type="stmt"/>
+        <line num="253" count="9" type="stmt"/>
+        <line num="254" count="9" type="stmt"/>
+        <line num="259" count="4" type="cond" truecount="3" falsecount="1"/>
+        <line num="260" count="4" type="stmt"/>
+        <line num="262" count="5" type="stmt"/>
+        <line num="265" count="5" type="stmt"/>
+        <line num="269" count="5" type="stmt"/>
+        <line num="270" count="0" type="stmt"/>
+        <line num="271" count="0" type="stmt"/>
+        <line num="275" count="37" type="stmt"/>
+        <line num="276" count="38" type="stmt"/>
+        <line num="277" count="38" type="stmt"/>
+        <line num="280" count="37" type="stmt"/>
+        <line num="281" count="33" type="stmt"/>
+        <line num="282" count="33" type="stmt"/>
+        <line num="283" count="33" type="stmt"/>
+        <line num="285" count="2" type="stmt"/>
+        <line num="292" count="37" type="stmt"/>
+        <line num="293" count="47" type="stmt"/>
+        <line num="296" count="37" type="stmt"/>
+        <line num="297" count="33" type="cond" truecount="2" falsecount="0"/>
+        <line num="298" count="10" type="stmt"/>
+        <line num="302" count="37" type="stmt"/>
+        <line num="306" count="3" type="stmt"/>
+        <line num="307" count="3" type="cond" truecount="4" falsecount="2"/>
+        <line num="308" count="3" type="stmt"/>
+        <line num="312" count="0" type="stmt"/>
+        <line num="315" count="0" type="stmt"/>
+        <line num="318" count="0" type="stmt"/>
+        <line num="320" count="3" type="stmt"/>
+        <line num="321" count="3" type="stmt"/>
+        <line num="322" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="323" count="3" type="stmt"/>
+        <line num="324" count="3" type="stmt"/>
+        <line num="327" count="0" type="stmt"/>
+        <line num="328" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="329" count="0" type="stmt"/>
+        <line num="331" count="0" type="stmt"/>
+        <line num="337" count="37" type="stmt"/>
+        <line num="338" count="15" type="stmt"/>
+        <line num="339" count="15" type="stmt"/>
+        <line num="341" count="1" type="stmt"/>
+        <line num="343" count="0" type="stmt"/>
+        <line num="347" count="6" type="stmt"/>
+        <line num="348" count="6" type="stmt"/>
+        <line num="349" count="6" type="stmt"/>
+        <line num="350" count="6" type="stmt"/>
+        <line num="351" count="6" type="stmt"/>
+        <line num="354" count="0" type="stmt"/>
+        <line num="355" count="0" type="stmt"/>
+        <line num="356" count="0" type="stmt"/>
+        <line num="357" count="0" type="stmt"/>
+        <line num="360" count="1" type="stmt"/>
+        <line num="361" count="1" type="stmt"/>
+        <line num="362" count="1" type="stmt"/>
+        <line num="363" count="1" type="stmt"/>
+        <line num="366" count="3" type="stmt"/>
+        <line num="367" count="3" type="stmt"/>
+        <line num="368" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="369" count="3" type="stmt"/>
+        <line num="372" count="4" type="stmt"/>
+        <line num="373" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="374" count="2" type="stmt"/>
+        <line num="376" count="2" type="stmt"/>
+        <line num="377" count="2" type="stmt"/>
+        <line num="378" count="2" type="stmt"/>
+        <line num="379" count="2" type="stmt"/>
+        <line num="385" count="37" type="stmt"/>
+        <line num="387" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="388" count="8" type="stmt"/>
+        <line num="389" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="390" count="12" type="cond" truecount="6" falsecount="0"/>
+        <line num="391" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="392" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="393" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="394" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="395" count="3" type="stmt"/>
+        <line num="397" count="3" type="stmt"/>
+        <line num="398" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="401" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="402" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="405" count="20" type="stmt"/>
+        <line num="408" count="37" type="stmt"/>
+        <line num="409" count="0" type="stmt"/>
+        <line num="417" count="37" type="stmt"/>
+        <line num="418" count="1" type="stmt"/>
+        <line num="426" count="37" type="stmt"/>
+        <line num="427" count="6" type="stmt"/>
+        <line num="435" count="37" type="stmt"/>
+        <line num="436" count="6" type="cond" truecount="6" falsecount="2"/>
+        <line num="437" count="6" type="stmt"/>
+        <line num="438" count="6" type="stmt"/>
+        <line num="439" count="6" type="stmt"/>
+        <line num="440" count="6" type="stmt"/>
+        <line num="441" count="6" type="stmt"/>
+        <line num="445" count="6" type="stmt"/>
+        <line num="448" count="37" type="stmt"/>
+        <line num="453" count="0" type="stmt"/>
+        <line num="454" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="455" count="0" type="stmt"/>
+        <line num="457" count="0" type="stmt"/>
+        <line num="459" count="0" type="stmt"/>
+        <line num="460" count="0" type="cond" truecount="0" falsecount="8"/>
+        <line num="461" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="462" count="0" type="stmt"/>
+        <line num="464" count="0" type="stmt"/>
+        <line num="465" count="0" type="stmt"/>
+        <line num="469" count="37" type="stmt"/>
+        <line num="470" count="1" type="stmt"/>
+        <line num="473" count="37" type="stmt"/>
+        <line num="474" count="2" type="stmt"/>
+        <line num="475" count="2" type="stmt"/>
+        <line num="478" count="37" type="stmt"/>
+        <line num="479" count="38" type="stmt"/>
+        <line num="482" count="37" type="stmt"/>
+        <line num="484" count="53" type="stmt"/>
+        <line num="485" count="53" type="stmt"/>
+        <line num="487" count="4" type="stmt"/>
+        <line num="491" count="37" type="stmt"/>
+        <line num="492" count="85" type="stmt"/>
+        <line num="494" count="37" type="stmt"/>
+        <line num="495" count="37" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services.report-service">
+      <metrics statements="184" coveredstatements="175" conditionals="97" coveredconditionals="82" methods="37" coveredmethods="37"/>
+      <file name="report-service.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/report-service/report-service.ts">
+        <metrics statements="184" coveredstatements="175" conditionals="97" coveredconditionals="82" methods="37" coveredmethods="37"/>
+        <line num="3" count="37" type="stmt"/>
+        <line num="4" count="37" type="stmt"/>
+        <line num="5" count="37" type="stmt"/>
+        <line num="6" count="37" type="stmt"/>
+        <line num="7" count="37" type="stmt"/>
+        <line num="24" count="37" type="stmt"/>
+        <line num="27" count="37" type="stmt"/>
+        <line num="34" count="37" type="stmt"/>
+        <line num="38" count="43" type="stmt"/>
+        <line num="39" count="43" type="stmt"/>
+        <line num="40" count="43" type="stmt"/>
+        <line num="41" count="43" type="stmt"/>
+        <line num="42" count="43" type="stmt"/>
+        <line num="47" count="37" type="stmt"/>
+        <line num="48" count="639" type="stmt"/>
+        <line num="52" count="43" type="stmt"/>
+        <line num="55" count="37" type="stmt"/>
+        <line num="56" count="454" type="stmt"/>
+        <line num="59" count="37" type="stmt"/>
+        <line num="60" count="60" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="37" type="stmt"/>
+        <line num="62" count="37" type="stmt"/>
+        <line num="63" count="37" type="stmt"/>
+        <line num="64" count="37" type="stmt"/>
+        <line num="65" count="37" type="stmt"/>
+        <line num="66" count="37" type="stmt"/>
+        <line num="67" count="37" type="cond" truecount="1" falsecount="1"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="73" count="37" type="stmt"/>
+        <line num="74" count="37" type="stmt"/>
+        <line num="76" count="23" type="stmt"/>
+        <line num="82" count="37" type="stmt"/>
+        <line num="83" count="686" type="stmt"/>
+        <line num="86" count="37" type="stmt"/>
+        <line num="87" count="53" type="cond" truecount="2" falsecount="0"/>
+        <line num="88" count="48" type="stmt"/>
+        <line num="90" count="5" type="stmt"/>
+        <line num="94" count="37" type="stmt"/>
+        <line num="95" count="53" type="stmt"/>
+        <line num="98" count="37" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="102" count="37" type="stmt"/>
+        <line num="103" count="2" type="stmt"/>
+        <line num="104" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="108" count="1" type="stmt"/>
+        <line num="111" count="1" type="stmt"/>
+        <line num="113" count="1" type="stmt"/>
+        <line num="117" count="1" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="120" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="121" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="132" count="37" type="stmt"/>
+        <line num="133" count="27" type="cond" truecount="1" falsecount="1"/>
+        <line num="134" count="27" type="stmt"/>
+        <line num="137" count="37" type="stmt"/>
+        <line num="138" count="28" type="stmt"/>
+        <line num="139" count="28" type="cond" truecount="1" falsecount="1"/>
+        <line num="140" count="28" type="stmt"/>
+        <line num="141" count="28" type="stmt"/>
+        <line num="153" count="0" type="stmt"/>
+        <line num="157" count="37" type="stmt"/>
+        <line num="158" count="1094" type="stmt"/>
+        <line num="161" count="37" type="stmt"/>
+        <line num="163" count="542" type="cond" truecount="1" falsecount="1"/>
+        <line num="165" count="542" type="stmt"/>
+        <line num="166" count="542" type="stmt"/>
+        <line num="167" count="542" type="stmt"/>
+        <line num="170" count="37" type="stmt"/>
+        <line num="172" count="580" type="cond" truecount="1" falsecount="1"/>
+        <line num="174" count="580" type="stmt"/>
+        <line num="175" count="580" type="stmt"/>
+        <line num="177" count="580" type="stmt"/>
+        <line num="191" count="580" type="cond" truecount="5" falsecount="0"/>
+        <line num="192" count="110" type="cond" truecount="2" falsecount="0"/>
+        <line num="193" count="10" type="stmt"/>
+        <line num="197" count="580" type="stmt"/>
+        <line num="200" count="37" type="stmt"/>
+        <line num="204" count="542" type="stmt"/>
+        <line num="205" count="542" type="stmt"/>
+        <line num="206" count="542" type="stmt"/>
+        <line num="211" count="542" type="stmt"/>
+        <line num="214" count="542" type="cond" truecount="2" falsecount="0"/>
+        <line num="215" count="542" type="stmt"/>
+        <line num="216" count="542" type="stmt"/>
+        <line num="217" count="542" type="stmt"/>
+        <line num="218" count="542" type="stmt"/>
+        <line num="221" count="37" type="stmt"/>
+        <line num="223" count="38" type="cond" truecount="1" falsecount="1"/>
+        <line num="225" count="38" type="stmt"/>
+        <line num="226" count="38" type="stmt"/>
+        <line num="229" count="37" type="stmt"/>
+        <line num="230" count="608" type="cond" truecount="2" falsecount="0"/>
+        <line num="231" count="552" type="stmt"/>
+        <line num="233" count="28" type="cond" truecount="2" falsecount="0"/>
+        <line num="234" count="1" type="stmt"/>
+        <line num="237" count="27" type="stmt"/>
+        <line num="240" count="54" type="stmt"/>
+        <line num="242" count="0" type="stmt"/>
+        <line num="252" count="37" type="stmt"/>
+        <line num="257" count="45" type="cond" truecount="2" falsecount="0"/>
+        <line num="258" count="22" type="stmt"/>
+        <line num="260" count="23" type="stmt"/>
+        <line num="261" count="23" type="stmt"/>
+        <line num="262" count="23" type="stmt"/>
+        <line num="269" count="23" type="stmt"/>
+        <line num="272" count="37" type="stmt"/>
+        <line num="273" count="163" type="stmt"/>
+        <line num="276" count="37" type="stmt"/>
+        <line num="277" count="187" type="cond" truecount="2" falsecount="0"/>
+        <line num="278" count="186" type="stmt"/>
+        <line num="280" count="1" type="stmt"/>
+        <line num="284" count="37" type="stmt"/>
+        <line num="285" count="30" type="stmt"/>
+        <line num="288" count="37" type="stmt"/>
+        <line num="289" count="542" type="cond" truecount="4" falsecount="0"/>
+        <line num="290" count="49" type="stmt"/>
+        <line num="294" count="37" type="stmt"/>
+        <line num="295" count="37" type="stmt"/>
+        <line num="296" count="37" type="stmt"/>
+        <line num="297" count="37" type="stmt"/>
+        <line num="298" count="777" type="cond" truecount="2" falsecount="0"/>
+        <line num="302" count="37" type="stmt"/>
+        <line num="305" count="37" type="stmt"/>
+        <line num="306" count="580" type="stmt"/>
+        <line num="307" count="580" type="stmt"/>
+        <line num="316" count="37" type="stmt"/>
+        <line num="317" count="542" type="cond" truecount="2" falsecount="0"/>
+        <line num="322" count="78" type="stmt"/>
+        <line num="326" count="37" type="stmt"/>
+        <line num="327" count="541" type="stmt"/>
+        <line num="328" count="541" type="stmt"/>
+        <line num="330" count="27" type="stmt"/>
+        <line num="332" count="128" type="stmt"/>
+        <line num="333" count="128" type="stmt"/>
+        <line num="337" count="84" type="cond" truecount="2" falsecount="0"/>
+        <line num="341" count="9" type="stmt"/>
+        <line num="342" count="9" type="stmt"/>
+        <line num="344" count="75" type="stmt"/>
+        <line num="346" count="84" type="stmt"/>
+        <line num="348" count="302" type="stmt"/>
+        <line num="349" count="302" type="stmt"/>
+        <line num="351" count="541" type="cond" truecount="4" falsecount="0"/>
+        <line num="352" count="66" type="stmt"/>
+        <line num="357" count="475" type="stmt"/>
+        <line num="362" count="541" type="stmt"/>
+        <line num="365" count="37" type="stmt"/>
+        <line num="366" count="580" type="stmt"/>
+        <line num="369" count="37" type="stmt"/>
+        <line num="370" count="37" type="stmt"/>
+        <line num="395" count="37" type="stmt"/>
+        <line num="396" count="537" type="cond" truecount="2" falsecount="0"/>
+        <line num="397" count="512" type="cond" truecount="2" falsecount="0"/>
+        <line num="401" count="148" type="stmt"/>
+        <line num="403" count="364" type="stmt"/>
+        <line num="406" count="537" type="stmt"/>
+        <line num="407" count="537" type="stmt"/>
+        <line num="408" count="537" type="cond" truecount="2" falsecount="0"/>
+        <line num="409" count="339" type="stmt"/>
+        <line num="411" count="537" type="stmt"/>
+        <line num="412" count="2883" type="stmt"/>
+        <line num="413" count="2883" type="stmt"/>
+        <line num="416" count="537" type="stmt"/>
+        <line num="419" count="37" type="stmt"/>
+        <line num="420" count="537" type="stmt"/>
+        <line num="430" count="37" type="stmt"/>
+        <line num="431" count="2883" type="cond" truecount="2" falsecount="0"/>
+        <line num="433" count="890" type="stmt"/>
+        <line num="434" count="890" type="stmt"/>
+        <line num="438" count="37" type="stmt"/>
+        <line num="442" count="107" type="stmt"/>
+        <line num="456" count="37" type="stmt"/>
+        <line num="458" count="33" type="cond" truecount="2" falsecount="0"/>
+        <line num="459" count="33" type="cond" truecount="1" falsecount="1"/>
+        <line num="461" count="33" type="stmt"/>
+        <line num="462" count="33" type="stmt"/>
+        <line num="465" count="37" type="stmt"/>
+        <line num="466" count="16" type="stmt"/>
+        <line num="468" count="37" type="stmt"/>
+        <line num="470" count="37" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services.rest-api-service">
+      <metrics statements="165" coveredstatements="157" conditionals="83" coveredconditionals="66" methods="37" coveredmethods="37"/>
+      <file name="resiliency-functions.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/rest-api-service/resiliency-functions.ts">
+        <metrics statements="82" coveredstatements="76" conditionals="52" coveredconditionals="38" methods="17" coveredmethods="17"/>
+        <line num="1" count="37" type="stmt"/>
+        <line num="2" count="37" type="stmt"/>
+        <line num="3" count="37" type="stmt"/>
+        <line num="4" count="37" type="stmt"/>
+        <line num="5" count="37" type="stmt"/>
+        <line num="6" count="37" type="stmt"/>
+        <line num="8" count="37" type="stmt"/>
+        <line num="10" count="37" type="stmt"/>
+        <line num="11" count="37" type="stmt"/>
+        <line num="12" count="37" type="stmt"/>
+        <line num="14" count="37" type="stmt"/>
+        <line num="15" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="17" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="11" type="stmt"/>
+        <line num="21" count="11" type="cond" truecount="1" falsecount="1"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="11" type="stmt"/>
+        <line num="25" count="11" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+        <line num="28" count="11" type="stmt"/>
+        <line num="29" count="25" type="stmt"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="32" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="37" count="17" type="stmt"/>
+        <line num="39" count="17" type="cond" truecount="4" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="14" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="14" type="stmt"/>
+        <line num="50" count="11" type="stmt"/>
+        <line num="53" count="37" type="stmt"/>
+        <line num="59" count="12" type="stmt"/>
+        <line num="61" count="12" type="cond" truecount="1" falsecount="1"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="65" count="12" type="cond" truecount="4" falsecount="2"/>
+        <line num="66" count="12" type="cond" truecount="4" falsecount="2"/>
+        <line num="69" count="12" type="stmt"/>
+        <line num="70" count="12" type="stmt"/>
+        <line num="89" count="12" type="stmt"/>
+        <line num="90" count="12" type="stmt"/>
+        <line num="92" count="12" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="97" count="1" type="stmt"/>
+        <line num="99" count="11" type="stmt"/>
+        <line num="100" count="11" type="cond" truecount="1" falsecount="1"/>
+        <line num="101" count="11" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="110" count="6" type="stmt"/>
+        <line num="111" count="6" type="stmt"/>
+        <line num="113" count="6" type="stmt"/>
+        <line num="114" count="6" type="stmt"/>
+        <line num="115" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="116" count="6" type="stmt"/>
+        <line num="118" count="2" type="stmt"/>
+        <line num="120" count="4" type="stmt"/>
+        <line num="121" count="4" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="130" count="9" type="stmt"/>
+        <line num="131" count="9" type="stmt"/>
+        <line num="132" count="9" type="stmt"/>
+        <line num="134" count="9" type="stmt"/>
+        <line num="135" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="136" count="9" type="stmt"/>
+        <line num="138" count="1" type="stmt"/>
+        <line num="140" count="8" type="stmt"/>
+        <line num="141" count="8" type="stmt"/>
+        <line num="144" count="0" type="stmt"/>
+        <line num="149" count="37" type="stmt"/>
+        <line num="151" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="159" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="160" count="6" type="stmt"/>
+        <line num="163" count="37" type="stmt"/>
+        <line num="164" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="167" count="3" type="stmt"/>
+        <line num="169" count="37" type="stmt"/>
+        <line num="170" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="172" count="2" type="stmt"/>
+      </file>
+      <file name="rest-api-service.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/rest-api-service/rest-api-service.ts">
+        <metrics statements="83" coveredstatements="81" conditionals="31" coveredconditionals="28" methods="20" coveredmethods="20"/>
+        <line num="1" count="37" type="stmt"/>
+        <line num="2" count="37" type="stmt"/>
+        <line num="4" count="37" type="stmt"/>
+        <line num="18" count="37" type="stmt"/>
+        <line num="20" count="74" type="stmt"/>
+        <line num="23" count="37" type="stmt"/>
+        <line num="24" count="92" type="stmt"/>
+        <line num="27" count="37" type="stmt"/>
+        <line num="28" count="185" type="stmt"/>
+        <line num="31" count="37" type="stmt"/>
+        <line num="32" count="108" type="stmt"/>
+        <line num="35" count="37" type="stmt"/>
+        <line num="36" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="37" type="stmt"/>
+        <line num="40" count="13" type="stmt"/>
+        <line num="43" count="37" type="stmt"/>
+        <line num="44" count="30" type="cond" truecount="3" falsecount="0"/>
+        <line num="47" count="37" type="stmt"/>
+        <line num="48" count="30" type="stmt"/>
+        <line num="49" count="30" type="stmt"/>
+        <line num="50" count="30" type="stmt"/>
+        <line num="54" count="30" type="stmt"/>
+        <line num="56" count="12" type="stmt"/>
+        <line num="58" count="12" type="stmt"/>
+        <line num="61" count="30" type="stmt"/>
+        <line num="64" count="37" type="stmt"/>
+        <line num="67" count="30" type="cond" truecount="1" falsecount="1"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="74" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="75" count="17" type="stmt"/>
+        <line num="76" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="77" count="10" type="stmt"/>
+        <line num="78" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="91" count="37" type="stmt"/>
+        <line num="95" count="47" type="cond" truecount="2" falsecount="0"/>
+        <line num="97" count="47" type="stmt"/>
+        <line num="98" count="47" type="stmt"/>
+        <line num="100" count="41" type="stmt"/>
+        <line num="102" count="6" type="stmt"/>
+        <line num="106" count="37" type="stmt"/>
+        <line num="109" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="111" count="13" type="stmt"/>
+        <line num="113" count="12" type="stmt"/>
+        <line num="115" count="1" type="stmt"/>
+        <line num="119" count="37" type="stmt"/>
+        <line num="121" count="40" type="cond" truecount="2" falsecount="0"/>
+        <line num="123" count="40" type="stmt"/>
+        <line num="124" count="40" type="stmt"/>
+        <line num="125" count="40" type="stmt"/>
+        <line num="128" count="37" type="stmt"/>
+        <line num="130" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="132" count="12" type="stmt"/>
+        <line num="133" count="12" type="stmt"/>
+        <line num="134" count="12" type="stmt"/>
+        <line num="137" count="37" type="stmt"/>
+        <line num="139" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="141" count="5" type="stmt"/>
+        <line num="142" count="5" type="stmt"/>
+        <line num="145" count="37" type="stmt"/>
+        <line num="147" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="149" count="4" type="stmt"/>
+        <line num="150" count="4" type="stmt"/>
+        <line num="151" count="4" type="stmt"/>
+        <line num="154" count="37" type="stmt"/>
+        <line num="155" count="4" type="stmt"/>
+        <line num="157" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="158" count="1" type="stmt"/>
+        <line num="159" count="1" type="stmt"/>
+        <line num="163" count="37" type="stmt"/>
+        <line num="169" count="9" type="stmt"/>
+        <line num="170" count="9" type="stmt"/>
+        <line num="171" count="9" type="stmt"/>
+        <line num="172" count="9" type="stmt"/>
+        <line num="175" count="37" type="stmt"/>
+        <line num="176" count="12" type="stmt"/>
+        <line num="177" count="12" type="stmt"/>
+        <line num="183" count="37" type="stmt"/>
+        <line num="187" count="82" type="stmt"/>
+        <line num="192" count="92" type="stmt"/>
+        <line num="197" count="37" type="stmt"/>
+        <line num="199" count="37" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services.token-service">
+      <metrics statements="41" coveredstatements="41" conditionals="6" coveredconditionals="6" methods="12" coveredmethods="12"/>
+      <file name="token-service.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/token-service/token-service.ts">
+        <metrics statements="41" coveredstatements="41" conditionals="6" coveredconditionals="6" methods="12" coveredmethods="12"/>
+        <line num="1" count="38" type="stmt"/>
+        <line num="2" count="38" type="stmt"/>
+        <line num="3" count="38" type="stmt"/>
+        <line num="4" count="38" type="stmt"/>
+        <line num="6" count="38" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="38" type="stmt"/>
+        <line num="8" count="38" type="stmt"/>
+        <line num="9" count="38" type="stmt"/>
+        <line num="11" count="38" type="stmt"/>
+        <line num="17" count="38" type="stmt"/>
+        <line num="18" count="76" type="stmt"/>
+        <line num="21" count="38" type="stmt"/>
+        <line num="22" count="37" type="stmt"/>
+        <line num="25" count="38" type="stmt"/>
+        <line num="26" count="37" type="stmt"/>
+        <line num="29" count="38" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="33" count="38" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="38" type="stmt"/>
+        <line num="38" count="29" type="stmt"/>
+        <line num="39" count="29" type="stmt"/>
+        <line num="40" count="26" type="stmt"/>
+        <line num="41" count="26" type="stmt"/>
+        <line num="44" count="38" type="stmt"/>
+        <line num="45" count="38" type="stmt"/>
+        <line num="46" count="38" type="stmt"/>
+        <line num="49" count="38" type="stmt"/>
+        <line num="50" count="53" type="stmt"/>
+        <line num="51" count="53" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="7" type="stmt"/>
+        <line num="55" count="46" type="stmt"/>
+        <line num="58" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="61" count="45" type="stmt"/>
+        <line num="64" count="38" type="stmt"/>
+        <line num="65" count="36" type="stmt"/>
+        <line num="68" count="38" type="stmt"/>
+        <line num="69" count="36" type="stmt"/>
+        <line num="71" count="38" type="stmt"/>
+        <line num="72" count="38" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services.validator-service">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="validator-service.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/validator-service/validator-service.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="35" type="stmt"/>
+        <line num="2" count="35" type="stmt"/>
+        <line num="3" count="35" type="stmt"/>
+        <line num="4" count="103" type="stmt"/>
+        <line num="6" count="35" type="stmt"/>
+        <line num="7" count="35" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="67" coveredstatements="67" conditionals="18" coveredconditionals="15" methods="20" coveredmethods="20"/>
+      <file name="array-helper.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/utils/array-helper.ts">
+        <metrics statements="30" coveredstatements="30" conditionals="8" coveredconditionals="7" methods="11" coveredmethods="11"/>
+        <line num="2" count="39" type="stmt"/>
+        <line num="4" count="39" type="stmt"/>
+        <line num="5" count="39" type="stmt"/>
+        <line num="6" count="1820" type="stmt"/>
+        <line num="9" count="39" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="17" count="39" type="stmt"/>
+        <line num="18" count="108" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="21" count="165" type="stmt"/>
+        <line num="22" count="165" type="stmt"/>
+        <line num="23" count="165" type="stmt"/>
+        <line num="27" count="39" type="stmt"/>
+        <line num="28" count="70" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="39" type="stmt"/>
+        <line num="32" count="70" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="68" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="39" count="39" type="stmt"/>
+        <line num="40" count="95" type="stmt"/>
+        <line num="52" count="39" type="stmt"/>
+        <line num="53" count="63" type="stmt"/>
+        <line num="54" count="95" type="stmt"/>
+        <line num="55" count="95" type="cond" truecount="1" falsecount="1"/>
+        <line num="56" count="95" type="stmt"/>
+        <line num="60" count="63" type="stmt"/>
+        <line num="62" count="39" type="stmt"/>
+      </file>
+      <file name="date-helper.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/utils/date-helper.ts">
+        <metrics statements="32" coveredstatements="32" conditionals="10" coveredconditionals="8" methods="7" coveredmethods="7"/>
+        <line num="1" count="40" type="stmt"/>
+        <line num="3" count="40" type="stmt"/>
+        <line num="4" count="40" type="stmt"/>
+        <line num="6" count="40" type="stmt"/>
+        <line num="7" count="54" type="stmt"/>
+        <line num="8" count="54" type="stmt"/>
+        <line num="9" count="54" type="stmt"/>
+        <line num="12" count="40" type="stmt"/>
+        <line num="13" count="23" type="stmt"/>
+        <line num="22" count="40" type="stmt"/>
+        <line num="23" count="23" type="stmt"/>
+        <line num="24" count="23" type="stmt"/>
+        <line num="25" count="23" type="stmt"/>
+        <line num="26" count="23" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="23" type="stmt"/>
+        <line num="28" count="23" type="stmt"/>
+        <line num="29" count="23" type="stmt"/>
+        <line num="32" count="40" type="stmt"/>
+        <line num="33" count="23" type="stmt"/>
+        <line num="34" count="23" type="stmt"/>
+        <line num="35" count="23" type="stmt"/>
+        <line num="50" count="23" type="stmt"/>
+        <line num="51" count="23" type="stmt"/>
+        <line num="54" count="40" type="stmt"/>
+        <line num="55" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="58" count="8" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="70" count="461" type="cond" truecount="1" falsecount="1"/>
+        <line num="71" count="461" type="cond" truecount="2" falsecount="0"/>
+        <line num="73" count="40" type="stmt"/>
+      </file>
+      <file name="uuid-generator.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/utils/uuid-generator.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="38" type="stmt"/>
+        <line num="3" count="38" type="stmt"/>
+        <line num="4" count="38" type="stmt"/>
+        <line num="5" count="238" type="stmt"/>
+        <line num="7" count="38" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

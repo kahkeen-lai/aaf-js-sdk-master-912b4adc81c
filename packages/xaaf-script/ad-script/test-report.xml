@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/xaaf-script/ad-script/src/functions/functions.spec.ts">
+    <testCase name="test workflow set" duration="4"/>
+    <testCase name="test workflow set-get" duration="1"/>
+    <testCase name="test workflow choose" duration="2"/>
+    <testCase name="test workflow condition" duration="2"/>
+    <testCase name="test workflow set-replace" duration="1"/>
+    <testCase name="test workflow set-replace-getData" duration="2"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/xaaf-script/ad-script/src/functions/function.fire-trigger.spec.ts">
+    <testCase name="test fire-trigger function fire-trigger" duration="4"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/xaaf-script/ad-script/src/functions/child-expressions.spec.ts">
+    <testCase name="test child-expressions scenario child expressions in node" duration="6"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/xaaf-script/ad-script/src/functions/full.spec.ts">
+    <testCase name="test full scenario full scenario" duration="22"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/xaaf-script/ad-script/src/functions/function.databind.spec.ts">
+    <testCase name="test databind function databind" duration="5"/>
+  </file>
+</testExecutions>

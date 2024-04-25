@@ -1,0 +1,172 @@
+{
+    "experienceMediaType": "Full Height Sponsor Ad",
+    "commands": [
+      {
+        "commandName": "SHOW_DYNAMIC_VIEW",
+        "data": {
+          "xaaf": {
+            "timeout": 5000
+          },
+            "type": "View",
+            "props": {
+                "key": "Main View",
+                "style": {
+                    "$transitionMap": {
+                        "initial": {
+                            "opacity": {
+                                "to": 0,
+                                "duration": 0,
+                                "delay": 0,
+                                "interpolation": 1
+                            }, 
+                            "offsetY": {
+                                "to": 750,
+                                "duration": 0,
+                                "delay": 0,
+                                "interpolation": 1
+                            }
+                        },
+                        "enter": {
+                            "opacity": {
+                                "to": 1,
+                                "duration": 1,
+                                "delay": 0,
+                                "interpolation": 1
+                            }, 
+                            "offsetY": {
+                                "to": 0,
+                                "duration": 1,
+                                "delay": 0,
+                                "interpolation": 1
+                            }
+                        },
+                        "exit": {
+                            "opacity": {
+                                "to": 0,
+                                "duration": 1,
+                                "delay": 0,
+                                "interpolation": 1
+                            }, 
+                            "offsetY": {
+                                "to": 100,
+                                "duration": 1,
+                                "delay": 0,
+                                "interpolation": 1
+                            }
+                        }
+                    },
+                    "$layout": {
+                        "type": "StackedLayout",
+                        "args": {
+                            "$primaryAxis": "HORIZONTAL",
+                            "alignAlongPrimaryAxis": true
+                        }
+                    },
+                    "$layoutProps": "layouts.anchorBottomCropBottom",
+                    "$width": 1,
+                    "$height": 0.2
+                }
+            },
+            "children": [
+                {
+                    "type": "View",
+                    "props": {
+                        "key": "Wrapper",
+                        "style": {
+                            "$height": 0.2
+                        }
+                    },
+                    "children": [
+                        {
+                            "type": "Image",
+                            "props": {
+                                "key": "main image",
+                                "style": {
+                                    "$width": 0.13,
+                                    "$height": 0.15,
+                                    "$x": 0.07,
+                                    "$y": 0,
+                                    "uri": "https://xaaf-web-sdk-mp4.s3.amazonaws.com/Eco-logo-02.png"
+                                }
+                            }
+                        },                {
+                            "type": "Image",
+                            "props": {
+                                "key": "Background",
+                                "style": {
+                                    "$width": 0.6,
+                                    "$height": 0.4,
+                                    "$x": 0.1,
+                                    "$y": -0.12,
+                                    "uri": "https://xaaf-web-sdk-mp4.s3.amazonaws.com/pink-Banner-BG-Large.png"
+                                }
+                            }
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "key": "text",
+                                "style": {
+                                    "$width": 0.5,
+                                    "$height": 0.08,
+                                    "$x": 0.23,
+                                    "$y": 0.035,
+                                    "horizontalAlignment": 0,
+                                    "$format": {
+                                        "font": "assets/fonts/Street2-Bold.ttf",
+                                        "$color": "#FFFFFF",
+                                        "size": 20
+                                    }
+                                }
+                            },
+                            "children": [
+                                "Design Tip From Experts #54"
+                            ]
+                        },
+                        {
+                            "type": "Text",
+                            "props": {
+                                "key": "text",
+                                "style": {
+                                    "$width": 0.5,
+                                    "$height": 0.08,
+                                    "$x": 0.23,
+                                    "$y": 0.08,
+                                    "horizontalAlignment": 0,
+                                    "$format": {
+                                        "font": "assets/fonts/Street2-Medium.ttf",
+                                        "$color": "#FFFFFF",
+                                        "size": 16
+                                    }
+                                }
+                            },
+                            "children": [
+                                "Open up your space by adding bright wall colors"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "executionTriggers": [{ "trigger": "STATE_STARTING" }]
+      },
+      {
+          "commandName":"STOP_EXPERIENCE",
+          "data": {
+              "notifyToHost": true,
+              "reason": "self-dismiss"
+          },
+          "executionTriggers":[
+              {
+                  "trigger":"STATE_PLAYING",
+                  "data":{
+                      "delay":7000
+                  }
+              }
+          ]
+      }
+    ],
+    "exeAdUUID": "de2cce10-d74e-4e90-9c73-b7292f794e6f",
+    "experienceId": "7a2a3ffe-565d-4e02-b7fa-9115cdb1a1fa",
+    "templateId": 50
+  }

@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/date-time-service/date-time-service.spec.ts">
+    <testCase name="dateTimeService delay method, should resolve the promise after spesified delay" duration="4"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/logger-service/circular-log-container.spec.ts">
+    <testCase name="circular logger container Fill a logger container and empty it" duration="92"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/logger-service/console-logger.spec.ts">
+    <testCase name="console logger functions request a console logger gets one" duration="195"/>
+    <testCase name="console logger functions request a console logger off gets null" duration="1"/>
+    <testCase name="console logger functions request nothing console logger off gets null" duration="199"/>
+    <testCase name="console logger functions request verbose logging calls console log only" duration="3"/>
+    <testCase name="console logger functions request debug logging calls console debug only" duration="2"/>
+    <testCase name="console logger functions request info logging calls console info only" duration="1"/>
+    <testCase name="console logger functions request warn logging calls console warn only" duration="1"/>
+    <testCase name="console logger functions request error logging calls console error only" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/utils/array-helper.spec.ts">
+    <testCase name="ArrayHelper functions convertMapToArray gets a map with a string key and a string value" duration="4"/>
+    <testCase name="ArrayHelper functions convertMapToArray gets an empty map" duration="1"/>
+    <testCase name="mapToRecord function mapToRecord functions succeeds" duration="1"/>
+    <testCase name="mapToRecord function checks mapToRecord helper function" duration="2"/>
+    <testCase name="given record validateMapObject should return map" duration="0"/>
+    <testCase name="given map validateMapObject should return map" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/logger-service/logger-service.spec.ts">
+    <testCase name="setup console logger and call debug" duration="4"/>
+    <testCase name="setup console logger and call verbose" duration="1"/>
+    <testCase name="setup console logger with info and call debug" duration="0"/>
+    <testCase name="setup console logger with error and call error" duration="1"/>
+    <testCase name="setup no console logger with info and call debug" duration="86"/>
+    <testCase name="setup no console logger with info and call verbose" duration="1"/>
+    <testCase name="making sure extract log level behaves" duration="2"/>
+    <testCase name="multiple init but maintaining a single console logger call warn" duration="1"/>
+    <testCase name="multiple init but maintaining a single console logger call error" duration="2"/>
+    <testCase name="specifically instantiate production and console logs console.debug once" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/logger-service/log-time-capsule.spec.ts">
+    <testCase name="instantiate log time capsule and get things" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/utils/date-helper.spec.ts">
+    <testCase name="DateHelper functions getMeasurementParams with clientFormattedTimeStamp param validate 22.03.2020 14:05:38 +120 date format" duration="5"/>
+    <testCase name="DateHelper functions calcDuration test" duration="589"/>
+    <testCase name="DateHelper functions should throw an error if no playerStartTime and no playerStopTime" duration="8"/>
+    <testCase name="DateHelper functions castEpochToDate function gets an epoch and return a date" duration="1"/>
+    <testCase name="DateHelper functions castDateToEpoch function gets a date and return an epoch" duration="0"/>
+    <testCase name="DateHelper functions between - good range" duration="89"/>
+    <testCase name="DateHelper functions between - bad ranges" duration="1"/>
+    <testCase name="DateHelper functions verify Client TimeOff Set in client timestamp string" duration="0"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/utils/uuid-generator.spec.ts">
+    <testCase name="uuid generator to return a value that is in format backend expects" duration="3"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/fsm/fsm.spec.ts">
+    <testCase name="FSM states tests STATE_CREATED tests Move to STATE_CREATED, should not change state" duration="86"/>
+    <testCase name="FSM states tests STATE_CREATED tests Move to STATE_STARTING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_CREATED tests Move to STATE_STARTED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_CREATED tests Move to STATE_PLAYING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_CREATED tests Move to STATE_PAUSING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_CREATED tests Move to STATE_PAUSED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_CREATED tests Move to STATE_RESUMING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_CREATED tests Move to STATE_RESUMED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_CREATED tests Move to STATE_STOPPED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_CREATED tests Move to STATE_TERMINATED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_INITIATING tests Move to STATE_CREATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_INITIATING tests Move to STATE_STARTED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_INITIATING tests Move to STATE_PLAYING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_INITIATING tests Move to STATE_PAUSING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_INITIATING tests Move to STATE_PAUSED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_INITIATING tests Move to STATE_RESUMING, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_INITIATING tests Move to STATE_RESUMED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_INITIATING tests Move to STATE_STOPPED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_INITIATING tests Move to STATE_TERMINATED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_LOADED tests Move to STATE_CREATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_LOADED tests Move to STATE_INITIATING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_LOADED tests Move to STATE_STARTED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_LOADED tests Move to STATE_PLAYING, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_LOADED tests Move to STATE_PAUSING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_LOADED tests Move to STATE_PAUSED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_LOADED tests Move to STATE_RESUMING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_LOADED tests Move to STATE_RESUMED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_LOADED tests Move to STATE_STOPPED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_LOADED tests Move to STATE_TERMINATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTING tests Move to STATE_CREATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTING tests Move to STATE_INITIATING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTING tests Move to STATE_LOADED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTING tests Move to STATE_PLAYING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTING tests Move to STATE_PAUSING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTING tests Move to STATE_PAUSED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_STARTING tests Move to STATE_RESUMING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTING tests Move to STATE_RESUMED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTING tests Move to STATE_STOPPED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTING tests Move to STATE_TERMINATED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_STARTED tests Move to STATE_CREATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTED tests Move to STATE_INITIATING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTED tests Move to STATE_LOADED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTED tests Move to STATE_STARTING, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_STARTED tests Move to STATE_PAUSING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTED tests Move to STATE_PAUSED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTED tests Move to STATE_RESUMING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTED tests Move to STATE_RESUMED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_STARTED tests Move to STATE_STOPPED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STARTED tests Move to STATE_TERMINATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PLAYING tests Move to STATE_CREATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PLAYING tests Move to STATE_INITIATING, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_PLAYING tests Move to STATE_LOADED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PLAYING tests Move to STATE_STARTING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PLAYING tests Move to STATE_STARTED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PLAYING tests Move to STATE_PAUSED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_PLAYING tests Move to STATE_RESUMING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PLAYING tests Move to STATE_RESUMED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PLAYING tests Move to STATE_STOPPED, should not change state" duration="2"/>
+    <testCase name="FSM states tests STATE_PLAYING tests Move to STATE_TERMINATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PAUSING tests Move to STATE_CREATED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_PAUSING tests Move to STATE_INITIATING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PAUSING tests Move to STATE_LOADED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PAUSING tests Move to STATE_STARTING, should not change state" duration="85"/>
+    <testCase name="FSM states tests STATE_PAUSING tests Move to STATE_STARTED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PAUSING tests Move to STATE_PLAYING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PAUSING tests Move to STATE_RESUMING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PAUSING tests Move to STATE_RESUMED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_PAUSING tests Move to STATE_STOPPED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PAUSING tests Move to STATE_TERMINATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PAUSED tests Move to STATE_CREATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PAUSED tests Move to STATE_INITIATING, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_PAUSED tests Move to STATE_LOADED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PAUSED tests Move to STATE_STARTING, should not change state" duration="198"/>
+    <testCase name="FSM states tests STATE_PAUSED tests Move to STATE_STARTED, should not change state" duration="2"/>
+    <testCase name="FSM states tests STATE_PAUSED tests Move to STATE_PLAYING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PAUSED tests Move to STATE_PAUSING, should not change state" duration="98"/>
+    <testCase name="FSM states tests STATE_PAUSED tests Move to STATE_RESUMED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_PAUSED tests Move to STATE_STOPPED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_PAUSED tests Move to STATE_TERMINATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMING tests Move to STATE_CREATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMING tests Move to STATE_INITIATING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMING tests Move to STATE_LOADED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_RESUMING tests Move to STATE_STARTING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMING tests Move to STATE_STARTED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMING tests Move to STATE_PLAYING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMING tests Move to STATE_PAUSING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMING tests Move to STATE_PAUSED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_RESUMING tests Move to STATE_STOPPED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMING tests Move to STATE_TERMINATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMED tests Move to STATE_CREATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMED tests Move to STATE_INITIATING, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_RESUMED tests Move to STATE_LOADED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMED tests Move to STATE_STARTING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMED tests Move to STATE_STARTED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMED tests Move to STATE_PAUSING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMED tests Move to STATE_PAUSED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_RESUMED tests Move to STATE_RESUMING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMED tests Move to STATE_STOPPED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_RESUMED tests Move to STATE_TERMINATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPING tests Move to STATE_CREATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPING tests Move to STATE_INITIATING, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_STOPPING tests Move to STATE_LOADED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPING tests Move to STATE_STARTING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPING tests Move to STATE_STARTED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPING tests Move to STATE_PLAYING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPING tests Move to STATE_PAUSING, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_STOPPING tests Move to STATE_PAUSED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPING tests Move to STATE_RESUMING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPING tests Move to STATE_RESUMED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPING tests Move to STATE_TERMINATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPED tests Move to STATE_CREATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPED tests Move to STATE_INITIATING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPED tests Move to STATE_LOADED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPED tests Move to STATE_STARTING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPED tests Move to STATE_STARTED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPED tests Move to STATE_PLAYING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPED tests Move to STATE_PAUSING, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_STOPPED tests Move to STATE_PAUSED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPED tests Move to STATE_RESUMING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPED tests Move to STATE_RESUMED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_STOPPED tests Move to STATE_STOPPING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_ERROR tests Move to STATE_CREATED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_ERROR tests Move to STATE_INITIATING, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_ERROR tests Move to STATE_LOADED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_ERROR tests Move to STATE_STARTING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_ERROR tests Move to STATE_STARTED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_ERROR tests Move to STATE_PLAYING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_ERROR tests Move to STATE_PAUSING, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_ERROR tests Move to STATE_PAUSED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_ERROR tests Move to STATE_RESUMING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_ERROR tests Move to STATE_RESUMED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_ERROR tests Move to STATE_STOPPING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_ERROR tests Move to STATE_STOPPED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_TERMINATED tests Move to STATE_CREATED, should not change state" duration="89"/>
+    <testCase name="FSM states tests STATE_TERMINATED tests Move to STATE_INITIATING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_TERMINATED tests Move to STATE_LOADED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_TERMINATED tests Move to STATE_STARTING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_TERMINATED tests Move to STATE_STARTED, should not change state" duration="9"/>
+    <testCase name="FSM states tests STATE_TERMINATED tests Move to STATE_PLAYING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_TERMINATED tests Move to STATE_PAUSING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_TERMINATED tests Move to STATE_PAUSED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_TERMINATED tests Move to STATE_RESUMING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_TERMINATED tests Move to STATE_RESUMED, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_TERMINATED tests Move to STATE_STOPPING, should not change state" duration="0"/>
+    <testCase name="FSM states tests STATE_TERMINATED tests Move to STATE_STOPPED, should not change state" duration="1"/>
+    <testCase name="FSM states tests STATE_TERMINATED tests Move to STATE_ERROR, should not change state" duration="0"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/content-toggle-list-service/content-toggle-list-service.spec.ts">
+    <testCase name="ContentToggleListService functions validate content toggle list exists. Expected value = true" duration="299"/>
+    <testCase name="ContentToggleListService functions validate content toggle list is empty. Expected value = true" duration="1"/>
+    <testCase name="ContentToggleListService functions validate blacklist mode exist is content toggle list, while nothing else exist. Expected value = true" duration="1"/>
+    <testCase name="ContentToggleListService functions validate contentType value: contentToggleList = initAdInfo. Expected value = false" duration="1"/>
+    <testCase name="ContentToggleListService functions validate contentType value: contentToggleList &lt;&gt; initAdInfo. Expected value = false" duration="1"/>
+    <testCase name="ContentToggleListService functions validate channelName value: contentToggleList = initAdInfo. Expected value = false" duration="0"/>
+    <testCase name="ContentToggleListService functions validate channelName value: contentToggleList &lt;&gt; initAdInfo. Expected value = true" duration="1"/>
+    <testCase name="ContentToggleListService functions validate isDuringAd value: contentToggleList = initAdInfo. Expected value = false" duration="0"/>
+    <testCase name="ContentToggleListService functions validate isDuringAd value: contentToggleList &lt;&gt; initAdInfo. Expected value = true" duration="1"/>
+    <testCase name="ContentToggleListService functions validate contentToggleList include 1 item with blacklist mode. By programName -  Expected value = false" duration="1"/>
+    <testCase name="ContentToggleListService functions blacklist , validate by programmerName. Expected value = false" duration="0"/>
+    <testCase name="ContentToggleListService functions blacklist , validate by networkName. Expected value = false" duration="0"/>
+    <testCase name="ContentToggleListService functions validate contentToggleList include 1 item with whitelist mode. By channelName -  Expected value = true" duration="0"/>
+    <testCase name="ContentToggleListService functions validate by programName. Expected value = true" duration="0"/>
+    <testCase name="ContentToggleListService functions neutral mode. Expected value = true" duration="0"/>
+    <testCase name="ContentToggleListService functions ConfigService content toggle list update - should return valid content pre-update and invalid post-update" duration="0"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/feature-flags-proxy-delegate/feature-flags-proxy-delegate.spec.ts">
+    <testCase name="feature flag proxy delegate integration tests should check storage adapter mock resolution" duration="4"/>
+    <testCase name="feature flag proxy delegate integration tests setup should set keys in persistent storage" duration="186"/>
+    <testCase name="feature flag proxy delegate integration tests register should read from persistent storage" duration="101"/>
+    <testCase name="feature flag proxy delegate integration tests register should combine with keys from storage" duration="98"/>
+    <testCase name="feature flag proxy delegate integration tests flagNames should return string array" duration="1"/>
+    <testCase name="feature flag proxy delegate integration tests isFlagEnabled should return value of flag" duration="2"/>
+    <testCase name="feature flag proxy delegate integration tests given certain flag values, when calling setup, updates FlagContainer" duration="2"/>
+    <testCase name="feature flag proxy delegate integration tests given default setup, when calling getter, retrieve correct object" duration="1"/>
+    <testCase name="feature flag proxy delegate integration tests given update when freeze is true, should update only store " duration="2"/>
+    <testCase name="feature flag proxy delegate integration tests given update when freeze is false, should update only store " duration="2"/>
+    <testCase name="feature flag proxy delegate integration tests given setup when freeze is true, should update only store " duration="90"/>
+    <testCase name="feature flag proxy delegate integration tests given setup when freeze is false, should update only store " duration="2"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/token-service/token-service.spec.ts">
+    <testCase name="isTokenExpiredOrAboutToExpire function returns VALID if it gets a valid date" duration="4"/>
+    <testCase name="isTokenExpiredOrAboutToExpire function returns ABOUT_TO_EXPIRE if it gets a date that is about to expire" duration="0"/>
+    <testCase name="isTokenExpiredOrAboutToExpire function returns EXPIRED if it gets a date that is already expired" duration="89"/>
+    <testCase name="exp tokens are retrieved ok after decoding tokens in decodeTokens function" duration="2"/>
+    <testCase name="exp tokens are retrieved ok after updating tokens in setTokensExpirationDates function" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/adscript-command.spec.ts">
+    <testCase name="ad-script command tests ad-script command should be defined" duration="88"/>
+    <testCase name="ad-script command tests ad-script execute calls should call runner init function" duration="6"/>
+    <testCase name="ad-script command tests ad-script execute should call the buildMethod on event Loaded" duration="3"/>
+    <testCase name="ad-script command tests ad-script execute should call onLoad when it has Loaded event" duration="1"/>
+    <testCase name="ad-script command tests ad-script execute should call _notifyCompleted when it has Loaded event" duration="0"/>
+    <testCase name="ad-script command tests ad-script execute should call _report when it has Loaded event" duration="1"/>
+    <testCase name="ad-script command tests ad-script execute should set template into context" duration="1"/>
+    <testCase name="ad-script command tests ad-script execute should set runner buildMethods" duration="0"/>
+    <testCase name="ad-script command tests ad-script execute to call $set with args" duration="86"/>
+    <testCase name="ad-script command tests ad-script execute should set runner buildMethods" duration="1"/>
+    <testCase name="ad-script command tests ad-script execute should initialize allMethods" duration="2"/>
+    <testCase name="ad-script command tests ad-script execute should call print with args" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/stop-experience-command.spec.ts">
+    <testCase name="StopExperienceCommand functions test StopExperienceCommand execution function" duration="9"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/renderer.spec.ts">
+    <testCase name="Renderer functions request create command SHOW_VIDEO gets show video command" duration="4"/>
+    <testCase name="Renderer functions request create command SHOW_IMAGE gets show image command" duration="1"/>
+    <testCase name="Renderer functions request create command REPORT_COMMAND gets report command" duration="3"/>
+    <testCase name="Renderer functions request create command with something else gets an empty command that is alive" duration="96"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/host-request-command.spec.ts">
+    <testCase name="HostRequestCommand functions test HostRequestCommand execution function" duration="89"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/show-image-command.spec.ts">
+    <testCase name="ShowImageCommand tests init() without XaafAdContainer - error thrown - should notify command event listener with CommandEventType Error" duration="5"/>
+    <testCase name="ShowImageCommand tests init() with xaafAdContainer - should set XaafElementType.IMAGE element type on XaafAdContainer" duration="2"/>
+    <testCase name="ShowImageCommand tests init() with xaafAdContainer - error thrown when XaafImageElement is ready - should notify command event listener with CommandEventType Error" duration="2"/>
+    <testCase name="ShowImageCommand tests init() with xaafAdContainer - XaafImageElement is ready - should set its data" duration="1"/>
+    <testCase name="ShowImageCommand tests init() with xaafAdContainer - error thrown when XaafImageElement failed to load - should notify command event listener with CommandEventType Error" duration="1"/>
+    <testCase name="ShowImageCommand tests init() with xaafAdContainer - XaafImageElement failed to load - should notify command event listener with CommandEventType Error" duration="1"/>
+    <testCase name="ShowImageCommand tests init() with xaafAdContainer - error thrown when XaafImageElement is loaded - should notify command event listener with CommandEventType Error" duration="0"/>
+    <testCase name="ShowImageCommand tests init() with xaafAdContainer - XaafImageElement is ready &amp; loaded but not shown - should not notify command event listener with CommandEventType Handled" duration="1"/>
+    <testCase name="ShowImageCommand tests execute() - error thrown - should notify command event listener with CommandEventType Error" duration="1"/>
+    <testCase name="ShowImageCommand tests execute() - XaafImageElement is not ready - should notify command event listener with CommandEventType Error" duration="81"/>
+    <testCase name="ShowImageCommand tests execute() - XaafImageElement is ready - should show XaafImageElement and notify listener with CommandEventType Executed" duration="1"/>
+    <testCase name="ShowImageCommand tests execute() - error thrown when XaafImageElement is shown - should notify listener with CommandEventType Error" duration="1"/>
+    <testCase name="ShowImageCommand tests execute() - XaafImageElement is ready &amp; shown but not loaded - should notify listener with CommandEventType Executed only" duration="2"/>
+    <testCase name="ShowImageCommand tests execute() - XaafImageElement is ready shown and then loaded - should notify listener with CommandEventType Handled" duration="2"/>
+    <testCase name="ShowImageCommand tests execute() - XaafImageElement is ready loaded and then shown - should notify listener with CommandEventType Handled" duration="95"/>
+    <testCase name="ShowImageCommand tests stop() - error thrown - should notify listener with CommandEventType Error" duration="0"/>
+    <testCase name="ShowImageCommand tests stop() - XaafImageElement is ready - should hide XaafImageElement, clear element type on XaafAdContainer and notify listener with CommandEventType Stopped" duration="2"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/events/command-events/command-event-creator.spec.ts">
+    <testCase name="CommandEventCreator tests createLoadedEvent() - should return CommandEvent with Loaded type and no command" duration="3"/>
+    <testCase name="CommandEventCreator tests createExecutedEvent() - should return CommandEvent with Executed type and no command" duration="1"/>
+    <testCase name="CommandEventCreator tests createHandledEvent() - should return CommandEvent with Handled type and correct command" duration="1"/>
+    <testCase name="CommandEventCreator tests createCompletedEvent() - should return CommandEvent with Completed type and correct command" duration="1"/>
+    <testCase name="CommandEventCreator tests createErrorEvent() - should return ErrorCommandEvent with Error type, correct error and no command" duration="1"/>
+    <testCase name="CommandEventCreator tests createStoppedEvent() - should return StoppedCommandEvent with Stopped type, correct StoppedCommandEventReason and no command" duration="0"/>
+    <testCase name="CommandEventCreator tests createStopExperienceEvent() - should return StopExperienceCommandEvent with StopExperience type, correct reason and isNotifyHost and no command" duration="1"/>
+    <testCase name="CommandEventCreator tests createHostRequestEvent() - should return CommandEvent with HostRequest type and correct command" duration="89"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/report-command.spec.ts">
+    <testCase name="ReportCommand functions test command with conditions - conditions met - command is performed" duration="787"/>
+    <testCase name="ReportCommand functions test command with conditions - conditions do not meet - command is not performed" duration="1"/>
+    <testCase name="ReportCommand functions test command without conditions - condition met - command is performed" duration="3"/>
+    <testCase name="ReportCommand functions should report the duration measurements" duration="2"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/show-dynamic-view-command.spec.ts">
+    <testCase name="ShowDynamicViewCommand tests init() without XaafAdContainer - error thrown - should notify command event listener with CommandEventType Error" duration="6"/>
+    <testCase name="ShowDynamicViewCommand tests init() with xaafAdContainer - should set XaafElementType.DYNAMIC element type on XaafAdContainer" duration="1"/>
+    <testCase name="ShowDynamicViewCommand tests init() with xaafAdContainer - error thrown when XaafDynamicViewElement is ready - should notify command event listener with CommandEventType Error" duration="2"/>
+    <testCase name="ShowDynamicViewCommand tests init() with xaafAdContainer - XaafDynamicElement is ready - should set its data" duration="1"/>
+    <testCase name="ShowDynamicViewCommand tests execute() - error thrown - should notify command event listener with CommandEventType Error" duration="1"/>
+    <testCase name="ShowDynamicViewCommand tests execute() - XaafDynamicElement is not ready - should notify command event listener with CommandEventType Error" duration="0"/>
+    <testCase name="ShowDynamicViewCommand tests execute() - XaafDynamicElement is ready - should show XaafDynamicElement and notify listener with CommandEventType Executed" duration="1"/>
+    <testCase name="ShowDynamicViewCommand tests should test the onLoad function" duration="92"/>
+    <testCase name="ShowDynamicViewCommand tests should test the onError function with error" duration="1"/>
+    <testCase name="ShowDynamicViewCommand tests stop() - error thrown - should notify listener with CommandEventType Error" duration="0"/>
+    <testCase name="ShowDynamicViewCommand tests stop() - XaafDynamicElement is ready - should hide XaafDynamicElement, clear element type on XaafAdContainer and notify listener with CommandEventType Stopped" duration="2"/>
+    <testCase name="ShowDynamicViewCommand tests complete() - XaafDynamicElement is ready - should hide XaafDynamicElement, clear element type on XaafAdContainer and notify listener with CommandEventTypes Stopped and Completed" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/executable-ad-life-cycle.spec.ts">
+    <testCase name="adLifeCycleParameters  adLifeCycleParameters map is retrieved with right values after ad_loaded" duration="283"/>
+    <testCase name="adLifeCycleParameters  Reasons from AD_STOPPED event check no reason" duration="2"/>
+    <testCase name="adLifeCycleParameters  Reasons from AD_STOPPED event check reason AD_ACTION_BLACKLIST" duration="6"/>
+    <testCase name="adLifeCycleParameters  Reasons from AD_STOPPED event check reason NOT_LOGGED_IN" duration="6"/>
+    <testCase name="adLifeCycleParameters  Reasons from AD_STOPPED event check reason AD_STOPPED" duration="86"/>
+    <testCase name="adLifeCycleParameters  Reasons from AD_STOPPED event check hostStoppingReason when filled in AD_STOPPED" duration="2"/>
+    <testCase name="adLifeCycleParameters  Reasons from AD_STOPPED event check hostStoppingReason when nothing filled in AD_STOPPED" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/squeeze-command.spec.ts">
+    <testCase name="SqueezeCommand test execute() without HostContainer - notify on error" duration="6"/>
+    <testCase name="SqueezeCommand test execute() with HostContainer - expect onSqueezeStarted and onSqueezeEnded" duration="603"/>
+    <testCase name="SqueezeCommand test execute() with error in animation" duration="2"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/config-service/config-service.spec.ts">
+    <testCase name="config service functions get instance is not null" duration="91"/>
+    <testCase name="config service functions config service getMeasurementParams getMeasurementParams with platformAdvId param should return platformAdvId" duration="2"/>
+    <testCase name="config service functions config service getMeasurementParams getMeasurementParams with Invalid key param should return null" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams getMeasurementParams with clientFormattedTimeStamp param validate 22.03.2020 14:05:38 +120 date format" duration="2"/>
+    <testCase name="config service functions config service getMeasurementParams getMeasurementParams with deviceId param should return deviceId" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams getMeasurementParams get parameter from sdk config without getter" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get new relic url parameter" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get new relic api key parameter" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get userAdvrId parameter" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get fwSUSSId parameter" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get householdId parameter" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get deviceAdvrId parameter" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get deviceFWAdId parameter" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get DeviceID parameter" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get isLoggedIn parameter" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get playerConfiguration parameter" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get refreshToken parameter" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get tokenExpiration parameter" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get refreshToken expiration parameter" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get deviceManufacturer parameter" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get deviceModel parameter" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get deviceType parameter" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get device parameter" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get OsName" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get osVersion" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get userType" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get tenantName" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get appName" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get appVersion" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get sdkName" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get sdkVersion" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get tenantSystemName" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get lazyRefreshTokenBeforeExpirationMinutes parameter" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get timeouts parameter http" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get timeouts parameter xaaba" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get timeouts parameter assets" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get timeouts parameter player" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get timeouts parameter buffer" duration="89"/>
+    <testCase name="config service functions config service getMeasurementParams get timeouts parameter reporting" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get timeouts parameter http_timeout" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get timeouts parameter buffer_timeout" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get timeouts parameter player_timeout" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get new relic bulk reporting config" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get new relic bulk reporting config when no login response" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get timeouts parameter xaaba_timeoutba" duration="1"/>
+    <testCase name="config service functions config service getMeasurementParams get timeouts parameter assets_timeout" duration="0"/>
+    <testCase name="config service functions config service getMeasurementParams get timeouts parameter reporting_timeout" duration="0"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/show-video-command.repeat.spec.ts">
+    <testCase name="ShowVideoCommand functions given 1 loop, when onPlaybackComplete called, should call _onCommandCompleted" duration="95"/>
+    <testCase name="ShowVideoCommand functions given many loops, when onPlaybackComplete called, should call not _onCommandCompleted" duration="1"/>
+    <testCase name="ShowVideoCommand functions isBufferForPlaybackReached should return true when current buffer &gt;  requiredBuffer  " duration="2"/>
+    <testCase name="ShowVideoCommand functions isBufferForPlaybackReached should return false  when current buffer &lt; requiredBuffer" duration="1"/>
+    <testCase name="ShowVideoCommand functions given videoDuration shorter than bufferForPlayback, isBufferForPlaybackReached should return true  when current buffer &lt; requiredBuffer" duration="1"/>
+    <testCase name="ShowVideoCommand functions awaitBufferForPlaybackReached should define interval and not call setTimeout when timeoutEnabled = false " duration="1090"/>
+    <testCase name="ShowVideoCommand functions awaitBufferForPlaybackReached should reject with time out when awaitBufferForPlaybackReached return false" duration="3"/>
+    <testCase name="ShowVideoCommand functions awaitBufferForPlaybackReached should resolve when awaitBufferForPlaybackReached return true" duration="3"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/executable-ad-refresh-token.spec.ts">
+    <testCase name="Refresh Token both login request and refresh token are NOT called if access token is VALID BEFORE calling to getExecutableAd" duration="97"/>
+    <testCase name="Refresh Token refresh token is called and login request is NOT called if access token is ABOUT TO EXPIRE and refresh token is VALID BEFORE calling to getExecutableAd" duration="3"/>
+    <testCase name="Refresh Token refresh token is called and login request is NOT called if access token is EXPIRED and refresh token is VALID BEFORE calling to getExecutableAd" duration="2"/>
+    <testCase name="Refresh Token refresh token is NOT called and login request is called if both access token and refresh token are EXPIRED BEFORE calling to getExecutableAd" duration="1"/>
+    <testCase name="Refresh Token refresh token is NOT called and login request is called if access token is EXPIRED and refresh token is ABOUT TO EXPIRE BEFORE calling to getExecutableAd" duration="1"/>
+    <testCase name="Refresh Token login request is called and refresh token is NOT called if access token is ABOUT TO EXPIRE and refresh token is EXPIRED BEFORE calling to getExecutableAd" duration="86"/>
+    <testCase name="Refresh Token login request is called and refresh token is NOT called if both access token and refresh token are ABOUT TO EXPIRE BEFORE calling to getExecutableAd" duration="2"/>
+    <testCase name="Refresh Token both refresh token and login request are NOT called if access token is NOT EXPIRED WHILE calling to getExecutableAd and getting 200 succeeded" duration="3"/>
+    <testCase name="Refresh Token refresh token is called and login request is NOT called if refresh token is VALID WHILE calling to getExecutableAd and getting error SessionExpired - 401-1" duration="779"/>
+    <testCase name="Refresh Token refresh token is NOT called and login request is called if refresh token is EXPIRED WHILE calling to getExecutableAd and getting error SessionExpired - 401-1" duration="2"/>
+    <testCase name="Refresh Token refresh token is NOT called and login request is called if refresh token is ABOUT TO EXPIRE WHILE calling to getExecutableAd and getting error SessionExpired - 401-1" duration="13"/>
+    <testCase name="Refresh Token token is updated after successful call to loginRequest" duration="7"/>
+    <testCase name="Refresh Token token is updated after successful call to refreshToken" duration="6"/>
+    <testCase name="Refresh Token token is NOT updated after unsuccessful call to loginRequest - 401-9000" duration="3"/>
+    <testCase name="Refresh Token _initAdEngagement" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/events/events.spec.ts">
+    <testCase name="Events Command events tests handleError is called when init fails" duration="2"/>
+    <testCase name="Events Command events tests notify function changes the listener" duration="1"/>
+    <testCase name="Events Command events tests notify function changes the listener" duration="0"/>
+    <testCase name="Events Command events tests commandEventCreator needs to return a command event" duration="1"/>
+    <testCase name="Events Ad events tests notify function changes the listener" duration="1"/>
+    <testCase name="Events Ad events tests commandEventCreator needs to return a command event" duration="0"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/executable-ad.spec.ts">
+    <testCase name="executable ad should be created" duration="99"/>
+    <testCase name="plain javascript object should be converted to map" duration="93"/>
+    <testCase name="init should parse XIP" duration="898"/>
+    <testCase name="parseCommands should parse commands" duration="2"/>
+    <testCase name="204 no ad should be handled correctly - exad stopped" duration="2"/>
+    <testCase name="429 stop ad should not be called" duration="6"/>
+    <testCase name="get unknown attribute on executable ad - should return undefined" duration="89"/>
+    <testCase name="get attributes on created executable ad - should return state attribute CREATED and others as undefined" duration="2"/>
+    <testCase name="get attributes on initialized executable ad - should return state LOADED and others as in XIP response" duration="3"/>
+    <testCase name="_createAdInitRecord function" duration="3"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/report-service/report-service.spec.ts">
+    <testCase name="reportService - general tests reportService - adLifeCycleParameters report service shall not send empty reports to new relic" duration="6"/>
+    <testCase name="reportService - general tests reportService - adLifeCycleParameters report service shall send reports to new relic" duration="2"/>
+    <testCase name="reportService - general tests reportService - adLifeCycleParameters adLifeCycleParameters map has values" duration="92"/>
+    <testCase name="reportService - general tests reportService - adLifeCycleParameters adLifeCycleParameters map is empty" duration="2"/>
+    <testCase name="reportService - general tests reportService - adLifeCycleParameters adLifeCycleParameters map is null" duration="1"/>
+    <testCase name="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous event name is ERROR and current event name is HOST_AD_CREATE - lastAdLifeCycleEventName is NA" duration="2"/>
+    <testCase name="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous event name is ERROR and current event name is HOST_AD_INIT - lastAdLifeCycleEventName is ERROR" duration="2"/>
+    <testCase name="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous previous event name is AD_CREATED, previous event name is ERROR and current event name is HOST_AD_INIT - lastAdLifeCycleEventName is AD_CREATED" duration="3"/>
+    <testCase name="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous event name is AD_ERROR and current event name is HOST_AD_CREATE - lastAdLifeCycleEventName is NA" duration="91"/>
+    <testCase name="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous event name is AD_ERROR and current event name is HOST_AD_INIT - lastAdLifeCycleEventName is AD_ERROR" duration="1"/>
+    <testCase name="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous previous event name is AD_CREATED, previous event name is AD_ERROR and current event name is AD_LOADED - lastAdLifeCycleEventName is AD_CREATED" duration="2"/>
+    <testCase name="reportService - general tests reportService - check reporting of adLifeCycle events check params are defined and numeric in adLifeCycle events" duration="2"/>
+    <testCase name="reportService - general tests reportService - check reporting of adLifeCycle events check params are undefined if event name is REFRESH" duration="1"/>
+    <testCase name="reportService - general tests reportService - check reporting of adLifeCycle events check params are undefined if event name is LOGIN" duration="1"/>
+    <testCase name="reportService - general tests reportService - check reporting of adLifeCycle events check params are undefined if event name is ERROR" duration="1"/>
+    <testCase name="reportService - general tests reportService - general tests Test that reportService is initialized as default" duration="0"/>
+    <testCase name="reportService - general tests reportService - general tests Test that reportService is initialized" duration="0"/>
+    <testCase name="reportService - general tests reportService - general tests Test that reportService is NOT initialized" duration="89"/>
+    <testCase name="reportService - general tests reportService - general tests Test reportService report function with LOGIN report type in bulks" duration="2"/>
+    <testCase name="reportService - general tests reportService - general tests Test reportService report function with LOGIN report type" duration="0"/>
+    <testCase name="reportService - general tests reportService - general tests Test reportService report function with LOGIN report type bulks enabled" duration="1"/>
+    <testCase name="reportService - general tests reportService - general tests Test reportService report function with AD_INIT report type - Add adSessionMetricsParams" duration="1"/>
+    <testCase name="reportService - general tests reportService - general tests Test reportService report function with AD_STOPPING report type - clean adSessionMetricsParams" duration="0"/>
+    <testCase name="reportService - general tests reportService - lastAdLifeCycleEventName Test previous event name in LOGIN event - toEqual {}" duration="1"/>
+    <testCase name="reportService - general tests reportService - lastAdLifeCycleEventName Test reportLogin" duration="1"/>
+    <testCase name="reportService - general tests reportService - lastAdLifeCycleEventName Test previous event name in HOST_AD_CREATE event - toEqual NA " duration="1"/>
+    <testCase name="reportService - general tests reportService - lastAdLifeCycleEventName Test previous event name in AD_CREATED event - toEqual HOST_AD_CREATE" duration="0"/>
+    <testCase name="reportService - general tests reportService - lastAdLifeCycleEventName Test previous event name in AD_LOADED event - toEqual AD_INIT" duration="1"/>
+    <testCase name="reportService - general tests reportService - Time Since Params Test time Since Parameters " duration="392"/>
+    <testCase name="reportService - general tests reportService - Time Since Params verify that timeSinceParams map is converted to object" duration="1"/>
+    <testCase name="reportService - general tests reportService - buildStringFromArgsMap buildStringFromArgsMap function retrieves a string that includes opportunityType=screensaver if it gets it from initAdinfo" duration="1"/>
+    <testCase name="reportService - general tests reportService - buildStringFromArgsMap buildStringFromArgsMap function retrieves a string that does NOT include opportunityType=screensaver if initAdinfo does NOT include it" duration="0"/>
+    <testCase name="reportService - general tests reportService - report _isInitialized and reportInBulksEnabled params  Test reportService  report function with LOGIN report type isInitialized false reportInBulksEnabled false" duration="1"/>
+    <testCase name="reportService - general tests reportService - report _isInitialized and reportInBulksEnabled params  Test reportService  report function with LOGIN Failed report type isInitialized true reportInBulksEnabled false" duration="1"/>
+    <testCase name="reportService - general tests reportService - report _isInitialized and reportInBulksEnabled params  Test reportService  report function with LOGIN Failed report false reportInBulksEnabled true" duration="1"/>
+    <testCase name="reportService - general tests reportService - report _isInitialized and reportInBulksEnabled params  Test reportService  report function with LOGIN Failed report false reportInBulksEnabled true" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/dummy-executable-ad.spec.ts">
+    <testCase name="DummyExecutableAd functions should be defined" duration="89"/>
+    <testCase name="DummyExecutableAd functions should fail to init" duration="4"/>
+    <testCase name="DummyExecutableAd functions dummyExecutableAdUnderTest is called by startAd func" duration="2"/>
+    <testCase name="DummyExecutableAd functions dummyExecutableAdUnderTest is called by stopAd func" duration="2"/>
+    <testCase name="DummyExecutableAd functions dummyExecutableAdUnderTest is called by pauseAd func" duration="1"/>
+    <testCase name="DummyExecutableAd functions dummyExecutableAdUnderTest is called by resumeAd func" duration="1"/>
+    <testCase name="DummyExecutableAd functions check reason NOT_LOGGED_IN" duration="81"/>
+    <testCase name="DummyExecutableAd functions expanding the coverage by testing the private method _setDummyCommand// consider refatoring" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/feature-flags-service/feature-flags-service.spec.ts">
+    <testCase name="Make sure FeatureFlagsService is using console and not using logger methods" duration="3"/>
+    <testCase name="tests integration of feature flags delegate tests feature flags container register - interface mock" duration="2"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/show-video-command.loops.spec.ts">
+    <testCase name="ShowVideoCommand functions given showVideoCommand with loops, on playing to completed events, should report command first frame, measurements, and quartiles" duration="1503"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/executable-ad-error-response.spec.ts">
+    <testCase name="error response should be handled" duration="1102"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/executable-ad-delayed-engagement.spec.ts">
+    <testCase name="ExecutableAd - Delay Engagement Delay Engagement state moves to Loaded when 2 commands send handled" duration="201"/>
+    <testCase name="ExecutableAd - Delay Engagement Delay Engagement state moves to Loaded when 0 commands exist" duration="98"/>
+    <testCase name="ExecutableAd - Delay Engagement Delay Engagement initAd method: on valid delay calculation, ad initialization should be called after calculated delay" duration="782"/>
+    <testCase name="ExecutableAd - Delay Engagement Delay Engagement initAd method: on invalid delay calculation, ad initialization should be called immediately" duration="4"/>
+    <testCase name="ExecutableAd - Delay Engagement Delay Engagement initAd method: on delay engagement feature flag not enabled, ad initialization should be called immediately" duration="3"/>
+    <testCase name="ExecutableAd - Delay Engagement resiliency functions refresh token fails with 500 error, resiliency is triggered" duration="7"/>
+    <testCase name="ExecutableAd - Delay Engagement resiliency functions refresh token fails with 429 error, resiliency is triggered" duration="2"/>
+    <testCase name="ExecutableAd - Delay Engagement resiliency functions init ad fails with 500 error, _handleError is triggered" duration="1"/>
+    <testCase name="ExecutableAd - Delay Engagement resiliency functions init ad fails with 500 error, resiliency is triggered" duration="2"/>
+    <testCase name="ExecutableAd - Delay Engagement resiliency functions tests that error report is sent on empty commands" duration="4"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/executable-ad-retry.spec.ts">
+    <testCase name="retry once after specific errors from getOpportunity getOpportunity fails with error 500 - retry once is triggered" duration="899"/>
+    <testCase name="retry once after specific errors from getOpportunity getOpportunity fails with error 503 - retry once is triggered" duration="99"/>
+    <testCase name="retry once after specific errors from getOpportunity getOpportunity fails with error 500-1 - retry once is triggered" duration="102"/>
+    <testCase name="retry once after specific errors from getOpportunity getOpportunity fails with error 500-9000 - retry once is triggered" duration="107"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/executable-ad-fire-triggers.spec.ts">
+    <testCase name="ExecutableAd fire trigger tests initAd() with 200 opportunity response - should create command ID to fire trigger map" duration="100"/>
+    <testCase name="ExecutableAd fire trigger tests initAd(), startAd() &amp; stopAd() - commands with no fire triggers - should complete ad flow with no errors" duration="9"/>
+    <testCase name="ExecutableAd fire trigger tests initAd() &amp; startAd() - command(s) with execution trigger matches other command PRE fire trigger - should execute before the ones with the PRE fire trigger, and move ad to next state without waiting for their handling" duration="93"/>
+    <testCase name="ExecutableAd fire trigger tests initAd() &amp; startAd() - command(s) with execution trigger matches other command PRE fire trigger - should execute before the ones with the PRE fire trigger, and move ad to next state without waiting for their handling" duration="94"/>
+    <testCase name="ExecutableAd fire trigger tests initAd() &amp; startAd() - command(s) with execution trigger matches other command POST fire trigger - should execute after the ones with the POST fire trigger, and move ad to next state without waiting for their handling" duration="101"/>
+    <testCase name="ExecutableAd fire trigger tests initAd() &amp; startAd() - command(s) with execution trigger matches other command POST fire trigger - should execute after the ones with the POST fire trigger, and move ad to next state without waiting for their handling" duration="689"/>
+    <testCase name="ExecutableAd fire trigger tests initAd() &amp; startAd() - commands with execution trigger matches other command PRE and POST fire trigger - should execute before/after the one with the PRE/POST fire trigger, and move ad to next state without waiting for their handling" duration="13"/>
+    <testCase name="ExecutableAd fire trigger tests initAd() &amp; startAd() - commands with execution trigger matches other command COMPLETED fire trigger - should execute after the one with the COMPLETED fire trigger notifies COMPLETED, and move ad to next state without waiting for its handling" duration="6"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/logger-service/production-logger.spec.ts">
+    <testCase name="production-logger setup production logger and call verbose. check not calling to NR verbose" duration="3"/>
+    <testCase name="production-logger setup production logger with info and error and call different log levels. should behave like info" duration="2"/>
+    <testCase name="production-logger setup production logger with info but not error and call different log levels. should behave like info" duration="1"/>
+    <testCase name="production-logger setup production logger with debug, info and error and call different log levels. should behave like debug" duration="1"/>
+    <testCase name="production-logger setup production logger with debug, error but info off and call different log levels. should behave like debug" duration="1"/>
+    <testCase name="production-logger setup production logger with debug, but error and info off and call different log levels. should behave like debug" duration="81"/>
+    <testCase name="production-logger setup production logger with error and call different log levels" duration="2"/>
+    <testCase name="production-logger setup production logger with no logs and call different log levels" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/logger-service/new-relic-logger.spec.ts">
+    <testCase name="new relic logger setup new relic logger and call verbose" duration="3"/>
+    <testCase name="new relic logger setup new relic logger for startup log buffering" duration="21"/>
+    <testCase name="new relic logger make sure new relic is sending data over network when not using options" duration="2"/>
+    <testCase name="new relic logger make sure new relic is NOT sending data over network when using options" duration="0"/>
+    <testCase name="new relic logger make sure new relic is sending data over network when using options with true" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/executable-ad-fire-actions.spec.ts">
+    <testCase name="ExecutableAd fire action tests initAd() with 200 opportunity response - should create command ID to fire action map" duration="93"/>
+    <testCase name="ExecutableAd fire action tests initAd(), startAd() &amp; stopAd() - commands with no action triggers - should complete ad flow with no errors" duration="688"/>
+    <testCase name="ExecutableAd fire action tests initAd() &amp; startAd() - commands with fire actions - should trigger hanldeAction method of the given command id" duration="7"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/rest-api-service/rest-api-service.spec.ts">
+    <testCase name="rest api service tests checks request body params on login" duration="6"/>
+    <testCase name="rest api service tests checks request body params on login v2 with mock ff delegate SDK" duration="1"/>
+    <testCase name="rest api service tests checks request body params on refresh v2 with mock ff delegate SDK" duration="3"/>
+    <testCase name="rest api service tests checks feature flags request is created correctly" duration="1"/>
+    <testCase name="rest api service tests checks body is built correctly" duration="0"/>
+    <testCase name="rest api service tests checks body is built correctly, no feature flag request" duration="1"/>
+    <testCase name="rest api service tests check auth headers" duration="0"/>
+    <testCase name="longform tests setting proxy delegate should retrieve v2 auth functions for feature flags" duration="0"/>
+    <testCase name="longform tests setting proxy delegate should trigger v2 login" duration="204"/>
+    <testCase name="longform tests setting regular delegate should trigger v1 login" duration="176"/>
+    <testCase name="longform tests accounting url should be called upon refresh token V2 request" duration="683"/>
+    <testCase name="longform tests accounting url should not be called if not recived from login configuration" duration="0"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/executable-ad-opportunity.spec.ts">
+    <testCase name="executable ad opportunity Opportunity Type and Context - getOpportunity (CreateAd) - HOST_AD_CREATE set opportunityType and context to PAUSE for getExecutableAd and check parameters are retrieved fine for report function" duration="756"/>
+    <testCase name="executable ad opportunity Opportunity Type and Context - getOpportunity (CreateAd) - HOST_AD_CREATE set opportunityType and context to EMPTY for getExecutableAd and check opportunityType is NP and context is undefined for report function" duration="2"/>
+    <testCase name="executable ad opportunity Opportunity Type and Context - getOpportunity (CreateAd) - HOST_AD_CREATE set opportunityType and context to NULL for getExecutableAd and check opportunityType is NP and context is undefined for report function" duration="1"/>
+    <testCase name="executable ad opportunity Opportunity Type and Context - initAd - HOST_AD_INIT set context to PAUSE for initAd and check parameters are fine for report function even though they are different for getOpportunity" duration="8"/>
+    <testCase name="executable ad opportunity Opportunity Type and Context - initAd - HOST_AD_INIT set context to EMPTY for initAd and check parameters are for report function - opportunityType should be empty, context should be NP" duration="4"/>
+    <testCase name="executable ad opportunity Opportunity Type and Context - initAd - HOST_AD_INIT set opportunityType and context to NULL for initAd and check parameters are for report function - opportunityType should be undefined, context should be NP" duration="2"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given a stop experience trigger action xip, when parsing, should initialize commands correctly" duration="6"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given a correct parsing of stop experience command, when passed to resolver, should not return null" duration="1"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given a correct parsing of stop experience command, when passed to executer, should be triggered" duration="1"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given a correct parsing of stop experience command, when executeTriggeredCommands called, should execute command" duration="2"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given a correct parsing of stop experience command, when executeTriggeredCommands called, should stop ad" duration="2"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given repeat count in SHOW_VIDEO, when initiated, should parse correctly" duration="3"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 0 in SHOW_VIDEO, when initiated, should throw" duration="2"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount -1 in SHOW_VIDEO, when initiated, should throw" duration="2"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount NaN in SHOW_VIDEO, when initiated, should throw" duration="2"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount NaN in SHOW_VIDEO, when initiated, should parse into 1" duration="2"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 1 in SHOW_VIDEO, when initiated, should parse into 1" duration="2"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 2 in SHOW_VIDEO, when initiated, should parse into 2" duration="2"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 3 in SHOW_VIDEO, when initiated, should parse into 3" duration="5"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 4 in SHOW_VIDEO, when initiated, should parse into 4" duration="1"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 1 in SHOW_VIDEO, when initiated, should parse into 1" duration="2"/>
+    <testCase name="executable ad opportunity Opportunity with Stop Experience trigger action given video options in SHOW_VIDEO, when initiated, should be parsed into xaafVideoData" duration="1"/>
+    <testCase name="executable ad opportunity given no blacklist, when initiated, should not stop ad" duration="2"/>
+    <testCase name="executable ad opportunity given channelName in blacklist, when initiated, should stop ad" duration="1"/>
+    <testCase name="executable ad opportunity given channelName in blacklist, when initiated, should stop ad" duration="49"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/login-service/login-service.spec.ts">
+    <testCase name="login-service tests util functions _retrieveErrorData" duration="57"/>
+    <testCase name="login-service tests util functions _handleLoginResponseError GeneralError" duration="3"/>
+    <testCase name="login-service tests util functions _handleLoginResponseError InternalServerError" duration="1"/>
+    <testCase name="login-service tests util functions _handleLoginResponseError FailureEngagingAdRouter" duration="1"/>
+    <testCase name="login-service tests util functions _handleLoginResponseError 503" duration="0"/>
+    <testCase name="login-service tests util functions _handleLoginResponseError 599" duration="1"/>
+    <testCase name="login-service tests util functions _handleLoginResponseError 500-1" duration="0"/>
+    <testCase name="login-service tests resiliency functions login fails with 500 error, resiliency is triggered" duration="3"/>
+    <testCase name="login-service tests resiliency functions login fails with 500 error, no error body, resiliency is triggered" duration="2"/>
+    <testCase name="login-service tests resiliency functions 429 login with rate limit error" duration="1"/>
+    <testCase name="login-service tests Kill switch tests login fails with 401-2 kill switch error" duration="2"/>
+    <testCase name="login-service tests Kill switch tests refresh token fails with 401-2 kill switch error" duration="3"/>
+    <testCase name="login-service tests feature flags response in refresh checks feature flags response in refresh with mock" duration="6"/>
+    <testCase name="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are the same in silentLogin - setPersistentLoginItem will be called and token will be updated even though keys are the same" duration="2"/>
+    <testCase name="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are different in silentLogin - setPersistentLoginItem will be called and token will be updated" duration="77"/>
+    <testCase name="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are the same in refreshToken - setPersistentLoginItem will be called and token will be updated even though keys are the same" duration="2"/>
+    <testCase name="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are different in refreshToken - setPersistentLoginItem will be called and token will be updated" duration="20"/>
+    <testCase name="login-service tests Multiple Login with PersistentLoginService Persisted ApiKey is null - setPersistentLoginItem will be called with the new apiKey as parameter" duration="1"/>
+    <testCase name="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are the same - setPersistentLoginItem will not be called" duration="0"/>
+    <testCase name="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are different - setPersistentLoginItem will be called with the new apiKey as parameter" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/structures/commands-data-structures-creator.spec.ts">
+    <testCase name="CommandsDataStructuresCreator tests createExecutionTriggerToCommandMap() tests createExecutionTriggerToCommandMap() - error occurs - should throw error" duration="2"/>
+    <testCase name="CommandsDataStructuresCreator tests createExecutionTriggerToCommandMap() tests createExecutionTriggerToCommandMap() - XiP containing one command with one execution trigger - should create a map containing one execution trigger having one command" duration="16"/>
+    <testCase name="CommandsDataStructuresCreator tests createExecutionTriggerToCommandMap() tests createExecutionTriggerToCommandMap() - XiP containing one command with multiple execution triggers - should create a map containing multiple execution triggers having the same command" duration="2"/>
+    <testCase name="CommandsDataStructuresCreator tests createExecutionTriggerToCommandMap() tests createExecutionTriggerToCommandMap() - XiP containing multiple commands with the same execution trigger - should create a map containing one execution trigger having multiple commands" duration="3"/>
+    <testCase name="CommandsDataStructuresCreator tests createExecutionTriggerToCommandMap() tests createExecutionTriggerToCommandMap() - XiP containing multiple commands with the different execution trigger - should create a map containing multiple execution triggers having different commands" duration="4"/>
+    <testCase name="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - error occurs - should throw error" duration="1"/>
+    <testCase name="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - one command with no fire triggers - should create a map containing no commands" duration="1"/>
+    <testCase name="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - one command with one PRE fire trigger - should create a map containing one command with only one PRE fire trigger" duration="3"/>
+    <testCase name="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - one command with one fire trigger of each mode - should create a map containing one command with the correct fire trigger for each mode" duration="3"/>
+    <testCase name="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - multiple commands with multiple fire triggers of each mode - should create a map containing multiple commands with the correct fire triggers for each mode" duration="6"/>
+    <testCase name="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - multiple commands with the same fire trigger - should create a map containing multiple commands with the same fire trigger" duration="2"/>
+    <testCase name="CommandsDataStructuresCreator tests createCommandIdToFireActionMap() tests createCommandIdToFireActionMap() - error occurs - should throw error" duration="1"/>
+    <testCase name="CommandsDataStructuresCreator tests createCommandIdToFireActionMap() tests createCommandIdToFireActionMap() - one command with no fire actions - should create a map containing no commands" duration="2"/>
+    <testCase name="CommandsDataStructuresCreator tests createCommandIdToFireActionMap() tests createCommandIdToFireActionMap() - one command with one PRE fire action - should create a map containing one command with only one PRE fire action" duration="2"/>
+    <testCase name="CommandsDataStructuresCreator tests createCommandIdToFireActionMap() tests createCommandIdToFireActionMap() - one command with one fire action of each mode - should create a map containing one command with the correct fire action for each mode" duration="2"/>
+    <testCase name="CommandsDataStructuresCreator tests createCommandIdToFireActionMap() tests createCommandIdToFireActionMap() - multiple commands with multiple fire actions of each mode - should create a map containing multiple commands with the correct fire actions for each mode" duration="3"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/executable-ad-states.spec.ts">
+    <testCase name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() when bad response - should move to STOPPED state with xaaf not available" duration="7"/>
+    <testCase name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() when not logged in - should move to STOPPED state with xaaf not available" duration="3"/>
+    <testCase name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in CREATED state - should move to INITIATING state" duration="1"/>
+    <testCase name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in LOADED state - should stay in LOADED state" duration="2"/>
+    <testCase name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in PLAYING state - should stay in PLAYING state" duration="2"/>
+    <testCase name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in PLAYING state - should not perform ExecutableAd initialization" duration="15"/>
+    <testCase name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in CREATED state - should perform ExecutableAd initialization" duration="3"/>
+    <testCase name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in STOPPED state - should stay in STOPPED state" duration="2"/>
+    <testCase name="ExectuableAd states tests ExectuableAd.startAd() tests startAd() on ExecutableAd in CREATED state - should stay in CREATED state" duration="2"/>
+    <testCase name="ExectuableAd states tests ExectuableAd.startAd() tests startAd() on ExecutableAd in LOADED state - should move to PLAYING state" duration="1"/>
+    <testCase name="ExectuableAd states tests ExectuableAd.startAd() tests startAd() on ExecutableAd in PLAYING state - should stay in PLAYING state" duration="1"/>
+    <testCase name="ExectuableAd states tests ExectuableAd.startAd() tests startAd() on ExecutableAd in STOPPED state - should stay in STOPPED state" duration="1"/>
+    <testCase name="ExectuableAd states tests ExectuableAd.stopAd() tests stopAd() on ExecutableAd in CREATED state - should move to STOPPED state" duration="1"/>
+    <testCase name="ExectuableAd states tests ExectuableAd.stopAd() tests stopAd() on ExecutableAd in LOADED state - should move to STOPPED state" duration="2"/>
+    <testCase name="ExectuableAd states tests ExectuableAd.stopAd() tests stopAd() on ExecutableAd in PLAYING state - should move to STOPPED state" duration="1"/>
+    <testCase name="ExectuableAd states tests ExectuableAd.stopAd() tests stopAd() on ExecutableAd in STOPPED state - should stay in STOPPED state" duration="2"/>
+    <testCase name="ExectuableAd states tests ExectuableAd _handleCurrentState and _moveToNextState tests _handleCurrentState with state STATE_STOPPED should report AD_STOPPED to NR" duration="2"/>
+    <testCase name="ExectuableAd states tests ExectuableAd _handleCurrentState and _moveToNextState tests _moveToNextState with state STATE_STARTED should notify host and call to fsm.next with state STATE_PLAYING" duration="2"/>
+    <testCase name="ExectuableAd states tests ExectuableAd _handleCurrentState and _moveToNextState tests _moveToNextState with state STATE_STOPPED should notify host and stop FSM" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/commands/command.spec.ts">
+    <testCase name="Command report functions test no report to NR if feature flag is disabled" duration="2"/>
+    <testCase name="Command report functions test retry with no report to NR if feature flag is disabled" duration="4"/>
+    <testCase name="Command report functions test report to NR in case of 30X http error code" duration="4"/>
+    <testCase name="Command report functions test report to NR in case of 400 error" duration="1"/>
+    <testCase name="Command report functions test report to NR with retry in case of 50X error - without recovery" duration="3"/>
+    <testCase name="Command report functions test report to NR with retry in case of 50X error - with recovery" duration="1"/>
+    <testCase name="Command report functions test report to NR with retry in case of error status 501- with recovery" duration="5"/>
+    <testCase name="Command report functions test report to NR with retry in case of HTTP timeout error" duration="2"/>
+    <testCase name="Command report functions test no sensitive data is sent to NR" duration="3"/>
+    <testCase name="Command report functions verify that http request is sent to each provider" duration="1"/>
+    <testCase name="Command report functions verify that all event outbounds params are concatenated correctly to basic url" duration="1"/>
+    <testCase name="Command report functions verify that all event outbounds params are concatenated correctly to basic url with params" duration="0"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/services/rest-api-service/resiliency-functions.spec.ts">
+    <testCase name="resiliency-functions tests resiliency functions after several retries, functions resolves promise when the poll succeeds" duration="14"/>
+    <testCase name="resiliency-functions tests resiliency functions resolves the retry promise when the poll succeeds" duration="2"/>
+    <testCase name="resiliency-functions tests resiliency functions after one retry of 500 error, backoff mechanism should abort" duration="3"/>
+    <testCase name="resiliency-functions tests resiliency functions after several retries of 5xx error, resolves the retry promise when the poll succeeds" duration="5"/>
+    <testCase name="resiliency-functions tests resiliency functions after several retries of 5xx error, resolves the login promise when the poll succeeds" duration="6"/>
+    <testCase name="resiliency-functions tests resiliency functions after max retries of 5xx error, rejects with rejections array" duration="9"/>
+    <testCase name="polling service tests BackOffMechanism returns a promise" duration="1"/>
+    <testCase name="polling service tests resolves the master promise when the poll succeeds" duration="0"/>
+    <testCase name="polling service tests wraps a non-promise task function return in Promise.resolve" duration="1"/>
+    <testCase name="polling service tests fails the poll if an exception is thrown in the task function" duration="0"/>
+    <testCase name="polling service tests rejects the master promise if the task promise rejects with the abort token" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/executable-ad-send-request-host.spec.ts">
+    <testCase name="Send Request to Host test adEvent is Error when sendRequestToHost calls back with error" duration="17"/>
+    <testCase name="Send Request to Host test adEvent is Error when sendRequestToHost calls back after timeout" duration="3007"/>
+    <testCase name="Send Request to Host test adEvent is Error when exeutableAdHostHandlerListener is not set" duration="2"/>
+    <testCase name="Send Non-Mandatory Request to Host test adEvent is Error when sendRequestToHost calls back with error" duration="3"/>
+    <testCase name="Send Non-Mandatory Request to Host test adEvent is Error when sendRequestToHost calls back after timeout" duration="3005"/>
+    <testCase name="Send Non-Mandatory Request to Host test adEvent is Error when exeutableAdHostHandlerListener is not set" duration="2"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/xaaf-js-sdk.spec.ts">
+    <testCase name="xaaf-js-sdk tests integration test init Ad, start Ad, stop Ad - happy flow" duration="208"/>
+    <testCase name="xaaf-js-sdk tests integration test given expired tokens, initAd should relogin, then, current state should move to STATE_LOADED, given stopAd current state should move to STOPPED" duration="771"/>
+    <testCase name="xaaf-js-sdk tests integration test start Ad - STATE_CREATED logging properly" duration="109"/>
+    <testCase name="xaaf-js-sdk tests integration test given start Ad and opportunity response, should move to STATE_STARTING" duration="101"/>
+    <testCase name="xaaf-js-sdk tests integration test stop Ad - STATE_STOPPING" duration="86"/>
+    <testCase name="xaaf-js-sdk tests integration test init Ad, start Ad, startAd - STATE_ERROR" duration="47"/>
+    <testCase name="xaaf-js-sdk tests integration test should return Dummy if flag is off" duration="80"/>
+    <testCase name="xaaf-js-sdk tests integration test should return Dummy if flag is off" duration="72"/>
+    <testCase name="xaaf-js-sdk tests integration test should not allow the listener to work if not a function" duration="40"/>
+    <testCase name="xaaf-js-sdk tests integration test should allow the listener to work if a function" duration="76"/>
+    <testCase name="xaaf-js-sdk tests xaaf sdk - kill switch tests login failed with kill switch error, should return dummy executable ad" duration="47"/>
+    <testCase name="xaaf-js-sdk tests xaaf sdk - kill switch tests kill switch defined in persistent storage, should skip login and return dummy executable ad" duration="40"/>
+    <testCase name="xaaf-js-sdk tests xaaf sdk - kill switch tests login failed with kill switch error, should return dummy executable ad and then after kill switch expired real executable ad" duration="3046"/>
+    <testCase name="xaaf-js-sdk tests xaaf sdk - kill switch tests refresh token failed with kill switch error, when get ad return dummy executable ad" duration="48"/>
+    <testCase name="xaaf-js-sdk tests xaaf sdk - kill switch tests refresh token failed with kill switch error, when get ad after kill switch expired return real executable ad" duration="1050"/>
+    <testCase name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init successful login, isXaafAvailable = true" duration="40"/>
+    <testCase name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests test xaaf js sdk - init - login succeed, rollout isXaafEnabled false, isXaafAvailable = false" duration="38"/>
+    <testCase name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests rollout isXaafEnabled = true, isXaafAvailable = false" duration="68"/>
+    <testCase name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with wrong api key alg (HS256)" duration="3"/>
+    <testCase name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with invalid api key" duration="1"/>
+    <testCase name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with invalid api key - report" duration="2"/>
+    <testCase name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests test xaaf js sdk - init - login succeed, call to reportServiceDelegate.init twice: first with default values and second with configuration we got from login response" duration="38"/>
+    <testCase name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with invalid api key and then succeed on login - report" duration="42"/>
+    <testCase name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with empty api key" duration="26"/>
+    <testCase name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with unknown environment" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/executable-ad/executable-ad-time-base-triggers.spec.ts">
+    <testCase name="Time based triggers 2 commands on one trigger: use executeTriggeredCommands function with TIME_BASED_TRIGGERS_WITH_MULTIPLE_TIMERS.json to validate timers set size when more then one command on same trigger with different timeouts test" duration="10189"/>
+    <testCase name="Time based triggers parseCommands should parse commands with executionTrigger data section" duration="2"/>
+    <testCase name="Time based triggers SHOW_VIDEO: Get command delay execution value for state STATE_STARTING test" duration="2"/>
+    <testCase name="Time based triggers validate that there are no available commands of no trigger states test" duration="1"/>
+    <testCase name="Time based triggers STOP_EXPERIENCE: Get command delay execution value for state STATE_PLAYING test" duration="1"/>
+    <testCase name="Time based triggers SHOW_VIDEO: Get delay execution value return value 0 when delay value is not a number" duration="1"/>
+    <testCase name="Time based triggers REPORT_COMMAND: Get delay execution value return value 0 when trigger data is undefined" duration="1"/>
+    <testCase name="Time based triggers execute() on SHOW_VIDEO: executeTriggeredCommand function call to command.execute() function test" duration="2"/>
+    <testCase name="Time based triggers execute() on REPORT_COMMAND: executeTriggeredCommand function call to command.execute() function test" duration="4"/>
+    <testCase name="Time based triggers execute() on STOP_EXPERIENCE: executeTriggeredCommand function call to command.execute() function test" duration="4"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/core/xaaf-js-sdk/src/renderer/show-video-command.spec.ts">
+    <testCase name="ShowVideoCommand functions ShowVideoCommand should be defined" duration="3"/>
+    <testCase name="ShowVideoCommand functions init() without XaafAdContainer - error thrown - should notify command event listener with ErrorCommandEvent upon error" duration="2"/>
+    <testCase name="ShowVideoCommand functions init(xaafAdContainerMock) - should set XaafElementType.VIDEO element type on XaafAdContainer and set XaafVideoElement data when it is ready" duration="2"/>
+    <testCase name="ShowVideoCommand functions init(xaafAdContainerMock) - showvideoCommand should contain videoRepeatCount property" duration="1"/>
+    <testCase name="ShowVideoCommand functions init(xaafAdContainerMock) - error thrown when XaafVideoElement is ready - should set XaafElementType.VIDEO element type on XaafAdContainer, set XaafVideoElement data when it is ready and notify command event listener with ErrorCommandEvent upon error" duration="2"/>
+    <testCase name="ShowVideoCommand functions execute() - no video element exists - should notify command event listener with ErrorCommandEvent" duration="0"/>
+    <testCase name="ShowVideoCommand functions stop() when XaafAdContainer and XaafVideoElement exist - should stop XaafVideoElement and clear element type on XaafAdContainer" duration="1"/>
+    <testCase name="ShowVideoCommand functions given showVideoCommand, on playing to completed events, should report command first frame, measurements, and quartiles" duration="10005"/>
+    <testCase name="ShowVideoCommand functions should test the onBufferingStarted function" duration="2"/>
+    <testCase name="ShowVideoCommand functions should test the onBufferingEnded function" duration="1"/>
+    <testCase name="ShowVideoCommand functions should test the onFinalized function" duration="1"/>
+    <testCase name="ShowVideoCommand functions should test the onPlayerError function" duration="0"/>
+    <testCase name="ShowVideoCommand functions should test the onPlayerError function with error" duration="1"/>
+    <testCase name="ShowVideoCommand functions should test the onPlaybackComplete function with error" duration="0"/>
+    <testCase name="ShowVideoCommand functions should test the onBufferingStarted function" duration="1"/>
+    <testCase name="ShowVideoCommand functions should test isOnPlayingReported" duration="4"/>
+    <testCase name="ShowVideoCommand functions onPlaybackComplete() - should notify listener with completed event" duration="0"/>
+    <testCase name="ShowVideoCommand functions given currentTime 0, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 0" duration="1"/>
+    <testCase name="ShowVideoCommand functions given currentTime 1, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 1" duration="0"/>
+    <testCase name="ShowVideoCommand functions given currentTime 2, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 2" duration="0"/>
+    <testCase name="ShowVideoCommand functions given currentTime 3, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 3" duration="1"/>
+    <testCase name="ShowVideoCommand functions given currentTime 4, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 4" duration="0"/>
+    <testCase name="ShowVideoCommand functions given currentTime 5, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 5" duration="1"/>
+    <testCase name="ShowVideoCommand functions given currentTime 0, when duration 30, videoRepeatCount 3 remainingRepeatCount 2, should result in 30" duration="0"/>
+    <testCase name="ShowVideoCommand functions given currentTime 1, when duration 30, videoRepeatCount 3 remainingRepeatCount 2, should result in 31" duration="0"/>
+    <testCase name="ShowVideoCommand functions given currentTime 2, when duration 30, videoRepeatCount 3 remainingRepeatCount 2, should result in 32" duration="1"/>
+    <testCase name="ShowVideoCommand functions given currentTime 3, when duration 30, videoRepeatCount 3 remainingRepeatCount 2, should result in 33" duration="0"/>
+    <testCase name="ShowVideoCommand functions given currentTime 4, when duration 30, videoRepeatCount 3 remainingRepeatCount 2, should result in 34" duration="0"/>
+    <testCase name="ShowVideoCommand functions given currentTime 0, when duration 30, videoRepeatCount 3 remainingRepeatCount 1, should result in 60" duration="1"/>
+    <testCase name="ShowVideoCommand functions given currentTime 1, when duration 30, videoRepeatCount 3 remainingRepeatCount 1, should result in 61" duration="0"/>
+    <testCase name="ShowVideoCommand functions given currentTime 2, when duration 30, videoRepeatCount 3 remainingRepeatCount 1, should result in 62" duration="0"/>
+    <testCase name="ShowVideoCommand functions given currentTime 3, when duration 30, videoRepeatCount 3 remainingRepeatCount 1, should result in 63" duration="0"/>
+    <testCase name="ShowVideoCommand functions given currentTime 4, when duration 30, videoRepeatCount 3 remainingRepeatCount 1, should result in 64" duration="1"/>
+    <testCase name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 0" duration="1"/>
+    <testCase name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 1" duration="0"/>
+    <testCase name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 2" duration="1"/>
+    <testCase name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 3" duration="1"/>
+    <testCase name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 4" duration="1"/>
+    <testCase name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 5" duration="1"/>
+    <testCase name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 6" duration="1"/>
+    <testCase name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 7" duration="1"/>
+  </file>
+</testExecutions>

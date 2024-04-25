@@ -1,0 +1,61 @@
+{
+    "xaaf": {
+        "events": [
+            {
+                "onClick": "#loadProducts"
+            },
+            {
+                "onLoad": "#checkIsShoppable"
+            }
+        ],
+        "methods": {
+            "checkIsShoppable": {
+                "input": [
+                    "@media_item_id"
+                ],
+                "flow": [
+                    {
+                        "$set": {
+                            "name": "@apiUrlWithParams",
+                            "value": {
+                                "$replace": {
+                                    "from": "http://apirest/get-something?param=@paramId",
+                                    "replace": "@paramId",
+                                    "value": {
+                                        "$get": {
+                                            "name": "@media_item_id"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$set": {
+                            "name": "@apiResponse",
+                            "value": {
+                                "$getData": {
+                                    "source": {
+                                        "$get": {
+                                            "name": "@apiUrlWithParams"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "$set": {
+                            "name": "@apiTempred",
+                            "value": {
+                                "$get": {
+                                    "name": "@apiResponse"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

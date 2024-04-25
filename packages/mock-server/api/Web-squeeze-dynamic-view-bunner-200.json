@@ -1,0 +1,215 @@
+{
+    "_id": "5dd51db9e3b6870008c4d7d8",
+    "experienceId": "f77bafc7-8a41-400b-acd8-002bcd6dacf4",
+    "experienceMediaType": "Squeeze commands",
+    "commands": [
+        {
+            "commandName": "SHOW_DYNAMIC_VIEW",
+            "data": {
+              "xaaf": {
+                "timeout": 5000
+              },
+              "type": "div",
+              "props": {
+                "class": "dynamic-view-container",
+                "key": "Main View",
+                "style": {
+                  "height": "20%",
+                  "width": "100%",
+                  "position": "absolute",
+                  "z-index": "0",
+                  "left": "0",
+                  "bottom": "0",
+                  "animation-name": "dynamic-view-container",
+                  "animation-duration": "1s",
+                  "animation-fill-mode": "forwards",
+                  "transition": "3s"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "props": {
+                    "key": "Wrapper",
+                    "style": {
+                      "position": "relative",
+                      "top": "0",
+                      "left": "0",
+                      "height": "100%",
+                      "width": "100%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "img",
+                      "xaaf": {
+                        "events": [
+                          {
+                            "action": "Loaded"
+                          }
+                        ]
+                      },
+                      "props": {
+                        "key": "main image",
+                        "class": "dynamic-view-shoe",
+                        "style": {
+                          "position": "relative",
+                          "width": "100%",
+                          "height": "100%"
+                        },
+                        "src": "https://i.ibb.co/M2nqmcB/banner-landscape.png"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "report": {
+              "measurementBaseURL": "https://measurementdemo2.emuse-tech.com/default.xml?PageID=124&MeasurementPointID=7&Version=11",
+              "providers": [
+                {
+                  "name": "Emuse",
+                  "events": [
+                    {
+                      "url": "https://measurementdemo2.emuse-tech.com/default.xml?PageID=124&MeasurementPointID=5&Version=11&Status=0&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=HvV2D2av62BzmeVW1QLhqw%3D%3D&TransactionId=1590659059288721016&OppType=screensaver&DeviceAdId=aaec17dc-ec32-517b-8f34-074db4c9f5d5",
+                      "clientOutbound": [
+                        {
+                          "paramType": "clientFormattedTimeStamp",
+                          "paramName": "ClientTime"
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://measurementdemo2.emuse-tech.com/default.xml?PageID=124&MeasurementPointID=7&Version=11&Status=0&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=HvV2D2av62BzmeVW1QLhqw%3D%3D&TransactionId=1590659059288721016&OppType=screensaver&DeviceAdId=aaec17dc-ec32-517b-8f34-074db4c9f5d5",
+                      "clientOutbound": [
+                        {
+                          "paramType": "clientFormattedTimeStamp",
+                          "paramName": "ClientTime"
+                        }
+                      ]
+                    },
+                    {
+                      "url": "",
+                      "clientOutbound": [
+                        {
+                          "paramType": "clientFormattedTimeStamp",
+                          "paramName": "ClientTime"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "ADR",
+                  "events": [
+                    {
+                      "url": {}
+                    }
+                  ]
+                }
+              ],
+              "adLifeCycle": [
+                {
+                  "paramType": "projectId",
+                  "paramName": 2
+                },
+                {
+                  "paramType": "projectBuildNumber",
+                  "paramName": 1
+                }
+              ]
+            },
+            "executionTriggers": [
+              {
+                "trigger": "STATE_STARTING"
+              }
+            ]
+          },
+        {
+            "id": 2,
+            "commandName": "SQUEEZE",
+            "data": {
+                "duration": 1000,
+                "videoScale": {
+                    "scale_x": 1,
+                    "scale_y": 0.8,
+                    "pivot_x": 0.0,
+                    "pivot_y": 0.0
+                },
+                "videoMargin": {
+                    "left": "0",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0"
+                },
+                "videoBorder": {
+                    "state": "HIDE",
+                    "mode": "PRE",
+                    "width": "2px",
+                    "color": "#000",
+                    "style": "solid"
+                }
+            },
+            "fireActions": [
+                {
+                  "mode": "COMPLETED",
+                  "name": "PLAY",
+                  "actionCommandId": "1",
+                  "data": [
+                    ""
+                  ]
+                }
+              ],
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STARTED"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "commandName": "SQUEEZE",
+            "data": {
+                "duration": 1000,
+                "videoScale": {
+                    "scale_x": 1.0,
+                    "scale_y": 1.0,
+                    "pivot_x": 0.0,
+                    "pivot_y": 0.0
+                },
+                "videoMargin": {
+                    "left": "0",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0"
+                },
+                "videoBorder": {
+                    "state": "HIDE",
+                    "mode": "COMPLETED"
+                }
+            },
+            "executionTriggers": [
+                {
+                  "trigger": "STATE_STOPPING"
+                },
+                {
+                  "trigger": "AD_ERROR"
+                }
+              ]
+        },
+        {
+            "id": 4,
+            "commandName": "STOP_EXPERIENCE",
+            "data": {
+              "notifyToHost": true,
+              "reason": "self-dismiss"
+            },
+            "executionTriggers": [
+              {
+                "trigger": "STOP_EXPERIENCE"
+              }
+            ]
+          }
+    ],
+    "exeAdUUID": "BE362ba4-ba37-4146-91de-be0e3e735977"
+}

@@ -1,0 +1,11 @@
+{
+    "message": "Rate Limit error",
+    "name": "RateLimitError",
+    "errorCode": "429",
+    "data": {
+        "errors": [
+            "Rate limit error 429"
+        ]
+    }
+}
+

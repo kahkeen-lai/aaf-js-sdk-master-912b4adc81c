@@ -1,0 +1,40 @@
+{
+    "experienceId": "c2cc2565-71a5-40e5-a684-88332cdc1789",
+    "experienceMediaType": "Video Screensaver Ad",
+    "commands": [
+        {
+            "id": 2,
+            "commandName": "INTERACTION_COMMAND",
+            "report": {
+                "providers": [
+                    {
+                        "name": "Emuse",
+                        "events": [
+                            {
+                                "url": "https://xaaf-metrics.att.com/Measurementl/default.xml?PageID=2390&MeasurementPointID=68&Version=11&ContentSetID=48&ExtSrc=live&DeviceType=osprey&PartnerProfileID=user%2B1111%3D%3D&TransactionId=1702571289792393735&OppType=screensaver&ChannelName=ABCHD&App=ov",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_INTERACTION",
+                    "conditions": ["STATE_STARTED"]
+                }
+            ]
+        }
+    ],
+    "exeAdUUID": "BEc90760-2530-48cc-a415-d804542ae4f9",
+    "templateId": 8
+}

@@ -1,0 +1,68 @@
+{
+  "xaaf": {
+    "events": [
+      { "onClick": "#loadProducts" },
+      {
+        "onStart": {
+          "$check_is_shoppable": {
+            "true": {
+              "$getData": {
+                "source": "http://apirest/get-something",
+                "$render_view": {
+                  "view_name": "MainView"
+                }
+              }
+            },
+            "false": {}
+          }
+        }
+      }
+    ],
+    "methods": {
+      "loadProducts": {
+        "input": ["category_id"],
+        "flow": [          
+          {
+            "$renderView": {
+              "templateName": "products",
+              "appendTo": "targetElement",
+              "data": [
+                {
+                  "name":"iphone",
+                  "price":"5",
+                  "image":"http://www.apple.com"
+                },
+                {
+                  "name":"samsung",
+                  "price":"50",
+                  "image":"http://www.samsung.com"
+                }
+              ]
+            }
+          }
+        ],
+        "output": "@data"
+      }
+    },
+    "templates": {
+      "products": {
+        "type": "div",
+        "props": {},
+        "children": [
+          {
+            "type": "img",
+            "props": {
+              "src": "@image"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "type": "div",
+  "props":{
+    "id": "targetElement"
+  
+  },
+  "children":[]
+}

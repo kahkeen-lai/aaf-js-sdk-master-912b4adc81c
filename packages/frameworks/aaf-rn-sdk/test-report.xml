@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/frameworks/aaf-rn-sdk/src/sdk/xaaf-sdk.spec.ts">
+    <testCase name="xaaf sdk initialization has correct properties" duration="3"/>
+    <testCase name="xaaf sdk initialize has correct properties" duration="7"/>
+    <testCase name="xaaf sdk _setupRolloutService has correct properties" duration="2"/>
+    <testCase name="xaaf sdk _setupRolloutService with mock feature flag service" duration="1"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/frameworks/aaf-rn-sdk/src/services/in-memory-report-service/in-memory-report-service.spec.ts">
+    <testCase name="InMemoryReportService tests putInReportQueue() is executed fewer than bulkSize number of times - should store all reports without sending them, and upon timer expiration send all reports and remove all reports from storage" duration="1005"/>
+    <testCase name="InMemoryReportService tests putInReportQueue() is executed bulkSize number of times - should send all reports and remove all reports from storage" duration="3"/>
+    <testCase name="InMemoryReportService tests putInReportQueue() is executed more than bulkSize number of times ,first bulkSize reports send immediately and other by timer " duration="1003"/>
+    <testCase name="InMemoryReportService tests safeSendInMemoryReports() dont send 2 bulks in same time" duration="1"/>
+    <testCase name="InMemoryReportService tests when not put any report in queue, no report is sent" duration="1001"/>
+    <testCase name="InMemoryReportService tests when bulk feature flag is false, the timer not started and no report is sent" duration="1001"/>
+    <testCase name="InMemoryReportService tests isInitialized return true if InMemoryReportService was initialized" duration="0"/>
+    <testCase name="InMemoryReportService tests isInitialized return false if InMemoryReportService was not initialized" duration="1"/>
+    <testCase name="InMemoryReportService tests in case of sendReports failed, reports are sent in next cycle" duration="1001"/>
+    <testCase name="InMemoryReportService tests in case of sendReports throw error, reports are sent in next cycle" duration="1001"/>
+  </file>
+  <file path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/frameworks/aaf-rn-sdk/src/services/persistent-report-service/persistent-report-service.spec.ts">
+    <testCase name="PersistentReportService tests putInReportQueue() is executed fewer than bulkSize number of times - should store all reports without sending them, and upon timer expiration send all reports and remove all reports from storage" duration="6008"/>
+    <testCase name="PersistentReportService tests putInReportQueue() is executed bulkSize number of times - should send all reports and remove all reports from storage" duration="2"/>
+    <testCase name="PersistentReportService tests putInReportQueue() is executed more than bulkSize number of times - should send all reports and remove all reports from storage" duration="3"/>
+    <testCase name="PersistentReportService tests putInReportQueue() is executed bulkSize number of times - and fewer than bulkSize during bulk is sent - should sent first bulk and remove from storage, and upon timer expiration send second bulk and remove it from storage" duration="6004"/>
+    <testCase name="PersistentReportService tests putInReportQueue() - error when storing report - should not send report and have no reports stored in storage" duration="0"/>
+    <testCase name="PersistentReportService tests putInReportQueue() is executed bulkSize number of times - error when getting keys of reports to send - should not send any report and have all reports stored in storage" duration="1"/>
+    <testCase name="PersistentReportService tests putInReportQueue() is executed bulkSize number of times - error when getting reports to send - should not send any report and have all reports stored in storage" duration="1"/>
+    <testCase name="PersistentReportService tests putInReportQueue() is executed bulkSize number of times - error when removing sent reports - should send all reports and have all reports stored in storage" duration="1"/>
+  </file>
+</testExecutions>

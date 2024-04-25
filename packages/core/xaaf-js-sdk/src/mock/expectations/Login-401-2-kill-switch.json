@@ -1,0 +1,8 @@
+{
+    "errorCode": "401-2",
+    "data": {
+        "timeToNextEngagement": 1
+    },
+    "name": "KillSwitchWarning",
+    "message": "Kill Switch Warning"
+}

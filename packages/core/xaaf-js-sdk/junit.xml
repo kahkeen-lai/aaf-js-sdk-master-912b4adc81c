@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="653" failures="0" time="125.956">
+  <testsuite name="dateTimeService" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:30" time="54.307" tests="1">
+    <testcase classname="dateTimeService delay method, should resolve the promise after spesified delay" name="dateTimeService delay method, should resolve the promise after spesified delay" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="circular logger container" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="57.901" tests="1">
+    <testcase classname="circular logger container Fill a logger container and empty it" name="circular logger container Fill a logger container and empty it" time="0.092">
+    </testcase>
+  </testsuite>
+  <testsuite name="console logger functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="58.306" tests="8">
+    <testcase classname="console logger functions request a console logger gets one" name="console logger functions request a console logger gets one" time="0.195">
+    </testcase>
+    <testcase classname="console logger functions request a console logger off gets null" name="console logger functions request a console logger off gets null" time="0.001">
+    </testcase>
+    <testcase classname="console logger functions request nothing console logger off gets null" name="console logger functions request nothing console logger off gets null" time="0.199">
+    </testcase>
+    <testcase classname="console logger functions request verbose logging calls console log only" name="console logger functions request verbose logging calls console log only" time="0.003">
+    </testcase>
+    <testcase classname="console logger functions request debug logging calls console debug only" name="console logger functions request debug logging calls console debug only" time="0.002">
+    </testcase>
+    <testcase classname="console logger functions request info logging calls console info only" name="console logger functions request info logging calls console info only" time="0.001">
+    </testcase>
+    <testcase classname="console logger functions request warn logging calls console warn only" name="console logger functions request warn logging calls console warn only" time="0.001">
+    </testcase>
+    <testcase classname="console logger functions request error logging calls console error only" name="console logger functions request error logging calls console error only" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="ArrayHelper functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="59.705" tests="6">
+    <testcase classname="ArrayHelper functions convertMapToArray gets a map with a string key and a string value" name="ArrayHelper functions convertMapToArray gets a map with a string key and a string value" time="0.004">
+    </testcase>
+    <testcase classname="ArrayHelper functions convertMapToArray gets an empty map" name="ArrayHelper functions convertMapToArray gets an empty map" time="0.001">
+    </testcase>
+    <testcase classname="mapToRecord function mapToRecord functions succeeds" name="mapToRecord function mapToRecord functions succeeds" time="0.001">
+    </testcase>
+    <testcase classname="mapToRecord function checks mapToRecord helper function" name="mapToRecord function checks mapToRecord helper function" time="0.002">
+    </testcase>
+    <testcase classname=" given record validateMapObject should return map" name=" given record validateMapObject should return map" time="0">
+    </testcase>
+    <testcase classname=" given map validateMapObject should return map" name=" given map validateMapObject should return map" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="61.804" tests="10">
+    <testcase classname=" setup console logger and call debug" name=" setup console logger and call debug" time="0.004">
+    </testcase>
+    <testcase classname=" setup console logger and call verbose" name=" setup console logger and call verbose" time="0.001">
+    </testcase>
+    <testcase classname=" setup console logger with info and call debug" name=" setup console logger with info and call debug" time="0">
+    </testcase>
+    <testcase classname=" setup console logger with error and call error" name=" setup console logger with error and call error" time="0.001">
+    </testcase>
+    <testcase classname=" setup no console logger with info and call debug" name=" setup no console logger with info and call debug" time="0.086">
+    </testcase>
+    <testcase classname=" setup no console logger with info and call verbose" name=" setup no console logger with info and call verbose" time="0.001">
+    </testcase>
+    <testcase classname=" making sure extract log level behaves" name=" making sure extract log level behaves" time="0.002">
+    </testcase>
+    <testcase classname=" multiple init but maintaining a single console logger call warn" name=" multiple init but maintaining a single console logger call warn" time="0.001">
+    </testcase>
+    <testcase classname=" multiple init but maintaining a single console logger call error" name=" multiple init but maintaining a single console logger call error" time="0.002">
+    </testcase>
+    <testcase classname=" specifically instantiate production and console logs console.debug once" name=" specifically instantiate production and console logs console.debug once" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:09:27" time="4.49" tests="1">
+    <testcase classname=" instantiate log time capsule and get things" name=" instantiate log time capsule and get things" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="DateHelper functions" errors="0" failures="0" skipped="1" timestamp="2024-02-20T05:08:29" time="62.691" tests="8">
+    <testcase classname="DateHelper functions getMeasurementParams with clientFormattedTimeStamp param validate 22.03.2020 14:05:38 +120 date format" name="DateHelper functions getMeasurementParams with clientFormattedTimeStamp param validate 22.03.2020 14:05:38 +120 date format" time="0.005">
+    </testcase>
+    <testcase classname="DateHelper functions calcDuration test" name="DateHelper functions calcDuration test" time="0.589">
+    </testcase>
+    <testcase classname="DateHelper functions should throw an error if no playerStartTime and no playerStopTime" name="DateHelper functions should throw an error if no playerStartTime and no playerStopTime" time="0.008">
+    </testcase>
+    <testcase classname="DateHelper functions castEpochToDate function gets an epoch and return a date" name="DateHelper functions castEpochToDate function gets an epoch and return a date" time="0.001">
+    </testcase>
+    <testcase classname="DateHelper functions castDateToEpoch function gets a date and return an epoch" name="DateHelper functions castDateToEpoch function gets a date and return an epoch" time="0">
+    </testcase>
+    <testcase classname="DateHelper functions between - good range" name="DateHelper functions between - good range" time="0.089">
+    </testcase>
+    <testcase classname="DateHelper functions between - bad ranges" name="DateHelper functions between - bad ranges" time="0.001">
+    </testcase>
+    <testcase classname="DateHelper functions verify Client TimeOff Set in client timestamp string" name="DateHelper functions verify Client TimeOff Set in client timestamp string" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:09:24" time="9.489" tests="1">
+    <testcase classname=" uuid generator to return a value that is in format backend expects" name=" uuid generator to return a value that is in format backend expects" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="FSM states tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="67.802" tests="146">
+    <testcase classname="FSM states tests STATE_CREATED tests Move to STATE_CREATED, should not change state" name="FSM states tests STATE_CREATED tests Move to STATE_CREATED, should not change state" time="0.086">
+    </testcase>
+    <testcase classname="FSM states tests STATE_CREATED tests Move to STATE_STARTING, should not change state" name="FSM states tests STATE_CREATED tests Move to STATE_STARTING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_CREATED tests Move to STATE_STARTED, should not change state" name="FSM states tests STATE_CREATED tests Move to STATE_STARTED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_CREATED tests Move to STATE_PLAYING, should not change state" name="FSM states tests STATE_CREATED tests Move to STATE_PLAYING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_CREATED tests Move to STATE_PAUSING, should not change state" name="FSM states tests STATE_CREATED tests Move to STATE_PAUSING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_CREATED tests Move to STATE_PAUSED, should not change state" name="FSM states tests STATE_CREATED tests Move to STATE_PAUSED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_CREATED tests Move to STATE_RESUMING, should not change state" name="FSM states tests STATE_CREATED tests Move to STATE_RESUMING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_CREATED tests Move to STATE_RESUMED, should not change state" name="FSM states tests STATE_CREATED tests Move to STATE_RESUMED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_CREATED tests Move to STATE_STOPPED, should not change state" name="FSM states tests STATE_CREATED tests Move to STATE_STOPPED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_CREATED tests Move to STATE_TERMINATED, should not change state" name="FSM states tests STATE_CREATED tests Move to STATE_TERMINATED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_INITIATING tests Move to STATE_CREATED, should not change state" name="FSM states tests STATE_INITIATING tests Move to STATE_CREATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_INITIATING tests Move to STATE_STARTED, should not change state" name="FSM states tests STATE_INITIATING tests Move to STATE_STARTED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_INITIATING tests Move to STATE_PLAYING, should not change state" name="FSM states tests STATE_INITIATING tests Move to STATE_PLAYING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_INITIATING tests Move to STATE_PAUSING, should not change state" name="FSM states tests STATE_INITIATING tests Move to STATE_PAUSING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_INITIATING tests Move to STATE_PAUSED, should not change state" name="FSM states tests STATE_INITIATING tests Move to STATE_PAUSED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_INITIATING tests Move to STATE_RESUMING, should not change state" name="FSM states tests STATE_INITIATING tests Move to STATE_RESUMING, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_INITIATING tests Move to STATE_RESUMED, should not change state" name="FSM states tests STATE_INITIATING tests Move to STATE_RESUMED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_INITIATING tests Move to STATE_STOPPED, should not change state" name="FSM states tests STATE_INITIATING tests Move to STATE_STOPPED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_INITIATING tests Move to STATE_TERMINATED, should not change state" name="FSM states tests STATE_INITIATING tests Move to STATE_TERMINATED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_LOADED tests Move to STATE_CREATED, should not change state" name="FSM states tests STATE_LOADED tests Move to STATE_CREATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_LOADED tests Move to STATE_INITIATING, should not change state" name="FSM states tests STATE_LOADED tests Move to STATE_INITIATING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_LOADED tests Move to STATE_STARTED, should not change state" name="FSM states tests STATE_LOADED tests Move to STATE_STARTED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_LOADED tests Move to STATE_PLAYING, should not change state" name="FSM states tests STATE_LOADED tests Move to STATE_PLAYING, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_LOADED tests Move to STATE_PAUSING, should not change state" name="FSM states tests STATE_LOADED tests Move to STATE_PAUSING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_LOADED tests Move to STATE_PAUSED, should not change state" name="FSM states tests STATE_LOADED tests Move to STATE_PAUSED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_LOADED tests Move to STATE_RESUMING, should not change state" name="FSM states tests STATE_LOADED tests Move to STATE_RESUMING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_LOADED tests Move to STATE_RESUMED, should not change state" name="FSM states tests STATE_LOADED tests Move to STATE_RESUMED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_LOADED tests Move to STATE_STOPPED, should not change state" name="FSM states tests STATE_LOADED tests Move to STATE_STOPPED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_LOADED tests Move to STATE_TERMINATED, should not change state" name="FSM states tests STATE_LOADED tests Move to STATE_TERMINATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTING tests Move to STATE_CREATED, should not change state" name="FSM states tests STATE_STARTING tests Move to STATE_CREATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTING tests Move to STATE_INITIATING, should not change state" name="FSM states tests STATE_STARTING tests Move to STATE_INITIATING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTING tests Move to STATE_LOADED, should not change state" name="FSM states tests STATE_STARTING tests Move to STATE_LOADED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTING tests Move to STATE_PLAYING, should not change state" name="FSM states tests STATE_STARTING tests Move to STATE_PLAYING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTING tests Move to STATE_PAUSING, should not change state" name="FSM states tests STATE_STARTING tests Move to STATE_PAUSING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTING tests Move to STATE_PAUSED, should not change state" name="FSM states tests STATE_STARTING tests Move to STATE_PAUSED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTING tests Move to STATE_RESUMING, should not change state" name="FSM states tests STATE_STARTING tests Move to STATE_RESUMING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTING tests Move to STATE_RESUMED, should not change state" name="FSM states tests STATE_STARTING tests Move to STATE_RESUMED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTING tests Move to STATE_STOPPED, should not change state" name="FSM states tests STATE_STARTING tests Move to STATE_STOPPED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTING tests Move to STATE_TERMINATED, should not change state" name="FSM states tests STATE_STARTING tests Move to STATE_TERMINATED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTED tests Move to STATE_CREATED, should not change state" name="FSM states tests STATE_STARTED tests Move to STATE_CREATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTED tests Move to STATE_INITIATING, should not change state" name="FSM states tests STATE_STARTED tests Move to STATE_INITIATING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTED tests Move to STATE_LOADED, should not change state" name="FSM states tests STATE_STARTED tests Move to STATE_LOADED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTED tests Move to STATE_STARTING, should not change state" name="FSM states tests STATE_STARTED tests Move to STATE_STARTING, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTED tests Move to STATE_PAUSING, should not change state" name="FSM states tests STATE_STARTED tests Move to STATE_PAUSING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTED tests Move to STATE_PAUSED, should not change state" name="FSM states tests STATE_STARTED tests Move to STATE_PAUSED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTED tests Move to STATE_RESUMING, should not change state" name="FSM states tests STATE_STARTED tests Move to STATE_RESUMING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTED tests Move to STATE_RESUMED, should not change state" name="FSM states tests STATE_STARTED tests Move to STATE_RESUMED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTED tests Move to STATE_STOPPED, should not change state" name="FSM states tests STATE_STARTED tests Move to STATE_STOPPED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STARTED tests Move to STATE_TERMINATED, should not change state" name="FSM states tests STATE_STARTED tests Move to STATE_TERMINATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PLAYING tests Move to STATE_CREATED, should not change state" name="FSM states tests STATE_PLAYING tests Move to STATE_CREATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PLAYING tests Move to STATE_INITIATING, should not change state" name="FSM states tests STATE_PLAYING tests Move to STATE_INITIATING, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PLAYING tests Move to STATE_LOADED, should not change state" name="FSM states tests STATE_PLAYING tests Move to STATE_LOADED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PLAYING tests Move to STATE_STARTING, should not change state" name="FSM states tests STATE_PLAYING tests Move to STATE_STARTING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PLAYING tests Move to STATE_STARTED, should not change state" name="FSM states tests STATE_PLAYING tests Move to STATE_STARTED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PLAYING tests Move to STATE_PAUSED, should not change state" name="FSM states tests STATE_PLAYING tests Move to STATE_PAUSED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PLAYING tests Move to STATE_RESUMING, should not change state" name="FSM states tests STATE_PLAYING tests Move to STATE_RESUMING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PLAYING tests Move to STATE_RESUMED, should not change state" name="FSM states tests STATE_PLAYING tests Move to STATE_RESUMED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PLAYING tests Move to STATE_STOPPED, should not change state" name="FSM states tests STATE_PLAYING tests Move to STATE_STOPPED, should not change state" time="0.002">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PLAYING tests Move to STATE_TERMINATED, should not change state" name="FSM states tests STATE_PLAYING tests Move to STATE_TERMINATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSING tests Move to STATE_CREATED, should not change state" name="FSM states tests STATE_PAUSING tests Move to STATE_CREATED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSING tests Move to STATE_INITIATING, should not change state" name="FSM states tests STATE_PAUSING tests Move to STATE_INITIATING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSING tests Move to STATE_LOADED, should not change state" name="FSM states tests STATE_PAUSING tests Move to STATE_LOADED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSING tests Move to STATE_STARTING, should not change state" name="FSM states tests STATE_PAUSING tests Move to STATE_STARTING, should not change state" time="0.085">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSING tests Move to STATE_STARTED, should not change state" name="FSM states tests STATE_PAUSING tests Move to STATE_STARTED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSING tests Move to STATE_PLAYING, should not change state" name="FSM states tests STATE_PAUSING tests Move to STATE_PLAYING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSING tests Move to STATE_RESUMING, should not change state" name="FSM states tests STATE_PAUSING tests Move to STATE_RESUMING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSING tests Move to STATE_RESUMED, should not change state" name="FSM states tests STATE_PAUSING tests Move to STATE_RESUMED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSING tests Move to STATE_STOPPED, should not change state" name="FSM states tests STATE_PAUSING tests Move to STATE_STOPPED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSING tests Move to STATE_TERMINATED, should not change state" name="FSM states tests STATE_PAUSING tests Move to STATE_TERMINATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSED tests Move to STATE_CREATED, should not change state" name="FSM states tests STATE_PAUSED tests Move to STATE_CREATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSED tests Move to STATE_INITIATING, should not change state" name="FSM states tests STATE_PAUSED tests Move to STATE_INITIATING, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSED tests Move to STATE_LOADED, should not change state" name="FSM states tests STATE_PAUSED tests Move to STATE_LOADED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSED tests Move to STATE_STARTING, should not change state" name="FSM states tests STATE_PAUSED tests Move to STATE_STARTING, should not change state" time="0.198">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSED tests Move to STATE_STARTED, should not change state" name="FSM states tests STATE_PAUSED tests Move to STATE_STARTED, should not change state" time="0.002">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSED tests Move to STATE_PLAYING, should not change state" name="FSM states tests STATE_PAUSED tests Move to STATE_PLAYING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSED tests Move to STATE_PAUSING, should not change state" name="FSM states tests STATE_PAUSED tests Move to STATE_PAUSING, should not change state" time="0.098">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSED tests Move to STATE_RESUMED, should not change state" name="FSM states tests STATE_PAUSED tests Move to STATE_RESUMED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSED tests Move to STATE_STOPPED, should not change state" name="FSM states tests STATE_PAUSED tests Move to STATE_STOPPED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_PAUSED tests Move to STATE_TERMINATED, should not change state" name="FSM states tests STATE_PAUSED tests Move to STATE_TERMINATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMING tests Move to STATE_CREATED, should not change state" name="FSM states tests STATE_RESUMING tests Move to STATE_CREATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMING tests Move to STATE_INITIATING, should not change state" name="FSM states tests STATE_RESUMING tests Move to STATE_INITIATING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMING tests Move to STATE_LOADED, should not change state" name="FSM states tests STATE_RESUMING tests Move to STATE_LOADED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMING tests Move to STATE_STARTING, should not change state" name="FSM states tests STATE_RESUMING tests Move to STATE_STARTING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMING tests Move to STATE_STARTED, should not change state" name="FSM states tests STATE_RESUMING tests Move to STATE_STARTED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMING tests Move to STATE_PLAYING, should not change state" name="FSM states tests STATE_RESUMING tests Move to STATE_PLAYING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMING tests Move to STATE_PAUSING, should not change state" name="FSM states tests STATE_RESUMING tests Move to STATE_PAUSING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMING tests Move to STATE_PAUSED, should not change state" name="FSM states tests STATE_RESUMING tests Move to STATE_PAUSED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMING tests Move to STATE_STOPPED, should not change state" name="FSM states tests STATE_RESUMING tests Move to STATE_STOPPED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMING tests Move to STATE_TERMINATED, should not change state" name="FSM states tests STATE_RESUMING tests Move to STATE_TERMINATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMED tests Move to STATE_CREATED, should not change state" name="FSM states tests STATE_RESUMED tests Move to STATE_CREATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMED tests Move to STATE_INITIATING, should not change state" name="FSM states tests STATE_RESUMED tests Move to STATE_INITIATING, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMED tests Move to STATE_LOADED, should not change state" name="FSM states tests STATE_RESUMED tests Move to STATE_LOADED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMED tests Move to STATE_STARTING, should not change state" name="FSM states tests STATE_RESUMED tests Move to STATE_STARTING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMED tests Move to STATE_STARTED, should not change state" name="FSM states tests STATE_RESUMED tests Move to STATE_STARTED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMED tests Move to STATE_PAUSING, should not change state" name="FSM states tests STATE_RESUMED tests Move to STATE_PAUSING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMED tests Move to STATE_PAUSED, should not change state" name="FSM states tests STATE_RESUMED tests Move to STATE_PAUSED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMED tests Move to STATE_RESUMING, should not change state" name="FSM states tests STATE_RESUMED tests Move to STATE_RESUMING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMED tests Move to STATE_STOPPED, should not change state" name="FSM states tests STATE_RESUMED tests Move to STATE_STOPPED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_RESUMED tests Move to STATE_TERMINATED, should not change state" name="FSM states tests STATE_RESUMED tests Move to STATE_TERMINATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPING tests Move to STATE_CREATED, should not change state" name="FSM states tests STATE_STOPPING tests Move to STATE_CREATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPING tests Move to STATE_INITIATING, should not change state" name="FSM states tests STATE_STOPPING tests Move to STATE_INITIATING, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPING tests Move to STATE_LOADED, should not change state" name="FSM states tests STATE_STOPPING tests Move to STATE_LOADED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPING tests Move to STATE_STARTING, should not change state" name="FSM states tests STATE_STOPPING tests Move to STATE_STARTING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPING tests Move to STATE_STARTED, should not change state" name="FSM states tests STATE_STOPPING tests Move to STATE_STARTED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPING tests Move to STATE_PLAYING, should not change state" name="FSM states tests STATE_STOPPING tests Move to STATE_PLAYING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPING tests Move to STATE_PAUSING, should not change state" name="FSM states tests STATE_STOPPING tests Move to STATE_PAUSING, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPING tests Move to STATE_PAUSED, should not change state" name="FSM states tests STATE_STOPPING tests Move to STATE_PAUSED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPING tests Move to STATE_RESUMING, should not change state" name="FSM states tests STATE_STOPPING tests Move to STATE_RESUMING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPING tests Move to STATE_RESUMED, should not change state" name="FSM states tests STATE_STOPPING tests Move to STATE_RESUMED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPING tests Move to STATE_TERMINATED, should not change state" name="FSM states tests STATE_STOPPING tests Move to STATE_TERMINATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPED tests Move to STATE_CREATED, should not change state" name="FSM states tests STATE_STOPPED tests Move to STATE_CREATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPED tests Move to STATE_INITIATING, should not change state" name="FSM states tests STATE_STOPPED tests Move to STATE_INITIATING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPED tests Move to STATE_LOADED, should not change state" name="FSM states tests STATE_STOPPED tests Move to STATE_LOADED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPED tests Move to STATE_STARTING, should not change state" name="FSM states tests STATE_STOPPED tests Move to STATE_STARTING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPED tests Move to STATE_STARTED, should not change state" name="FSM states tests STATE_STOPPED tests Move to STATE_STARTED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPED tests Move to STATE_PLAYING, should not change state" name="FSM states tests STATE_STOPPED tests Move to STATE_PLAYING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPED tests Move to STATE_PAUSING, should not change state" name="FSM states tests STATE_STOPPED tests Move to STATE_PAUSING, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPED tests Move to STATE_PAUSED, should not change state" name="FSM states tests STATE_STOPPED tests Move to STATE_PAUSED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPED tests Move to STATE_RESUMING, should not change state" name="FSM states tests STATE_STOPPED tests Move to STATE_RESUMING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPED tests Move to STATE_RESUMED, should not change state" name="FSM states tests STATE_STOPPED tests Move to STATE_RESUMED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_STOPPED tests Move to STATE_STOPPING, should not change state" name="FSM states tests STATE_STOPPED tests Move to STATE_STOPPING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_ERROR tests Move to STATE_CREATED, should not change state" name="FSM states tests STATE_ERROR tests Move to STATE_CREATED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_ERROR tests Move to STATE_INITIATING, should not change state" name="FSM states tests STATE_ERROR tests Move to STATE_INITIATING, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_ERROR tests Move to STATE_LOADED, should not change state" name="FSM states tests STATE_ERROR tests Move to STATE_LOADED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_ERROR tests Move to STATE_STARTING, should not change state" name="FSM states tests STATE_ERROR tests Move to STATE_STARTING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_ERROR tests Move to STATE_STARTED, should not change state" name="FSM states tests STATE_ERROR tests Move to STATE_STARTED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_ERROR tests Move to STATE_PLAYING, should not change state" name="FSM states tests STATE_ERROR tests Move to STATE_PLAYING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_ERROR tests Move to STATE_PAUSING, should not change state" name="FSM states tests STATE_ERROR tests Move to STATE_PAUSING, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_ERROR tests Move to STATE_PAUSED, should not change state" name="FSM states tests STATE_ERROR tests Move to STATE_PAUSED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_ERROR tests Move to STATE_RESUMING, should not change state" name="FSM states tests STATE_ERROR tests Move to STATE_RESUMING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_ERROR tests Move to STATE_RESUMED, should not change state" name="FSM states tests STATE_ERROR tests Move to STATE_RESUMED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_ERROR tests Move to STATE_STOPPING, should not change state" name="FSM states tests STATE_ERROR tests Move to STATE_STOPPING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_ERROR tests Move to STATE_STOPPED, should not change state" name="FSM states tests STATE_ERROR tests Move to STATE_STOPPED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_TERMINATED tests Move to STATE_CREATED, should not change state" name="FSM states tests STATE_TERMINATED tests Move to STATE_CREATED, should not change state" time="0.089">
+    </testcase>
+    <testcase classname="FSM states tests STATE_TERMINATED tests Move to STATE_INITIATING, should not change state" name="FSM states tests STATE_TERMINATED tests Move to STATE_INITIATING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_TERMINATED tests Move to STATE_LOADED, should not change state" name="FSM states tests STATE_TERMINATED tests Move to STATE_LOADED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_TERMINATED tests Move to STATE_STARTING, should not change state" name="FSM states tests STATE_TERMINATED tests Move to STATE_STARTING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_TERMINATED tests Move to STATE_STARTED, should not change state" name="FSM states tests STATE_TERMINATED tests Move to STATE_STARTED, should not change state" time="0.009">
+    </testcase>
+    <testcase classname="FSM states tests STATE_TERMINATED tests Move to STATE_PLAYING, should not change state" name="FSM states tests STATE_TERMINATED tests Move to STATE_PLAYING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_TERMINATED tests Move to STATE_PAUSING, should not change state" name="FSM states tests STATE_TERMINATED tests Move to STATE_PAUSING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_TERMINATED tests Move to STATE_PAUSED, should not change state" name="FSM states tests STATE_TERMINATED tests Move to STATE_PAUSED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_TERMINATED tests Move to STATE_RESUMING, should not change state" name="FSM states tests STATE_TERMINATED tests Move to STATE_RESUMING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_TERMINATED tests Move to STATE_RESUMED, should not change state" name="FSM states tests STATE_TERMINATED tests Move to STATE_RESUMED, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_TERMINATED tests Move to STATE_STOPPING, should not change state" name="FSM states tests STATE_TERMINATED tests Move to STATE_STOPPING, should not change state" time="0">
+    </testcase>
+    <testcase classname="FSM states tests STATE_TERMINATED tests Move to STATE_STOPPED, should not change state" name="FSM states tests STATE_TERMINATED tests Move to STATE_STOPPED, should not change state" time="0.001">
+    </testcase>
+    <testcase classname="FSM states tests STATE_TERMINATED tests Move to STATE_ERROR, should not change state" name="FSM states tests STATE_TERMINATED tests Move to STATE_ERROR, should not change state" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="ContentToggleListService functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="70.403" tests="16">
+    <testcase classname="ContentToggleListService functions validate content toggle list exists. Expected value = true" name="ContentToggleListService functions validate content toggle list exists. Expected value = true" time="0.299">
+    </testcase>
+    <testcase classname="ContentToggleListService functions validate content toggle list is empty. Expected value = true" name="ContentToggleListService functions validate content toggle list is empty. Expected value = true" time="0.001">
+    </testcase>
+    <testcase classname="ContentToggleListService functions validate blacklist mode exist is content toggle list, while nothing else exist. Expected value = true" name="ContentToggleListService functions validate blacklist mode exist is content toggle list, while nothing else exist. Expected value = true" time="0.001">
+    </testcase>
+    <testcase classname="ContentToggleListService functions validate contentType value: contentToggleList = initAdInfo. Expected value = false" name="ContentToggleListService functions validate contentType value: contentToggleList = initAdInfo. Expected value = false" time="0.001">
+    </testcase>
+    <testcase classname="ContentToggleListService functions validate contentType value: contentToggleList &lt;&gt; initAdInfo. Expected value = false" name="ContentToggleListService functions validate contentType value: contentToggleList &lt;&gt; initAdInfo. Expected value = false" time="0.001">
+    </testcase>
+    <testcase classname="ContentToggleListService functions validate channelName value: contentToggleList = initAdInfo. Expected value = false" name="ContentToggleListService functions validate channelName value: contentToggleList = initAdInfo. Expected value = false" time="0">
+    </testcase>
+    <testcase classname="ContentToggleListService functions validate channelName value: contentToggleList &lt;&gt; initAdInfo. Expected value = true" name="ContentToggleListService functions validate channelName value: contentToggleList &lt;&gt; initAdInfo. Expected value = true" time="0.001">
+    </testcase>
+    <testcase classname="ContentToggleListService functions validate isDuringAd value: contentToggleList = initAdInfo. Expected value = false" name="ContentToggleListService functions validate isDuringAd value: contentToggleList = initAdInfo. Expected value = false" time="0">
+    </testcase>
+    <testcase classname="ContentToggleListService functions validate isDuringAd value: contentToggleList &lt;&gt; initAdInfo. Expected value = true" name="ContentToggleListService functions validate isDuringAd value: contentToggleList &lt;&gt; initAdInfo. Expected value = true" time="0.001">
+    </testcase>
+    <testcase classname="ContentToggleListService functions validate contentToggleList include 1 item with blacklist mode. By programName -  Expected value = false" name="ContentToggleListService functions validate contentToggleList include 1 item with blacklist mode. By programName -  Expected value = false" time="0.001">
+    </testcase>
+    <testcase classname="ContentToggleListService functions blacklist , validate by programmerName. Expected value = false" name="ContentToggleListService functions blacklist , validate by programmerName. Expected value = false" time="0">
+    </testcase>
+    <testcase classname="ContentToggleListService functions blacklist , validate by networkName. Expected value = false" name="ContentToggleListService functions blacklist , validate by networkName. Expected value = false" time="0">
+    </testcase>
+    <testcase classname="ContentToggleListService functions validate contentToggleList include 1 item with whitelist mode. By channelName -  Expected value = true" name="ContentToggleListService functions validate contentToggleList include 1 item with whitelist mode. By channelName -  Expected value = true" time="0">
+    </testcase>
+    <testcase classname="ContentToggleListService functions validate by programName. Expected value = true" name="ContentToggleListService functions validate by programName. Expected value = true" time="0">
+    </testcase>
+    <testcase classname="ContentToggleListService functions neutral mode. Expected value = true" name="ContentToggleListService functions neutral mode. Expected value = true" time="0">
+    </testcase>
+    <testcase classname="ContentToggleListService functions ConfigService content toggle list update - should return valid content pre-update and invalid post-update" name="ContentToggleListService functions ConfigService content toggle list update - should return valid content pre-update and invalid post-update" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="feature flag proxy delegate integration tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="73.298" tests="12">
+    <testcase classname="feature flag proxy delegate integration tests should check storage adapter mock resolution" name="feature flag proxy delegate integration tests should check storage adapter mock resolution" time="0.004">
+    </testcase>
+    <testcase classname="feature flag proxy delegate integration tests setup should set keys in persistent storage" name="feature flag proxy delegate integration tests setup should set keys in persistent storage" time="0.186">
+    </testcase>
+    <testcase classname="feature flag proxy delegate integration tests register should read from persistent storage" name="feature flag proxy delegate integration tests register should read from persistent storage" time="0.101">
+    </testcase>
+    <testcase classname="feature flag proxy delegate integration tests register should combine with keys from storage" name="feature flag proxy delegate integration tests register should combine with keys from storage" time="0.098">
+    </testcase>
+    <testcase classname="feature flag proxy delegate integration tests flagNames should return string array" name="feature flag proxy delegate integration tests flagNames should return string array" time="0.001">
+    </testcase>
+    <testcase classname="feature flag proxy delegate integration tests isFlagEnabled should return value of flag" name="feature flag proxy delegate integration tests isFlagEnabled should return value of flag" time="0.002">
+    </testcase>
+    <testcase classname="feature flag proxy delegate integration tests given certain flag values, when calling setup, updates FlagContainer" name="feature flag proxy delegate integration tests given certain flag values, when calling setup, updates FlagContainer" time="0.002">
+    </testcase>
+    <testcase classname="feature flag proxy delegate integration tests given default setup, when calling getter, retrieve correct object" name="feature flag proxy delegate integration tests given default setup, when calling getter, retrieve correct object" time="0.001">
+    </testcase>
+    <testcase classname="feature flag proxy delegate integration tests given update when freeze is true, should update only store " name="feature flag proxy delegate integration tests given update when freeze is true, should update only store " time="0.002">
+    </testcase>
+    <testcase classname="feature flag proxy delegate integration tests given update when freeze is false, should update only store " name="feature flag proxy delegate integration tests given update when freeze is false, should update only store " time="0.002">
+    </testcase>
+    <testcase classname="feature flag proxy delegate integration tests given setup when freeze is true, should update only store " name="feature flag proxy delegate integration tests given setup when freeze is true, should update only store " time="0.09">
+    </testcase>
+    <testcase classname="feature flag proxy delegate integration tests given setup when freeze is false, should update only store " name="feature flag proxy delegate integration tests given setup when freeze is false, should update only store " time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="76.196" tests="5">
+    <testcase classname=" isTokenExpiredOrAboutToExpire function returns VALID if it gets a valid date" name=" isTokenExpiredOrAboutToExpire function returns VALID if it gets a valid date" time="0.004">
+    </testcase>
+    <testcase classname=" isTokenExpiredOrAboutToExpire function returns ABOUT_TO_EXPIRE if it gets a date that is about to expire" name=" isTokenExpiredOrAboutToExpire function returns ABOUT_TO_EXPIRE if it gets a date that is about to expire" time="0">
+    </testcase>
+    <testcase classname=" isTokenExpiredOrAboutToExpire function returns EXPIRED if it gets a date that is already expired" name=" isTokenExpiredOrAboutToExpire function returns EXPIRED if it gets a date that is already expired" time="0.089">
+    </testcase>
+    <testcase classname=" exp tokens are retrieved ok after decoding tokens in decodeTokens function" name=" exp tokens are retrieved ok after decoding tokens in decodeTokens function" time="0.002">
+    </testcase>
+    <testcase classname=" exp tokens are retrieved ok after updating tokens in setTokensExpirationDates function" name=" exp tokens are retrieved ok after updating tokens in setTokensExpirationDates function" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="ad-script command tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="87.398" tests="12">
+    <testcase classname="ad-script command tests ad-script command should be defined" name="ad-script command tests ad-script command should be defined" time="0.088">
+    </testcase>
+    <testcase classname="ad-script command tests ad-script execute calls should call runner init function" name="ad-script command tests ad-script execute calls should call runner init function" time="0.006">
+    </testcase>
+    <testcase classname="ad-script command tests ad-script execute should call the buildMethod on event Loaded" name="ad-script command tests ad-script execute should call the buildMethod on event Loaded" time="0.003">
+    </testcase>
+    <testcase classname="ad-script command tests ad-script execute should call onLoad when it has Loaded event" name="ad-script command tests ad-script execute should call onLoad when it has Loaded event" time="0.001">
+    </testcase>
+    <testcase classname="ad-script command tests ad-script execute should call _notifyCompleted when it has Loaded event" name="ad-script command tests ad-script execute should call _notifyCompleted when it has Loaded event" time="0">
+    </testcase>
+    <testcase classname="ad-script command tests ad-script execute should call _report when it has Loaded event" name="ad-script command tests ad-script execute should call _report when it has Loaded event" time="0.001">
+    </testcase>
+    <testcase classname="ad-script command tests ad-script execute should set template into context" name="ad-script command tests ad-script execute should set template into context" time="0.001">
+    </testcase>
+    <testcase classname="ad-script command tests ad-script execute should set runner buildMethods" name="ad-script command tests ad-script execute should set runner buildMethods" time="0">
+    </testcase>
+    <testcase classname="ad-script command tests ad-script execute to call $set with args" name="ad-script command tests ad-script execute to call $set with args" time="0.086">
+    </testcase>
+    <testcase classname="ad-script command tests ad-script execute should set runner buildMethods" name="ad-script command tests ad-script execute should set runner buildMethods" time="0.001">
+    </testcase>
+    <testcase classname="ad-script command tests ad-script execute should initialize allMethods" name="ad-script command tests ad-script execute should initialize allMethods" time="0.002">
+    </testcase>
+    <testcase classname="ad-script command tests ad-script execute should call print with args" name="ad-script command tests ad-script execute should call print with args" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="StopExperienceCommand functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="103.503" tests="1">
+    <testcase classname="StopExperienceCommand functions test StopExperienceCommand execution function" name="StopExperienceCommand functions test StopExperienceCommand execution function" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="Renderer functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="104.103" tests="4">
+    <testcase classname="Renderer functions request create command SHOW_VIDEO gets show video command" name="Renderer functions request create command SHOW_VIDEO gets show video command" time="0.004">
+    </testcase>
+    <testcase classname="Renderer functions request create command SHOW_IMAGE gets show image command" name="Renderer functions request create command SHOW_IMAGE gets show image command" time="0.001">
+    </testcase>
+    <testcase classname="Renderer functions request create command REPORT_COMMAND gets report command" name="Renderer functions request create command REPORT_COMMAND gets report command" time="0.003">
+    </testcase>
+    <testcase classname="Renderer functions request create command with something else gets an empty command that is alive" name="Renderer functions request create command with something else gets an empty command that is alive" time="0.096">
+    </testcase>
+  </testsuite>
+  <testsuite name="HostRequestCommand functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="103.903" tests="1">
+    <testcase classname="HostRequestCommand functions test HostRequestCommand execution function" name="HostRequestCommand functions test HostRequestCommand execution function" time="0.089">
+    </testcase>
+  </testsuite>
+  <testsuite name="ShowImageCommand tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="104.094" tests="17">
+    <testcase classname="ShowImageCommand tests init() without XaafAdContainer - error thrown - should notify command event listener with CommandEventType Error" name="ShowImageCommand tests init() without XaafAdContainer - error thrown - should notify command event listener with CommandEventType Error" time="0.005">
+    </testcase>
+    <testcase classname="ShowImageCommand tests init() with xaafAdContainer - should set XaafElementType.IMAGE element type on XaafAdContainer" name="ShowImageCommand tests init() with xaafAdContainer - should set XaafElementType.IMAGE element type on XaafAdContainer" time="0.002">
+    </testcase>
+    <testcase classname="ShowImageCommand tests init() with xaafAdContainer - error thrown when XaafImageElement is ready - should notify command event listener with CommandEventType Error" name="ShowImageCommand tests init() with xaafAdContainer - error thrown when XaafImageElement is ready - should notify command event listener with CommandEventType Error" time="0.002">
+    </testcase>
+    <testcase classname="ShowImageCommand tests init() with xaafAdContainer - XaafImageElement is ready - should set its data" name="ShowImageCommand tests init() with xaafAdContainer - XaafImageElement is ready - should set its data" time="0.001">
+    </testcase>
+    <testcase classname="ShowImageCommand tests init() with xaafAdContainer - error thrown when XaafImageElement failed to load - should notify command event listener with CommandEventType Error" name="ShowImageCommand tests init() with xaafAdContainer - error thrown when XaafImageElement failed to load - should notify command event listener with CommandEventType Error" time="0.001">
+    </testcase>
+    <testcase classname="ShowImageCommand tests init() with xaafAdContainer - XaafImageElement failed to load - should notify command event listener with CommandEventType Error" name="ShowImageCommand tests init() with xaafAdContainer - XaafImageElement failed to load - should notify command event listener with CommandEventType Error" time="0.001">
+    </testcase>
+    <testcase classname="ShowImageCommand tests init() with xaafAdContainer - error thrown when XaafImageElement is loaded - should notify command event listener with CommandEventType Error" name="ShowImageCommand tests init() with xaafAdContainer - error thrown when XaafImageElement is loaded - should notify command event listener with CommandEventType Error" time="0">
+    </testcase>
+    <testcase classname="ShowImageCommand tests init() with xaafAdContainer - XaafImageElement is ready &amp; loaded but not shown - should not notify command event listener with CommandEventType Handled" name="ShowImageCommand tests init() with xaafAdContainer - XaafImageElement is ready &amp; loaded but not shown - should not notify command event listener with CommandEventType Handled" time="0.001">
+    </testcase>
+    <testcase classname="ShowImageCommand tests execute() - error thrown - should notify command event listener with CommandEventType Error" name="ShowImageCommand tests execute() - error thrown - should notify command event listener with CommandEventType Error" time="0.001">
+    </testcase>
+    <testcase classname="ShowImageCommand tests execute() - XaafImageElement is not ready - should notify command event listener with CommandEventType Error" name="ShowImageCommand tests execute() - XaafImageElement is not ready - should notify command event listener with CommandEventType Error" time="0.081">
+    </testcase>
+    <testcase classname="ShowImageCommand tests execute() - XaafImageElement is ready - should show XaafImageElement and notify listener with CommandEventType Executed" name="ShowImageCommand tests execute() - XaafImageElement is ready - should show XaafImageElement and notify listener with CommandEventType Executed" time="0.001">
+    </testcase>
+    <testcase classname="ShowImageCommand tests execute() - error thrown when XaafImageElement is shown - should notify listener with CommandEventType Error" name="ShowImageCommand tests execute() - error thrown when XaafImageElement is shown - should notify listener with CommandEventType Error" time="0.001">
+    </testcase>
+    <testcase classname="ShowImageCommand tests execute() - XaafImageElement is ready &amp; shown but not loaded - should notify listener with CommandEventType Executed only" name="ShowImageCommand tests execute() - XaafImageElement is ready &amp; shown but not loaded - should notify listener with CommandEventType Executed only" time="0.002">
+    </testcase>
+    <testcase classname="ShowImageCommand tests execute() - XaafImageElement is ready shown and then loaded - should notify listener with CommandEventType Handled" name="ShowImageCommand tests execute() - XaafImageElement is ready shown and then loaded - should notify listener with CommandEventType Handled" time="0.002">
+    </testcase>
+    <testcase classname="ShowImageCommand tests execute() - XaafImageElement is ready loaded and then shown - should notify listener with CommandEventType Handled" name="ShowImageCommand tests execute() - XaafImageElement is ready loaded and then shown - should notify listener with CommandEventType Handled" time="0.095">
+    </testcase>
+    <testcase classname="ShowImageCommand tests stop() - error thrown - should notify listener with CommandEventType Error" name="ShowImageCommand tests stop() - error thrown - should notify listener with CommandEventType Error" time="0">
+    </testcase>
+    <testcase classname="ShowImageCommand tests stop() - XaafImageElement is ready - should hide XaafImageElement, clear element type on XaafAdContainer and notify listener with CommandEventType Stopped" name="ShowImageCommand tests stop() - XaafImageElement is ready - should hide XaafImageElement, clear element type on XaafAdContainer and notify listener with CommandEventType Stopped" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="CommandEventCreator tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="104.299" tests="8">
+    <testcase classname="CommandEventCreator tests createLoadedEvent() - should return CommandEvent with Loaded type and no command" name="CommandEventCreator tests createLoadedEvent() - should return CommandEvent with Loaded type and no command" time="0.003">
+    </testcase>
+    <testcase classname="CommandEventCreator tests createExecutedEvent() - should return CommandEvent with Executed type and no command" name="CommandEventCreator tests createExecutedEvent() - should return CommandEvent with Executed type and no command" time="0.001">
+    </testcase>
+    <testcase classname="CommandEventCreator tests createHandledEvent() - should return CommandEvent with Handled type and correct command" name="CommandEventCreator tests createHandledEvent() - should return CommandEvent with Handled type and correct command" time="0.001">
+    </testcase>
+    <testcase classname="CommandEventCreator tests createCompletedEvent() - should return CommandEvent with Completed type and correct command" name="CommandEventCreator tests createCompletedEvent() - should return CommandEvent with Completed type and correct command" time="0.001">
+    </testcase>
+    <testcase classname="CommandEventCreator tests createErrorEvent() - should return ErrorCommandEvent with Error type, correct error and no command" name="CommandEventCreator tests createErrorEvent() - should return ErrorCommandEvent with Error type, correct error and no command" time="0.001">
+    </testcase>
+    <testcase classname="CommandEventCreator tests createStoppedEvent() - should return StoppedCommandEvent with Stopped type, correct StoppedCommandEventReason and no command" name="CommandEventCreator tests createStoppedEvent() - should return StoppedCommandEvent with Stopped type, correct StoppedCommandEventReason and no command" time="0">
+    </testcase>
+    <testcase classname="CommandEventCreator tests createStopExperienceEvent() - should return StopExperienceCommandEvent with StopExperience type, correct reason and isNotifyHost and no command" name="CommandEventCreator tests createStopExperienceEvent() - should return StopExperienceCommandEvent with StopExperience type, correct reason and isNotifyHost and no command" time="0.001">
+    </testcase>
+    <testcase classname="CommandEventCreator tests createHostRequestEvent() - should return CommandEvent with HostRequest type and correct command" name="CommandEventCreator tests createHostRequestEvent() - should return CommandEvent with HostRequest type and correct command" time="0.089">
+    </testcase>
+  </testsuite>
+  <testsuite name="ReportCommand functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="105.492" tests="4">
+    <testcase classname="ReportCommand functions test command with conditions - conditions met - command is performed" name="ReportCommand functions test command with conditions - conditions met - command is performed" time="0.787">
+    </testcase>
+    <testcase classname="ReportCommand functions test command with conditions - conditions do not meet - command is not performed" name="ReportCommand functions test command with conditions - conditions do not meet - command is not performed" time="0.001">
+    </testcase>
+    <testcase classname="ReportCommand functions test command without conditions - condition met - command is performed" name="ReportCommand functions test command without conditions - condition met - command is performed" time="0.003">
+    </testcase>
+    <testcase classname="ReportCommand functions should report the duration measurements" name="ReportCommand functions should report the duration measurements" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="ShowDynamicViewCommand tests" errors="0" failures="0" skipped="2" timestamp="2024-02-20T05:08:29" time="104.2" tests="12">
+    <testcase classname="ShowDynamicViewCommand tests init() without XaafAdContainer - error thrown - should notify command event listener with CommandEventType Error" name="ShowDynamicViewCommand tests init() without XaafAdContainer - error thrown - should notify command event listener with CommandEventType Error" time="0.006">
+    </testcase>
+    <testcase classname="ShowDynamicViewCommand tests init() with xaafAdContainer - should set XaafElementType.DYNAMIC element type on XaafAdContainer" name="ShowDynamicViewCommand tests init() with xaafAdContainer - should set XaafElementType.DYNAMIC element type on XaafAdContainer" time="0.001">
+    </testcase>
+    <testcase classname="ShowDynamicViewCommand tests init() with xaafAdContainer - error thrown when XaafDynamicViewElement is ready - should notify command event listener with CommandEventType Error" name="ShowDynamicViewCommand tests init() with xaafAdContainer - error thrown when XaafDynamicViewElement is ready - should notify command event listener with CommandEventType Error" time="0.002">
+    </testcase>
+    <testcase classname="ShowDynamicViewCommand tests init() with xaafAdContainer - XaafDynamicElement is ready - should set its data" name="ShowDynamicViewCommand tests init() with xaafAdContainer - XaafDynamicElement is ready - should set its data" time="0.001">
+    </testcase>
+    <testcase classname="ShowDynamicViewCommand tests execute() - error thrown - should notify command event listener with CommandEventType Error" name="ShowDynamicViewCommand tests execute() - error thrown - should notify command event listener with CommandEventType Error" time="0.001">
+    </testcase>
+    <testcase classname="ShowDynamicViewCommand tests execute() - XaafDynamicElement is not ready - should notify command event listener with CommandEventType Error" name="ShowDynamicViewCommand tests execute() - XaafDynamicElement is not ready - should notify command event listener with CommandEventType Error" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="ShowDynamicViewCommand tests execute() - XaafDynamicElement is ready - should show XaafDynamicElement and notify listener with CommandEventType Executed" name="ShowDynamicViewCommand tests execute() - XaafDynamicElement is ready - should show XaafDynamicElement and notify listener with CommandEventType Executed" time="0.001">
+    </testcase>
+    <testcase classname="ShowDynamicViewCommand tests should test the onLoad function" name="ShowDynamicViewCommand tests should test the onLoad function" time="0.092">
+    </testcase>
+    <testcase classname="ShowDynamicViewCommand tests should test the onError function with error" name="ShowDynamicViewCommand tests should test the onError function with error" time="0.001">
+    </testcase>
+    <testcase classname="ShowDynamicViewCommand tests stop() - error thrown - should notify listener with CommandEventType Error" name="ShowDynamicViewCommand tests stop() - error thrown - should notify listener with CommandEventType Error" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="ShowDynamicViewCommand tests stop() - XaafDynamicElement is ready - should hide XaafDynamicElement, clear element type on XaafAdContainer and notify listener with CommandEventType Stopped" name="ShowDynamicViewCommand tests stop() - XaafDynamicElement is ready - should hide XaafDynamicElement, clear element type on XaafAdContainer and notify listener with CommandEventType Stopped" time="0.002">
+    </testcase>
+    <testcase classname="ShowDynamicViewCommand tests complete() - XaafDynamicElement is ready - should hide XaafDynamicElement, clear element type on XaafAdContainer and notify listener with CommandEventTypes Stopped and Completed" name="ShowDynamicViewCommand tests complete() - XaafDynamicElement is ready - should hide XaafDynamicElement, clear element type on XaafAdContainer and notify listener with CommandEventTypes Stopped and Completed" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="adLifeCycleParameters " errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="104.201" tests="7">
+    <testcase classname="adLifeCycleParameters  adLifeCycleParameters map is retrieved with right values after ad_loaded" name="adLifeCycleParameters  adLifeCycleParameters map is retrieved with right values after ad_loaded" time="0.283">
+    </testcase>
+    <testcase classname="adLifeCycleParameters  Reasons from AD_STOPPED event check no reason" name="adLifeCycleParameters  Reasons from AD_STOPPED event check no reason" time="0.002">
+    </testcase>
+    <testcase classname="adLifeCycleParameters  Reasons from AD_STOPPED event check reason AD_ACTION_BLACKLIST" name="adLifeCycleParameters  Reasons from AD_STOPPED event check reason AD_ACTION_BLACKLIST" time="0.006">
+    </testcase>
+    <testcase classname="adLifeCycleParameters  Reasons from AD_STOPPED event check reason NOT_LOGGED_IN" name="adLifeCycleParameters  Reasons from AD_STOPPED event check reason NOT_LOGGED_IN" time="0.006">
+    </testcase>
+    <testcase classname="adLifeCycleParameters  Reasons from AD_STOPPED event check reason AD_STOPPED" name="adLifeCycleParameters  Reasons from AD_STOPPED event check reason AD_STOPPED" time="0.086">
+    </testcase>
+    <testcase classname="adLifeCycleParameters  Reasons from AD_STOPPED event check hostStoppingReason when filled in AD_STOPPED" name="adLifeCycleParameters  Reasons from AD_STOPPED event check hostStoppingReason when filled in AD_STOPPED" time="0.002">
+    </testcase>
+    <testcase classname="adLifeCycleParameters  Reasons from AD_STOPPED event check hostStoppingReason when nothing filled in AD_STOPPED" name="adLifeCycleParameters  Reasons from AD_STOPPED event check hostStoppingReason when nothing filled in AD_STOPPED" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="SqueezeCommand test" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="105.21" tests="3">
+    <testcase classname="SqueezeCommand test execute() without HostContainer - notify on error" name="SqueezeCommand test execute() without HostContainer - notify on error" time="0.006">
+    </testcase>
+    <testcase classname="SqueezeCommand test execute() with HostContainer - expect onSqueezeStarted and onSqueezeEnded" name="SqueezeCommand test execute() with HostContainer - expect onSqueezeStarted and onSqueezeEnded" time="0.603">
+    </testcase>
+    <testcase classname="SqueezeCommand test execute() with error in animation" name="SqueezeCommand test execute() with error in animation" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="config service functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="105.794" tests="47">
+    <testcase classname="config service functions get instance is not null" name="config service functions get instance is not null" time="0.091">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams getMeasurementParams with platformAdvId param should return platformAdvId" name="config service functions config service getMeasurementParams getMeasurementParams with platformAdvId param should return platformAdvId" time="0.002">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams getMeasurementParams with Invalid key param should return null" name="config service functions config service getMeasurementParams getMeasurementParams with Invalid key param should return null" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams getMeasurementParams with clientFormattedTimeStamp param validate 22.03.2020 14:05:38 +120 date format" name="config service functions config service getMeasurementParams getMeasurementParams with clientFormattedTimeStamp param validate 22.03.2020 14:05:38 +120 date format" time="0.002">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams getMeasurementParams with deviceId param should return deviceId" name="config service functions config service getMeasurementParams getMeasurementParams with deviceId param should return deviceId" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams getMeasurementParams get parameter from sdk config without getter" name="config service functions config service getMeasurementParams getMeasurementParams get parameter from sdk config without getter" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get new relic url parameter" name="config service functions config service getMeasurementParams get new relic url parameter" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get new relic api key parameter" name="config service functions config service getMeasurementParams get new relic api key parameter" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get userAdvrId parameter" name="config service functions config service getMeasurementParams get userAdvrId parameter" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get fwSUSSId parameter" name="config service functions config service getMeasurementParams get fwSUSSId parameter" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get householdId parameter" name="config service functions config service getMeasurementParams get householdId parameter" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get deviceAdvrId parameter" name="config service functions config service getMeasurementParams get deviceAdvrId parameter" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get deviceFWAdId parameter" name="config service functions config service getMeasurementParams get deviceFWAdId parameter" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get DeviceID parameter" name="config service functions config service getMeasurementParams get DeviceID parameter" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get isLoggedIn parameter" name="config service functions config service getMeasurementParams get isLoggedIn parameter" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get playerConfiguration parameter" name="config service functions config service getMeasurementParams get playerConfiguration parameter" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get refreshToken parameter" name="config service functions config service getMeasurementParams get refreshToken parameter" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get tokenExpiration parameter" name="config service functions config service getMeasurementParams get tokenExpiration parameter" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get refreshToken expiration parameter" name="config service functions config service getMeasurementParams get refreshToken expiration parameter" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get deviceManufacturer parameter" name="config service functions config service getMeasurementParams get deviceManufacturer parameter" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get deviceModel parameter" name="config service functions config service getMeasurementParams get deviceModel parameter" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get deviceType parameter" name="config service functions config service getMeasurementParams get deviceType parameter" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get device parameter" name="config service functions config service getMeasurementParams get device parameter" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get OsName" name="config service functions config service getMeasurementParams get OsName" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get osVersion" name="config service functions config service getMeasurementParams get osVersion" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get userType" name="config service functions config service getMeasurementParams get userType" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get tenantName" name="config service functions config service getMeasurementParams get tenantName" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get appName" name="config service functions config service getMeasurementParams get appName" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get appVersion" name="config service functions config service getMeasurementParams get appVersion" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get sdkName" name="config service functions config service getMeasurementParams get sdkName" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get sdkVersion" name="config service functions config service getMeasurementParams get sdkVersion" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get tenantSystemName" name="config service functions config service getMeasurementParams get tenantSystemName" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get lazyRefreshTokenBeforeExpirationMinutes parameter" name="config service functions config service getMeasurementParams get lazyRefreshTokenBeforeExpirationMinutes parameter" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get timeouts parameter http" name="config service functions config service getMeasurementParams get timeouts parameter http" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get timeouts parameter xaaba" name="config service functions config service getMeasurementParams get timeouts parameter xaaba" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get timeouts parameter assets" name="config service functions config service getMeasurementParams get timeouts parameter assets" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get timeouts parameter player" name="config service functions config service getMeasurementParams get timeouts parameter player" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get timeouts parameter buffer" name="config service functions config service getMeasurementParams get timeouts parameter buffer" time="0.089">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get timeouts parameter reporting" name="config service functions config service getMeasurementParams get timeouts parameter reporting" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get timeouts parameter http_timeout" name="config service functions config service getMeasurementParams get timeouts parameter http_timeout" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get timeouts parameter buffer_timeout" name="config service functions config service getMeasurementParams get timeouts parameter buffer_timeout" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get timeouts parameter player_timeout" name="config service functions config service getMeasurementParams get timeouts parameter player_timeout" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get new relic bulk reporting config" name="config service functions config service getMeasurementParams get new relic bulk reporting config" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get new relic bulk reporting config when no login response" name="config service functions config service getMeasurementParams get new relic bulk reporting config when no login response" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get timeouts parameter xaaba_timeoutba" name="config service functions config service getMeasurementParams get timeouts parameter xaaba_timeoutba" time="0.001">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get timeouts parameter assets_timeout" name="config service functions config service getMeasurementParams get timeouts parameter assets_timeout" time="0">
+    </testcase>
+    <testcase classname="config service functions config service getMeasurementParams get timeouts parameter reporting_timeout" name="config service functions config service getMeasurementParams get timeouts parameter reporting_timeout" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="ShowVideoCommand functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="105.598" tests="8">
+    <testcase classname="ShowVideoCommand functions given 1 loop, when onPlaybackComplete called, should call _onCommandCompleted" name="ShowVideoCommand functions given 1 loop, when onPlaybackComplete called, should call _onCommandCompleted" time="0.095">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given many loops, when onPlaybackComplete called, should call not _onCommandCompleted" name="ShowVideoCommand functions given many loops, when onPlaybackComplete called, should call not _onCommandCompleted" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions isBufferForPlaybackReached should return true when current buffer &gt;  requiredBuffer  " name="ShowVideoCommand functions isBufferForPlaybackReached should return true when current buffer &gt;  requiredBuffer  " time="0.002">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions isBufferForPlaybackReached should return false  when current buffer &lt; requiredBuffer" name="ShowVideoCommand functions isBufferForPlaybackReached should return false  when current buffer &lt; requiredBuffer" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given videoDuration shorter than bufferForPlayback, isBufferForPlaybackReached should return true  when current buffer &lt; requiredBuffer" name="ShowVideoCommand functions given videoDuration shorter than bufferForPlayback, isBufferForPlaybackReached should return true  when current buffer &lt; requiredBuffer" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions awaitBufferForPlaybackReached should define interval and not call setTimeout when timeoutEnabled = false " name="ShowVideoCommand functions awaitBufferForPlaybackReached should define interval and not call setTimeout when timeoutEnabled = false " time="1.09">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions awaitBufferForPlaybackReached should reject with time out when awaitBufferForPlaybackReached return false" name="ShowVideoCommand functions awaitBufferForPlaybackReached should reject with time out when awaitBufferForPlaybackReached return false" time="0.003">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions awaitBufferForPlaybackReached should resolve when awaitBufferForPlaybackReached return true" name="ShowVideoCommand functions awaitBufferForPlaybackReached should resolve when awaitBufferForPlaybackReached return true" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Refresh Token" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="105.318" tests="15">
+    <testcase classname="Refresh Token both login request and refresh token are NOT called if access token is VALID BEFORE calling to getExecutableAd" name="Refresh Token both login request and refresh token are NOT called if access token is VALID BEFORE calling to getExecutableAd" time="0.097">
+    </testcase>
+    <testcase classname="Refresh Token refresh token is called and login request is NOT called if access token is ABOUT TO EXPIRE and refresh token is VALID BEFORE calling to getExecutableAd" name="Refresh Token refresh token is called and login request is NOT called if access token is ABOUT TO EXPIRE and refresh token is VALID BEFORE calling to getExecutableAd" time="0.003">
+    </testcase>
+    <testcase classname="Refresh Token refresh token is called and login request is NOT called if access token is EXPIRED and refresh token is VALID BEFORE calling to getExecutableAd" name="Refresh Token refresh token is called and login request is NOT called if access token is EXPIRED and refresh token is VALID BEFORE calling to getExecutableAd" time="0.002">
+    </testcase>
+    <testcase classname="Refresh Token refresh token is NOT called and login request is called if both access token and refresh token are EXPIRED BEFORE calling to getExecutableAd" name="Refresh Token refresh token is NOT called and login request is called if both access token and refresh token are EXPIRED BEFORE calling to getExecutableAd" time="0.001">
+    </testcase>
+    <testcase classname="Refresh Token refresh token is NOT called and login request is called if access token is EXPIRED and refresh token is ABOUT TO EXPIRE BEFORE calling to getExecutableAd" name="Refresh Token refresh token is NOT called and login request is called if access token is EXPIRED and refresh token is ABOUT TO EXPIRE BEFORE calling to getExecutableAd" time="0.001">
+    </testcase>
+    <testcase classname="Refresh Token login request is called and refresh token is NOT called if access token is ABOUT TO EXPIRE and refresh token is EXPIRED BEFORE calling to getExecutableAd" name="Refresh Token login request is called and refresh token is NOT called if access token is ABOUT TO EXPIRE and refresh token is EXPIRED BEFORE calling to getExecutableAd" time="0.086">
+    </testcase>
+    <testcase classname="Refresh Token login request is called and refresh token is NOT called if both access token and refresh token are ABOUT TO EXPIRE BEFORE calling to getExecutableAd" name="Refresh Token login request is called and refresh token is NOT called if both access token and refresh token are ABOUT TO EXPIRE BEFORE calling to getExecutableAd" time="0.002">
+    </testcase>
+    <testcase classname="Refresh Token both refresh token and login request are NOT called if access token is NOT EXPIRED WHILE calling to getExecutableAd and getting 200 succeeded" name="Refresh Token both refresh token and login request are NOT called if access token is NOT EXPIRED WHILE calling to getExecutableAd and getting 200 succeeded" time="0.003">
+    </testcase>
+    <testcase classname="Refresh Token refresh token is called and login request is NOT called if refresh token is VALID WHILE calling to getExecutableAd and getting error SessionExpired - 401-1" name="Refresh Token refresh token is called and login request is NOT called if refresh token is VALID WHILE calling to getExecutableAd and getting error SessionExpired - 401-1" time="0.779">
+    </testcase>
+    <testcase classname="Refresh Token refresh token is NOT called and login request is called if refresh token is EXPIRED WHILE calling to getExecutableAd and getting error SessionExpired - 401-1" name="Refresh Token refresh token is NOT called and login request is called if refresh token is EXPIRED WHILE calling to getExecutableAd and getting error SessionExpired - 401-1" time="0.002">
+    </testcase>
+    <testcase classname="Refresh Token refresh token is NOT called and login request is called if refresh token is ABOUT TO EXPIRE WHILE calling to getExecutableAd and getting error SessionExpired - 401-1" name="Refresh Token refresh token is NOT called and login request is called if refresh token is ABOUT TO EXPIRE WHILE calling to getExecutableAd and getting error SessionExpired - 401-1" time="0.013">
+    </testcase>
+    <testcase classname="Refresh Token token is updated after successful call to loginRequest" name="Refresh Token token is updated after successful call to loginRequest" time="0.007">
+    </testcase>
+    <testcase classname="Refresh Token token is updated after successful call to refreshToken" name="Refresh Token token is updated after successful call to refreshToken" time="0.006">
+    </testcase>
+    <testcase classname="Refresh Token token is NOT updated after unsuccessful call to loginRequest - 401-9000" name="Refresh Token token is NOT updated after unsuccessful call to loginRequest - 401-9000" time="0.003">
+    </testcase>
+    <testcase classname="Refresh Token _initAdEngagement" name="Refresh Token _initAdEngagement" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Events" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="105.801" tests="6">
+    <testcase classname="Events Command events tests handleError is called when init fails" name="Events Command events tests handleError is called when init fails" time="0.002">
+    </testcase>
+    <testcase classname="Events Command events tests notify function changes the listener" name="Events Command events tests notify function changes the listener" time="0.001">
+    </testcase>
+    <testcase classname="Events Command events tests notify function changes the listener" name="Events Command events tests notify function changes the listener" time="0">
+    </testcase>
+    <testcase classname="Events Command events tests commandEventCreator needs to return a command event" name="Events Command events tests commandEventCreator needs to return a command event" time="0.001">
+    </testcase>
+    <testcase classname="Events Ad events tests notify function changes the listener" name="Events Ad events tests notify function changes the listener" time="0.001">
+    </testcase>
+    <testcase classname="Events Ad events tests commandEventCreator needs to return a command event" name="Events Ad events tests commandEventCreator needs to return a command event" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="105.302" tests="10">
+    <testcase classname=" executable ad should be created" name=" executable ad should be created" time="0.099">
+    </testcase>
+    <testcase classname=" plain javascript object should be converted to map" name=" plain javascript object should be converted to map" time="0.093">
+    </testcase>
+    <testcase classname=" init should parse XIP" name=" init should parse XIP" time="0.898">
+    </testcase>
+    <testcase classname=" parseCommands should parse commands" name=" parseCommands should parse commands" time="0.002">
+    </testcase>
+    <testcase classname=" 204 no ad should be handled correctly - exad stopped" name=" 204 no ad should be handled correctly - exad stopped" time="0.002">
+    </testcase>
+    <testcase classname=" 429 stop ad should not be called" name=" 429 stop ad should not be called" time="0.006">
+    </testcase>
+    <testcase classname=" get unknown attribute on executable ad - should return undefined" name=" get unknown attribute on executable ad - should return undefined" time="0.089">
+    </testcase>
+    <testcase classname=" get attributes on created executable ad - should return state attribute CREATED and others as undefined" name=" get attributes on created executable ad - should return state attribute CREATED and others as undefined" time="0.002">
+    </testcase>
+    <testcase classname=" get attributes on initialized executable ad - should return state LOADED and others as in XIP response" name=" get attributes on initialized executable ad - should return state LOADED and others as in XIP response" time="0.003">
+    </testcase>
+    <testcase classname=" _createAdInitRecord function" name=" _createAdInitRecord function" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="reportService - general tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="106.502" tests="36">
+    <testcase classname="reportService - general tests reportService - adLifeCycleParameters report service shall not send empty reports to new relic" name="reportService - general tests reportService - adLifeCycleParameters report service shall not send empty reports to new relic" time="0.006">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - adLifeCycleParameters report service shall send reports to new relic" name="reportService - general tests reportService - adLifeCycleParameters report service shall send reports to new relic" time="0.002">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - adLifeCycleParameters adLifeCycleParameters map has values" name="reportService - general tests reportService - adLifeCycleParameters adLifeCycleParameters map has values" time="0.092">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - adLifeCycleParameters adLifeCycleParameters map is empty" name="reportService - general tests reportService - adLifeCycleParameters adLifeCycleParameters map is empty" time="0.002">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - adLifeCycleParameters adLifeCycleParameters map is null" name="reportService - general tests reportService - adLifeCycleParameters adLifeCycleParameters map is null" time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous event name is ERROR and current event name is HOST_AD_CREATE - lastAdLifeCycleEventName is NA" name="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous event name is ERROR and current event name is HOST_AD_CREATE - lastAdLifeCycleEventName is NA" time="0.002">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous event name is ERROR and current event name is HOST_AD_INIT - lastAdLifeCycleEventName is ERROR" name="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous event name is ERROR and current event name is HOST_AD_INIT - lastAdLifeCycleEventName is ERROR" time="0.002">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous previous event name is AD_CREATED, previous event name is ERROR and current event name is HOST_AD_INIT - lastAdLifeCycleEventName is AD_CREATED" name="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous previous event name is AD_CREATED, previous event name is ERROR and current event name is HOST_AD_INIT - lastAdLifeCycleEventName is AD_CREATED" time="0.003">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous event name is AD_ERROR and current event name is HOST_AD_CREATE - lastAdLifeCycleEventName is NA" name="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous event name is AD_ERROR and current event name is HOST_AD_CREATE - lastAdLifeCycleEventName is NA" time="0.091">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous event name is AD_ERROR and current event name is HOST_AD_INIT - lastAdLifeCycleEventName is AD_ERROR" name="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous event name is AD_ERROR and current event name is HOST_AD_INIT - lastAdLifeCycleEventName is AD_ERROR" time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous previous event name is AD_CREATED, previous event name is AD_ERROR and current event name is AD_LOADED - lastAdLifeCycleEventName is AD_CREATED" name="reportService - general tests reportService - lastAdLifeCycleEventName including errors Test previous previous event name is AD_CREATED, previous event name is AD_ERROR and current event name is AD_LOADED - lastAdLifeCycleEventName is AD_CREATED" time="0.002">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - check reporting of adLifeCycle events check params are defined and numeric in adLifeCycle events" name="reportService - general tests reportService - check reporting of adLifeCycle events check params are defined and numeric in adLifeCycle events" time="0.002">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - check reporting of adLifeCycle events check params are undefined if event name is REFRESH" name="reportService - general tests reportService - check reporting of adLifeCycle events check params are undefined if event name is REFRESH" time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - check reporting of adLifeCycle events check params are undefined if event name is LOGIN" name="reportService - general tests reportService - check reporting of adLifeCycle events check params are undefined if event name is LOGIN" time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - check reporting of adLifeCycle events check params are undefined if event name is ERROR" name="reportService - general tests reportService - check reporting of adLifeCycle events check params are undefined if event name is ERROR" time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - general tests Test that reportService is initialized as default" name="reportService - general tests reportService - general tests Test that reportService is initialized as default" time="0">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - general tests Test that reportService is initialized" name="reportService - general tests reportService - general tests Test that reportService is initialized" time="0">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - general tests Test that reportService is NOT initialized" name="reportService - general tests reportService - general tests Test that reportService is NOT initialized" time="0.089">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - general tests Test reportService report function with LOGIN report type in bulks" name="reportService - general tests reportService - general tests Test reportService report function with LOGIN report type in bulks" time="0.002">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - general tests Test reportService report function with LOGIN report type" name="reportService - general tests reportService - general tests Test reportService report function with LOGIN report type" time="0">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - general tests Test reportService report function with LOGIN report type bulks enabled" name="reportService - general tests reportService - general tests Test reportService report function with LOGIN report type bulks enabled" time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - general tests Test reportService report function with AD_INIT report type - Add adSessionMetricsParams" name="reportService - general tests reportService - general tests Test reportService report function with AD_INIT report type - Add adSessionMetricsParams" time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - general tests Test reportService report function with AD_STOPPING report type - clean adSessionMetricsParams" name="reportService - general tests reportService - general tests Test reportService report function with AD_STOPPING report type - clean adSessionMetricsParams" time="0">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - lastAdLifeCycleEventName Test previous event name in LOGIN event - toEqual {}" name="reportService - general tests reportService - lastAdLifeCycleEventName Test previous event name in LOGIN event - toEqual {}" time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - lastAdLifeCycleEventName Test reportLogin" name="reportService - general tests reportService - lastAdLifeCycleEventName Test reportLogin" time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - lastAdLifeCycleEventName Test previous event name in HOST_AD_CREATE event - toEqual NA " name="reportService - general tests reportService - lastAdLifeCycleEventName Test previous event name in HOST_AD_CREATE event - toEqual NA " time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - lastAdLifeCycleEventName Test previous event name in AD_CREATED event - toEqual HOST_AD_CREATE" name="reportService - general tests reportService - lastAdLifeCycleEventName Test previous event name in AD_CREATED event - toEqual HOST_AD_CREATE" time="0">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - lastAdLifeCycleEventName Test previous event name in AD_LOADED event - toEqual AD_INIT" name="reportService - general tests reportService - lastAdLifeCycleEventName Test previous event name in AD_LOADED event - toEqual AD_INIT" time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - Time Since Params Test time Since Parameters " name="reportService - general tests reportService - Time Since Params Test time Since Parameters " time="0.392">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - Time Since Params verify that timeSinceParams map is converted to object" name="reportService - general tests reportService - Time Since Params verify that timeSinceParams map is converted to object" time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - buildStringFromArgsMap buildStringFromArgsMap function retrieves a string that includes opportunityType=screensaver if it gets it from initAdinfo" name="reportService - general tests reportService - buildStringFromArgsMap buildStringFromArgsMap function retrieves a string that includes opportunityType=screensaver if it gets it from initAdinfo" time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - buildStringFromArgsMap buildStringFromArgsMap function retrieves a string that does NOT include opportunityType=screensaver if initAdinfo does NOT include it" name="reportService - general tests reportService - buildStringFromArgsMap buildStringFromArgsMap function retrieves a string that does NOT include opportunityType=screensaver if initAdinfo does NOT include it" time="0">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - report _isInitialized and reportInBulksEnabled params  Test reportService  report function with LOGIN report type isInitialized false reportInBulksEnabled false" name="reportService - general tests reportService - report _isInitialized and reportInBulksEnabled params  Test reportService  report function with LOGIN report type isInitialized false reportInBulksEnabled false" time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - report _isInitialized and reportInBulksEnabled params  Test reportService  report function with LOGIN Failed report type isInitialized true reportInBulksEnabled false" name="reportService - general tests reportService - report _isInitialized and reportInBulksEnabled params  Test reportService  report function with LOGIN Failed report type isInitialized true reportInBulksEnabled false" time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - report _isInitialized and reportInBulksEnabled params  Test reportService  report function with LOGIN Failed report false reportInBulksEnabled true" name="reportService - general tests reportService - report _isInitialized and reportInBulksEnabled params  Test reportService  report function with LOGIN Failed report false reportInBulksEnabled true" time="0.001">
+    </testcase>
+    <testcase classname="reportService - general tests reportService - report _isInitialized and reportInBulksEnabled params  Test reportService  report function with LOGIN Failed report false reportInBulksEnabled true" name="reportService - general tests reportService - report _isInitialized and reportInBulksEnabled params  Test reportService  report function with LOGIN Failed report false reportInBulksEnabled true" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="DummyExecutableAd functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="106.387" tests="8">
+    <testcase classname="DummyExecutableAd functions should be defined" name="DummyExecutableAd functions should be defined" time="0.089">
+    </testcase>
+    <testcase classname="DummyExecutableAd functions should fail to init" name="DummyExecutableAd functions should fail to init" time="0.004">
+    </testcase>
+    <testcase classname="DummyExecutableAd functions dummyExecutableAdUnderTest is called by startAd func" name="DummyExecutableAd functions dummyExecutableAdUnderTest is called by startAd func" time="0.002">
+    </testcase>
+    <testcase classname="DummyExecutableAd functions dummyExecutableAdUnderTest is called by stopAd func" name="DummyExecutableAd functions dummyExecutableAdUnderTest is called by stopAd func" time="0.002">
+    </testcase>
+    <testcase classname="DummyExecutableAd functions dummyExecutableAdUnderTest is called by pauseAd func" name="DummyExecutableAd functions dummyExecutableAdUnderTest is called by pauseAd func" time="0.001">
+    </testcase>
+    <testcase classname="DummyExecutableAd functions dummyExecutableAdUnderTest is called by resumeAd func" name="DummyExecutableAd functions dummyExecutableAdUnderTest is called by resumeAd func" time="0.001">
+    </testcase>
+    <testcase classname="DummyExecutableAd functions check reason NOT_LOGGED_IN" name="DummyExecutableAd functions check reason NOT_LOGGED_IN" time="0.081">
+    </testcase>
+    <testcase classname="DummyExecutableAd functions expanding the coverage by testing the private method _setDummyCommand// consider refatoring" name="DummyExecutableAd functions expanding the coverage by testing the private method _setDummyCommand// consider refatoring" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="106.407" tests="2">
+    <testcase classname=" Make sure FeatureFlagsService is using console and not using logger methods" name=" Make sure FeatureFlagsService is using console and not using logger methods" time="0.003">
+    </testcase>
+    <testcase classname="tests integration of feature flags delegate tests feature flags container register - interface mock" name="tests integration of feature flags delegate tests feature flags container register - interface mock" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="ShowVideoCommand functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="105.804" tests="1">
+    <testcase classname="ShowVideoCommand functions given showVideoCommand with loops, on playing to completed events, should report command first frame, measurements, and quartiles" name="ShowVideoCommand functions given showVideoCommand with loops, on playing to completed events, should report command first frame, measurements, and quartiles" time="1.503">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="105.398" tests="1">
+    <testcase classname=" error response should be handled" name=" error response should be handled" time="1.102">
+    </testcase>
+  </testsuite>
+  <testsuite name="ExecutableAd - Delay Engagement" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="105.694" tests="10">
+    <testcase classname="ExecutableAd - Delay Engagement Delay Engagement state moves to Loaded when 2 commands send handled" name="ExecutableAd - Delay Engagement Delay Engagement state moves to Loaded when 2 commands send handled" time="0.201">
+    </testcase>
+    <testcase classname="ExecutableAd - Delay Engagement Delay Engagement state moves to Loaded when 0 commands exist" name="ExecutableAd - Delay Engagement Delay Engagement state moves to Loaded when 0 commands exist" time="0.098">
+    </testcase>
+    <testcase classname="ExecutableAd - Delay Engagement Delay Engagement initAd method: on valid delay calculation, ad initialization should be called after calculated delay" name="ExecutableAd - Delay Engagement Delay Engagement initAd method: on valid delay calculation, ad initialization should be called after calculated delay" time="0.782">
+    </testcase>
+    <testcase classname="ExecutableAd - Delay Engagement Delay Engagement initAd method: on invalid delay calculation, ad initialization should be called immediately" name="ExecutableAd - Delay Engagement Delay Engagement initAd method: on invalid delay calculation, ad initialization should be called immediately" time="0.004">
+    </testcase>
+    <testcase classname="ExecutableAd - Delay Engagement Delay Engagement initAd method: on delay engagement feature flag not enabled, ad initialization should be called immediately" name="ExecutableAd - Delay Engagement Delay Engagement initAd method: on delay engagement feature flag not enabled, ad initialization should be called immediately" time="0.003">
+    </testcase>
+    <testcase classname="ExecutableAd - Delay Engagement resiliency functions refresh token fails with 500 error, resiliency is triggered" name="ExecutableAd - Delay Engagement resiliency functions refresh token fails with 500 error, resiliency is triggered" time="0.007">
+    </testcase>
+    <testcase classname="ExecutableAd - Delay Engagement resiliency functions refresh token fails with 429 error, resiliency is triggered" name="ExecutableAd - Delay Engagement resiliency functions refresh token fails with 429 error, resiliency is triggered" time="0.002">
+    </testcase>
+    <testcase classname="ExecutableAd - Delay Engagement resiliency functions init ad fails with 500 error, _handleError is triggered" name="ExecutableAd - Delay Engagement resiliency functions init ad fails with 500 error, _handleError is triggered" time="0.001">
+    </testcase>
+    <testcase classname="ExecutableAd - Delay Engagement resiliency functions init ad fails with 500 error, resiliency is triggered" name="ExecutableAd - Delay Engagement resiliency functions init ad fails with 500 error, resiliency is triggered" time="0.002">
+    </testcase>
+    <testcase classname="ExecutableAd - Delay Engagement resiliency functions tests that error report is sent on empty commands" name="ExecutableAd - Delay Engagement resiliency functions tests that error report is sent on empty commands" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="retry once after specific errors from getOpportunity" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="106.006" tests="4">
+    <testcase classname="retry once after specific errors from getOpportunity getOpportunity fails with error 500 - retry once is triggered" name="retry once after specific errors from getOpportunity getOpportunity fails with error 500 - retry once is triggered" time="0.899">
+    </testcase>
+    <testcase classname="retry once after specific errors from getOpportunity getOpportunity fails with error 503 - retry once is triggered" name="retry once after specific errors from getOpportunity getOpportunity fails with error 503 - retry once is triggered" time="0.099">
+    </testcase>
+    <testcase classname="retry once after specific errors from getOpportunity getOpportunity fails with error 500-1 - retry once is triggered" name="retry once after specific errors from getOpportunity getOpportunity fails with error 500-1 - retry once is triggered" time="0.102">
+    </testcase>
+    <testcase classname="retry once after specific errors from getOpportunity getOpportunity fails with error 500-9000 - retry once is triggered" name="retry once after specific errors from getOpportunity getOpportunity fails with error 500-9000 - retry once is triggered" time="0.107">
+    </testcase>
+  </testsuite>
+  <testsuite name="ExecutableAd fire trigger tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="105.407" tests="8">
+    <testcase classname="ExecutableAd fire trigger tests initAd() with 200 opportunity response - should create command ID to fire trigger map" name="ExecutableAd fire trigger tests initAd() with 200 opportunity response - should create command ID to fire trigger map" time="0.1">
+    </testcase>
+    <testcase classname="ExecutableAd fire trigger tests initAd(), startAd() &amp; stopAd() - commands with no fire triggers - should complete ad flow with no errors" name="ExecutableAd fire trigger tests initAd(), startAd() &amp; stopAd() - commands with no fire triggers - should complete ad flow with no errors" time="0.009">
+    </testcase>
+    <testcase classname="ExecutableAd fire trigger tests initAd() &amp; startAd() - command(s) with execution trigger matches other command PRE fire trigger - should execute before the ones with the PRE fire trigger, and move ad to next state without waiting for their handling" name="ExecutableAd fire trigger tests initAd() &amp; startAd() - command(s) with execution trigger matches other command PRE fire trigger - should execute before the ones with the PRE fire trigger, and move ad to next state without waiting for their handling" time="0.093">
+    </testcase>
+    <testcase classname="ExecutableAd fire trigger tests initAd() &amp; startAd() - command(s) with execution trigger matches other command PRE fire trigger - should execute before the ones with the PRE fire trigger, and move ad to next state without waiting for their handling" name="ExecutableAd fire trigger tests initAd() &amp; startAd() - command(s) with execution trigger matches other command PRE fire trigger - should execute before the ones with the PRE fire trigger, and move ad to next state without waiting for their handling" time="0.094">
+    </testcase>
+    <testcase classname="ExecutableAd fire trigger tests initAd() &amp; startAd() - command(s) with execution trigger matches other command POST fire trigger - should execute after the ones with the POST fire trigger, and move ad to next state without waiting for their handling" name="ExecutableAd fire trigger tests initAd() &amp; startAd() - command(s) with execution trigger matches other command POST fire trigger - should execute after the ones with the POST fire trigger, and move ad to next state without waiting for their handling" time="0.101">
+    </testcase>
+    <testcase classname="ExecutableAd fire trigger tests initAd() &amp; startAd() - command(s) with execution trigger matches other command POST fire trigger - should execute after the ones with the POST fire trigger, and move ad to next state without waiting for their handling" name="ExecutableAd fire trigger tests initAd() &amp; startAd() - command(s) with execution trigger matches other command POST fire trigger - should execute after the ones with the POST fire trigger, and move ad to next state without waiting for their handling" time="0.689">
+    </testcase>
+    <testcase classname="ExecutableAd fire trigger tests initAd() &amp; startAd() - commands with execution trigger matches other command PRE and POST fire trigger - should execute before/after the one with the PRE/POST fire trigger, and move ad to next state without waiting for their handling" name="ExecutableAd fire trigger tests initAd() &amp; startAd() - commands with execution trigger matches other command PRE and POST fire trigger - should execute before/after the one with the PRE/POST fire trigger, and move ad to next state without waiting for their handling" time="0.013">
+    </testcase>
+    <testcase classname="ExecutableAd fire trigger tests initAd() &amp; startAd() - commands with execution trigger matches other command COMPLETED fire trigger - should execute after the one with the COMPLETED fire trigger notifies COMPLETED, and move ad to next state without waiting for its handling" name="ExecutableAd fire trigger tests initAd() &amp; startAd() - commands with execution trigger matches other command COMPLETED fire trigger - should execute after the one with the COMPLETED fire trigger notifies COMPLETED, and move ad to next state without waiting for its handling" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="production-logger" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="106.799" tests="8">
+    <testcase classname="production-logger setup production logger and call verbose. check not calling to NR verbose" name="production-logger setup production logger and call verbose. check not calling to NR verbose" time="0.003">
+    </testcase>
+    <testcase classname="production-logger setup production logger with info and error and call different log levels. should behave like info" name="production-logger setup production logger with info and error and call different log levels. should behave like info" time="0.002">
+    </testcase>
+    <testcase classname="production-logger setup production logger with info but not error and call different log levels. should behave like info" name="production-logger setup production logger with info but not error and call different log levels. should behave like info" time="0.001">
+    </testcase>
+    <testcase classname="production-logger setup production logger with debug, info and error and call different log levels. should behave like debug" name="production-logger setup production logger with debug, info and error and call different log levels. should behave like debug" time="0.001">
+    </testcase>
+    <testcase classname="production-logger setup production logger with debug, error but info off and call different log levels. should behave like debug" name="production-logger setup production logger with debug, error but info off and call different log levels. should behave like debug" time="0.001">
+    </testcase>
+    <testcase classname="production-logger setup production logger with debug, but error and info off and call different log levels. should behave like debug" name="production-logger setup production logger with debug, but error and info off and call different log levels. should behave like debug" time="0.081">
+    </testcase>
+    <testcase classname="production-logger setup production logger with error and call different log levels" name="production-logger setup production logger with error and call different log levels" time="0.002">
+    </testcase>
+    <testcase classname="production-logger setup production logger with no logs and call different log levels" name="production-logger setup production logger with no logs and call different log levels" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="new relic logger" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:10:01" time="15.017" tests="5">
+    <testcase classname="new relic logger setup new relic logger and call verbose" name="new relic logger setup new relic logger and call verbose" time="0.003">
+    </testcase>
+    <testcase classname="new relic logger setup new relic logger for startup log buffering" name="new relic logger setup new relic logger for startup log buffering" time="0.021">
+    </testcase>
+    <testcase classname="new relic logger make sure new relic is sending data over network when not using options" name="new relic logger make sure new relic is sending data over network when not using options" time="0.002">
+    </testcase>
+    <testcase classname="new relic logger make sure new relic is NOT sending data over network when using options" name="new relic logger make sure new relic is NOT sending data over network when using options" time="0">
+    </testcase>
+    <testcase classname="new relic logger make sure new relic is sending data over network when using options with true" name="new relic logger make sure new relic is sending data over network when using options with true" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="ExecutableAd fire action tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:10:01" time="15.887" tests="3">
+    <testcase classname="ExecutableAd fire action tests initAd() with 200 opportunity response - should create command ID to fire action map" name="ExecutableAd fire action tests initAd() with 200 opportunity response - should create command ID to fire action map" time="0.093">
+    </testcase>
+    <testcase classname="ExecutableAd fire action tests initAd(), startAd() &amp; stopAd() - commands with no action triggers - should complete ad flow with no errors" name="ExecutableAd fire action tests initAd(), startAd() &amp; stopAd() - commands with no action triggers - should complete ad flow with no errors" time="0.688">
+    </testcase>
+    <testcase classname="ExecutableAd fire action tests initAd() &amp; startAd() - commands with fire actions - should trigger hanldeAction method of the given command id" name="ExecutableAd fire action tests initAd() &amp; startAd() - commands with fire actions - should trigger hanldeAction method of the given command id" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="rest api service tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="108.079" tests="12">
+    <testcase classname="rest api service tests checks request body params on login" name="rest api service tests checks request body params on login" time="0.006">
+    </testcase>
+    <testcase classname="rest api service tests checks request body params on login v2 with mock ff delegate SDK" name="rest api service tests checks request body params on login v2 with mock ff delegate SDK" time="0.001">
+    </testcase>
+    <testcase classname="rest api service tests checks request body params on refresh v2 with mock ff delegate SDK" name="rest api service tests checks request body params on refresh v2 with mock ff delegate SDK" time="0.003">
+    </testcase>
+    <testcase classname="rest api service tests checks feature flags request is created correctly" name="rest api service tests checks feature flags request is created correctly" time="0.001">
+    </testcase>
+    <testcase classname="rest api service tests checks body is built correctly" name="rest api service tests checks body is built correctly" time="0">
+    </testcase>
+    <testcase classname="rest api service tests checks body is built correctly, no feature flag request" name="rest api service tests checks body is built correctly, no feature flag request" time="0.001">
+    </testcase>
+    <testcase classname="rest api service tests check auth headers" name="rest api service tests check auth headers" time="0">
+    </testcase>
+    <testcase classname="longform tests setting proxy delegate should retrieve v2 auth functions for feature flags" name="longform tests setting proxy delegate should retrieve v2 auth functions for feature flags" time="0">
+    </testcase>
+    <testcase classname="longform tests setting proxy delegate should trigger v2 login" name="longform tests setting proxy delegate should trigger v2 login" time="0.204">
+    </testcase>
+    <testcase classname="longform tests setting regular delegate should trigger v1 login" name="longform tests setting regular delegate should trigger v1 login" time="0.176">
+    </testcase>
+    <testcase classname="longform tests accounting url should be called upon refresh token V2 request" name="longform tests accounting url should be called upon refresh token V2 request" time="0.683">
+    </testcase>
+    <testcase classname="longform tests accounting url should not be called if not recived from login configuration" name="longform tests accounting url should not be called if not recived from login configuration" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="executable ad opportunity" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="108.291" tests="25">
+    <testcase classname="executable ad opportunity Opportunity Type and Context - getOpportunity (CreateAd) - HOST_AD_CREATE set opportunityType and context to PAUSE for getExecutableAd and check parameters are retrieved fine for report function" name="executable ad opportunity Opportunity Type and Context - getOpportunity (CreateAd) - HOST_AD_CREATE set opportunityType and context to PAUSE for getExecutableAd and check parameters are retrieved fine for report function" time="0.756">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity Type and Context - getOpportunity (CreateAd) - HOST_AD_CREATE set opportunityType and context to EMPTY for getExecutableAd and check opportunityType is NP and context is undefined for report function" name="executable ad opportunity Opportunity Type and Context - getOpportunity (CreateAd) - HOST_AD_CREATE set opportunityType and context to EMPTY for getExecutableAd and check opportunityType is NP and context is undefined for report function" time="0.002">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity Type and Context - getOpportunity (CreateAd) - HOST_AD_CREATE set opportunityType and context to NULL for getExecutableAd and check opportunityType is NP and context is undefined for report function" name="executable ad opportunity Opportunity Type and Context - getOpportunity (CreateAd) - HOST_AD_CREATE set opportunityType and context to NULL for getExecutableAd and check opportunityType is NP and context is undefined for report function" time="0.001">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity Type and Context - initAd - HOST_AD_INIT set context to PAUSE for initAd and check parameters are fine for report function even though they are different for getOpportunity" name="executable ad opportunity Opportunity Type and Context - initAd - HOST_AD_INIT set context to PAUSE for initAd and check parameters are fine for report function even though they are different for getOpportunity" time="0.008">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity Type and Context - initAd - HOST_AD_INIT set context to EMPTY for initAd and check parameters are for report function - opportunityType should be empty, context should be NP" name="executable ad opportunity Opportunity Type and Context - initAd - HOST_AD_INIT set context to EMPTY for initAd and check parameters are for report function - opportunityType should be empty, context should be NP" time="0.004">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity Type and Context - initAd - HOST_AD_INIT set opportunityType and context to NULL for initAd and check parameters are for report function - opportunityType should be undefined, context should be NP" name="executable ad opportunity Opportunity Type and Context - initAd - HOST_AD_INIT set opportunityType and context to NULL for initAd and check parameters are for report function - opportunityType should be undefined, context should be NP" time="0.002">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given a stop experience trigger action xip, when parsing, should initialize commands correctly" name="executable ad opportunity Opportunity with Stop Experience trigger action given a stop experience trigger action xip, when parsing, should initialize commands correctly" time="0.006">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given a correct parsing of stop experience command, when passed to resolver, should not return null" name="executable ad opportunity Opportunity with Stop Experience trigger action given a correct parsing of stop experience command, when passed to resolver, should not return null" time="0.001">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given a correct parsing of stop experience command, when passed to executer, should be triggered" name="executable ad opportunity Opportunity with Stop Experience trigger action given a correct parsing of stop experience command, when passed to executer, should be triggered" time="0.001">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given a correct parsing of stop experience command, when executeTriggeredCommands called, should execute command" name="executable ad opportunity Opportunity with Stop Experience trigger action given a correct parsing of stop experience command, when executeTriggeredCommands called, should execute command" time="0.002">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given a correct parsing of stop experience command, when executeTriggeredCommands called, should stop ad" name="executable ad opportunity Opportunity with Stop Experience trigger action given a correct parsing of stop experience command, when executeTriggeredCommands called, should stop ad" time="0.002">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given repeat count in SHOW_VIDEO, when initiated, should parse correctly" name="executable ad opportunity Opportunity with Stop Experience trigger action given repeat count in SHOW_VIDEO, when initiated, should parse correctly" time="0.003">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 0 in SHOW_VIDEO, when initiated, should throw" name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 0 in SHOW_VIDEO, when initiated, should throw" time="0.002">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount -1 in SHOW_VIDEO, when initiated, should throw" name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount -1 in SHOW_VIDEO, when initiated, should throw" time="0.002">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount NaN in SHOW_VIDEO, when initiated, should throw" name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount NaN in SHOW_VIDEO, when initiated, should throw" time="0.002">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount NaN in SHOW_VIDEO, when initiated, should parse into 1" name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount NaN in SHOW_VIDEO, when initiated, should parse into 1" time="0.002">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 1 in SHOW_VIDEO, when initiated, should parse into 1" name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 1 in SHOW_VIDEO, when initiated, should parse into 1" time="0.002">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 2 in SHOW_VIDEO, when initiated, should parse into 2" name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 2 in SHOW_VIDEO, when initiated, should parse into 2" time="0.002">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 3 in SHOW_VIDEO, when initiated, should parse into 3" name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 3 in SHOW_VIDEO, when initiated, should parse into 3" time="0.005">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 4 in SHOW_VIDEO, when initiated, should parse into 4" name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 4 in SHOW_VIDEO, when initiated, should parse into 4" time="0.001">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 1 in SHOW_VIDEO, when initiated, should parse into 1" name="executable ad opportunity Opportunity with Stop Experience trigger action given repeatCount 1 in SHOW_VIDEO, when initiated, should parse into 1" time="0.002">
+    </testcase>
+    <testcase classname="executable ad opportunity Opportunity with Stop Experience trigger action given video options in SHOW_VIDEO, when initiated, should be parsed into xaafVideoData" name="executable ad opportunity Opportunity with Stop Experience trigger action given video options in SHOW_VIDEO, when initiated, should be parsed into xaafVideoData" time="0.001">
+    </testcase>
+    <testcase classname="executable ad opportunity given no blacklist, when initiated, should not stop ad" name="executable ad opportunity given no blacklist, when initiated, should not stop ad" time="0.002">
+    </testcase>
+    <testcase classname="executable ad opportunity given channelName in blacklist, when initiated, should stop ad" name="executable ad opportunity given channelName in blacklist, when initiated, should stop ad" time="0.001">
+    </testcase>
+    <testcase classname="executable ad opportunity given channelName in blacklist, when initiated, should stop ad" name="executable ad opportunity given channelName in blacklist, when initiated, should stop ad" time="0.049">
+    </testcase>
+  </testsuite>
+  <testsuite name="login-service tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:10:07" time="10.616" tests="20">
+    <testcase classname="login-service tests util functions _retrieveErrorData" name="login-service tests util functions _retrieveErrorData" time="0.057">
+    </testcase>
+    <testcase classname="login-service tests util functions _handleLoginResponseError GeneralError" name="login-service tests util functions _handleLoginResponseError GeneralError" time="0.003">
+    </testcase>
+    <testcase classname="login-service tests util functions _handleLoginResponseError InternalServerError" name="login-service tests util functions _handleLoginResponseError InternalServerError" time="0.001">
+    </testcase>
+    <testcase classname="login-service tests util functions _handleLoginResponseError FailureEngagingAdRouter" name="login-service tests util functions _handleLoginResponseError FailureEngagingAdRouter" time="0.001">
+    </testcase>
+    <testcase classname="login-service tests util functions _handleLoginResponseError 503" name="login-service tests util functions _handleLoginResponseError 503" time="0">
+    </testcase>
+    <testcase classname="login-service tests util functions _handleLoginResponseError 599" name="login-service tests util functions _handleLoginResponseError 599" time="0.001">
+    </testcase>
+    <testcase classname="login-service tests util functions _handleLoginResponseError 500-1" name="login-service tests util functions _handleLoginResponseError 500-1" time="0">
+    </testcase>
+    <testcase classname="login-service tests resiliency functions login fails with 500 error, resiliency is triggered" name="login-service tests resiliency functions login fails with 500 error, resiliency is triggered" time="0.003">
+    </testcase>
+    <testcase classname="login-service tests resiliency functions login fails with 500 error, no error body, resiliency is triggered" name="login-service tests resiliency functions login fails with 500 error, no error body, resiliency is triggered" time="0.002">
+    </testcase>
+    <testcase classname="login-service tests resiliency functions 429 login with rate limit error" name="login-service tests resiliency functions 429 login with rate limit error" time="0.001">
+    </testcase>
+    <testcase classname="login-service tests Kill switch tests login fails with 401-2 kill switch error" name="login-service tests Kill switch tests login fails with 401-2 kill switch error" time="0.002">
+    </testcase>
+    <testcase classname="login-service tests Kill switch tests refresh token fails with 401-2 kill switch error" name="login-service tests Kill switch tests refresh token fails with 401-2 kill switch error" time="0.003">
+    </testcase>
+    <testcase classname="login-service tests feature flags response in refresh checks feature flags response in refresh with mock" name="login-service tests feature flags response in refresh checks feature flags response in refresh with mock" time="0.006">
+    </testcase>
+    <testcase classname="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are the same in silentLogin - setPersistentLoginItem will be called and token will be updated even though keys are the same" name="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are the same in silentLogin - setPersistentLoginItem will be called and token will be updated even though keys are the same" time="0.002">
+    </testcase>
+    <testcase classname="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are different in silentLogin - setPersistentLoginItem will be called and token will be updated" name="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are different in silentLogin - setPersistentLoginItem will be called and token will be updated" time="0.077">
+    </testcase>
+    <testcase classname="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are the same in refreshToken - setPersistentLoginItem will be called and token will be updated even though keys are the same" name="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are the same in refreshToken - setPersistentLoginItem will be called and token will be updated even though keys are the same" time="0.002">
+    </testcase>
+    <testcase classname="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are different in refreshToken - setPersistentLoginItem will be called and token will be updated" name="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are different in refreshToken - setPersistentLoginItem will be called and token will be updated" time="0.02">
+    </testcase>
+    <testcase classname="login-service tests Multiple Login with PersistentLoginService Persisted ApiKey is null - setPersistentLoginItem will be called with the new apiKey as parameter" name="login-service tests Multiple Login with PersistentLoginService Persisted ApiKey is null - setPersistentLoginItem will be called with the new apiKey as parameter" time="0.001">
+    </testcase>
+    <testcase classname="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are the same - setPersistentLoginItem will not be called" name="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are the same - setPersistentLoginItem will not be called" time="0">
+    </testcase>
+    <testcase classname="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are different - setPersistentLoginItem will be called with the new apiKey as parameter" name="login-service tests Multiple Login with PersistentLoginService New ApiKey and persisted ApiKey are different - setPersistentLoginItem will be called with the new apiKey as parameter" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="CommandsDataStructuresCreator tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:10:14" time="3.352" tests="16">
+    <testcase classname="CommandsDataStructuresCreator tests createExecutionTriggerToCommandMap() tests createExecutionTriggerToCommandMap() - error occurs - should throw error" name="CommandsDataStructuresCreator tests createExecutionTriggerToCommandMap() tests createExecutionTriggerToCommandMap() - error occurs - should throw error" time="0.002">
+    </testcase>
+    <testcase classname="CommandsDataStructuresCreator tests createExecutionTriggerToCommandMap() tests createExecutionTriggerToCommandMap() - XiP containing one command with one execution trigger - should create a map containing one execution trigger having one command" name="CommandsDataStructuresCreator tests createExecutionTriggerToCommandMap() tests createExecutionTriggerToCommandMap() - XiP containing one command with one execution trigger - should create a map containing one execution trigger having one command" time="0.016">
+    </testcase>
+    <testcase classname="CommandsDataStructuresCreator tests createExecutionTriggerToCommandMap() tests createExecutionTriggerToCommandMap() - XiP containing one command with multiple execution triggers - should create a map containing multiple execution triggers having the same command" name="CommandsDataStructuresCreator tests createExecutionTriggerToCommandMap() tests createExecutionTriggerToCommandMap() - XiP containing one command with multiple execution triggers - should create a map containing multiple execution triggers having the same command" time="0.002">
+    </testcase>
+    <testcase classname="CommandsDataStructuresCreator tests createExecutionTriggerToCommandMap() tests createExecutionTriggerToCommandMap() - XiP containing multiple commands with the same execution trigger - should create a map containing one execution trigger having multiple commands" name="CommandsDataStructuresCreator tests createExecutionTriggerToCommandMap() tests createExecutionTriggerToCommandMap() - XiP containing multiple commands with the same execution trigger - should create a map containing one execution trigger having multiple commands" time="0.003">
+    </testcase>
+    <testcase classname="CommandsDataStructuresCreator tests createExecutionTriggerToCommandMap() tests createExecutionTriggerToCommandMap() - XiP containing multiple commands with the different execution trigger - should create a map containing multiple execution triggers having different commands" name="CommandsDataStructuresCreator tests createExecutionTriggerToCommandMap() tests createExecutionTriggerToCommandMap() - XiP containing multiple commands with the different execution trigger - should create a map containing multiple execution triggers having different commands" time="0.004">
+    </testcase>
+    <testcase classname="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - error occurs - should throw error" name="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - error occurs - should throw error" time="0.001">
+    </testcase>
+    <testcase classname="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - one command with no fire triggers - should create a map containing no commands" name="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - one command with no fire triggers - should create a map containing no commands" time="0.001">
+    </testcase>
+    <testcase classname="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - one command with one PRE fire trigger - should create a map containing one command with only one PRE fire trigger" name="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - one command with one PRE fire trigger - should create a map containing one command with only one PRE fire trigger" time="0.003">
+    </testcase>
+    <testcase classname="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - one command with one fire trigger of each mode - should create a map containing one command with the correct fire trigger for each mode" name="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - one command with one fire trigger of each mode - should create a map containing one command with the correct fire trigger for each mode" time="0.003">
+    </testcase>
+    <testcase classname="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - multiple commands with multiple fire triggers of each mode - should create a map containing multiple commands with the correct fire triggers for each mode" name="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - multiple commands with multiple fire triggers of each mode - should create a map containing multiple commands with the correct fire triggers for each mode" time="0.006">
+    </testcase>
+    <testcase classname="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - multiple commands with the same fire trigger - should create a map containing multiple commands with the same fire trigger" name="CommandsDataStructuresCreator tests createCommandIdToFireTriggerMap() tests createCommandIdToFireTriggerMap() - multiple commands with the same fire trigger - should create a map containing multiple commands with the same fire trigger" time="0.002">
+    </testcase>
+    <testcase classname="CommandsDataStructuresCreator tests createCommandIdToFireActionMap() tests createCommandIdToFireActionMap() - error occurs - should throw error" name="CommandsDataStructuresCreator tests createCommandIdToFireActionMap() tests createCommandIdToFireActionMap() - error occurs - should throw error" time="0.001">
+    </testcase>
+    <testcase classname="CommandsDataStructuresCreator tests createCommandIdToFireActionMap() tests createCommandIdToFireActionMap() - one command with no fire actions - should create a map containing no commands" name="CommandsDataStructuresCreator tests createCommandIdToFireActionMap() tests createCommandIdToFireActionMap() - one command with no fire actions - should create a map containing no commands" time="0.002">
+    </testcase>
+    <testcase classname="CommandsDataStructuresCreator tests createCommandIdToFireActionMap() tests createCommandIdToFireActionMap() - one command with one PRE fire action - should create a map containing one command with only one PRE fire action" name="CommandsDataStructuresCreator tests createCommandIdToFireActionMap() tests createCommandIdToFireActionMap() - one command with one PRE fire action - should create a map containing one command with only one PRE fire action" time="0.002">
+    </testcase>
+    <testcase classname="CommandsDataStructuresCreator tests createCommandIdToFireActionMap() tests createCommandIdToFireActionMap() - one command with one fire action of each mode - should create a map containing one command with the correct fire action for each mode" name="CommandsDataStructuresCreator tests createCommandIdToFireActionMap() tests createCommandIdToFireActionMap() - one command with one fire action of each mode - should create a map containing one command with the correct fire action for each mode" time="0.002">
+    </testcase>
+    <testcase classname="CommandsDataStructuresCreator tests createCommandIdToFireActionMap() tests createCommandIdToFireActionMap() - multiple commands with multiple fire actions of each mode - should create a map containing multiple commands with the correct fire actions for each mode" name="CommandsDataStructuresCreator tests createCommandIdToFireActionMap() tests createCommandIdToFireActionMap() - multiple commands with multiple fire actions of each mode - should create a map containing multiple commands with the correct fire actions for each mode" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="ExectuableAd states tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:10:12" time="5.402" tests="19">
+    <testcase classname="ExectuableAd states tests ExecutableAd.initAd() tests initAd() when bad response - should move to STOPPED state with xaaf not available" name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() when bad response - should move to STOPPED state with xaaf not available" time="0.007">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExecutableAd.initAd() tests initAd() when not logged in - should move to STOPPED state with xaaf not available" name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() when not logged in - should move to STOPPED state with xaaf not available" time="0.003">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in CREATED state - should move to INITIATING state" name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in CREATED state - should move to INITIATING state" time="0.001">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in LOADED state - should stay in LOADED state" name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in LOADED state - should stay in LOADED state" time="0.002">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in PLAYING state - should stay in PLAYING state" name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in PLAYING state - should stay in PLAYING state" time="0.002">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in PLAYING state - should not perform ExecutableAd initialization" name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in PLAYING state - should not perform ExecutableAd initialization" time="0.015">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in CREATED state - should perform ExecutableAd initialization" name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in CREATED state - should perform ExecutableAd initialization" time="0.003">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in STOPPED state - should stay in STOPPED state" name="ExectuableAd states tests ExecutableAd.initAd() tests initAd() on ExecutableAd in STOPPED state - should stay in STOPPED state" time="0.002">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExectuableAd.startAd() tests startAd() on ExecutableAd in CREATED state - should stay in CREATED state" name="ExectuableAd states tests ExectuableAd.startAd() tests startAd() on ExecutableAd in CREATED state - should stay in CREATED state" time="0.002">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExectuableAd.startAd() tests startAd() on ExecutableAd in LOADED state - should move to PLAYING state" name="ExectuableAd states tests ExectuableAd.startAd() tests startAd() on ExecutableAd in LOADED state - should move to PLAYING state" time="0.001">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExectuableAd.startAd() tests startAd() on ExecutableAd in PLAYING state - should stay in PLAYING state" name="ExectuableAd states tests ExectuableAd.startAd() tests startAd() on ExecutableAd in PLAYING state - should stay in PLAYING state" time="0.001">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExectuableAd.startAd() tests startAd() on ExecutableAd in STOPPED state - should stay in STOPPED state" name="ExectuableAd states tests ExectuableAd.startAd() tests startAd() on ExecutableAd in STOPPED state - should stay in STOPPED state" time="0.001">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExectuableAd.stopAd() tests stopAd() on ExecutableAd in CREATED state - should move to STOPPED state" name="ExectuableAd states tests ExectuableAd.stopAd() tests stopAd() on ExecutableAd in CREATED state - should move to STOPPED state" time="0.001">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExectuableAd.stopAd() tests stopAd() on ExecutableAd in LOADED state - should move to STOPPED state" name="ExectuableAd states tests ExectuableAd.stopAd() tests stopAd() on ExecutableAd in LOADED state - should move to STOPPED state" time="0.002">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExectuableAd.stopAd() tests stopAd() on ExecutableAd in PLAYING state - should move to STOPPED state" name="ExectuableAd states tests ExectuableAd.stopAd() tests stopAd() on ExecutableAd in PLAYING state - should move to STOPPED state" time="0.001">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExectuableAd.stopAd() tests stopAd() on ExecutableAd in STOPPED state - should stay in STOPPED state" name="ExectuableAd states tests ExectuableAd.stopAd() tests stopAd() on ExecutableAd in STOPPED state - should stay in STOPPED state" time="0.002">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExectuableAd _handleCurrentState and _moveToNextState tests _handleCurrentState with state STATE_STOPPED should report AD_STOPPED to NR" name="ExectuableAd states tests ExectuableAd _handleCurrentState and _moveToNextState tests _handleCurrentState with state STATE_STOPPED should report AD_STOPPED to NR" time="0.002">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExectuableAd _handleCurrentState and _moveToNextState tests _moveToNextState with state STATE_STARTED should notify host and call to fsm.next with state STATE_PLAYING" name="ExectuableAd states tests ExectuableAd _handleCurrentState and _moveToNextState tests _moveToNextState with state STATE_STARTED should notify host and call to fsm.next with state STATE_PLAYING" time="0.002">
+    </testcase>
+    <testcase classname="ExectuableAd states tests ExectuableAd _handleCurrentState and _moveToNextState tests _moveToNextState with state STATE_STOPPED should notify host and stop FSM" name="ExectuableAd states tests ExectuableAd _handleCurrentState and _moveToNextState tests _moveToNextState with state STATE_STOPPED should notify host and stop FSM" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Command report functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:10:15" time="2.515" tests="12">
+    <testcase classname="Command report functions test no report to NR if feature flag is disabled" name="Command report functions test no report to NR if feature flag is disabled" time="0.002">
+    </testcase>
+    <testcase classname="Command report functions test retry with no report to NR if feature flag is disabled" name="Command report functions test retry with no report to NR if feature flag is disabled" time="0.004">
+    </testcase>
+    <testcase classname="Command report functions test report to NR in case of 30X http error code" name="Command report functions test report to NR in case of 30X http error code" time="0.004">
+    </testcase>
+    <testcase classname="Command report functions test report to NR in case of 400 error" name="Command report functions test report to NR in case of 400 error" time="0.001">
+    </testcase>
+    <testcase classname="Command report functions test report to NR with retry in case of 50X error - without recovery" name="Command report functions test report to NR with retry in case of 50X error - without recovery" time="0.003">
+    </testcase>
+    <testcase classname="Command report functions test report to NR with retry in case of 50X error - with recovery" name="Command report functions test report to NR with retry in case of 50X error - with recovery" time="0.001">
+    </testcase>
+    <testcase classname="Command report functions test report to NR with retry in case of error status 501- with recovery" name="Command report functions test report to NR with retry in case of error status 501- with recovery" time="0.005">
+    </testcase>
+    <testcase classname="Command report functions test report to NR with retry in case of HTTP timeout error" name="Command report functions test report to NR with retry in case of HTTP timeout error" time="0.002">
+    </testcase>
+    <testcase classname="Command report functions test no sensitive data is sent to NR" name="Command report functions test no sensitive data is sent to NR" time="0.003">
+    </testcase>
+    <testcase classname="Command report functions verify that http request is sent to each provider" name="Command report functions verify that http request is sent to each provider" time="0.001">
+    </testcase>
+    <testcase classname="Command report functions verify that all event outbounds params are concatenated correctly to basic url" name="Command report functions verify that all event outbounds params are concatenated correctly to basic url" time="0.001">
+    </testcase>
+    <testcase classname="Command report functions verify that all event outbounds params are concatenated correctly to basic url with params" name="Command report functions verify that all event outbounds params are concatenated correctly to basic url with params" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="resiliency-functions tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:10:17" time="1.788" tests="11">
+    <testcase classname="resiliency-functions tests resiliency functions after several retries, functions resolves promise when the poll succeeds" name="resiliency-functions tests resiliency functions after several retries, functions resolves promise when the poll succeeds" time="0.014">
+    </testcase>
+    <testcase classname="resiliency-functions tests resiliency functions resolves the retry promise when the poll succeeds" name="resiliency-functions tests resiliency functions resolves the retry promise when the poll succeeds" time="0.002">
+    </testcase>
+    <testcase classname="resiliency-functions tests resiliency functions after one retry of 500 error, backoff mechanism should abort" name="resiliency-functions tests resiliency functions after one retry of 500 error, backoff mechanism should abort" time="0.003">
+    </testcase>
+    <testcase classname="resiliency-functions tests resiliency functions after several retries of 5xx error, resolves the retry promise when the poll succeeds" name="resiliency-functions tests resiliency functions after several retries of 5xx error, resolves the retry promise when the poll succeeds" time="0.005">
+    </testcase>
+    <testcase classname="resiliency-functions tests resiliency functions after several retries of 5xx error, resolves the login promise when the poll succeeds" name="resiliency-functions tests resiliency functions after several retries of 5xx error, resolves the login promise when the poll succeeds" time="0.006">
+    </testcase>
+    <testcase classname="resiliency-functions tests resiliency functions after max retries of 5xx error, rejects with rejections array" name="resiliency-functions tests resiliency functions after max retries of 5xx error, rejects with rejections array" time="0.009">
+    </testcase>
+    <testcase classname="polling service tests BackOffMechanism returns a promise" name="polling service tests BackOffMechanism returns a promise" time="0.001">
+    </testcase>
+    <testcase classname="polling service tests resolves the master promise when the poll succeeds" name="polling service tests resolves the master promise when the poll succeeds" time="0">
+    </testcase>
+    <testcase classname="polling service tests wraps a non-promise task function return in Promise.resolve" name="polling service tests wraps a non-promise task function return in Promise.resolve" time="0.001">
+    </testcase>
+    <testcase classname="polling service tests fails the poll if an exception is thrown in the task function" name="polling service tests fails the poll if an exception is thrown in the task function" time="0">
+    </testcase>
+    <testcase classname="polling service tests rejects the master promise if the task promise rejects with the abort token" name="polling service tests rejects the master promise if the task promise rejects with the abort token" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Send Request to Host" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="111.419" tests="6">
+    <testcase classname="Send Request to Host test adEvent is Error when sendRequestToHost calls back with error" name="Send Request to Host test adEvent is Error when sendRequestToHost calls back with error" time="0.017">
+    </testcase>
+    <testcase classname="Send Request to Host test adEvent is Error when sendRequestToHost calls back after timeout" name="Send Request to Host test adEvent is Error when sendRequestToHost calls back after timeout" time="3.007">
+    </testcase>
+    <testcase classname="Send Request to Host test adEvent is Error when exeutableAdHostHandlerListener is not set" name="Send Request to Host test adEvent is Error when exeutableAdHostHandlerListener is not set" time="0.002">
+    </testcase>
+    <testcase classname="Send Non-Mandatory Request to Host test adEvent is Error when sendRequestToHost calls back with error" name="Send Non-Mandatory Request to Host test adEvent is Error when sendRequestToHost calls back with error" time="0.003">
+    </testcase>
+    <testcase classname="Send Non-Mandatory Request to Host test adEvent is Error when sendRequestToHost calls back after timeout" name="Send Non-Mandatory Request to Host test adEvent is Error when sendRequestToHost calls back after timeout" time="3.005">
+    </testcase>
+    <testcase classname="Send Non-Mandatory Request to Host test adEvent is Error when exeutableAdHostHandlerListener is not set" name="Send Non-Mandatory Request to Host test adEvent is Error when exeutableAdHostHandlerListener is not set" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="xaaf-js-sdk tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="113.108" tests="25">
+    <testcase classname="xaaf-js-sdk tests integration test init Ad, start Ad, stop Ad - happy flow" name="xaaf-js-sdk tests integration test init Ad, start Ad, stop Ad - happy flow" time="0.208">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests integration test given expired tokens, initAd should relogin, then, current state should move to STATE_LOADED, given stopAd current state should move to STOPPED" name="xaaf-js-sdk tests integration test given expired tokens, initAd should relogin, then, current state should move to STATE_LOADED, given stopAd current state should move to STOPPED" time="0.771">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests integration test start Ad - STATE_CREATED logging properly" name="xaaf-js-sdk tests integration test start Ad - STATE_CREATED logging properly" time="0.109">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests integration test given start Ad and opportunity response, should move to STATE_STARTING" name="xaaf-js-sdk tests integration test given start Ad and opportunity response, should move to STATE_STARTING" time="0.101">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests integration test stop Ad - STATE_STOPPING" name="xaaf-js-sdk tests integration test stop Ad - STATE_STOPPING" time="0.086">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests integration test init Ad, start Ad, startAd - STATE_ERROR" name="xaaf-js-sdk tests integration test init Ad, start Ad, startAd - STATE_ERROR" time="0.047">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests integration test should return Dummy if flag is off" name="xaaf-js-sdk tests integration test should return Dummy if flag is off" time="0.08">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests integration test should return Dummy if flag is off" name="xaaf-js-sdk tests integration test should return Dummy if flag is off" time="0.072">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests integration test should not allow the listener to work if not a function" name="xaaf-js-sdk tests integration test should not allow the listener to work if not a function" time="0.04">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests integration test should allow the listener to work if a function" name="xaaf-js-sdk tests integration test should allow the listener to work if a function" time="0.076">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests xaaf sdk - kill switch tests login failed with kill switch error, should return dummy executable ad" name="xaaf-js-sdk tests xaaf sdk - kill switch tests login failed with kill switch error, should return dummy executable ad" time="0.047">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests xaaf sdk - kill switch tests kill switch defined in persistent storage, should skip login and return dummy executable ad" name="xaaf-js-sdk tests xaaf sdk - kill switch tests kill switch defined in persistent storage, should skip login and return dummy executable ad" time="0.04">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests xaaf sdk - kill switch tests login failed with kill switch error, should return dummy executable ad and then after kill switch expired real executable ad" name="xaaf-js-sdk tests xaaf sdk - kill switch tests login failed with kill switch error, should return dummy executable ad and then after kill switch expired real executable ad" time="3.046">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests xaaf sdk - kill switch tests refresh token failed with kill switch error, when get ad return dummy executable ad" name="xaaf-js-sdk tests xaaf sdk - kill switch tests refresh token failed with kill switch error, when get ad return dummy executable ad" time="0.048">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests xaaf sdk - kill switch tests refresh token failed with kill switch error, when get ad after kill switch expired return real executable ad" name="xaaf-js-sdk tests xaaf sdk - kill switch tests refresh token failed with kill switch error, when get ad after kill switch expired return real executable ad" time="1.05">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init successful login, isXaafAvailable = true" name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init successful login, isXaafAvailable = true" time="0.04">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests test xaaf js sdk - init - login succeed, rollout isXaafEnabled false, isXaafAvailable = false" name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests test xaaf js sdk - init - login succeed, rollout isXaafEnabled false, isXaafAvailable = false" time="0.038">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests rollout isXaafEnabled = true, isXaafAvailable = false" name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests rollout isXaafEnabled = true, isXaafAvailable = false" time="0.068">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with wrong api key alg (HS256)" name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with wrong api key alg (HS256)" time="0.003">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with invalid api key" name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with invalid api key" time="0.001">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with invalid api key - report" name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with invalid api key - report" time="0.002">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests test xaaf js sdk - init - login succeed, call to reportServiceDelegate.init twice: first with default values and second with configuration we got from login response" name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests test xaaf js sdk - init - login succeed, call to reportServiceDelegate.init twice: first with default values and second with configuration we got from login response" time="0.038">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with invalid api key and then succeed on login - report" name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with invalid api key and then succeed on login - report" time="0.042">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with empty api key" name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with empty api key" time="0.026">
+    </testcase>
+    <testcase classname="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with unknown environment" name="xaaf-js-sdk tests xaaf sdk - isXaafAvailable tests init sdk with unknown environment" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Time based triggers" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:29" time="114.316" tests="10">
+    <testcase classname="Time based triggers 2 commands on one trigger: use executeTriggeredCommands function with TIME_BASED_TRIGGERS_WITH_MULTIPLE_TIMERS.json to validate timers set size when more then one command on same trigger with different timeouts test" name="Time based triggers 2 commands on one trigger: use executeTriggeredCommands function with TIME_BASED_TRIGGERS_WITH_MULTIPLE_TIMERS.json to validate timers set size when more then one command on same trigger with different timeouts test" time="10.189">
+    </testcase>
+    <testcase classname="Time based triggers parseCommands should parse commands with executionTrigger data section" name="Time based triggers parseCommands should parse commands with executionTrigger data section" time="0.002">
+    </testcase>
+    <testcase classname="Time based triggers SHOW_VIDEO: Get command delay execution value for state STATE_STARTING test" name="Time based triggers SHOW_VIDEO: Get command delay execution value for state STATE_STARTING test" time="0.002">
+    </testcase>
+    <testcase classname="Time based triggers validate that there are no available commands of no trigger states test" name="Time based triggers validate that there are no available commands of no trigger states test" time="0.001">
+    </testcase>
+    <testcase classname="Time based triggers STOP_EXPERIENCE: Get command delay execution value for state STATE_PLAYING test" name="Time based triggers STOP_EXPERIENCE: Get command delay execution value for state STATE_PLAYING test" time="0.001">
+    </testcase>
+    <testcase classname="Time based triggers SHOW_VIDEO: Get delay execution value return value 0 when delay value is not a number" name="Time based triggers SHOW_VIDEO: Get delay execution value return value 0 when delay value is not a number" time="0.001">
+    </testcase>
+    <testcase classname="Time based triggers REPORT_COMMAND: Get delay execution value return value 0 when trigger data is undefined" name="Time based triggers REPORT_COMMAND: Get delay execution value return value 0 when trigger data is undefined" time="0.001">
+    </testcase>
+    <testcase classname="Time based triggers execute() on SHOW_VIDEO: executeTriggeredCommand function call to command.execute() function test" name="Time based triggers execute() on SHOW_VIDEO: executeTriggeredCommand function call to command.execute() function test" time="0.002">
+    </testcase>
+    <testcase classname="Time based triggers execute() on REPORT_COMMAND: executeTriggeredCommand function call to command.execute() function test" name="Time based triggers execute() on REPORT_COMMAND: executeTriggeredCommand function call to command.execute() function test" time="0.004">
+    </testcase>
+    <testcase classname="Time based triggers execute() on STOP_EXPERIENCE: executeTriggeredCommand function call to command.execute() function test" name="Time based triggers execute() on STOP_EXPERIENCE: executeTriggeredCommand function call to command.execute() function test" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="ShowVideoCommand functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:10:08" time="19.341" tests="41">
+    <testcase classname="ShowVideoCommand functions ShowVideoCommand should be defined" name="ShowVideoCommand functions ShowVideoCommand should be defined" time="0.003">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions init() without XaafAdContainer - error thrown - should notify command event listener with ErrorCommandEvent upon error" name="ShowVideoCommand functions init() without XaafAdContainer - error thrown - should notify command event listener with ErrorCommandEvent upon error" time="0.002">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions init(xaafAdContainerMock) - should set XaafElementType.VIDEO element type on XaafAdContainer and set XaafVideoElement data when it is ready" name="ShowVideoCommand functions init(xaafAdContainerMock) - should set XaafElementType.VIDEO element type on XaafAdContainer and set XaafVideoElement data when it is ready" time="0.002">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions init(xaafAdContainerMock) - showvideoCommand should contain videoRepeatCount property" name="ShowVideoCommand functions init(xaafAdContainerMock) - showvideoCommand should contain videoRepeatCount property" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions init(xaafAdContainerMock) - error thrown when XaafVideoElement is ready - should set XaafElementType.VIDEO element type on XaafAdContainer, set XaafVideoElement data when it is ready and notify command event listener with ErrorCommandEvent upon error" name="ShowVideoCommand functions init(xaafAdContainerMock) - error thrown when XaafVideoElement is ready - should set XaafElementType.VIDEO element type on XaafAdContainer, set XaafVideoElement data when it is ready and notify command event listener with ErrorCommandEvent upon error" time="0.002">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions execute() - no video element exists - should notify command event listener with ErrorCommandEvent" name="ShowVideoCommand functions execute() - no video element exists - should notify command event listener with ErrorCommandEvent" time="0">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions stop() when XaafAdContainer and XaafVideoElement exist - should stop XaafVideoElement and clear element type on XaafAdContainer" name="ShowVideoCommand functions stop() when XaafAdContainer and XaafVideoElement exist - should stop XaafVideoElement and clear element type on XaafAdContainer" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given showVideoCommand, on playing to completed events, should report command first frame, measurements, and quartiles" name="ShowVideoCommand functions given showVideoCommand, on playing to completed events, should report command first frame, measurements, and quartiles" time="10.005">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions should test the onBufferingStarted function" name="ShowVideoCommand functions should test the onBufferingStarted function" time="0.002">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions should test the onBufferingEnded function" name="ShowVideoCommand functions should test the onBufferingEnded function" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions should test the onFinalized function" name="ShowVideoCommand functions should test the onFinalized function" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions should test the onPlayerError function" name="ShowVideoCommand functions should test the onPlayerError function" time="0">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions should test the onPlayerError function with error" name="ShowVideoCommand functions should test the onPlayerError function with error" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions should test the onPlaybackComplete function with error" name="ShowVideoCommand functions should test the onPlaybackComplete function with error" time="0">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions should test the onBufferingStarted function" name="ShowVideoCommand functions should test the onBufferingStarted function" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions should test isOnPlayingReported" name="ShowVideoCommand functions should test isOnPlayingReported" time="0.004">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions onPlaybackComplete() - should notify listener with completed event" name="ShowVideoCommand functions onPlaybackComplete() - should notify listener with completed event" time="0">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 0, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 0" name="ShowVideoCommand functions given currentTime 0, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 0" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 1, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 1" name="ShowVideoCommand functions given currentTime 1, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 1" time="0">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 2, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 2" name="ShowVideoCommand functions given currentTime 2, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 2" time="0">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 3, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 3" name="ShowVideoCommand functions given currentTime 3, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 3" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 4, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 4" name="ShowVideoCommand functions given currentTime 4, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 4" time="0">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 5, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 5" name="ShowVideoCommand functions given currentTime 5, when duration 30, videoRepeatCount 3 remainingRepeatCount 3, should result in 5" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 0, when duration 30, videoRepeatCount 3 remainingRepeatCount 2, should result in 30" name="ShowVideoCommand functions given currentTime 0, when duration 30, videoRepeatCount 3 remainingRepeatCount 2, should result in 30" time="0">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 1, when duration 30, videoRepeatCount 3 remainingRepeatCount 2, should result in 31" name="ShowVideoCommand functions given currentTime 1, when duration 30, videoRepeatCount 3 remainingRepeatCount 2, should result in 31" time="0">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 2, when duration 30, videoRepeatCount 3 remainingRepeatCount 2, should result in 32" name="ShowVideoCommand functions given currentTime 2, when duration 30, videoRepeatCount 3 remainingRepeatCount 2, should result in 32" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 3, when duration 30, videoRepeatCount 3 remainingRepeatCount 2, should result in 33" name="ShowVideoCommand functions given currentTime 3, when duration 30, videoRepeatCount 3 remainingRepeatCount 2, should result in 33" time="0">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 4, when duration 30, videoRepeatCount 3 remainingRepeatCount 2, should result in 34" name="ShowVideoCommand functions given currentTime 4, when duration 30, videoRepeatCount 3 remainingRepeatCount 2, should result in 34" time="0">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 0, when duration 30, videoRepeatCount 3 remainingRepeatCount 1, should result in 60" name="ShowVideoCommand functions given currentTime 0, when duration 30, videoRepeatCount 3 remainingRepeatCount 1, should result in 60" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 1, when duration 30, videoRepeatCount 3 remainingRepeatCount 1, should result in 61" name="ShowVideoCommand functions given currentTime 1, when duration 30, videoRepeatCount 3 remainingRepeatCount 1, should result in 61" time="0">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 2, when duration 30, videoRepeatCount 3 remainingRepeatCount 1, should result in 62" name="ShowVideoCommand functions given currentTime 2, when duration 30, videoRepeatCount 3 remainingRepeatCount 1, should result in 62" time="0">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 3, when duration 30, videoRepeatCount 3 remainingRepeatCount 1, should result in 63" name="ShowVideoCommand functions given currentTime 3, when duration 30, videoRepeatCount 3 remainingRepeatCount 1, should result in 63" time="0">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given currentTime 4, when duration 30, videoRepeatCount 3 remainingRepeatCount 1, should result in 64" name="ShowVideoCommand functions given currentTime 4, when duration 30, videoRepeatCount 3 remainingRepeatCount 1, should result in 64" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 0" name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 0" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 1" name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 1" time="0">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 2" name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 2" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 3" name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 3" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 4" name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 4" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 5" name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 5" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 6" name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 6" time="0.001">
+    </testcase>
+    <testcase classname="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 7" name="ShowVideoCommand functions given a XiP above version 5.0.0, should correctly parse boolean video options 7" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

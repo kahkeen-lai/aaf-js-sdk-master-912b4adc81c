@@ -1,0 +1,34 @@
+{
+    "experienceId": "c2cc2565-71a5-40e5-a684-88332cdc1789",
+    "experienceMediaType": "Video Screensaver Ad",
+    "commands": [
+        {
+            "commandName": "REPORT_COMMAND",
+            "report": {
+                "providers": [
+                    {
+                        "name": "Emuse",
+                        "events": [
+                            {
+                                "url": "http://ravenprod_v13_m.emuse.ie/default.xml?PageID=253&MeasurementPointID=373&Version=11&ContentSetID=36&ExtSrc=vod&DeviceType=firetv"
+                            }
+                        ]
+                    },{
+                        "name": "ADR",
+                        "events": [
+                            {
+                                "url": "https://adtp-vod-dev.cld.dtveng.com/slr-vast-proxy/BeaconProxy/a4fadde0-b448-11e9-a467-021f7c4e5d2e/1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STOPPING"
+                }
+            ]
+        }
+    ],
+    "exeAdUUID": "BEc90760-2530-48cc-a415-d804542ae4f9"
+}

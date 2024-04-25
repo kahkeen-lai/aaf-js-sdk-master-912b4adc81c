@@ -1,0 +1,111 @@
+{
+  "xaaf": {
+    "events": [
+      {
+        "onClick": "#loadProducts"
+      },
+      {
+        "onStart": {
+          "$check_is_shoppable": {
+            "true": {
+              "$getData": {
+                "source": "http://apirest/get-something",
+                "$render_view": {
+                  "view_name": "MainView"
+                }
+              }
+            },
+            "false": {}
+          }
+        }
+      }
+    ],
+    "methods": {
+      "loadProducts": {
+        "input": [
+          "category_id"
+        ],
+        "flow": [
+          {
+            "$set": {
+              "name": "resultData",
+              "value": {
+                "$databind": {
+                  "templateName": "product",
+                  "take": 2,
+                  "data": [
+                    {
+                      "name": "iphone",
+                      "price": "5",
+                      "image": "http://www.apple.com"
+                    },
+                    {
+                      "name": "samsung",
+                      "price": "50",
+                      "image": "http://www.samsung.com"
+                    },
+                    {
+                      "name": "htc",
+                      "price": "5",
+                      "image": "http://www.apple.com"
+                    },
+                    {
+                      "name": "vivo",
+                      "price": "50",
+                      "image": "http://www.samsung.com"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "output": "@data"
+      }
+    },
+    "templates": {
+      "container": {
+        "type": "div",
+        "children": {
+          "$databind": {
+            "templateName": "product",
+            "data": {
+              "$get": {
+                "name": "@apiResponse"
+              }
+            }
+          }
+        }
+      },
+      "product": {
+        "type": "img",
+        "xaaf": {
+          "events": [
+            {
+              "action": "Clicked",
+              "name": "#openUrl",
+              "args": {
+                "url": "@[0]url"
+              }
+            }
+          ]
+        },
+        "props": {
+          "title": "@[1]name",
+          "style": {
+            "float": "right",
+            "width": "50px",
+            "height": "50px",
+            "margin": "20px"
+          },
+          "src": "@[0]image"
+        }
+      }
+    }
+  },
+  "type": "div",
+  "props": {
+    "id": "targetElement"
+  },
+  "children": []
+}

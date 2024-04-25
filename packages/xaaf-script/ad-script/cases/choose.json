@@ -1,0 +1,44 @@
+{
+  "xaaf": {
+    "events": [
+      {
+        "onClick": "#loadProducts"
+      },
+      {
+        "onLoad": "#checkIsShoppable"
+      }
+    ],
+    "methods": {
+      "checkIsShoppable": {
+        "input": [
+          "@media_item_id"
+        ],
+        "flow": [
+          {
+            "$choose": {
+              "value": "@media_item_id",
+              "cases": {
+                "5": [
+                  {
+                    "$set": {
+                      "name": "@from_switch",
+                      "value": "data from switch 5"
+                    }
+                  }
+                ],
+                "1": [
+                  {
+                    "$set": {
+                      "name": "@from_switch",
+                      "value": "data from switch 1"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

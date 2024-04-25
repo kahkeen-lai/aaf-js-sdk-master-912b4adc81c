@@ -1,0 +1,20 @@
+{
+    "experienceId": "c1e7388e-02eb-435a-93db-a4cd74c091a9",
+    "experienceMediaType": "Image Screensaver Ad",
+    "commands": [
+        {
+            "commandName": "SHOW_IMAGE",
+            "data": {
+                "url": "https://xandrssads-sponsored.akamaized.net/xaaf_csads/Power_ESS_BKGD.jpg",
+                "duration": "30"
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STARTING"
+                }
+            ]
+        }
+    ],
+    "exeAdUUID": "BE555546-a9e4-46eb-9cb8-5c3166443190",
+    "templateId": 9
+}

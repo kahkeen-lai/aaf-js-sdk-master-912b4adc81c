@@ -1,0 +1,77 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/drawable/default/config.png",
+      "sha1": "225db9fd017b16289bd8a6a9642e86e27f23cbe8"
+    },
+    {
+      "path": "assets/drawable/default/config@2x.png",
+      "sha1": "bdfcd97449404739f08bfdc7cd3a066c67b95561"
+    },
+    {
+      "path": "assets/drawable/default/create-ad.png",
+      "sha1": "ee0028f885b7081a4364fb41c0183de33ae799aa"
+    },
+    {
+      "path": "assets/drawable/default/create-ad@2x.png",
+      "sha1": "4906446098b2dffe8fbc225477982b1eca6b386f"
+    },
+    {
+      "path": "assets/drawable/default/header-bg.png",
+      "sha1": "0e599c8bec0f9cad7b2dcae05950372dfc96dbc0"
+    },
+    {
+      "path": "assets/drawable/default/header-bg@2x.png",
+      "sha1": "851896b8eb762a916ded8af18924c2773d5c0b95"
+    },
+    {
+      "path": "assets/drawable/default/init-ad.png",
+      "sha1": "269d5b4d35b9da3a1cb152d303ef090d19aa95d2"
+    },
+    {
+      "path": "assets/drawable/default/init-ad@2x.png",
+      "sha1": "f9e10cc09b9dcb97ebee1276afe207056b02a9e8"
+    },
+    {
+      "path": "assets/drawable/default/logo.png",
+      "sha1": "b47a01ff5884fdaa327aca7341c645bc17bcbd4d"
+    },
+    {
+      "path": "assets/drawable/default/logo@2x.png",
+      "sha1": "7e0fa4ee085328d779c65a6f93cf741b3ff2a1fa"
+    },
+    {
+      "path": "assets/drawable/default/next-episode.png",
+      "sha1": "76ba0980094464c79786ce90f5ff78973e541077"
+    },
+    {
+      "path": "assets/drawable/default/start-ad.png",
+      "sha1": "fe934c1b7516f368c94bbe4b5f5e09681f26553c"
+    },
+    {
+      "path": "assets/drawable/default/start-ad@2x.png",
+      "sha1": "8b81f0fab92ffdb7baa2449619401e70d02004cc"
+    },
+    {
+      "path": "assets/drawable/default/stop-ad.png",
+      "sha1": "788ef25e399d5beb644bf343b2ae8efcbe47eb61"
+    },
+    {
+      "path": "assets/drawable/default/stop-ad@2x.png",
+      "sha1": "6f5c773dc35d0967cee15c1ea17916b9194c8622"
+    },
+    {
+      "path": "assets/drawable/default/youi_logo_red.png",
+      "sha1": "cca377fd00ae82790d75b4af991f0396c5df0336"
+    },
+    {
+      "path": "assets/json/default/clientConfig.json",
+      "sha1": "f464d3ff9a770a7907f4b8bfd80232eca97bb0c0"
+    },
+    {
+      "path": "assets/json/default/serverConfig.json",
+      "sha1": "af96257834a1e72c8d2a119f126f68bdc9f0a502"
+    }
+  ]
+}

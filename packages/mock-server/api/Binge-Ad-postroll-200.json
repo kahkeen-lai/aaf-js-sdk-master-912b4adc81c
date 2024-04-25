@@ -1,0 +1,103 @@
+{
+  "totalDuration": "30",
+  "experienceId": "50fa1bf3-34df-45d0-a17d-4eaf395db5df",
+  "experienceMediaType": "Image Screensaver Ad",
+  "commands": [
+    {
+      "commandName": "SHOW_IMAGE",
+      "data": {
+        "url": "https://experience-studio-storage.s3.amazonaws.com/cz324b/costo_coffee+_end_green.png",
+        "duration": "30"
+      },
+      "report": {
+        "measurementBaseURL": "http://10.0.2.2:4202/Measurementl/default.xml?PageID=26&MeasurementPointID=75&Version=11&ContentSetID=7",
+        "providers": [
+          {
+            "name": "Emuse",
+            "events": [
+              {
+                "url": "http://10.0.2.2:4202/Measurementl/default.xml?PageID=26&MeasurementPointID=73&Version=11&Status=0&ExtSrc=vod&DeviceType=firetv",
+                "clientOutbound": [
+                  {
+                    "paramType": "clientFormattedTimeStamp",
+                    "paramName": "ClientTime"
+                  },
+                  {
+                    "paramType": "deviceId",
+                    "paramName": "DeviceID"
+                  }
+                ]
+              },
+              {
+                "url": "http://10.0.2.2:4202/Measurementl/default.xml?PageID=26&MeasurementPointID=74&Version=11&Status=0&ExtSrc=vod&DeviceType=firetv",
+                "clientOutbound": [
+                  {
+                    "paramType": "clientFormattedTimeStamp",
+                    "paramName": "ClientTime"
+                  },
+                  {
+                    "paramType": "deviceId",
+                    "paramName": "DeviceID"
+                  }
+                ]
+              },
+              {
+                "url": "http://10.0.2.2:4202/Measurementl/default.xml?PageID=26&MeasurementPointID=75&Version=11&ContentSetID=7&Status=0&ExtSrc=vod&DeviceType=firetv",
+                "clientOutbound": [
+                  {
+                    "paramType": "clientFormattedTimeStamp",
+                    "paramName": "ClientTime"
+                  },
+                  {
+                    "paramType": "deviceId",
+                    "paramName": "DeviceID"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ADR",
+            "events": [
+              {
+                "url": "http://10.0.2.2:4202/slr-vast-proxy/BeaconProxy/a4fadde0-b448-11e9-a467-021f7c4e5d2e/1"
+              }
+            ]
+          }
+        ],
+        "adLifeCycle": [
+          {
+            "paramType": "projectId",
+            "paramName": 6025
+          },
+          {
+            "paramType": "projectBuildNumber",
+            "paramName": 2
+          }
+        ]
+      },
+      "executionTriggers": [
+        {
+          "trigger": "STATE_STARTING"
+        }
+      ]
+    },
+    {
+      "commandName":"STOP_EXPERIENCE",
+      "data": {
+        "notifyToHost": true,
+        "reason": "self-dismiss"
+      },
+      "executionTriggers":[
+        {
+          "trigger":"STATE_PLAYING",
+          "data":{
+            "delay":7000
+          }
+        }
+      ]
+    }
+  ],
+  "exeAdUUID": "BE182a8d-b219-4a0c-bffb-cf52333bd0e4",
+  "templateId": 58
+}

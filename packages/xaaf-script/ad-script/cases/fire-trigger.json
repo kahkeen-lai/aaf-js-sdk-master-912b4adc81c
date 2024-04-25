@@ -1,0 +1,42 @@
+{
+  "xaaf": {
+    "events": [
+      {
+        "action": "Loaded",
+        "name": "#checkIsShoppable"
+      }
+    ],
+    "methods": {
+      "checkIsShoppable": {
+        "input": [
+          "@media_item_id"
+        ],
+        "flow": [
+          {
+            "$choose": {
+              "value": "@media_item_id",
+              "cases": {
+                "5": [
+                  {
+                    "$fireTrigger": {
+                      "name": "COMPLETE",
+                      "mode": "COMPLETE"
+                    }
+                  }
+                ],
+                "1": [
+                  {
+                    "$fireTrigger": {
+                      "name": "COMPLETE",
+                      "mode": "COMPLETE"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

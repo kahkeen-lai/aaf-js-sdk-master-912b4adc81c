@@ -1,0 +1,106 @@
+{
+  "experienceMediaType": "Full Height Sponsor Ad",
+  "commands": [
+    {
+      "id": 1,
+      "commandName": "ADSCRIPT_COMMAND",
+      "fireTriggers": [],
+      "data": {
+        "events": [
+          {
+            "action": "Loaded",
+            "name": "#setFoo"
+          }
+        ],
+        "methods": {
+          "setFoo": {
+            "input": [],
+            "flow": [
+              {
+                "$set": {
+                  "name": "@foo",
+                  "value": "hello world"
+                }
+              },
+              {
+                "$fireTrigger": {
+                  "name": "PRINT_FOO"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "report": {
+        "measurementBaseURL": "https://measurementdemo2.emuse-tech.com/default.xml?PageID=124&amp;MeasurementPointID=7&amp;Version=11",
+        "providers": [],
+        "adLifeCycle": [
+          {
+            "paramType": "projectId",
+            "paramName": 2
+          },
+          {
+            "paramType": "projectBuildNumber",
+            "paramName": 1
+          }
+        ]
+      },
+      "executionTriggers": [
+        {
+          "trigger": "STATE_STARTED"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "commandName": "ADSCRIPT_COMMAND",
+      "fireTriggers": [],
+      "data": {
+        "events": [
+          {
+            "action": "Loaded",
+            "name": "#helloWorld"
+          }
+        ],
+        "methods": {
+          "helloWorld": {
+            "input": [],
+            "flow": [
+              {
+                "$print":{
+                  "value": {
+                    "$get": {
+                      "name": "@foo"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "report": {
+        "measurementBaseURL": "https://measurementdemo2.emuse-tech.com/default.xml?PageID=124&amp;MeasurementPointID=7&amp;Version=11",
+        "providers": [],
+        "adLifeCycle": [
+          {
+            "paramType": "projectId",
+            "paramName": 2
+          },
+          {
+            "paramType": "projectBuildNumber",
+            "paramName": 1
+          }
+        ]
+      },
+      "executionTriggers": [
+        {
+          "trigger": "PRINT_FOO"
+        }
+      ]
+    }
+  ],
+  "exeAdUUID": "de2cce10-d74e-4e90-9c73-b7292f794e6f",
+  "experienceId": "7a2a3ffe-565d-4e02-b7fa-9115cdb1a1fa",
+  "templateId": 50
+}

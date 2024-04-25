@@ -1,0 +1,275 @@
+## Dynmaic view in a shopping flow
+
+```json
+{
+  "experienceMediaType": "Full Height Sponsor Ad",
+  "commands": [
+    {
+      "commandName": "SHOW_DYNAMIC_VIEW",
+      "data": {
+        "xaaf": {
+          "events": [
+            { "onClick": "#loadProducts" },
+            {
+              "onStart": {
+                "$check_is_shoppable": {
+                  "true": {
+                    "$getData": {
+                      "source": "http://apirest/get-something",
+                      "$render_view": {
+                        "view_name": "MainView"
+                      }
+                    }
+                  },
+                  "false": {}
+                }
+              }
+            }
+          ],
+          "methods": {
+            "loadProducts": {
+              "args": ["category_id"],
+              "flow": {
+                "$getData": {
+                  "source": "http://apirest/get-something",
+                  "$render_view": {
+                    "templateViewName": "5product_view"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "type": "View",
+        "props": {
+          "key": "Main View",
+          "style": {
+            "$transitionMap": {
+              "initial": { "offsetX": { "to": -900, "duration": 0 } },
+              "enter": {
+                "offsetX": {
+                  "to": 0,
+                  "duration": 0.5,
+                  "delay": 0,
+                  "interpolation": 1
+                }
+              }
+            },
+            "$backgroundColor": "#000000bb",
+            "$layout": {
+              "type": "StackedLayout",
+              "args": {
+                "$primaryAxis": "HORIZONTAL",
+                "alignAlongPrimaryAxis": true
+              }
+            },
+            "$layoutProps": "layouts.anchorTopRightCropTopRight",
+            "$width": 0.25
+          }
+        },
+        "children": [
+          {
+            "type": "View",
+            "props": { "key": "Wrapper", "style": { "$height": 1 } },
+            "children": [
+              {
+                "type": "Image",
+                "xaaf": {
+                  "events": [{ "action": "Loaded", "timeout": 5000 }]
+                },
+                "props": {
+                  "key": "Background",
+                  "style": {
+                    "$transitionMap": {
+                      "initial": { "opacity": { "to": 0, "duration": 0 } },
+                      "enter": {
+                        "opacity": {
+                          "to": 1,
+                          "duration": 1,
+                          "delay": 0,
+                          "interpolation": 1
+                        }
+                      }
+                    },
+                    "$width": 0.25,
+                    "$height": 1,
+                    "x": 0,
+                    "y": 0,
+                    "uri": "https://xaaf-web-sdk-mp4.s3.amazonaws.com/gradient.png"
+                  }
+                }
+              },
+              {
+                "type": "Image",
+                "xaaf": {
+                  "events": [{ "action": "Loaded", "timeout": 5000 }]
+                },
+                "props": {
+                  "key": "main image",
+                  "style": {
+                    "$transitionMap": {
+                      "initial": {
+                        "opacity": { "to": 0, "duration": 0 },
+                        "offsetY": { "to": -100, "duration": 0 },
+                        "contentScaleX": { "to": 0.2, "duration": 0 },
+                        "contentScaleY": { "to": 0.2, "duration": 0 }
+                      },
+                      "enter": {
+                        "contentScaleX": {
+                          "to": 1,
+                          "duration": 1,
+                          "delay": 0.1,
+                          "interpolation": 1
+                        },
+                        "contentScaleY": {
+                          "to": 1,
+                          "duration": 1,
+                          "delay": 0.1,
+                          "interpolation": 1
+                        },
+                        "offsetY": {
+                          "to": 0,
+                          "duration": 1,
+                          "delay": 0,
+                          "interpolation": 1
+                        },
+                        "opacity": {
+                          "to": 1,
+                          "duration": 0.5,
+                          "delay": 0.5,
+                          "interpolation": 1
+                        }
+                      }
+                    },
+                    "$width": 0.181,
+                    "$height": 0.242,
+                    "$x": 0.03,
+                    "$y": 0.1,
+                    "uri": "https://xaaf-web-sdk-mp4.s3.amazonaws.com/adImage.png"
+                  }
+                }
+              },
+              {
+                "type": "Text",
+                "props": {
+                  "key": "text",
+                  "style": {
+                    "$transitionMap": {
+                      "initial": {
+                        "opacity": { "to": 0, "duration": 0 },
+                        "offsetX": { "to": 300, "duration": 0 }
+                      },
+                      "enter": {
+                        "offsetX": {
+                          "to": 0,
+                          "duration": 1,
+                          "delay": 0,
+                          "interpolation": 1
+                        },
+                        "opacity": {
+                          "to": 1,
+                          "duration": 1,
+                          "delay": 0.5,
+                          "interpolation": 1
+                        }
+                      }
+                    },
+                    "$width": 0.18,
+                    "$height": 0.08,
+                    "$x": 0.032,
+                    "$y": 0.4,
+                    "horizontalAlignment": 1,
+                    "$format": {
+                      "font": "assets/fonts/Street2-Medium.ttf",
+                      "$color": "#FFFFFF",
+                      "size": 16
+                    }
+                  }
+                },
+                "children": ["THE WORLD’S LATEST STYLES."]
+              },
+              {
+                "type": "Image",
+                "xaaf": {
+                  "events": [{ "action": "Loaded", "timeout": 5000 }]
+                },
+                "props": {
+                  "key": "Logo",
+                  "style": {
+                    "$transitionMap": {
+                      "initial": {
+                        "opacity": { "to": 0, "duration": 0 },
+                        "offsetX": { "to": -100, "duration": 0 }
+                      },
+                      "enter": {
+                        "offsetX": {
+                          "to": 0,
+                          "duration": 1,
+                          "delay": 0.0,
+                          "interpolation": 1
+                        },
+                        "opacity": {
+                          "to": 1,
+                          "duration": 0.3,
+                          "delay": 0.5,
+                          "interpolation": 1
+                        }
+                      }
+                    },
+                    "$width": 0.18,
+                    "$height": 0.08,
+                    "$x": 0.03,
+                    "$y": 0.6,
+                    "uri": "https://xaaf-web-sdk-mp4.s3.amazonaws.com/sponser.png"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "report": {
+        "measurementBaseURL": "https://xaaf-metrics.att.com/Measurementl/default.xml?PageID=27&MeasurementPointID=78&Version=11&ContentSetID=7",
+        "providers": [
+          {
+            "name": "Emuse",
+            "events": [
+              {
+                "url": "https://xaaf-metrics.att.com/Measurementl/default.xml?PageID=27&MeasurementPointID=76&Version=11&Status=0&ExtSrc=vod&DeviceType=firetv&PartnerProfileID=testidpostman&TransactionId=1590659059288721016&OppType=screensaver",
+                "clientOutbound": [
+                  {
+                    "paramType": "clientFormattedTimeStamp",
+                    "paramName": "ClientTime"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "FREEWHEEL",
+            "events": [
+              {
+                "url": "http://g10.s.fwmrm.net/ad/l/1?s=b117&n=372464%3B372464&t=1590659059288721016&f=&r=372464&adid=40215409&reid=22504344&arid=0&auid=&cn=defaultImpression&et=i&_cc=40215409,22504344,,,1590659059,1&tpos=0&iw=&uxnw=&uxss=&uxct=&metr=1301&init=1&inif=1"
+              }
+            ]
+          }
+        ],
+        "adLifeCycle": [
+          {
+            "paramType": "projectId",
+            "paramName": 6026
+          },
+          {
+            "paramType": "projectBuildNumber",
+            "paramName": 2
+          }
+        ]
+      },
+      "executionTriggers": [{ "trigger": "STATE_STARTING" }]
+    }
+  ],
+  "exeAdUUID": "de2cce10-d74e-4e90-9c73-b7292f794e6f",
+  "experienceId": "7a2a3ffe-565d-4e02-b7fa-9115cdb1a1fa",
+  "templateId": 50
+}
+```

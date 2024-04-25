@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="22" failures="0" time="19.282">
+  <testsuite name="xaaf sdk" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:10:35" time="3.501" tests="4">
+    <testcase classname="xaaf sdk initialization has correct properties" name="xaaf sdk initialization has correct properties" time="0.003">
+    </testcase>
+    <testcase classname="xaaf sdk initialize has correct properties" name="xaaf sdk initialize has correct properties" time="0.007">
+    </testcase>
+    <testcase classname="xaaf sdk _setupRolloutService has correct properties" name="xaaf sdk _setupRolloutService has correct properties" time="0.002">
+    </testcase>
+    <testcase classname="xaaf sdk _setupRolloutService with mock feature flag service" name="xaaf sdk _setupRolloutService with mock feature flag service" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="InMemoryReportService tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:10:35" time="9.193" tests="10">
+    <testcase classname="InMemoryReportService tests putInReportQueue() is executed fewer than bulkSize number of times - should store all reports without sending them, and upon timer expiration send all reports and remove all reports from storage" name="InMemoryReportService tests putInReportQueue() is executed fewer than bulkSize number of times - should store all reports without sending them, and upon timer expiration send all reports and remove all reports from storage" time="1.005">
+    </testcase>
+    <testcase classname="InMemoryReportService tests putInReportQueue() is executed bulkSize number of times - should send all reports and remove all reports from storage" name="InMemoryReportService tests putInReportQueue() is executed bulkSize number of times - should send all reports and remove all reports from storage" time="0.003">
+    </testcase>
+    <testcase classname="InMemoryReportService tests putInReportQueue() is executed more than bulkSize number of times ,first bulkSize reports send immediately and other by timer " name="InMemoryReportService tests putInReportQueue() is executed more than bulkSize number of times ,first bulkSize reports send immediately and other by timer " time="1.003">
+    </testcase>
+    <testcase classname="InMemoryReportService tests safeSendInMemoryReports() dont send 2 bulks in same time" name="InMemoryReportService tests safeSendInMemoryReports() dont send 2 bulks in same time" time="0.001">
+    </testcase>
+    <testcase classname="InMemoryReportService tests when not put any report in queue, no report is sent" name="InMemoryReportService tests when not put any report in queue, no report is sent" time="1.001">
+    </testcase>
+    <testcase classname="InMemoryReportService tests when bulk feature flag is false, the timer not started and no report is sent" name="InMemoryReportService tests when bulk feature flag is false, the timer not started and no report is sent" time="1.001">
+    </testcase>
+    <testcase classname="InMemoryReportService tests isInitialized return true if InMemoryReportService was initialized" name="InMemoryReportService tests isInitialized return true if InMemoryReportService was initialized" time="0">
+    </testcase>
+    <testcase classname="InMemoryReportService tests isInitialized return false if InMemoryReportService was not initialized" name="InMemoryReportService tests isInitialized return false if InMemoryReportService was not initialized" time="0.001">
+    </testcase>
+    <testcase classname="InMemoryReportService tests in case of sendReports failed, reports are sent in next cycle" name="InMemoryReportService tests in case of sendReports failed, reports are sent in next cycle" time="1.001">
+    </testcase>
+    <testcase classname="InMemoryReportService tests in case of sendReports throw error, reports are sent in next cycle" name="InMemoryReportService tests in case of sendReports throw error, reports are sent in next cycle" time="1.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="PersistentReportService tests" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:10:35" time="15.268" tests="8">
+    <testcase classname="PersistentReportService tests putInReportQueue() is executed fewer than bulkSize number of times - should store all reports without sending them, and upon timer expiration send all reports and remove all reports from storage" name="PersistentReportService tests putInReportQueue() is executed fewer than bulkSize number of times - should store all reports without sending them, and upon timer expiration send all reports and remove all reports from storage" time="6.008">
+    </testcase>
+    <testcase classname="PersistentReportService tests putInReportQueue() is executed bulkSize number of times - should send all reports and remove all reports from storage" name="PersistentReportService tests putInReportQueue() is executed bulkSize number of times - should send all reports and remove all reports from storage" time="0.002">
+    </testcase>
+    <testcase classname="PersistentReportService tests putInReportQueue() is executed more than bulkSize number of times - should send all reports and remove all reports from storage" name="PersistentReportService tests putInReportQueue() is executed more than bulkSize number of times - should send all reports and remove all reports from storage" time="0.003">
+    </testcase>
+    <testcase classname="PersistentReportService tests putInReportQueue() is executed bulkSize number of times - and fewer than bulkSize during bulk is sent - should sent first bulk and remove from storage, and upon timer expiration send second bulk and remove it from storage" name="PersistentReportService tests putInReportQueue() is executed bulkSize number of times - and fewer than bulkSize during bulk is sent - should sent first bulk and remove from storage, and upon timer expiration send second bulk and remove it from storage" time="6.004">
+    </testcase>
+    <testcase classname="PersistentReportService tests putInReportQueue() - error when storing report - should not send report and have no reports stored in storage" name="PersistentReportService tests putInReportQueue() - error when storing report - should not send report and have no reports stored in storage" time="0">
+    </testcase>
+    <testcase classname="PersistentReportService tests putInReportQueue() is executed bulkSize number of times - error when getting keys of reports to send - should not send any report and have all reports stored in storage" name="PersistentReportService tests putInReportQueue() is executed bulkSize number of times - error when getting keys of reports to send - should not send any report and have all reports stored in storage" time="0.001">
+    </testcase>
+    <testcase classname="PersistentReportService tests putInReportQueue() is executed bulkSize number of times - error when getting reports to send - should not send any report and have all reports stored in storage" name="PersistentReportService tests putInReportQueue() is executed bulkSize number of times - error when getting reports to send - should not send any report and have all reports stored in storage" time="0.001">
+    </testcase>
+    <testcase classname="PersistentReportService tests putInReportQueue() is executed bulkSize number of times - error when removing sent reports - should send all reports and have all reports stored in storage" name="PersistentReportService tests putInReportQueue() is executed bulkSize number of times - error when removing sent reports - should send all reports and have all reports stored in storage" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,6 @@
+{
+    "message": "User is not authorized to perform this action",
+    "name": "Unauthorized",
+    "errorCode": "401",
+    "data": "Unable to read Token"
+}

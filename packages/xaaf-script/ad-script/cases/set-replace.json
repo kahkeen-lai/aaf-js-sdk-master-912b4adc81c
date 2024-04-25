@@ -1,0 +1,37 @@
+{
+  "xaaf": {
+    "events": [
+      {
+        "onClick": "#loadProducts"
+      },
+      {
+        "onLoad": "#checkIsShoppable"
+      }
+    ],
+    "methods": {
+      "checkIsShoppable": {
+        "input": [
+          "@topic"
+        ],
+        "flow": [
+          {
+            "$set": {
+              "name": "@apiUrlWithParams",
+              "value": {
+                "$replace": {
+                  "from": "http://thetake/get-products-for-topic?param=@topicName",
+                  "replace": "@topicName",
+                  "value": {
+                    "$get": {
+                      "name": "@topic"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="14" failures="0" time="7.185">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:08:02" time="4.841" tests="14">
+    <testcase classname=" should validate JWT from DER" name=" should validate JWT from DER" time="0.212">
+    </testcase>
+    <testcase classname=" should validate JWT from base64 pK" name=" should validate JWT from base64 pK" time="0.277">
+    </testcase>
+    <testcase classname=" should fail to validate JWT on incorrect signature" name=" should fail to validate JWT on incorrect signature" time="0.202">
+    </testcase>
+    <testcase classname=" should fail to validate JWT on incorrect JWT" name=" should fail to validate JWT on incorrect JWT" time="0.195">
+    </testcase>
+    <testcase classname=" should throw on invalid JWT" name=" should throw on invalid JWT" time="0.001">
+    </testcase>
+    <testcase classname=" should throw on invalid signature" name=" should throw on invalid signature" time="0">
+    </testcase>
+    <testcase classname=" should parse JWT with b64utos and readSafeJSONString" name=" should parse JWT with b64utos and readSafeJSONString" time="0.001">
+    </testcase>
+    <testcase classname=" should parse JWT with parse" name=" should parse JWT with parse" time="0.001">
+    </testcase>
+    <testcase classname=" should parse base64 into DER" name=" should parse base64 into DER" time="0.002">
+    </testcase>
+    <testcase classname=" return false for api key validation when enviroment is empty" name=" return false for api key validation when enviroment is empty" time="0.001">
+    </testcase>
+    <testcase classname=" return true for valid api key with correct enviroment" name=" return true for valid api key with correct enviroment" time="0.195">
+    </testcase>
+    <testcase classname=" return false for invalid api key" name=" return false for invalid api key" time="0.002">
+    </testcase>
+    <testcase classname=" return false for api key validation when environment not empty and api key empty" name=" return false for api key validation when environment not empty and api key empty" time="0">
+    </testcase>
+    <testcase classname=" decide method should parse JWT with parse" name=" decide method should parse JWT with parse" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

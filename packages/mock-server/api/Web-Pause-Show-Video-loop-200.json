@@ -1,0 +1,249 @@
+{
+    "experienceId": "ba1a87a0-28d7-4548-8282-cf715173844e",
+    "experienceMediaType": "Video Screensaver Ad",
+    "commands": [{
+            "id": 0,
+            "commandName": "SHOW_VIDEO",
+            "data": {
+                "url": "https://d1zocn0wsme2cv.cloudfront.net/A060867043M0.mp4",
+                "transparent": true,
+                "videoRepeatCount": 3,
+                "autoplay": true,
+                "muted": true,
+                "duration": 207
+            },
+            "report": {
+                "providers": [{
+                        "name": "Emuse",
+                        "events": [{
+                                "url": "https://xaaf-metrics.att.com/Measurements/default.xml?PageID=277&MeasurementPointID=682&Version=11&Status=0&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=777777777777777777777777&TransactionId=1590659059288721016&OppType=screensaver&ChannelName=HBO&App=ov",
+                                "clientOutbound": [{
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "https://xaaf-metrics.att.com/Measurements/default.xml?PageID=277&MeasurementPointID=684&Version=11&Status=0&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=777777777777777777777777&TransactionId=1590659059288721016&OppType=screensaver&ChannelName=HBO&App=ov",
+                                "clientOutbound": [{
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "https://xaaf-metrics.att.com/Measurements/default.xml?PageID=277&MeasurementPointID=686&Version=11&ContentSetID=100&Status=0&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=777777777777777777777777&TransactionId=1590659059288721016&OppType=screensaver&ChannelName=HBO&App=ov",
+                                "clientOutbound": [{
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    },
+                                    {
+                                        "paramType": "deviceId",
+                                        "paramName": "DeviceID"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ADR",
+                        "events": [{
+                                "url": "http://g10.s.fwmrm.net/ad/l/1?s=b117&n=372464%3B372464&t=1590659059288721016&f=&r=372464&adid=40215409&reid=22504344&arid=0&auid=&cn=defaultImpression&et=i&_cc=40215409,22504344,,,1590659059,1&tpos=0&iw=&uxnw=&uxss=&uxct=&metr=1301&init=1&inif=1"
+                            },
+                            {
+                                "url": "http://adr2-test.att.com/slr-vast-proxy/BeaconProxy/a4fadde0-b448-11e9-a467-021f7c4e5d2e/1"
+                            },
+                            {
+                                "url": "http://g10.s.fwmrm.net/ad/l/1?s=b117&n=372464%3B372464&t=1590659059288721017&f=&r=372464&adid=50215409&reid=22504344&arid=0&auid=&cn=defaultImpression&et=i&_cc=40215409,22504344,,,1590659059,1&tpos=0&iw=&uxnw=&uxss=&uxct=&metr=1301&init=1&inif=1"
+                            },
+                            {
+                                "url": "http://adr2-test.att.com/slr-vast-proxy/BeaconProxy/a4fadde0-b448-11e9-a467-021f7c4e5d2f/1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "COMSCORE",
+                        "events": [{
+                                "url": "https://sb.scorecardresearch.com/p?c1=3&c2=33324397&c3=34931097&c4=6062506_220347548&c5=40215408_9486916&c11=220347548&c12=&cj=1&ax_fwd=1&rn=1397330157&ns_st_pr=XAAF%20Test%20Ad%5E&ns_st_ge=&ns_st_pu=DIRECTV%20STB%20Watch%20Now%20VOD%20%7C%20XAAF&ns_st_ct=dtv_stb_watch_vod_xaaf&ns_stb_id=trk0iwmfndbz4nbvofx3sa%3D%3D&ns_ap_device=&ns_ap_pn="
+                            },
+                            {
+                                "url": "https://sb.scorecardresearch.com/p?c1=3&c2=33324397&c3=34931097&c4=6062507_220347548&c5=40215408_9486916&c11=220347548&c12=&cj=1&ax_fwd=1&rn=1397330157&ns_st_pr=XAAF%20Test%20Ad%5E&ns_st_ge=&ns_st_pu=DIRECTV%20STB%20Watch%20Now%20VOD%20%7C%20XAAF&ns_st_ct=dtv_stb_watch_vod_xaaf&ns_stb_id=trk0iwmfndbz4nbvofx3sa%3D%3D&ns_ap_device=&ns_ap_pn="
+                            }
+                        ]
+                    },
+                    {
+                        "name": "DATA_PLUS_MATH",
+                        "events": [{
+                                "url": "http://p.tvpixel.com/data/plus/math/mocked/url"
+                            },
+                            {
+                                "url": "http://p.tvpixel.com/data/plus/math/mocked/url1"
+                            }
+                        ]
+                    }
+                ],
+                "adLifeCycle": [{
+                        "paramType": "projectId",
+                        "paramName": 6030
+                    },
+                    {
+                        "paramType": "projectBuildNumber",
+                        "paramName": 1
+                    }
+                ],
+                "measurementBaseURL": "https://xaaf-metrics.att.com/Measurements/default.xml?PageID=277&MeasurementPointID=686&Version=11&ContentSetID=100"
+            },
+            "playback_reports": [{
+                    "positionSec": 45,
+                    "providers": [{
+                        "name": "Emuse",
+                        "events": [{
+                            "url": "https://xaaf-metrics.att.com/Measurements/default.xml?PageID=277&MeasurementPointID=688&Version=11&ContentSetID=100&Status=0&Quartile=1&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=777777777777777777777777&TransactionId=1590659059288721016&OppType=screensaver&ChannelName=HBO&App=ov",
+                            "clientOutbound": [{
+                                    "paramType": "clientFormattedTimeStamp",
+                                    "paramName": "ClientTime"
+                                },
+                                {
+                                    "paramType": "deviceId",
+                                    "paramName": "DeviceID"
+                                }
+                            ]
+                        }]
+                    }]
+                },
+                {
+                    "positionSec": 90,
+                    "providers": [{
+                        "name": "Emuse",
+                        "events": [{
+                            "url": "https://xaaf-metrics.att.com/Measurements/default.xml?PageID=277&MeasurementPointID=688&Version=11&ContentSetID=100&Status=0&Quartile=2&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=777777777777777777777777&TransactionId=1590659059288721016&OppType=screensaver&ChannelName=HBO&App=ov",
+                            "clientOutbound": [{
+                                    "paramType": "clientFormattedTimeStamp",
+                                    "paramName": "ClientTime"
+                                },
+                                {
+                                    "paramType": "deviceId",
+                                    "paramName": "DeviceID"
+                                }
+                            ]
+                        }]
+                    }]
+                },
+                {
+                    "positionSec": 135,
+                    "providers": [{
+                        "name": "Emuse",
+                        "events": [{
+                            "url": "https://xaaf-metrics.att.com/Measurements/default.xml?PageID=277&MeasurementPointID=688&Version=11&ContentSetID=100&Status=0&Quartile=3&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=777777777777777777777777&TransactionId=1590659059288721016&OppType=screensaver&ChannelName=HBO&App=ov",
+                            "clientOutbound": [{
+                                    "paramType": "clientFormattedTimeStamp",
+                                    "paramName": "ClientTime"
+                                },
+                                {
+                                    "paramType": "deviceId",
+                                    "paramName": "DeviceID"
+                                }
+                            ]
+                        }]
+                    }]
+                },
+                {
+                    "positionSec": 180,
+                    "providers": [{
+                        "name": "Emuse",
+                        "events": [{
+                            "url": "https://xaaf-metrics.att.com/Measurements/default.xml?PageID=277&MeasurementPointID=688&Version=11&ContentSetID=100&Status=0&Quartile=4&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=777777777777777777777777&TransactionId=1590659059288721016&OppType=screensaver&ChannelName=HBO&App=ov",
+                            "clientOutbound": [{
+                                    "paramType": "clientFormattedTimeStamp",
+                                    "paramName": "ClientTime"
+                                },
+                                {
+                                    "paramType": "deviceId",
+                                    "paramName": "DeviceID"
+                                }
+                            ]
+                        }]
+                    }]
+                }
+            ],
+            "fireTriggers": [],
+            "executionTriggers": [{
+                "trigger": "STATE_STARTING"
+            }]
+        },
+        {
+            "id": 1,
+            "commandName": "REPORT_COMMAND",
+            "report": {
+                "providers": [{
+                    "name": "Emuse",
+                    "events": [{
+                            "url": "https://xaaf-metrics.att.com/Measurements/default.xml?PageID=277&MeasurementPointID=683&Version=11&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=777777777777777777777777&TransactionId=1590659059288721016&OppType=screensaver&ChannelName=HBO&App=ov",
+                            "clientOutbound": [{
+                                    "paramType": "clientFormattedTimeStamp",
+                                    "paramName": "ClientTime"
+                                },
+                                {
+                                    "paramType": "timeFromStarted",
+                                    "paramName": "Duration"
+                                },
+                                {
+                                    "paramType": "deviceId",
+                                    "paramName": "DeviceID"
+                                }
+                            ]
+                        },
+                        {
+                            "url": "https://xaaf-metrics.att.com/Measurements/default.xml?PageID=277&MeasurementPointID=685&Version=11&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=777777777777777777777777&TransactionId=1590659059288721016&OppType=screensaver&ChannelName=HBO&App=ov",
+                            "clientOutbound": [{
+                                    "paramType": "clientFormattedTimeStamp",
+                                    "paramName": "ClientTime"
+                                },
+                                {
+                                    "paramType": "timeFromStarted",
+                                    "paramName": "Duration"
+                                },
+                                {
+                                    "paramType": "deviceId",
+                                    "paramName": "DeviceID"
+                                }
+                            ]
+                        },
+                        {
+                            "url": "https://xaaf-metrics.att.com/Measurements/default.xml?PageID=277&MeasurementPointID=687&Version=11&ContentSetID=100&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=777777777777777777777777&TransactionId=1590659059288721016&OppType=screensaver&ChannelName=HBO&App=ov",
+                            "clientOutbound": [{
+                                    "paramType": "clientFormattedTimeStamp",
+                                    "paramName": "ClientTime"
+                                },
+                                {
+                                    "paramType": "timeFromStarted",
+                                    "paramName": "Duration"
+                                },
+                                {
+                                    "paramType": "deviceId",
+                                    "paramName": "DeviceID"
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            },
+            "executionTriggers": [{
+                "trigger": "STATE_STOPPING",
+                "conditions": [
+                    "STATE_PLAYING"
+                ]
+            }]
+        }
+    ],
+    "exeAdUUID": "77777777-7777-7777-7777-777777777777",
+    "templateId": 56
+}

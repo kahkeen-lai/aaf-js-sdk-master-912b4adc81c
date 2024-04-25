@@ -1,0 +1,237 @@
+{
+    "experienceMediaType": "Full Height Sponsor Ad",
+    "commands": [
+        {
+            "commandName": "SHOW_DYNAMIC_VIEW",
+            "data": {
+                "xaaf": {
+                    "timeout": 5000
+                },
+                "type": "div",
+                "props": {
+                    "class": "dynamic-view-container",
+                    "key": "Main View",
+                    "style": {
+                        "display": "flex",
+                        "position": "absolute",
+                        "width": "100%",
+                        "height": "24%",
+                        "bottom": "1%",
+                        "opacity": "0",
+                        "animation-name": "dynamic-view-container",
+                        "animation-duration": "1s",
+                        "animation-delay": ".5s",
+                        "animation-fill-mode": "forwards"
+                    }
+                },
+                "children": [
+                    {
+                        "type": "div",
+                        "props": {
+                            "key": "Wrapper",
+                            "style": {
+                                "display": "flex",
+                                "position": "relative",
+                                "width": "100%",
+                                "padding-left": "7%"
+                            }
+                        },
+                        "children": [
+                            {
+                                "type": "img",
+                                "class": "dynamic-view-pot",
+                                "xaaf": {
+                                    "events": [
+                                        {
+                                            "action": "Loaded"
+                                        }
+                                    ]
+                                },
+                                "props": {
+                                    "key": "main image",
+                                    "style": {
+                                        "width": "0",
+                                        "height": "0",
+                                        "position": "relative",
+                                        "animation-name": "dynamic-view-pot",
+                                        "animation-duration": "1.5s",
+                                        "animation-fill-mode": "forwards",
+                                        "animation-delay": "2s"
+                                    },
+                                    "src": "https://xaaf-web-sdk-mp4.s3.amazonaws.com/Eco-logo-02.png"
+                                }
+                            },
+                            {
+                                "type": "div",
+                                "props": {
+                                    "key": "div",
+                                    "style": {
+                                        "width": "85%",
+                                        "height": "70%",
+                                        "position": "relative"
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "type": "img",
+                                        "xaaf": {
+                                            "events": [
+                                                {
+                                                    "action": "Loaded"
+                                                }
+                                            ]
+                                        },
+                                        "props": {
+                                            "key": "background",
+                                            "style": {
+                                                "width": "61%",
+                                                "height": "105%",
+                                                "position": "relative",
+                                                "background-size": "cover",
+                                                "left": "-7%"
+                                            },
+                                            "src": "https://xaaf-web-sdk-mp4.s3.amazonaws.com/pink-Banner-BG-Large.png"
+                                        }
+                                    },
+                                    {
+                                        "type": "Text",
+                                        "props": {
+                                            "key": "text",
+                                            "class": "dynamic-view-main-header",
+                                            "style": {
+                                                "position": "absolute",
+                                                "top": "0",
+                                                "left": "0",
+                                                "padding-top": "2%",
+                                                "text-shadow": "0 2px 4px rgba(0, 0, 0, 0.5)",
+                                                "font-family": "Street2",
+                                                "font-size": "20px",
+                                                "font-weight": "bold",
+                                                "font-stretch": "normal",
+                                                "font-style": "normal",
+                                                "line-height": "0.2",
+                                                "letter-spacing": "normal",
+                                                "color": "#ffffff",
+                                                "opacity": "0",
+                                                "animation-name": "dynamic-view-main-header",
+                                                "animation-duration": "1s",
+                                                "animation-fill-mode": "forwards",
+                                                "animation-delay": "1s"
+                                            }
+                                        },
+                                        "children": [
+                                            "Design Tip From Experts #54"
+                                        ]
+                                    },
+                                    {
+                                        "type": "Text",
+                                        "props": {
+                                            "key": "text",
+                                            "class": "dynamic-view-text",
+                                            "style": {
+                                                "display": "flex",
+                                                "position": "absolute",
+                                                "left": "0",
+                                                "top": "41%",
+                                                "text-shadow": "0 2px 4px rgba((23, 1, 1, 0.65)",
+                                                "font-family": "Street2",
+                                                "font-size": "18px",
+                                                "font-weight": "500",
+                                                "font-stretch": "normal",
+                                                "font-style": "normal",
+                                                "line-height": "0.2",
+                                                "letter-spacing": "normal",
+                                                "color": "#ffffff",
+                                                "opacity": "0",
+                                                "animation-name": "dynamic-view-text",
+                                                "animation-duration": "1s",
+                                                "animation-fill-mode": "forwards",
+                                                "animation-delay": "2.5s"
+                                            }
+                                        },
+                                        "children": [
+                                            "Open up your space by adding bright wall colors"
+                                        ]
+                                    },
+                                    {
+                                        "type": "style",
+                                        "props": {},
+                                        "children": [
+                                            "@keyframes dynamic-view-container {from {left: 0;opacity:0;}to {left: 2%;opacity:1}}",
+                                            "@keyframes dynamic-view-pot {from {opacity:0;width:1%;height:30%}to {opacity:1;width:13%;height:58%}}",
+                                            "@keyframes dynamic-view-main-header {from {opacity:0;left:30px;top:40px}to {;opacity:1;left:0px;top:21px}}",
+                                            "@keyframes dynamic-view-text {from {opacity:0;left:13px;top:40%}to {;opacity:1;left:0px;top:60%}}"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "report": {
+                "measurementBaseURL": "https://measurementdemo2.emuse-tech.com/default.xml?PageID=124&MeasurementPointID=7&Version=11",
+                "providers": [
+                    {
+                        "name": "Emuse",
+                        "events": [
+                            {
+                                "url": "https://measurementdemo2.emuse-tech.com/default.xml?PageID=124&MeasurementPointID=5&Version=11&Status=0&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=HvV2D2av62BzmeVW1QLhqw%3D%3D&TransactionId=1590659059288721016&OppType=screensaver&DeviceAdId=aaec17dc-ec32-517b-8f34-074db4c9f5d5",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "https://measurementdemo2.emuse-tech.com/default.xml?PageID=124&MeasurementPointID=7&Version=11&Status=0&ExtSrc=vod&DeviceType=tvos&PartnerProfileID=HvV2D2av62BzmeVW1QLhqw%3D%3D&TransactionId=1590659059288721016&OppType=screensaver&DeviceAdId=aaec17dc-ec32-517b-8f34-074db4c9f5d5",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    }
+                                ]
+                            },
+                            {
+                                "url": "",
+                                "clientOutbound": [
+                                    {
+                                        "paramType": "clientFormattedTimeStamp",
+                                        "paramName": "ClientTime"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ADR",
+                        "events": [
+                            {
+                                "url": {}
+                            }
+                        ]
+                    }
+                ],
+                "adLifeCycle": [
+                    {
+                        "paramType": "projectId",
+                        "paramName": 2
+                    },
+                    {
+                        "paramType": "projectBuildNumber",
+                        "paramName": 1
+                    }
+                ]
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STARTING"
+                }
+            ]
+        }
+    ],
+    "exeAdUUID": "de2cce10-d74e-4e90-9c73-b7292f794e6f",
+    "experienceId": "7a2a3ffe-565d-4e02-b7fa-9115cdb1a1fa",
+    "templateId": 50
+}

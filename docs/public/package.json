@@ -1,0 +1,12 @@
+{
+  "name": "xaaf-public-docs",
+  "private": true,
+  "scripts": {
+    "start": "yarn && serve ."
+  },
+  "main": "index.js",
+  "bin": "index.js",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}

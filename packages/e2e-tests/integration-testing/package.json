@@ -1,0 +1,42 @@
+{
+  "name": "@xaaf/integration-testing",
+  "private": true,
+  "description": "Integration-testing project",
+  "version": "1.1.2",
+  "scripts": {
+    "lint": "../../../node_modules/.bin/tsc --noEmit && ../../../node_modules/.bin/eslint \"*/**/*.{ts,tsx}\" ",
+    "lint:fix": "../../../node_modules/.bin/tsc --noEmit && ../../../node_modules/.bin/eslint \"*/**/*.{ts,tsx}\" --ext .ts --quiet --fix",
+    "test:integration": "../../../node_modules/.bin/make-dir coverage && ../../../node_modules/.bin/run-p test:integration:general-lal test:integration:lal",
+    "test:integration:mock": "../../../node_modules/.bin/jest -c jest.config.js --silent --ci",
+    "test:integration:dev": "../../../node_modules/.bin/make-dir coverage && ../../../node_modules/.bin/jest -c jest.config.dev.js --silent --ci STRING_TO_REPLACE",
+    "test:integration:lal": "../../../node_modules/.bin/make-dir coverage && ../../../node_modules/.bin/jest -c jest.config.lal.js --silent --ci STRING_TO_REPLACE",
+    "test:integration:general-dev": "../../../node_modules/.bin/make-dir coverage && ../../../node_modules/.bin/jest -c jest.config.general.dev.js --silent --ci STRING_TO_REPLACE",
+    "test:integration:general-lal": "../../../node_modules/.bin/make-dir coverage && ../../../node_modules/.bin/jest -c jest.config.general.lal.js --silent --ci STRING_TO_REPLACE",
+    "test:custom_api_key:integration:general": "../../../node_modules/.bin/make-dir coverage && ../../../node_modules/.bin/jest -c jest.config.general.custom_api_key.js --detectOpenHandles --silent --no-cache STRING_TO_REPLACE",
+    "docs": "../../../node_modules/.bin/rimraf ../../../docs/internal/sdk/integration/ && ../../../node_modules/.bin/typedoc && node ../../../docs/docs.js sdk/integration/"
+  },
+  "dependencies": {
+    "@xaaf/common": "^4.1.2",
+    "@xaaf/e2e-common": "^4.1.2",
+    "@xaaf/http-axios": "^4.1.2",
+    "@xaaf/key-service": "^4.1.2",
+    "@xaaf/xaaf-js-sdk": "^4.1.2",
+    "axios": "^1.6.5",
+    "dotenv": "8.2.0",
+    "jest-mock-extended": "^1.0.9",
+    "jest-slow-test-reporter": "^1.0.0",
+    "tunnel": "0.0.6"
+  },
+  "docs": {
+    "content": [
+      "README.md",
+      "coverage/tests.html",
+      "coverage/dev-tests.html",
+      "coverage/lal-tests.html",
+      "coverage/general-lal-tests.html",
+      "coverage/general-dev-tests.html",
+      "docs/dev-frame.html",
+      "docs/lal-frame.html"
+    ]
+  }
+}

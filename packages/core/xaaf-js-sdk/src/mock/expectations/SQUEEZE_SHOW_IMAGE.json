@@ -1,0 +1,110 @@
+{
+    "_id": "5dd51db9e3b6870008c4d7d8",
+    "experienceId": "f77bafc7-8a41-400b-acd8-002bcd6dacf4",
+    "experienceMediaType": "Squeeze commands",
+    "commands": [
+        {
+            "id": 1,
+            "commandName": "SHOW_IMAGE",
+            "data": {
+                "url": "http://1.bp.blogspot.com/-OL2TQXpLcb4/TyEbkt-HF4I/AAAAAAAAAnc/I-2uZpxdaZk/s1600/coca-cola-super-bowl-2012-ad.png"
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STARTING"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "commandName": "SQUEEZE",
+            "data": {
+                "duration": 1000,
+                "videoScale": {
+                    "scale_x": 0.6,
+                    "scale_y": 0.6,
+                    "pivot_x": 0.0,
+                    "pivot_y": 0.0
+                },
+                "videoMargin": {
+                    "left": 100,
+                    "top": 200,
+                    "right": 0,
+                    "bottom": 0
+                }
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STARTED"
+                }
+            ],
+            "fireTriggers": [
+                {
+                    "mode": "POST",
+                    "name": "REPORT"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "commandName": "REPORT_COMMAND",
+            "executionTriggers": [
+                {
+                    "trigger": "REPORT"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "commandName": "SQUEEZE",
+            "data": {
+                "duration": 1000,
+                "videoScale": {
+                    "scale_x": 1.0,
+                    "scale_y": 1.0,
+                    "pivot_x": 0.0,
+                    "pivot_y": 0.0
+                },
+                "videoMargin": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0
+                }
+            },
+            "executionTriggers": [
+                {
+                    "trigger": "STATE_STOPPING"
+                },
+                {
+                    "trigger": "STATE_ERROR"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "commandName": "REPORT_COMMAND",
+            "executionTriggers": [
+                {
+                    "trigger": "REPORT_STOP",
+                    "conditions": [
+                        "STATE_PLAYING"
+                    ]
+                },
+                {
+                    "trigger": "STATE_STOPPED",
+                    "conditions": [
+                        "STATE_PLAYING"
+                    ]
+                },
+                {
+                    "trigger": "AD_ERROR",
+                    "conditions": [
+                        "STATE_PLAYING"
+                    ]
+                }
+            ]
+        }
+    ],
+    "exeAdUUID": "BE362ba4-ba37-4146-91de-be0e3e735977"
+}

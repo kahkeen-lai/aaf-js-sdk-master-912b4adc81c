@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1708405697869" clover="3.2.0">
+  <project timestamp="1708405697869" name="All files">
+    <metrics statements="42" coveredstatements="40" conditionals="25" coveredconditionals="23" methods="9" coveredmethods="7" elements="76" coveredelements="70" complexity="0" loc="42" ncloc="42" packages="1" files="1" classes="1"/>
+    <file name="http-service.ts" path="/users/jenkins/workspace/AAF_aaf-js-sdk_master/packages/components/http-axios/src/http-service/http-service.ts">
+      <metrics statements="42" coveredstatements="40" conditionals="25" coveredconditionals="23" methods="9" coveredmethods="7"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="22" count="1" type="cond" truecount="3" falsecount="1"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="36" count="9" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="44" count="1" type="stmt"/>
+      <line num="45" count="0" type="stmt"/>
+      <line num="47" count="1" type="stmt"/>
+      <line num="48" count="11" type="stmt"/>
+      <line num="49" count="11" type="cond" truecount="6" falsecount="0"/>
+      <line num="50" count="11" type="cond" truecount="8" falsecount="0"/>
+      <line num="51" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="54" count="11" type="stmt"/>
+      <line num="55" count="8" type="stmt"/>
+      <line num="56" count="8" type="stmt"/>
+      <line num="57" count="8" type="stmt"/>
+      <line num="59" count="3" type="stmt"/>
+      <line num="63" count="1" type="stmt"/>
+      <line num="64" count="3" type="stmt"/>
+      <line num="65" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="66" count="1" type="stmt"/>
+      <line num="67" count="1" type="stmt"/>
+      <line num="68" count="1" type="stmt"/>
+      <line num="69" count="1" type="stmt"/>
+      <line num="71" count="2" type="stmt"/>
+      <line num="72" count="2" type="stmt"/>
+      <line num="75" count="1" type="stmt"/>
+      <line num="82" count="1" type="stmt"/>
+      <line num="91" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

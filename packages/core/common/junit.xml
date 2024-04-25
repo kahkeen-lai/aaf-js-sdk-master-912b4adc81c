@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="22" failures="0" time="14.159">
+  <testsuite name="enums and models " errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:07:59" time="3.624" tests="2">
+    <testcase classname="enums and models  CommandEventType should be defined" name="enums and models  CommandEventType should be defined" time="0.002">
+    </testcase>
+    <testcase classname="enums and models  execute listener function" name="enums and models  execute listener function" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="AdEventCreator functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:07:59" time="3.721" tests="8">
+    <testcase classname="AdEventCreator functions AdEventCreator should be defined" name="AdEventCreator functions AdEventCreator should be defined" time="0.002">
+    </testcase>
+    <testcase classname="AdEventCreator functions should return Loaded event type" name="AdEventCreator functions should return Loaded event type" time="0.001">
+    </testcase>
+    <testcase classname="AdEventCreator functions should return Started event type" name="AdEventCreator functions should return Started event type" time="0.001">
+    </testcase>
+    <testcase classname="AdEventCreator functions should return Paused event type" name="AdEventCreator functions should return Paused event type" time="0.001">
+    </testcase>
+    <testcase classname="AdEventCreator functions should return Resumed event type" name="AdEventCreator functions should return Resumed event type" time="0">
+    </testcase>
+    <testcase classname="AdEventCreator functions should return Stopped event type" name="AdEventCreator functions should return Stopped event type" time="0.001">
+    </testcase>
+    <testcase classname="AdEventCreator functions should return Warning event type" name="AdEventCreator functions should return Warning event type" time="0">
+    </testcase>
+    <testcase classname="AdEventCreator functions should return Error event type" name="AdEventCreator functions should return Error event type" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Dependecy Injection" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:07:59" time="3.745" tests="5">
+    <testcase classname="Dependecy Injection registerInstance" name="Dependecy Injection registerInstance" time="0.002">
+    </testcase>
+    <testcase classname="Dependecy Injection registerSingleton" name="Dependecy Injection registerSingleton" time="0">
+    </testcase>
+    <testcase classname="Dependecy Injection registerInstance for invalid symbol" name="Dependecy Injection registerInstance for invalid symbol" time="0">
+    </testcase>
+    <testcase classname="Dependecy Injection resolve error for invalid symbol" name="Dependecy Injection resolve error for invalid symbol" time="0">
+    </testcase>
+    <testcase classname="Dependecy Injection new Container" name="Dependecy Injection new Container" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="error service helper functions" errors="0" failures="0" skipped="0" timestamp="2024-02-20T05:07:59" time="4.214" tests="7">
+    <testcase classname="error service helper functions general error function should return correct error object" name="error service helper functions general error function should return correct error object" time="0.002">
+    </testcase>
+    <testcase classname="error service helper functions HTTP error function should return correct error object" name="error service helper functions HTTP error function should return correct error object" time="0">
+    </testcase>
+    <testcase classname="error service helper functions Final login decorator to change values of the error" name="error service helper functions Final login decorator to change values of the error" time="0.001">
+    </testcase>
+    <testcase classname="error service helper functions Undefined error function should return correct error object" name="error service helper functions Undefined error function should return correct error object" time="0">
+    </testcase>
+    <testcase classname="Test error components general error function should return correct error object" name="Test error components general error function should return correct error object" time="0">
+    </testcase>
+    <testcase classname="Test error components HTTP error function should return correct error object" name="Test error components HTTP error function should return correct error object" time="0.001">
+    </testcase>
+    <testcase classname="Test error components Undefined error function should return correct error object" name="Test error components Undefined error function should return correct error object" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

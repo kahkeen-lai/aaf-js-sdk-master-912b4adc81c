@@ -46,5 +46,6 @@
             "dist/bundle.treemap.stats.html",
             "dist/bundle.sunburst.stats.html"
         ]
-    }
+    },
+    "gitHead": "27646f35e1dcc63bfc5adefe51209d07eac75962"
 }

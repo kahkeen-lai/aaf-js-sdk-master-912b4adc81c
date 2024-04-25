@@ -1,6 +1,6 @@
 {
     "name": "@xaaf/ad-script",
-    "version": "1.1.2",
+    "version": "1.2.1",
     "description": "",
     "main": "dist/bundle.cjs.min.js",
     "types": "dist/index.d.ts",
@@ -28,12 +28,12 @@
         "repl": "node ./repl/index.js"
     },
     "devDependencies": {
-        "@xaaf/common": "^4.1.2",
-        "@xaaf/http-axios": "^4.1.2"
+        "@xaaf/common": "^4.2.1",
+        "@xaaf/http-axios": "^4.2.1"
     },
     "peerDependencies": {
-        "@xaaf/common": "^3.3.0-alpha.0",
-        "@xaaf/http-axios": "^3.3.0-alpha.0"
+        "@xaaf/common": "^4.2.1",
+        "@xaaf/http-axios": "^4.2.1"
     },
     "dependencies": {
         "dot-prop": "^6.0.1",

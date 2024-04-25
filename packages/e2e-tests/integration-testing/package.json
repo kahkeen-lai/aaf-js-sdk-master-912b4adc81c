@@ -2,7 +2,7 @@
   "name": "@xaaf/integration-testing",
   "private": true,
   "description": "Integration-testing project",
-  "version": "1.1.2",
+  "version": "1.2.1",
   "scripts": {
     "lint": "../../../node_modules/.bin/tsc --noEmit && ../../../node_modules/.bin/eslint \"*/**/*.{ts,tsx}\" ",
     "lint:fix": "../../../node_modules/.bin/tsc --noEmit && ../../../node_modules/.bin/eslint \"*/**/*.{ts,tsx}\" --ext .ts --quiet --fix",
@@ -16,11 +16,11 @@
     "docs": "../../../node_modules/.bin/rimraf ../../../docs/internal/sdk/integration/ && ../../../node_modules/.bin/typedoc && node ../../../docs/docs.js sdk/integration/"
   },
   "dependencies": {
-    "@xaaf/common": "^4.1.2",
-    "@xaaf/e2e-common": "^4.1.2",
-    "@xaaf/http-axios": "^4.1.2",
-    "@xaaf/key-service": "^4.1.2",
-    "@xaaf/xaaf-js-sdk": "^4.1.2",
+    "@xaaf/common": "^4.2.1",
+    "@xaaf/e2e-common": "^4.2.1",
+    "@xaaf/http-axios": "^4.2.1",
+    "@xaaf/key-service": "^4.2.1",
+    "@xaaf/xaaf-js-sdk": "^4.2.1",
     "axios": "^1.6.5",
     "dotenv": "8.2.0",
     "jest-mock-extended": "^1.0.9",

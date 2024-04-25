@@ -21,7 +21,7 @@
         "watch": "tsc --watch"
     },
     "dependencies": {
-        "@xaaf/jsrsasign": "^8.3.4",
+        "@xaaf/jsrsasign": "^9.0.1",
         "tslib": "^2.3.1"
     },
     "files": [

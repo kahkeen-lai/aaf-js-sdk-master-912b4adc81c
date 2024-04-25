@@ -26,9 +26,9 @@
     },
     "dependencies": {
         "@react-native-async-storage/async-storage": "^1.17.11",
-        "@xaaf/common": "^4.1.2",
-        "@xaaf/http-axios": "^4.1.2",
-        "@xaaf/xaaf-js-sdk": "^4.1.2",
+        "@xaaf/common": "^4.2.1",
+        "@xaaf/http-axios": "^4.2.1",
+        "@xaaf/xaaf-js-sdk": "^4.2.1",
         "react-native-device-info": "^10.3.0",
         "tslib": "^2.3.1"
     },

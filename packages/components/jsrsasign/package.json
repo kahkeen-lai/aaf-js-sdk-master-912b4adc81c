@@ -1,6 +1,6 @@
 {
   "name": "@xaaf/jsrsasign",
-  "version": "9.0.1",
+  "version": "9.0.2",
   "browser": "release/jsrsasign.min.js",
   "main": "release/jsrsasign.min.js",
   "types": "release/jsrsasign.d.ts",

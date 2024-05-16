@@ -1,6 +1,6 @@
 {
     "name": "@xaaf/key-service",
-    "version": "4.2.1",
+    "version": "4.2.2",
     "main": "./dist/bundle.cjs.min.js",
     "types": "./dist/index.d.ts",
     "license": "UNLICENSED",
@@ -21,7 +21,7 @@
         "watch": "tsc --watch"
     },
     "dependencies": {
-        "@xaaf/jsrsasign": "^9.0.1",
+        "@xaaf/jsrsasign": "9.0.2",
         "tslib": "^2.3.1"
     },
     "files": [

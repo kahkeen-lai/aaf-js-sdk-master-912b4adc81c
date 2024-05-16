@@ -1,6 +1,6 @@
 {
     "name": "@xaaf/http-axios",
-    "version": "4.2.1",
+    "version": "4.2.2",
     "module": "./dist/bundle.es.js",
     "main": "./dist/bundle.cjs.js",
     "types": "./dist/index.d.ts",
@@ -26,7 +26,7 @@
         "tslib": "^2.3.1"
     },
     "devDependencies": {
-        "@xaaf/common": "^4.2.1"
+        "@xaaf/common": "4.2.2"
     },
     "peerDependencies": {
         "@xaaf/common": "^4.2.1"

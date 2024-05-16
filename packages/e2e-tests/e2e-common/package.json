@@ -1,6 +1,6 @@
 {
   "name": "@xaaf/e2e-common",
-  "version": "4.2.1",
+  "version": "4.2.2",
   "private": true,
   "main": "dist/index.js",
   "scripts": {
@@ -11,8 +11,8 @@
   },
   "description": "Common helpers for e2e Tests",
   "dependencies": {
-    "@xaaf/common": "^4.2.1",
-    "@xaaf/http-axios": "^4.2.1",
+    "@xaaf/common": "4.2.2",
+    "@xaaf/http-axios": "4.2.2",
     "tunnel": "^0.0.6"
   }
 }

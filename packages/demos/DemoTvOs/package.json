@@ -1,6 +1,6 @@
 {
   "name": "xaaf-tvos-demo",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -13,7 +13,7 @@
   "dependencies": {
     "@noriginmedia/norigin-spatial-navigation": "^1.3.1",
     "@react-native-async-storage/async-storage": "^1.17.11",
-    "@xaaf/aaf-rn-sdk": "^4.2.1",
+    "@xaaf/aaf-rn-sdk": "4.2.2",
     "react": "18.0.0",
     "react-native": "npm:react-native-tvos@0.69.6-3",
     "react-native-device-info": "^10.3.0",
